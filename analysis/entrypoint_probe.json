@@ -1,0 +1,316 @@
+{
+  "known_plaintext": [
+    {
+      "file": "S5___V28.bin",
+      "partition": "storage",
+      "flags": 2,
+      "size": 0,
+      "fill_byte": 0,
+      "candidate": "constant-fill SHA256 exact match",
+      "ciphertext_head32": "",
+      "aux16": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "storage",
+      "flags": 2,
+      "size": 0,
+      "fill_byte": 255,
+      "candidate": "constant-fill SHA256 exact match",
+      "ciphertext_head32": "",
+      "aux16": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "history",
+      "flags": 2,
+      "size": 262144,
+      "fill_byte": 0,
+      "candidate": "constant-fill SHA256 exact match",
+      "ciphertext_head32": "0000000000000000000000000000000000000000000000000000000000000000",
+      "aux16": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "lens_hist",
+      "flags": 2,
+      "size": 393216,
+      "fill_byte": 0,
+      "candidate": "constant-fill SHA256 exact match",
+      "ciphertext_head32": "0000000000000000000000000000000000000000000000000000000000000000",
+      "aux16": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "fileinfo",
+      "flags": 2,
+      "size": 917504,
+      "fill_byte": 255,
+      "candidate": "constant-fill SHA256 exact match",
+      "ciphertext_head32": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "aux16": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "ninsho_db",
+      "flags": 2,
+      "size": 655360,
+      "fill_byte": 0,
+      "candidate": "constant-fill SHA256 exact match",
+      "ciphertext_head32": "0000000000000000000000000000000000000000000000000000000000000000",
+      "aux16": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "wifi_info",
+      "flags": 2,
+      "size": 131072,
+      "fill_byte": 0,
+      "candidate": "constant-fill SHA256 exact match",
+      "ciphertext_head32": "0000000000000000000000000000000000000000000000000000000000000000",
+      "aux16": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "menu_save",
+      "flags": 2,
+      "size": 131072,
+      "fill_byte": 255,
+      "candidate": "constant-fill SHA256 exact match",
+      "ciphertext_head32": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "aux16": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "ipu_data",
+      "flags": 3,
+      "size": 262144,
+      "fill_byte": 0,
+      "candidate": "constant-fill SHA256 exact match",
+      "ciphertext_head32": "3230f791c72f1220661a5c8225c3e99d65c8bcc0a5882684e19b9403190c6fe2",
+      "aux16": "1724a60f366e3b5d6dc5d3398b1efffb"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "storage",
+      "flags": 2,
+      "size": 0,
+      "fill_byte": 0,
+      "candidate": "constant-fill SHA256 exact match",
+      "ciphertext_head32": "",
+      "aux16": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "storage",
+      "flags": 2,
+      "size": 0,
+      "fill_byte": 255,
+      "candidate": "constant-fill SHA256 exact match",
+      "ciphertext_head32": "",
+      "aux16": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "history",
+      "flags": 2,
+      "size": 262144,
+      "fill_byte": 0,
+      "candidate": "constant-fill SHA256 exact match",
+      "ciphertext_head32": "0000000000000000000000000000000000000000000000000000000000000000",
+      "aux16": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "lens_hist",
+      "flags": 2,
+      "size": 393216,
+      "fill_byte": 0,
+      "candidate": "constant-fill SHA256 exact match",
+      "ciphertext_head32": "0000000000000000000000000000000000000000000000000000000000000000",
+      "aux16": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "fileinfo",
+      "flags": 2,
+      "size": 917504,
+      "fill_byte": 255,
+      "candidate": "constant-fill SHA256 exact match",
+      "ciphertext_head32": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "aux16": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "ninsho_db",
+      "flags": 2,
+      "size": 655360,
+      "fill_byte": 0,
+      "candidate": "constant-fill SHA256 exact match",
+      "ciphertext_head32": "0000000000000000000000000000000000000000000000000000000000000000",
+      "aux16": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "wifi_info",
+      "flags": 2,
+      "size": 131072,
+      "fill_byte": 0,
+      "candidate": "constant-fill SHA256 exact match",
+      "ciphertext_head32": "0000000000000000000000000000000000000000000000000000000000000000",
+      "aux16": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "menu_save",
+      "flags": 2,
+      "size": 131072,
+      "fill_byte": 255,
+      "candidate": "constant-fill SHA256 exact match",
+      "ciphertext_head32": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "aux16": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "ipu_data",
+      "flags": 3,
+      "size": 262144,
+      "fill_byte": 0,
+      "candidate": "constant-fill SHA256 exact match",
+      "ciphertext_head32": "45e5edbb167bca8e28128ef3375edbbb426e40b330cc187be626c836a52b5c1e",
+      "aux16": "0e43dbd57c2da5fbc9c59ba5a71f9f37"
+    }
+  ],
+  "aux_checksum_matches": [
+    {
+      "file": "S5___V28.bin",
+      "partition": "storage",
+      "kind": "crc32_ciphertext",
+      "aux_offset": 0,
+      "endian": "little",
+      "value": "0x0"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "storage",
+      "kind": "crc32_ciphertext",
+      "aux_offset": 0,
+      "endian": "big",
+      "value": "0x0"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "storage",
+      "kind": "crc32_ciphertext",
+      "aux_offset": 4,
+      "endian": "little",
+      "value": "0x0"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "storage",
+      "kind": "crc32_ciphertext",
+      "aux_offset": 4,
+      "endian": "big",
+      "value": "0x0"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "storage",
+      "kind": "crc32_ciphertext",
+      "aux_offset": 8,
+      "endian": "little",
+      "value": "0x0"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "storage",
+      "kind": "crc32_ciphertext",
+      "aux_offset": 8,
+      "endian": "big",
+      "value": "0x0"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "storage",
+      "kind": "crc32_ciphertext",
+      "aux_offset": 12,
+      "endian": "little",
+      "value": "0x0"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "storage",
+      "kind": "crc32_ciphertext",
+      "aux_offset": 12,
+      "endian": "big",
+      "value": "0x0"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "storage",
+      "kind": "crc32_ciphertext",
+      "aux_offset": 0,
+      "endian": "little",
+      "value": "0x0"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "storage",
+      "kind": "crc32_ciphertext",
+      "aux_offset": 0,
+      "endian": "big",
+      "value": "0x0"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "storage",
+      "kind": "crc32_ciphertext",
+      "aux_offset": 4,
+      "endian": "little",
+      "value": "0x0"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "storage",
+      "kind": "crc32_ciphertext",
+      "aux_offset": 4,
+      "endian": "big",
+      "value": "0x0"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "storage",
+      "kind": "crc32_ciphertext",
+      "aux_offset": 8,
+      "endian": "little",
+      "value": "0x0"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "storage",
+      "kind": "crc32_ciphertext",
+      "aux_offset": 8,
+      "endian": "big",
+      "value": "0x0"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "storage",
+      "kind": "crc32_ciphertext",
+      "aux_offset": 12,
+      "endian": "little",
+      "value": "0x0"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "storage",
+      "kind": "crc32_ciphertext",
+      "aux_offset": 12,
+      "endian": "big",
+      "value": "0x0"
+    }
+  ],
+  "header_digest_matches": [],
+  "plaintext_runs": []
+}

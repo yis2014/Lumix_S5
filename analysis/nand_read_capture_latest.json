@@ -1,0 +1,60 @@
+{
+  "timestamp": 1795027922.416433,
+  "target_service": "0x87f4d152",
+  "counter": 0,
+  "registers_physical": {
+    "r0": "0x0",
+    "r1": "0x0",
+    "r2": "0x0",
+    "r3": "0x0",
+    "sp_after_hook_push": "0x0",
+    "lr": "0x0"
+  },
+  "caller_physical": "0x0",
+  "caller_service": "0x80000000",
+  "descriptor_hex": "0000000000000000000000000000000000000000000000000000000000000000",
+  "descriptor_fields": [
+    {
+      "offset": "0x0",
+      "value": "0x0",
+      "static_note": "destination base (loaded before final memcpy tail)"
+    },
+    {
+      "offset": "0x4",
+      "value": "0x0",
+      "static_note": "destination bound/limit"
+    },
+    {
+      "offset": "0x8",
+      "value": "0x0",
+      "static_note": "destination range field A"
+    },
+    {
+      "offset": "0xc",
+      "value": "0x0",
+      "static_note": "destination range field B"
+    },
+    {
+      "offset": "0x10",
+      "value": "0x0",
+      "static_note": "source mapping base"
+    },
+    {
+      "offset": "0x14",
+      "value": "0x0",
+      "static_note": "source offset"
+    },
+    {
+      "offset": "0x18",
+      "value": "0x0",
+      "static_note": "requested length"
+    },
+    {
+      "offset": "0x1c",
+      "value": "0x0",
+      "static_note": "status/flag bytes"
+    }
+  ],
+  "caller_disassembly": "",
+  "raw_buf_0x50_hex": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+}

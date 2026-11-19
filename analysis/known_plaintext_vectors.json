@@ -1,0 +1,30 @@
+{
+  "vectors": [
+    {
+      "file": "S5___V28.bin",
+      "partition": "ipu_data",
+      "file_offset": 75492864,
+      "size": 262144,
+      "stored_sha256": "8a39d2abd3999ab73c34db2476849cddf303ce389b35826850f9a700589b4a90",
+      "expected_zero_sha256": "8a39d2abd3999ab73c34db2476849cddf303ce389b35826850f9a700589b4a90",
+      "aux16": "1724a60f366e3b5d6dc5d3398b1efffb",
+      "ciphertext_first64": "3230f791c72f1220661a5c8225c3e99d65c8bcc0a5882684e19b9403190c6fe2c110b7ca1f54fc811ac7e58ee18f7b110f3bc8b21d6776e255f2103fc14bf9cc",
+      "ciphertext_sha256": "cc1c94493a4b9dd989ed9968c93c407c60a7e5df7044f6c92a378b90529d84ea",
+      "interpretation": "If SHA256 describes plaintext and protection is XOR-stream based, ciphertext is keystream for this partition only; neither assumption proves the cipher."
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "ipu_data",
+      "file_offset": 75492864,
+      "size": 262144,
+      "stored_sha256": "8a39d2abd3999ab73c34db2476849cddf303ce389b35826850f9a700589b4a90",
+      "expected_zero_sha256": "8a39d2abd3999ab73c34db2476849cddf303ce389b35826850f9a700589b4a90",
+      "aux16": "0e43dbd57c2da5fbc9c59ba5a71f9f37",
+      "ciphertext_first64": "45e5edbb167bca8e28128ef3375edbbb426e40b330cc187be626c836a52b5c1e97f7291f5c257f88341b71c7d5a529d7d28857e7aed31f575897fe0d6568f3bc",
+      "ciphertext_sha256": "5ff049e5847b4ed01eed4ee827627e587d36d368f1565d8ad51e043532a20468",
+      "interpretation": "If SHA256 describes plaintext and protection is XOR-stream based, ciphertext is keystream for this partition only; neither assumption proves the cipher."
+    }
+  ],
+  "cross_payload_prefix_matches": [],
+  "aux_reuse": []
+}

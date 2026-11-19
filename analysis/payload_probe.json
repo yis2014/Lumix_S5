@@ -1,0 +1,6335 @@
+{
+  "aux_tests": [
+    {
+      "file": "S5___V28.bin",
+      "partition": "loader1",
+      "matches": [],
+      "aux": "dfb4b8432cb0b31e9ec0483f63d7c38a"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "loader2",
+      "matches": [],
+      "aux": "9fcbc0a256bf17920d824a33dca2f83b"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "loader3",
+      "matches": [],
+      "aux": "e3d1a064132f6c0438553a53712844e5"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "matches": [],
+      "aux": "354c30c84ec27fe76efac41185a8fe5c"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "storage",
+      "matches": [],
+      "aux": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "matches": [],
+      "aux": "7d44ce2cd5e4050bcf9d3217bb713362"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot2",
+      "matches": [],
+      "aux": "9c5ed634137f75a2c27c97cf91b3719a"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "matches": [],
+      "aux": "7fcd4a4c333cc68b0e81b6b4ed24e487"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot4",
+      "matches": [],
+      "aux": "9f362f671f43956c489e431c2d0a5401"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot5",
+      "matches": [],
+      "aux": "316e91c261ce79f2dd22751bad1ade7a"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "dram_sleep",
+      "matches": [],
+      "aux": "0abbe08b8d55a1c55acd255d11859d44"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "eep_ow_a",
+      "matches": [],
+      "aux": "01966c6da4e3f589dcf33df79559f634"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "eep_ow_b",
+      "matches": [],
+      "aux": "bf4111108a0aa0e3ff16d71b4775faf4"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "eep_adj",
+      "matches": [],
+      "aux": "5f09269b270f3fdc3ff16d78c10215cc"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "eep_fix",
+      "matches": [],
+      "aux": "6a27b8c31ad28b7b53aeb058dfbac88c"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "eep_act_a",
+      "matches": [],
+      "aux": "be04dfcbe806b4e7a494e21f934436be"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "eep_act_b",
+      "matches": [],
+      "aux": "b18b128575b45c1af584fabb47c9abc2"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "history",
+      "matches": [],
+      "aux": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "lens_hist",
+      "matches": [],
+      "aux": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "music",
+      "matches": [],
+      "aux": "17ff124958692a4766fb94a31633020d"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "matches": [],
+      "aux": "f4fdf65efb4a5a2351611cb64582bbcf"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "matches": [],
+      "aux": "7ed0a35e9b37cb019f8139a3a1f27f6a"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "fileinfo",
+      "matches": [],
+      "aux": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "ninsho_db",
+      "matches": [],
+      "aux": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "koutei_kao",
+      "matches": [],
+      "aux": "5be0e8eaf0ba72e990bf5512c91bb74c"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "wifi_info",
+      "matches": [],
+      "aux": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "menu_save",
+      "matches": [],
+      "aux": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "zboot",
+      "matches": [],
+      "aux": "c3f4907d975f0d5ee0f8ff9c8efaeb59"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "dtb",
+      "matches": [],
+      "aux": "b29dc6863aeae4fc5b730fe193761076"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "zimage",
+      "matches": [],
+      "aux": "60a860fe9b22485ba440e6e23833e9d2"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs1",
+      "matches": [],
+      "aux": "96a8bbe957d85b1e4d5cafc66b56aced"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "matches": [],
+      "aux": "2a5e5122ad34854a82d6d06d5e5d74f9"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "usbcharge",
+      "matches": [],
+      "aux": "1c1c623a8f7a517808d3a0648b2a5c5b"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "ipu_data",
+      "matches": [],
+      "aux": "1724a60f366e3b5d6dc5d3398b1efffb"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "ipu_code",
+      "matches": [],
+      "aux": "c1b86792d6565524941daece423f198c"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rc_data",
+      "matches": [],
+      "aux": "b68d2289dee5a131336adbcfb4f05be7"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rc_code",
+      "matches": [],
+      "aux": "df631d5d42dcc24a2cb401164112a71d"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "nr_data",
+      "matches": [],
+      "aux": "c8de86a6bfa20e2e27da8ffa59caf955"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "nr_code",
+      "matches": [],
+      "aux": "4f36666654726d6eb0e227345fa149e4"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_c_prog",
+      "matches": [],
+      "aux": "82d18f28f07621febdc3ef84ba68c334"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_prog",
+      "matches": [],
+      "aux": "fe26bf59883451116fc648fbb81dd2be"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_c_ddr",
+      "matches": [],
+      "aux": "5e544a070658d4825c6615df59d37a3e"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_ddr",
+      "matches": [],
+      "aux": "f5aaae53c2e4a45d8a1044d692b32e2c"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw",
+      "matches": [],
+      "aux": "91cee14d56a510e103eb977255b24160"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw_sng",
+      "matches": [],
+      "aux": "b188b581403d9128aa1e1fe67368fda0"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hr_c_prog",
+      "matches": [],
+      "aux": "f4ff6b4e3727f1cc7bede6017078a4b7"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hr_d_prog",
+      "matches": [],
+      "aux": "269e93aeb60f045d2f0e8a89a4dbb6a5"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hr_c_ddr",
+      "matches": [],
+      "aux": "73a37025ab2199d55450f109571aea77"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "loader1",
+      "matches": [],
+      "aux": "12df6817ad363cdb5f6eeda8db2a63c2"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "loader2",
+      "matches": [],
+      "aux": "ceb3f10fa1aca92335d36c896fdcf58c"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "loader3",
+      "matches": [],
+      "aux": "c2c9ef05034ffc1d2ad91402c66096a7"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "matches": [],
+      "aux": "1198b52525a4a0d03c6b9eee4d650bdf"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "storage",
+      "matches": [],
+      "aux": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot1",
+      "matches": [],
+      "aux": "d546a9f7ffb04ccb074fea79d08c4096"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot2",
+      "matches": [],
+      "aux": "8ac0206c82e34362754abe6ef485cc8f"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "matches": [],
+      "aux": "3a3a619d8316c86a5ae73a7a5e73abc2"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot4",
+      "matches": [],
+      "aux": "427f05cc570839e9ed873986f38b39bd"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot5",
+      "matches": [],
+      "aux": "1901daca6b7104f5580ba8a6337717cc"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "dram_sleep",
+      "matches": [],
+      "aux": "67b9135c05966c7f384668569cce222a"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "eep_ow_a",
+      "matches": [],
+      "aux": "4c9979264b52d21e61413387ccd81945"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "eep_ow_b",
+      "matches": [],
+      "aux": "07cd0906eb67f16a52ebc6f936fb82e1"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "eep_adj",
+      "matches": [],
+      "aux": "4f5502f3ecd42ed6e44859a38152336d"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "eep_fix",
+      "matches": [],
+      "aux": "957402974a26c66b3548c4406c712d24"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "eep_act_a",
+      "matches": [],
+      "aux": "cd4d14574e1332b3d909cb9c5c7dcbb3"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "eep_act_b",
+      "matches": [],
+      "aux": "558339ab648a0296c2f926afd30124ad"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "history",
+      "matches": [],
+      "aux": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "lens_hist",
+      "matches": [],
+      "aux": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "music",
+      "matches": [],
+      "aux": "32cf8c97d1b5cf482a10bce227f8ef70"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "matches": [],
+      "aux": "16261b47a44e3cc6c1675a4baed8180f"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "matches": [],
+      "aux": "93d87f83ec4328890a6c47ab3cbbd71a"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "fileinfo",
+      "matches": [],
+      "aux": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "ninsho_db",
+      "matches": [],
+      "aux": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "koutei_kao",
+      "matches": [],
+      "aux": "eb1153bd87594c272fe91a343aa7693a"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "wifi_info",
+      "matches": [],
+      "aux": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "menu_save",
+      "matches": [],
+      "aux": "00000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "zboot",
+      "matches": [],
+      "aux": "5c4655b04fc2b9c90a93a997aeab7fc6"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "dtb",
+      "matches": [],
+      "aux": "9f313b17dc6e27a82921c5462564f6fe"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "zimage",
+      "matches": [],
+      "aux": "a9039b6b5741cb3eb48dad38d0c06de9"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs1",
+      "matches": [],
+      "aux": "2a72875cc0184159f7190717906008f1"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "matches": [],
+      "aux": "ccea25c335885ec9115b75526db896b1"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "usbcharge",
+      "matches": [],
+      "aux": "b406bf110be81e5573fdfb59b09f116c"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "ipu_data",
+      "matches": [],
+      "aux": "0e43dbd57c2da5fbc9c59ba5a71f9f37"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "ipu_code",
+      "matches": [],
+      "aux": "2a484281b1fea7b0c119330455249ee9"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rc_data",
+      "matches": [],
+      "aux": "906d18149d3338bba8774c6b7cfd0140"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rc_code",
+      "matches": [],
+      "aux": "8248395f38e93662a64f3b5b09acee72"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "nr_data",
+      "matches": [],
+      "aux": "d3899fbf93cd29cf84b517aeb24d49c3"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "nr_code",
+      "matches": [],
+      "aux": "654cad23f92ae0e0d669a94e02e8aa7e"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_c_prog",
+      "matches": [],
+      "aux": "fcc98b721c0595c9af3474a6b06a8579"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_prog",
+      "matches": [],
+      "aux": "b3404057c1ccc03148a9d2924b7db08c"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_c_ddr",
+      "matches": [],
+      "aux": "83d8ffb40f211efc4964db775634c0f9"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_ddr",
+      "matches": [],
+      "aux": "cd90b4a0f3a04f8f09a55424984b9d3e"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw",
+      "matches": [],
+      "aux": "79e8efc710882fdaa75f58f9734d9543"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw_sng",
+      "matches": [],
+      "aux": "06165c6f13079b670d82d7966b573bb2"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hr_c_prog",
+      "matches": [],
+      "aux": "56a5a4a954ccbbab12e8e3f33fedd47f"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hr_d_prog",
+      "matches": [],
+      "aux": "e68c5d2596609f68ac4975cf14ed345b"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hr_c_ddr",
+      "matches": [],
+      "aux": "ff0bebb956078576a4678df1ea86c71b"
+    }
+  ],
+  "simple_transform_digest_matches": [],
+  "equal_digest_pairs": [
+    {
+      "a": "S5___V28.bin:loader1",
+      "b": "S5___V29.bin:loader1",
+      "size": 4096,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.95084164137951,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:loader2",
+      "b": "S5___V29.bin:loader2",
+      "size": 38912,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.995534437601883,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:loader3",
+      "b": "S5___V29.bin:loader3",
+      "size": 49152,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.99626977190412,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:postboot2",
+      "b": "S5___V29.bin:postboot2",
+      "size": 131072,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.9966197709153315,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:postboot4",
+      "b": "S5___V29.bin:postboot4",
+      "size": 131072,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.997214165003889,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:dram_sleep",
+      "b": "S5___V29.bin:dram_sleep",
+      "size": 6144,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.97153016618605,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:eep_ow_a",
+      "b": "S5___V28.bin:eep_ow_b",
+      "size": 131072,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.997576797124787,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:eep_ow_a",
+      "b": "S5___V29.bin:eep_ow_a",
+      "size": 131072,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.997262799586596,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:eep_ow_a",
+      "b": "S5___V29.bin:eep_ow_b",
+      "size": 131072,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.996925995213988,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:eep_ow_b",
+      "b": "S5___V29.bin:eep_ow_a",
+      "size": 131072,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.996989007954458,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:eep_ow_b",
+      "b": "S5___V29.bin:eep_ow_b",
+      "size": 131072,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.9970023527788,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:eep_adj",
+      "b": "S5___V29.bin:eep_adj",
+      "size": 131072,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.996822161299775,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:eep_act_a",
+      "b": "S5___V28.bin:eep_act_b",
+      "size": 2048,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.9055650205657,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:eep_act_a",
+      "b": "S5___V29.bin:eep_act_a",
+      "size": 2048,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.9165051499259205,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:eep_act_a",
+      "b": "S5___V29.bin:eep_act_b",
+      "size": 2048,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.900971544678641,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:eep_act_b",
+      "b": "S5___V29.bin:eep_act_a",
+      "size": 2048,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.910459310740824,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:eep_act_b",
+      "b": "S5___V29.bin:eep_act_b",
+      "size": 2048,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.9199741017985,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:music",
+      "b": "S5___V29.bin:music",
+      "size": 3538944,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.997351825121135,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:osddata",
+      "b": "S5___V29.bin:osddata",
+      "size": 11010048,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.996947742391816,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:koutei_kao",
+      "b": "S5___V29.bin:koutei_kao",
+      "size": 114688,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.997446292155017,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:zboot",
+      "b": "S5___V29.bin:zboot",
+      "size": 2048,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.899770991915854,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:dtb",
+      "b": "S5___V29.bin:dtb",
+      "size": 4096,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.956044381788029,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:usbcharge",
+      "b": "S5___V29.bin:usbcharge",
+      "size": 131072,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.997455080997047,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:ipu_data",
+      "b": "S5___V29.bin:ipu_data",
+      "size": 262144,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.996993734180909,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:ipu_code",
+      "b": "S5___V29.bin:ipu_code",
+      "size": 65536,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.997339949499866,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:rc_data",
+      "b": "S5___V29.bin:rc_data",
+      "size": 262144,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.997215213736615,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:rc_code",
+      "b": "S5___V29.bin:rc_code",
+      "size": 65536,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.997435574731314,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:nr_data",
+      "b": "S5___V29.bin:nr_data",
+      "size": 262144,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.997358102505923,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:nr_code",
+      "b": "S5___V29.bin:nr_code",
+      "size": 65536,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.997265188070971,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:hm_c_prog",
+      "b": "S5___V29.bin:hm_c_prog",
+      "size": 65536,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.997475664408585,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:hm_d_prog",
+      "b": "S5___V29.bin:hm_d_prog",
+      "size": 262144,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.997416257395518,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:hm_c_ddr",
+      "b": "S5___V29.bin:hm_c_ddr",
+      "size": 3145728,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.9974177007675795,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:hm_d_ddr",
+      "b": "S5___V29.bin:hm_d_ddr",
+      "size": 1048576,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.996817586023969,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:hm_d_nw",
+      "b": "S5___V29.bin:hm_d_nw",
+      "size": 4194304,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.997167810495219,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:hm_d_nw_sng",
+      "b": "S5___V29.bin:hm_d_nw_sng",
+      "size": 4194304,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.997308510255849,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:hr_c_prog",
+      "b": "S5___V29.bin:hr_c_prog",
+      "size": 65536,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.997112388957449,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:hr_d_prog",
+      "b": "S5___V29.bin:hr_d_prog",
+      "size": 262144,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.997279459258221,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V28.bin:hr_c_ddr",
+      "b": "S5___V29.bin:hr_c_ddr",
+      "size": 524288,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.997095679011445,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V29.bin:eep_ow_a",
+      "b": "S5___V29.bin:eep_ow_b",
+      "size": 131072,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.997514815063864,
+      "xor_short_periods": []
+    },
+    {
+      "a": "S5___V29.bin:eep_act_a",
+      "b": "S5___V29.bin:eep_act_b",
+      "size": 2048,
+      "payload_equal": false,
+      "aux_equal": false,
+      "xor_sample_entropy": 7.918411630513093,
+      "xor_short_periods": []
+    }
+  ],
+  "readable_strings": [
+    {
+      "file": "S5___V28.bin",
+      "partition": "loader2",
+      "file_offset": 27841,
+      "text": "mUup7'*%>&a)"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "loader2",
+      "file_offset": 43410,
+      "text": "iRM\"}h!]%[ZU"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 167184,
+      "text": "jB+b!1z_N;'m"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 360114,
+      "text": "&PNTbX>&~t@Ob"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 571177,
+      "text": "PFPB]'Bi4\\Jk"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 899509,
+      "text": "EUiiNnO*tcQ8m"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 946842,
+      "text": "G>i^*:auB9>b"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 1436675,
+      "text": "v<6G-p&$A&o2"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 1440016,
+      "text": "[W\\u!T/Tb!!G"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 1478142,
+      "text": "ZfJuC+z,hzE|c"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 1595619,
+      "text": "Fc=6uchLv@&3V"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 2895234,
+      "text": "DP[%/lBvUkR3"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 3014805,
+      "text": "-n'^(sX)&\\V9]"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 3215589,
+      "text": "W;B!lQ6Ea')= "
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 3305027,
+      "text": "Tg2E=/[NW}6Z"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 3455339,
+      "text": "%i4HRy\"c<C6wRP}"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 3571106,
+      "text": "rjMX='J/sg`ug"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 4267427,
+      "text": "f5]0:uOUfrS_W"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 4483672,
+      "text": ">]'F'?n9],0i"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 4948786,
+      "text": "0;t:][}VA/$d"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 5448266,
+      "text": "C>qK`~=x.f}q"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 5658145,
+      "text": "L* 2=}9|F UG"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 5892970,
+      "text": "zVUL'7U2!sy`wUf"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 6090831,
+      "text": "ekbkbCL73b$e*S7"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 6094559,
+      "text": "5|$F{/yQa*n@"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 6192126,
+      "text": "wQ$w;TFg{su6"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 6215427,
+      "text": "=U*X&<O,a#e 8"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 6273424,
+      "text": "$5|lx[=)?^7@+"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 7008527,
+      "text": "k`w ]x|U[ b[F"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 7263185,
+      "text": "9OxBg0,u Hcm"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 7292432,
+      "text": "S[piOev&T$u6yB"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 7542483,
+      "text": "P<8l]v@79,Kkz"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 7711414,
+      "text": "~[Nc6v,f|Urc)"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 7719624,
+      "text": "e[y=Ptbk4M|\\"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 8053575,
+      "text": "C-Y*aXgR-WkQn:"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 8222410,
+      "text": ";d\"tqek;GB|/"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 8276472,
+      "text": "9^VfmT1gQsQ\\"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 8385071,
+      "text": "]BBx.\"H'gYT3"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 9074544,
+      "text": "{+e]nvPkd2)mt"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 9763204,
+      "text": "k}5PU-Pp?:rLz"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 10334412,
+      "text": "`G+b_6L86A]OY"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 10527907,
+      "text": "drD^k|BA8s9)"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 10579017,
+      "text": " uaXglPBkd.@;"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 10726374,
+      "text": "B3Y Y~zdg'u#"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 10843408,
+      "text": "(-,.2={rz?6*"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 11080675,
+      "text": "PEUw;_,N&b03E"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 11389344,
+      "text": ")h><6ddn$|xQ"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 11395511,
+      "text": "GX:{).T/lN8+"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 12279032,
+      "text": ">Ayy_@{8) }3Z@"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 12294540,
+      "text": "D= jWI#Fi(3{4"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 12678018,
+      "text": "-[=+@tP5<x/7."
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 12723530,
+      "text": "wss&o'H?6-'0/"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 13167332,
+      "text": ">S9}Xr`.ueBGv"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 13504934,
+      "text": "-!5PZ*[%uz\"7"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 13634553,
+      "text": " &jE1V?)7<nE"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 13921312,
+      "text": "*gn7Ii/9];N~^x}x"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 14090583,
+      "text": "{J$*P=l{lXDK"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 14561489,
+      "text": "3QDaBV=(eSaV"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 14648955,
+      "text": "pE3yGs^,-</'"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 14993013,
+      "text": "+/<r$#V+\"y62"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 15318952,
+      "text": "^Qq+_m3|^u5G"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 15555690,
+      "text": ")u$E)6a HX[:"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 15619901,
+      "text": "u^Ad~&7BA!1\""
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 15873327,
+      "text": "M=am<-n45&6!"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 15948591,
+      "text": ") (KvVe\\C1uc"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 16325889,
+      "text": "C| \"Jp{+&#`H"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 16726612,
+      "text": "|HCSGG=}+.@3G)4"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 16825221,
+      "text": "3mfN7*B37AR!"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 17271594,
+      "text": "-OtT+/qKcC]z7S"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 17344397,
+      "text": "gr\"a(a^JU[EKs"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 17491113,
+      "text": "n#TTOn]^koR5"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 17549446,
+      "text": "[ApL97p1y^8."
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 17628479,
+      "text": "Hq23K)AY2h?]"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 17718000,
+      "text": "@@X \\lB}5LY_~,"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 18074208,
+      "text": "#+IwhL|$4Mwq"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 18103403,
+      "text": "bGPG1Ms7AwJ t"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 18119413,
+      "text": "!R!G#'Wgkp%'"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 18121706,
+      "text": "'!^S`?Og>g/."
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 18161936,
+      "text": ":SVFJ/=\\oNi4"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 18452529,
+      "text": "Kx8ig^Ky-yp4"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 18541990,
+      "text": "Sxe~#FiP@R :"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 18668235,
+      "text": "<vbn *zDt0w@?"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 18902754,
+      "text": "p%\\8V1<fEn;'M"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 18906703,
+      "text": "RVki\\{bmbi/I"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 18917998,
+      "text": "N\\;v}*r>.wFA"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 19218891,
+      "text": "?N#cbE\"`Drm}"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 19539422,
+      "text": "7#~#*LUY! ,'"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 19578821,
+      "text": "`KY?o\\$EI#!,p"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 19716984,
+      "text": "*A/{#9q~+F&/"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 19755452,
+      "text": "%l#YLv1IHA0i"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 19844052,
+      "text": "Mh9kX7@ci7|}7w"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 20164897,
+      "text": "j=>aHE\"0)H*1g"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 20568310,
+      "text": "O9j^u 2TKHD\"&"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 20605351,
+      "text": "2|9q5JGX^uNRv"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 20616696,
+      "text": "dS#}g4u0+GDw`"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 20806118,
+      "text": "zujVdZiMFM;I"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 20886202,
+      "text": "8Rsc\"~\"0I15*"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 21025193,
+      "text": "4f:Lo@TP)EU$_$"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 21186810,
+      "text": "ak_2zFiY%3/N/"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 21224151,
+      "text": "]rEmaef/,'mr"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 21238038,
+      "text": "sa~yu4.h{M9<"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 21449452,
+      "text": "`blr9fG>_WqC{"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 21639288,
+      "text": "qx=&8(se<K)T"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 21851956,
+      "text": "]O]n'w$U;kU#"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 22452617,
+      "text": "eWkl3n'2?YLI:Kc"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 22756680,
+      "text": "1gk9Ij?H(f(("
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 22759750,
+      "text": ";!c3]./.cB%g"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 22839883,
+      "text": "89.-14V$_d~Y"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 22885828,
+      "text": "s[|,J+y[\\d)*"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 23224030,
+      "text": "}SN6-sx7l<X("
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 23355394,
+      "text": "5>gHf)`p\\A~$e"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 23503325,
+      "text": "ubl|}SeIqwrh`,"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 24141851,
+      "text": "6.Ph7(kgT4[C"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 24254959,
+      "text": "S9#g@H:DBt %>WA["
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 24448262,
+      "text": "F+5%zG[84X;a"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 24608566,
+      "text": "zY LQMtkB9^Xd'"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 24784832,
+      "text": "d.f`F8_^WvO\"~f"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 24909260,
+      "text": "jr\\9qR|G|M=s:Y"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 25009121,
+      "text": "WilfiYV_zi' }"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 25054713,
+      "text": "EvMVZE7HIO|5"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 25264002,
+      "text": "-wpN&.BMJdW%*"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 25593251,
+      "text": "yV<;A/7J\\^BP8"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 25706015,
+      "text": "Y7lt/E63/&0C"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 26048910,
+      "text": "rof\"u{*U~\"SE"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 26113786,
+      "text": "Q<TvVnWETa$<"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 26199515,
+      "text": "<:w.m+dCbgBx"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 26796729,
+      "text": "AcC'Q!!ml*6V"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 27089934,
+      "text": "nv\\cTYEe@w/;"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 27144239,
+      "text": "hU6u@F4QJ0!M#"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 27295338,
+      "text": "60mkuG!&}VlJ"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 27723983,
+      "text": "}Nu(kp=e|>o#"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 27853272,
+      "text": "\\)ii-k_3>QY^"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 28033811,
+      "text": "Kt;(7|u*]P23"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 28168469,
+      "text": "&i[*5D$Zs2~cz"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 28229468,
+      "text": "&9z%LKb1L'q'"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 28712363,
+      "text": "*|y>Fdv +x90"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 29289144,
+      "text": ",3:<Jl+#,(0S6`"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 29558335,
+      "text": "6`guA_FuJxpx"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 29593261,
+      "text": "YOQUZ#z\\Dg7O"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 29610708,
+      "text": "`$%HWB\\=`lnu"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot5",
+      "file_offset": 30423671,
+      "text": "_jt96-&Qlp2A"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot5",
+      "file_offset": 30647625,
+      "text": "K.6|m/ B=PwD"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot5",
+      "file_offset": 30667103,
+      "text": "'H^c%`eFqj@=U"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot5",
+      "file_offset": 30679758,
+      "text": "b@^9&KpI&$cb"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "eep_ow_a",
+      "file_offset": 30950393,
+      "text": "/-kAz~b]0a)]"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "eep_ow_a",
+      "file_offset": 30966113,
+      "text": "cHZ'dfB'.'iA1"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "eep_ow_b",
+      "file_offset": 31086449,
+      "text": "PZk4_SxArAXm\""
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "eep_ow_b",
+      "file_offset": 31172756,
+      "text": "/a@_p^3Fj ]lYsm"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "eep_adj",
+      "file_offset": 31273532,
+      "text": ";=G>rvH1h;n`"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "music",
+      "file_offset": 32418537,
+      "text": "oj^@y3C8u^p11P37Y"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "music",
+      "file_offset": 32468977,
+      "text": "Q{QFD)h4%lW!"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "music",
+      "file_offset": 32992964,
+      "text": "Mey.EGDAjO=\"2"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "music",
+      "file_offset": 33052746,
+      "text": "KNvw_w:nO7'fP"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "music",
+      "file_offset": 33317702,
+      "text": "yeP87$ +=:3]"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "music",
+      "file_offset": 33475904,
+      "text": "X.T-K7F(9';v"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "music",
+      "file_offset": 33804362,
+      "text": "i&&KK{Y(U7U4X"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "music",
+      "file_offset": 33929986,
+      "text": "gW3BrU6@!eR$"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "music",
+      "file_offset": 34025578,
+      "text": ".bh^w\\_<CVxW"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "music",
+      "file_offset": 34201788,
+      "text": "JjW?ED;}klK0!/"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "music",
+      "file_offset": 34248370,
+      "text": "v9y0^rQ:Xzwp"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "music",
+      "file_offset": 34355472,
+      "text": "Roak2p?#Gu4:"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "music",
+      "file_offset": 35421605,
+      "text": "G6jAi A)V,!I"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "music",
+      "file_offset": 35592092,
+      "text": "%^KZ\";p/b/\"x"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 36374223,
+      "text": "#bs~D<atI-uU"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 36374261,
+      "text": "G)-4P8bOdgX0!"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 37068204,
+      "text": "#iTDn)83qbdI"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 37244196,
+      "text": "bnG!;}'Rm0ZfX"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 37257210,
+      "text": "o8 J\"3s_PID#%"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 37362263,
+      "text": "=0MqV=+7AV&@"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 37572966,
+      "text": "\"eGKPmRQ!ShO"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 37671059,
+      "text": "#]8oQNNY4jvZy"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 37714549,
+      "text": "c\\'gq2~ikqT$"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 37757091,
+      "text": "DwV?X/=\\tOF0T"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 37900221,
+      "text": "9'{p:laG>g3oH"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 38599593,
+      "text": "SFX^m*e>o~=mf"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 38602417,
+      "text": " j3;Ntu&Bp_H"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 38783874,
+      "text": "~i74M<3g?v|#"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 39372729,
+      "text": "Ocna9Z.x:bm2"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 39794697,
+      "text": "gp<bT:{8jsRj"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 39939872,
+      "text": "_eP!Ydl:{S;>"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 40121445,
+      "text": "ZsR?aIPL\\>&|)"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 40212476,
+      "text": "C%jLMS'05*E1"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 40240674,
+      "text": "4;FFwuY!IF/]"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 40672726,
+      "text": ">Mq6fh6@[X}`B"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 41044838,
+      "text": "<Q,;ii)guK<[$"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 41805336,
+      "text": "yWy,RB;zxbO8J"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 41830784,
+      "text": "ivr_<Z;Q6R\\RHI"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 42778218,
+      "text": "LVg0 %*S?v3k"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 43083300,
+      "text": "ZyWlI9\\CU^:N"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 44095231,
+      "text": "@G)>#2R^dwn@"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 44158076,
+      "text": "UV\"#,hCp\"Ur2"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 44201694,
+      "text": "ueT<@+d=_%)C"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 44342288,
+      "text": "_FEN|JaAw7PA"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 44495878,
+      "text": "KC??0m/>r0!*"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 44596208,
+      "text": "*UcC@cqt&3tG-"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 44662191,
+      "text": "<I@\\IeZl:+Z$"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 44739915,
+      "text": ")[Ye`Nm!YoKd"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 44841121,
+      "text": "^?T2=d)4SBK9e/"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 45126495,
+      "text": "3KTw;R V@!Zg"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 45183607,
+      "text": "\"@R}?^E\\f>0<"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 45538409,
+      "text": "_p`AMqV39/O>"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 45671230,
+      "text": "Q+BrgY+eM5(g*7"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 45899952,
+      "text": "n1udE%bi<B19"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 46260805,
+      "text": "x1VEs{ap`@+4"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 46303749,
+      "text": "-L2qkA|8dOWk"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 46399436,
+      "text": "83;_=Hr\\FdL4"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 46490096,
+      "text": "bDgk-.qM~4#~"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 46562831,
+      "text": "gC$AB?pyuE5I"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 46813549,
+      "text": "6(B^SN&lfL$b"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 46990480,
+      "text": "`SD<`(oi3,#~v"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 47317853,
+      "text": ".Jce3od~3sXm"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 47467885,
+      "text": "E%'FmPB8DJW#"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 47701338,
+      "text": "<k\"bWHwL#yaJ"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 47798956,
+      "text": "4qVJ<4K3`7I{"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 47816965,
+      "text": "t?h06'ffm[{6"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 48353114,
+      "text": "9h5Vmt2EtBC "
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 48662111,
+      "text": "a_$-nUboD1N]"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 49070023,
+      "text": "a[)'+[>T^\"{f"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 50338854,
+      "text": ".Ge]wDATpbX>"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 50391244,
+      "text": "I<,S-$M44XC_"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 50449833,
+      "text": "ZT;)fYXS6g#`P"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 51084440,
+      "text": "nc!;_>(3m/sxK"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 51429832,
+      "text": ".n7h5[|k<xRf"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 52111702,
+      "text": "dh<R7YlN{N?T<"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 52408695,
+      "text": "r.}}HD@9um<j"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 52729221,
+      "text": "g}%J2;=h/+T-!."
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 52809822,
+      "text": "&}n%xVJ',wm,"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 52884245,
+      "text": "x)bx%m=]t/BX_|"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 52946722,
+      "text": "uFtp:TII@m@z5"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 53056166,
+      "text": "/A$+TNx .F.+\""
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 53268104,
+      "text": "ym_hVWMF~+ol\\"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 53313067,
+      "text": "yaEehjSf$SBaI8"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 53375596,
+      "text": "./2*<k);t6EW"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 53516182,
+      "text": "Osh_f3Ax`.Tl"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 53558718,
+      "text": "4A+2Q2J|jQLO/"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 53582603,
+      "text": "cU1WK>{_Ig~0"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 53595931,
+      "text": "U#IL\"K; 1Aq/i"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 53804086,
+      "text": "De'bG;ojY;f0"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 54085889,
+      "text": "I,3!nsF@R8g;"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 54130438,
+      "text": "U| sA<613|]6"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 54269534,
+      "text": "'b.(41MkmVUf"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 54843625,
+      "text": ".4Twx:j$!=o|"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 54977229,
+      "text": "if,u(q+]8v#[x"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 55286005,
+      "text": "2Y6NKU3[N.s;"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 55375394,
+      "text": "D`-9pgWEyF[!#"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 55536405,
+      "text": "yuJe{b0N+2c^"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 55603716,
+      "text": "S-6?`Y>V5?%7"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 56156957,
+      "text": "V!A&'cgW)]luD"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 56337831,
+      "text": "@ySmWE{oCK:)N"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 56656455,
+      "text": "fW_%-f`<%tjRobn"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 56998699,
+      "text": "|m<L@NXg^5rn"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 57141750,
+      "text": "%>\" P\\Gl>;1H"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "koutei_kao",
+      "file_offset": 58744069,
+      "text": ")r`w\\yfVH|,N"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "zimage",
+      "file_offset": 59332392,
+      "text": "She9r)u6a}0:JfNF"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "zimage",
+      "file_offset": 59381701,
+      "text": "1Szzz$FQi,XJ"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "zimage",
+      "file_offset": 59606843,
+      "text": "[izPb8}^3c q"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "zimage",
+      "file_offset": 59729682,
+      "text": "QbiBm|Fs,BR."
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "zimage",
+      "file_offset": 59912827,
+      "text": ".*a#<BQ|4sN["
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "zimage",
+      "file_offset": 60211166,
+      "text": "M~BLch$pU-e^Y"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "zimage",
+      "file_offset": 61188927,
+      "text": "y0Ba^un',}lY-"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "zimage",
+      "file_offset": 61195996,
+      "text": "j5fc f*zg90C=v"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "zimage",
+      "file_offset": 61577133,
+      "text": "lf>'vx-dR{\":"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "zimage",
+      "file_offset": 61650321,
+      "text": "zHPt~Z2n{]&0z'7"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs1",
+      "file_offset": 61873710,
+      "text": "n?\"A7g/z%F{l1"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs1",
+      "file_offset": 62099182,
+      "text": "d#o2K(Ln9{7C"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs1",
+      "file_offset": 62145888,
+      "text": "3l8K<PuENH8z"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs1",
+      "file_offset": 63290560,
+      "text": "2V&,>'Db[@F["
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs1",
+      "file_offset": 63600120,
+      "text": ",f#kCSx(Uc4b/l"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs1",
+      "file_offset": 63676373,
+      "text": "0g^/$]n)2D3E"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs1",
+      "file_offset": 63840304,
+      "text": " S0!R32?IqJ$"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs1",
+      "file_offset": 63905736,
+      "text": "eLj;#DjEL=;f"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs1",
+      "file_offset": 64276440,
+      "text": "@u:u*u)kx9:G"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs1",
+      "file_offset": 64391507,
+      "text": "r|>E_nU5^TA2"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs1",
+      "file_offset": 64480673,
+      "text": "PRou4!RBDts>"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 65227820,
+      "text": "^&3}e-~|m&1G"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 65450644,
+      "text": "3@'+2`-9BIQ?"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 65618193,
+      "text": "1f%zMq,4+,6u"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 65682014,
+      "text": "s*!xo03Y6FMV"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 65737395,
+      "text": "H6aC)fG*B#*."
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 65969489,
+      "text": "$]/+DGGX.~kb"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 66016990,
+      "text": "o^;s]`[W\\<nB"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 66450655,
+      "text": "(J1ef(4>D.f+"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 66451705,
+      "text": "A4X6JDXi3&.CP"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 66864191,
+      "text": "K+dB[_B9&)~G"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 67101624,
+      "text": "n}*eQXvO\"ROx9i"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 67173954,
+      "text": "Wnr?iH-.sp&V&l"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 67228696,
+      "text": "uh.Pg>foGc`b"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 67397324,
+      "text": "n-N]$@1@=_p>"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 67805446,
+      "text": "r1,A`SX6<\"@0F"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 67982007,
+      "text": "bMpE>}SA9b*{W"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 68468242,
+      "text": "7Q{`UV,BG}@V"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 68996512,
+      "text": "Q>ESVj=YY:2I"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 68996721,
+      "text": "iNY.DW&/VGE;["
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 69035203,
+      "text": "D1K8VX5:v51d"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 69208382,
+      "text": "Q#GHPAjaS#%e9"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 69367874,
+      "text": "t}FG3?pga*4+"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 69634692,
+      "text": "ktK~w)Yi5TG\"9"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 69734130,
+      "text": "iu!sc5))@4jC"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 69824523,
+      "text": "=F2Q+v&#e`%4%T"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 70187409,
+      "text": "y-o'71oIxVLN"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 70412182,
+      "text": "2`<d-^|lSqU wH"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 70739803,
+      "text": "ce}&*?zGB8D},*Y4i`"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 71296019,
+      "text": "U8rXj.}>:qp+"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 71569396,
+      "text": "ES-.0*o0c^*o+"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 71679222,
+      "text": "qNWfBd;wevE{"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 71905948,
+      "text": "K2=I>D#tIy,d"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 71921901,
+      "text": "cFaT:(DFPY~~"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 72187670,
+      "text": "t2')2ywuxQf=k4"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 72201655,
+      "text": "w0@!S&+P\\Faq"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 72291803,
+      "text": "D.7+\\1Q>~M[d"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 72373214,
+      "text": "PI9$3!$#97,MX"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 72714264,
+      "text": "n.V\\\"Ct.Ae&j"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 72940205,
+      "text": "VD3GH7oS{m^U2"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 73256622,
+      "text": "^A+Q!Egah,ra"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 73473777,
+      "text": "ji!$IKPZHFCF"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 73625897,
+      "text": "q)'/.89,dE_u"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 73727906,
+      "text": "Z d4Je6P!%,V"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 73881221,
+      "text": "E*n^dJ1eJ,b;"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 74002552,
+      "text": "5vG(s@Vtk=qA"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 74023572,
+      "text": "$^4%Ccp`D\\9;"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 74270390,
+      "text": "U$fG8DGwE%Oov"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 74479596,
+      "text": "eD$SdVuR6V+z)o"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 74787991,
+      "text": "o5aW4G#A4s~Lq"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 74816137,
+      "text": "i?\"s^1Y6Iiu(?3+"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 74859031,
+      "text": "w\"fIH'87dKfO"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 74982955,
+      "text": ")g4C-0^PA6C<$"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 75156376,
+      "text": "L ::|cCg4UzFz|-"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 75271872,
+      "text": "a\".PL:Bo<Jiy"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "usbcharge",
+      "file_offset": 75408672,
+      "text": "il;hga1O?:6J:"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "usbcharge",
+      "file_offset": 75444685,
+      "text": "jKSX8&%Id-z>"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "ipu_data",
+      "file_offset": 75506296,
+      "text": "#*<E%?W>qp?@U&"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "ipu_data",
+      "file_offset": 75684610,
+      "text": "fneh+K{ITG/X"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rc_code",
+      "file_offset": 76125667,
+      "text": ".3!/nKjgYyk8<E"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "nr_data",
+      "file_offset": 76340975,
+      "text": "QT29-{2/XJB N"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 77141322,
+      "text": ":%fYO:;torD]X"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 77172274,
+      "text": "~VA4x.!XbN_)"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 77254914,
+      "text": "5C}!\\SFY}*G+"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 77374381,
+      "text": "edDi4%wYL[!."
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 77708547,
+      "text": "PEP>MoNjH(3Q"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 78550184,
+      "text": "B+L|yqt %=P!"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 78684285,
+      "text": "!~qG2JLnV37rw"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 78892097,
+      "text": "nw2Sc,k&E \\4M"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 78960925,
+      "text": "\"VV; o1U#QP8"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 79230164,
+      "text": "5^}15Rxt?g*q"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 79297542,
+      "text": "mZ>%3$](kJl;"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 79335054,
+      "text": "EJ)jPm3({h[X"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 79504778,
+      "text": "uR*\\U,/qw}&59M&"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 79779420,
+      "text": ";!jq{DiB[W9\""
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_ddr",
+      "file_offset": 80028655,
+      "text": "#x/3+1vZ@`;("
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_ddr",
+      "file_offset": 80054952,
+      "text": "j~@LcSdrm5vmM"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_ddr",
+      "file_offset": 80125849,
+      "text": "=#&~c%k4OcOKp"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_ddr",
+      "file_offset": 80386777,
+      "text": "o>!\"z\\tB04raE"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_ddr",
+      "file_offset": 80609678,
+      "text": "F=I-j]!H_~G%"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_ddr",
+      "file_offset": 80624836,
+      "text": "I,,$#sRFDZ-Q"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 81179180,
+      "text": "q4HJh)nO~,BR^"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 81678572,
+      "text": "I>$`;f${y*;c1+"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 82075390,
+      "text": ".kSl2.8\\m^dW"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 82284269,
+      "text": "RT%(UMNjac-Cb`h"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 82817203,
+      "text": "ln'aSfe`,F!8"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 82933069,
+      "text": "O2m$s3AZIRn}L"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 83526576,
+      "text": "DQRY:r`* =&\\"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 83547971,
+      "text": "<Z=~1N[l38gY*"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 84222001,
+      "text": "uI[{U\\}'K2YNH"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 84630886,
+      "text": "X{$z2N/ty%=YD"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 85074214,
+      "text": "gM\\666oca\\[V"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 85136681,
+      "text": ")?~V'ze6Fj#2"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 85152792,
+      "text": "Af)$W'>c E_>"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 85211884,
+      "text": "tL1\\K]$c6{hZ"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 85355239,
+      "text": ">p^^)g]i\"QDn"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 85598363,
+      "text": "-EKLb0zR{z,$"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 85921342,
+      "text": "EdI5*zAK@ozu"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 85939982,
+      "text": "~PtrSw;JRj$K"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 86554992,
+      "text": "tSB[fZ+>:KaC"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 86663810,
+      "text": "mY0j_CJwkK?Q"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 86786613,
+      "text": "G].1OWW#|CwS\\"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 86889338,
+      "text": "TT`>FMv\\ H0C"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 86930945,
+      "text": "Ad&MV{3*.WGT"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 86971085,
+      "text": "_>-[fpck5\"v<"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 87235536,
+      "text": ",>bKpMhBLq[6^u"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 87237328,
+      "text": "b'EAOUYnC|.fRg"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 87319909,
+      "text": "EoG\"i;&%aaz\\"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 87371006,
+      "text": "(o*8VhExh#`2j"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 87373347,
+      "text": "_?)sEL<wdn]h"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 87395396,
+      "text": "o^&z;#BP$]{'"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 87520614,
+      "text": "!A7Zmtr`)^|_M2"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 87720274,
+      "text": "l_T&b|Sz)}C\\"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 88818941,
+      "text": "]~UI{EkP30-o"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 89345538,
+      "text": "I`\"ok6H($f@X`m"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hr_c_prog",
+      "file_offset": 89394725,
+      "text": "BZ?^Xd?ozOl+$/H"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hr_c_prog",
+      "file_offset": 89406233,
+      "text": "R'}V)g1~7SL\\"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hr_d_prog",
+      "file_offset": 89473377,
+      "text": "dRw%;tAPt-#I"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hr_d_prog",
+      "file_offset": 89510742,
+      "text": "fO:4hBwtvw\\q"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hr_d_prog",
+      "file_offset": 89563904,
+      "text": "\\mwZ<uS,zN6{<"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hr_c_ddr",
+      "file_offset": 90040746,
+      "text": "aaiW:R8}/B|/K"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "loader3",
+      "file_offset": 71121,
+      "text": "GM4F[.wA1XHK"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "loader3",
+      "file_offset": 97088,
+      "text": "JR!uUxHY&x3|"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 316852,
+      "text": "f+/L1A]4dcQy"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 491060,
+      "text": "2$DRpYIdi7[w"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 618246,
+      "text": " ~9r%F@C7*Q0)"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 740323,
+      "text": "uD9@jwC0oDz_V"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 1183458,
+      "text": "/Bm^6qO#3.'4"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 1354364,
+      "text": "VXy,z]G\"I35|"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 1385070,
+      "text": "n^4)hq;Jfylv"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 1510936,
+      "text": "S4d*kcjPZn}YK-KS"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 1549452,
+      "text": "@c,5(\\KY5z\"x"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 1781993,
+      "text": "x*^?X7wD-oRi_"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 1960269,
+      "text": "IeR-[NdnvY2;B4"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 1994663,
+      "text": "N-B*,RB%1y~ "
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 2161237,
+      "text": "T 'SqC2JVmw}"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 2509283,
+      "text": "bZ[0D9,s:=}6~@b"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 2541399,
+      "text": "{)rvNqjIkt5g"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 2606042,
+      "text": "sOWtndpc.wGOg"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 2618757,
+      "text": "o{z2R\"cXEZ|oSh"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 2687756,
+      "text": "~2B)`?>ZtLb\""
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 2723593,
+      "text": "$XIW#LuaKI0w"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 2771787,
+      "text": "#6t<{k',RgGm9"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 2996510,
+      "text": "1qjR!?b!0Gl?"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 3150924,
+      "text": "<'3#jQ?/ jCHe"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 3417486,
+      "text": "CR.1)~5bV]7["
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 3641543,
+      "text": "74M[1tx3.{MnV"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 4010200,
+      "text": "!95=Of^U=E.7"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 4011838,
+      "text": "WQXhC<(>rmOs"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 4029158,
+      "text": "c`3Ra/3\"GY-/"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 4647176,
+      "text": "|Qz]6y9DQNng"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 4685850,
+      "text": "aA/OS&Xhz~!i+?"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 5054371,
+      "text": "C'n_fVQADr&+D"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 5315330,
+      "text": "1ffX-N{e&rym"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 5347938,
+      "text": "g4R>W0H.:y8E"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 5534839,
+      "text": "!fPsvqpK8o8-U"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 5555609,
+      "text": "X\"-5!iL;'Hj}"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 5874492,
+      "text": "sZ2UiFiCzD|%"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 6067753,
+      "text": "B+6%g3sn8;7Q"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 6328195,
+      "text": "\"kE8b;*]6/`Q"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 6356017,
+      "text": "pT#jR H`W9B\\y"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 6598222,
+      "text": "gucI`_T9%_pXvkq"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 7120455,
+      "text": "WgqG|+}~ /8x=i"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 7381964,
+      "text": "UtgY'xBb}Vf $i"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 7397284,
+      "text": "w4\\_S|0)mTsP"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 7678908,
+      "text": ".d;M1XTp]f48O"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 8024383,
+      "text": "$dZ-NoaP}8vn"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 8361400,
+      "text": "tp4)>R[LB'}@"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 8425953,
+      "text": "R\"u4#{m_P|l/"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 8537071,
+      "text": "Gg\\2+hE{/\"]F"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 8771828,
+      "text": "uBY+ @Y=(J]Z"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 9131711,
+      "text": "7\"-*sZ3~R'l^"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 9305200,
+      "text": "L?\"}\\20 ]%WTR"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 10996463,
+      "text": "2ABS(kYM?&rh"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 11010088,
+      "text": "Tz'Y(ENzIOEg"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 11267532,
+      "text": "x.(p5` 7?_Kfb"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 11495902,
+      "text": "r>0y%bIu]kxm"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 11508172,
+      "text": "6#A=Rx3^9j<N"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 12373887,
+      "text": "|Bl5U .kW]n-3Lw"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 12834567,
+      "text": "i}YsX.6<[&F}"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 13121284,
+      "text": "=|7K+lX0M:#2"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 13315557,
+      "text": "hJ\":KJzrhG3c"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 13362215,
+      "text": "RW&>B]n$7,':"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 13568250,
+      "text": "x{>h<tO+772mC"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 13586682,
+      "text": "`%(>K*\"5X9{rS"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 13877997,
+      "text": "|3c%PN5\\|(%Q"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 13990372,
+      "text": "MNA)hO/29M9S6"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 14761058,
+      "text": "FtA;d3r0u\"X*"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 14796848,
+      "text": "n\"c>{-o4K\"%j"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 14797232,
+      "text": "bo|DBI<Uw=4p"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 14888599,
+      "text": "8hT>b\\7gS~DU"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 15223349,
+      "text": "KjB-V<g#Z#:1"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 15560948,
+      "text": "B}b=U6I/f<@p"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 15647696,
+      "text": "7Qx|wI.:q={)"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 15764057,
+      "text": "H)orfH8%Ji9N&"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 16730034,
+      "text": "p*%1IR.O<1.vY"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot1",
+      "file_offset": 16940643,
+      "text": "E=kD0d?f poP~v"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot1",
+      "file_offset": 17495525,
+      "text": "GmL,)IuZWl~Qe"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot1",
+      "file_offset": 17544842,
+      "text": "rzY>nx6X@N1BT$Y1E"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot1",
+      "file_offset": 17667774,
+      "text": "=z/u}+MK}jD "
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot1",
+      "file_offset": 17946614,
+      "text": "+N(/+5xg5*UjLy7"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot1",
+      "file_offset": 17964867,
+      "text": ";]mm#cXEt.4}"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot1",
+      "file_offset": 17976973,
+      "text": "R6#BDg0\"[(U`"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot1",
+      "file_offset": 18363037,
+      "text": "&Q*xOA@tGxu}$"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot1",
+      "file_offset": 18527218,
+      "text": "{[m<d1b/4^R("
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot1",
+      "file_offset": 18748524,
+      "text": "\"1}~`C}[yN@n"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot1",
+      "file_offset": 19099798,
+      "text": ";RF}h}^c6+::("
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot1",
+      "file_offset": 19335962,
+      "text": "w]x1$7,$#`4v6"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot1",
+      "file_offset": 19861424,
+      "text": "+k1)w6n@Ewz\\"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot1",
+      "file_offset": 19933199,
+      "text": "PIut2Mt,E/aG"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot1",
+      "file_offset": 20125326,
+      "text": "RLaqV-13@c=?ii"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot1",
+      "file_offset": 20185777,
+      "text": "U>y(Gj^G]\\UmW"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot1",
+      "file_offset": 20189563,
+      "text": ")7 x?H<*T52aM"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot1",
+      "file_offset": 20440918,
+      "text": "0!kHCqHHsS4e"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot1",
+      "file_offset": 21039181,
+      "text": "KPp&2y%]!bRNQ/"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot2",
+      "file_offset": 21598880,
+      "text": "\">?Zq&{_\"ILG"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 22174431,
+      "text": ",)=[f}=~\"cQG"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 22362543,
+      "text": "UB%\"8*rKd}jl"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 22593704,
+      "text": "xyN{Wy_fA*N!"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 22744008,
+      "text": "~ R\"VGE|<;D*U"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 23057601,
+      "text": "K'|xK2;j!LEO"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 23801514,
+      "text": "lE1h9WuaF9<]QW"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 23873890,
+      "text": "P6;~.+f I)z+"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 24214631,
+      "text": "$\"\"ZJk^/@c ;"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 24252734,
+      "text": "?xZOF/p-}et_"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 24455544,
+      "text": ";ik@hL^4DqQK"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 25089891,
+      "text": "tT*`+[2I:'4b"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 25574099,
+      "text": "GjGd*Yix+Gne"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 25668106,
+      "text": "$y0Xx{[~U%eq"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 25701202,
+      "text": "\"hF_Y`5]v/TgI"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 25755351,
+      "text": "Bh<a3Skf(ln55"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 25904660,
+      "text": "Gb$+SEUxSly&"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 26130885,
+      "text": "~27]qgbl;n@z"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 27042639,
+      "text": "R4)1!O?|~Tjb"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 27134637,
+      "text": "=NBg\\R}Zw02#"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 27380881,
+      "text": "g;hqJ<YLs+bkX`"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 27700586,
+      "text": "@*<e9Zz^IZoe=\"LGT"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 27910780,
+      "text": "('<_dDqPTIVzm"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 28332502,
+      "text": ">?6NMyLfw(t\\u"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 28588019,
+      "text": "QsS,J(d@mWQQ"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 28857492,
+      "text": "-]J\\*08q)-^n"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 28923125,
+      "text": "Ov>mxG,MV=E3<G"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 28973061,
+      "text": "1{uD~c* @v#@"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 29133003,
+      "text": "%>b;C\"5>l91X"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 29586563,
+      "text": "70,^1OVeu=7i"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot4",
+      "file_offset": 29970305,
+      "text": "|[5eYaJ^VxE#"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot5",
+      "file_offset": 30017354,
+      "text": "0.roQ|TY78R~"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot5",
+      "file_offset": 30124353,
+      "text": "M~g%x7j:e37C"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot5",
+      "file_offset": 30153399,
+      "text": "r!D1eb ye]CM6"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot5",
+      "file_offset": 30236914,
+      "text": "8IhWZkEQ \\j8"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot5",
+      "file_offset": 30675185,
+      "text": "2J/.g^Wyu7c9"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot5",
+      "file_offset": 30744003,
+      "text": "5PNCA-1[JE'B"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot5",
+      "file_offset": 30904234,
+      "text": "Y<+8oUd!w/[rs"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "eep_ow_a",
+      "file_offset": 30937091,
+      "text": "N[WwHa-ng`&^"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "eep_ow_a",
+      "file_offset": 31000604,
+      "text": "krf2<GO.26I2H"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "eep_ow_a",
+      "file_offset": 31023431,
+      "text": "Y9\"W#Il~q=lDvW"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "eep_ow_b",
+      "file_offset": 31128162,
+      "text": "]VV2fgCI*CQv"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "music",
+      "file_offset": 32424799,
+      "text": "#%R*J/NiIxdJ"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "music",
+      "file_offset": 32606813,
+      "text": ".TwF8OK\\=<)F7S"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "music",
+      "file_offset": 32712956,
+      "text": "Az&{-J NqMm_e1"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "music",
+      "file_offset": 33380250,
+      "text": "4xw[*G\"e%!|n"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "music",
+      "file_offset": 33410009,
+      "text": "\\dWsMr_/C%2a"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "music",
+      "file_offset": 33455779,
+      "text": "FXI?\\XlgGNYDhX"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "music",
+      "file_offset": 33573708,
+      "text": "!UX%-vnr}L]f\\@"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "music",
+      "file_offset": 33724365,
+      "text": "VQXr,K07Ye7P=Yv"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "music",
+      "file_offset": 33765725,
+      "text": "'?0&$w#Fr&T?"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "music",
+      "file_offset": 34011516,
+      "text": "Q$Zh~TM7[_2T"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "music",
+      "file_offset": 34517495,
+      "text": "Yy%.eM:M$<czU"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "music",
+      "file_offset": 34767844,
+      "text": "j)im\".&{hw'11"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "music",
+      "file_offset": 34854215,
+      "text": "qp8G9a` @^!T"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "music",
+      "file_offset": 34869847,
+      "text": "~_C0^)(X}.m9"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "music",
+      "file_offset": 35610747,
+      "text": "+~C'vo,m<p8%"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 35889750,
+      "text": "7UxS0\\}_^Z.YAis|r"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 36632575,
+      "text": "4DLCWP|CURXu"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 37228017,
+      "text": "\\Rs8*RJ/IbDn"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 37253452,
+      "text": "[.KAEm'zH1?2tA"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 37268966,
+      "text": "'A}^?RkON GJ"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 37526318,
+      "text": "!Hphg<O6|*yrC:"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 38004192,
+      "text": "FA*+%f|hg:DC "
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 38134411,
+      "text": "*Ge:0AGnm.><"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 38998211,
+      "text": "4jzV|zNe%iA|"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 39133823,
+      "text": "!\\#eW _t{m0Jk"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 39479356,
+      "text": "w9)1.4$1'C2cR"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 39782640,
+      "text": "~#4cvzD`@0H+"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 40228309,
+      "text": "4g_8&4oI*lW&"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 40295778,
+      "text": "e/&G?<!%>j.VU"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 40386281,
+      "text": "Go#mpB|GRH?3"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 40585544,
+      "text": "ea}v$#\"n(B@8n"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 40880175,
+      "text": "piYBk<f{%~PC"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 41119133,
+      "text": "[{P.s.U:g]AH"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 41204660,
+      "text": "fOE?<w-[xCyT"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 41287955,
+      "text": "l2MLn(y1|z:HhAoO|P"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 41570473,
+      "text": " mjXL`s~c8eN"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 41615126,
+      "text": "=ha&pIun`4>l"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 41638745,
+      "text": "G2ls`%6]{EV0"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 41649267,
+      "text": ";|Wo?MKr+%b`"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 41667562,
+      "text": "zy{\"u7jhfh-3"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 41670261,
+      "text": "Y:P2c=`n\\,di"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 42069070,
+      "text": "qNW|I\"H^mz]="
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 42108627,
+      "text": "=Dg>|w~'^r.e"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 42156042,
+      "text": "Vr+.j(8-\"\\/d"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 42227707,
+      "text": "WM=|b$dF$Ji-"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 42310359,
+      "text": "7>Ms2)4wg,fowo"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 42325184,
+      "text": "TzR`Lo1kA!is"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 43557324,
+      "text": "t@MQb~/xV&:{"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 43815472,
+      "text": "NT1VH<6dwB6b"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 43937395,
+      "text": "gHi6Hhq5jnGO"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 43986076,
+      "text": "p4-x$x/}3;w>"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 43986838,
+      "text": "i\\EdcY[5#K4e"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 44273120,
+      "text": "Az\"1H@s`[gBD"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 44591175,
+      "text": "rdR})q2\"#=fn2t7"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 44801840,
+      "text": "+$?z]_1n+/Q("
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 45501310,
+      "text": " -%j.MH(9EGT"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 45711069,
+      "text": "2eG*lfia]=I:"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 45917004,
+      "text": "^F?Cw?#mXbDb+"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 45998025,
+      "text": "|a7pYAzrxLC_"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 46480976,
+      "text": "W6C-|%y#?9Zk"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 46664083,
+      "text": "cUBev^:=Ix0V&U"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 46950091,
+      "text": "o3*+y&b-||NU"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 47145594,
+      "text": "Sp_>nOvogw.f,"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 48026543,
+      "text": "^imY~]Tcs866"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 48337383,
+      "text": "vTUl(Bu&>9nW"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 48454067,
+      "text": "E>K{rC#DVF7x;"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 48534091,
+      "text": "atJFyIJyeV}W#n"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 48919488,
+      "text": "ov35e}Z>JvBo;"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 49399371,
+      "text": "i3EDg0]X[{j["
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 49933476,
+      "text": "G~Xq?QUaLj7@"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 49934988,
+      "text": "\\|ruaO\";7sFl"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 50000667,
+      "text": "N'|<up:L$=3F{"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 50014079,
+      "text": "[ cCnn0T|`7f"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 50037694,
+      "text": "u_Po2=$I'J~A"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 50251462,
+      "text": "u& qwDs;5l5d"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 50323318,
+      "text": "C4).Z@M\\r%\"d"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 50620825,
+      "text": "n=&_3HC=\" oQ"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 50675544,
+      "text": "SBk<FR1NDYyU"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 50881228,
+      "text": "OEr=-d0s!}W4A"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 50999102,
+      "text": "I&5SMAamBX]]G"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 51210459,
+      "text": "j4){oAnctKY!."
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 51348028,
+      "text": "um[#P>Vx)<h7"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 51564322,
+      "text": "k++\"Vm5=Ud0wjm"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 51720185,
+      "text": "1b{%E-Ed25[z\""
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 51875589,
+      "text": "`sy8DJ2'[^^t"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 51973909,
+      "text": "oZNS7'4fNp(G"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 51992978,
+      "text": "~~uYWCjk8nh5"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 52672533,
+      "text": "b3p6;Bx\\X6< "
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 53251036,
+      "text": "q_:Pn5=^8qcn("
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 53429646,
+      "text": "O\\dMD<HppI~m"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 53598840,
+      "text": "wGVKzr[#dv S"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 54298356,
+      "text": "bfs2D<pi~sev"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 54304031,
+      "text": "<4C?Wpoi@/\\/q"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 54489015,
+      "text": "-EF=gk}=fO&*"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 54518749,
+      "text": "Q}u-]+{DQPw0"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 54649405,
+      "text": "?lMx08dQU=W."
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 54711310,
+      "text": "/`c6<[i/{2f}5"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 55491018,
+      "text": "xw\\-4nX_y:.x{"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 55556474,
+      "text": "f;4#0erpv^*fB"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 56119140,
+      "text": " Dd34K>0=&SS"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 56371964,
+      "text": "x&62<*wTmjti"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 56538378,
+      "text": "mf,gTOA{Gx/|Q"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 56555251,
+      "text": "4K'0TY{\"X@s^"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 56583639,
+      "text": "yqmW^&kXn{YE"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 57061397,
+      "text": "$%h7|rT&PP>1l"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "zimage",
+      "file_offset": 59185251,
+      "text": "Yi9W\\bBszLhn"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "zimage",
+      "file_offset": 59569389,
+      "text": "?&5J=a\\d3-29"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "zimage",
+      "file_offset": 59635737,
+      "text": "T&0!r$lzqRmGC"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "zimage",
+      "file_offset": 59906153,
+      "text": "N:nm6E%HJ4)2"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "zimage",
+      "file_offset": 60237770,
+      "text": "Bo1C+\"y(,j8x"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "zimage",
+      "file_offset": 60259965,
+      "text": "L<e;g~T/Akz7"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "zimage",
+      "file_offset": 60316767,
+      "text": "?RR_Up$bO<vWr"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "zimage",
+      "file_offset": 60719445,
+      "text": "]hU!g]W?UD${"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "zimage",
+      "file_offset": 60860636,
+      "text": "VFTlJGh{ c\\}?"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "zimage",
+      "file_offset": 61041663,
+      "text": "va`h|Bq\\5FG{"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "zimage",
+      "file_offset": 61099700,
+      "text": "l0|C9CZzW#z/o}T"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "zimage",
+      "file_offset": 61146319,
+      "text": "BBvGz;`)cQ:7.{"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "zimage",
+      "file_offset": 61176766,
+      "text": "SC]\"b_Ky.&{>$D"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "zimage",
+      "file_offset": 61510815,
+      "text": "qbUx'o,6WXdj"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs1",
+      "file_offset": 61887212,
+      "text": "o$SGSlCF]a9NG]>u"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs1",
+      "file_offset": 61990899,
+      "text": "pl6PK8HvL, j"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs1",
+      "file_offset": 62257892,
+      "text": "(Acx^wpJ+K\"1"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs1",
+      "file_offset": 62734642,
+      "text": "~}9_,_E6@i:)"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs1",
+      "file_offset": 62741901,
+      "text": "VQGs([M54>4{"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs1",
+      "file_offset": 62922917,
+      "text": "kR#0E^?>m2ha"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs1",
+      "file_offset": 62926777,
+      "text": "AZzo6\\.L Pfs>"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs1",
+      "file_offset": 63105175,
+      "text": "RozJ_Aj$o;KT}"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs1",
+      "file_offset": 63376790,
+      "text": "t2:6<<ge@1;i"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs1",
+      "file_offset": 63396703,
+      "text": "WM,WY-]-B.o=0"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs1",
+      "file_offset": 63533559,
+      "text": "^3q0i3o&^/qcy"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs1",
+      "file_offset": 63604221,
+      "text": "IjPt^nJonU8Y"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs1",
+      "file_offset": 63674790,
+      "text": ">%w&V>{'aJjBa"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs1",
+      "file_offset": 63729019,
+      "text": "5xJ|01^_<vke"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs1",
+      "file_offset": 63974990,
+      "text": "W/jm!IOmF}4k.%"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs1",
+      "file_offset": 64055068,
+      "text": "RaUuxbodEaSBA"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs1",
+      "file_offset": 64838000,
+      "text": "UowxkAh]c@ w"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 64913104,
+      "text": "g$}lXVP[x>yY"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 65136294,
+      "text": "Q>0|e<o)S?Q5"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 65205233,
+      "text": "#?3a&RS.N^`h"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 65713637,
+      "text": "|DEN{H%Ax#[S"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 66133625,
+      "text": "DRVhw[CoO7$IAQ\\"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 66703191,
+      "text": "C&fZv&:ivf1i"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 67032831,
+      "text": "Y p\\o+:|m*,KoF"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 67199259,
+      "text": "5ERk.,S7npF4K"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 67316878,
+      "text": "Q8rL6GK%Yu!v"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 67516935,
+      "text": "bH}{]rQ$[Og2"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 67672621,
+      "text": "lJe:BbD{s6]8"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 67991601,
+      "text": "(Gbk1dly]wVJB"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 68029130,
+      "text": "s}4r1ic;\"4dh"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 68284518,
+      "text": "S6wLQgrAA4KQ"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 68303363,
+      "text": "h&kw5P;bJju0"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 68329004,
+      "text": "?Vllj\"5v'X<O"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 68474696,
+      "text": "lAoc*H0;*?o!="
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 68508670,
+      "text": "Q%`Dtp4m*s\\4"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 68792628,
+      "text": "^B~\"Dbvy}`E])"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 68851802,
+      "text": "F]/1z]4s?p2Am"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 68910499,
+      "text": "R}6b1>f~!3T6X"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 69005044,
+      "text": "-Tj&A)#7~h^E4"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 69029803,
+      "text": "-e98'-FYhY2g"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 69220514,
+      "text": "x!*x!S=jH3h7"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 69386581,
+      "text": "@9|kCaJFr,(8"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 69556842,
+      "text": "C(r?F#;@;_8_"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 70051883,
+      "text": " \"hI:\\-f|`rL"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 70079139,
+      "text": "{-&Opq1 ~vpj"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 70156230,
+      "text": "*+/fzx.Bb08 "
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 70210830,
+      "text": ">h~@3KZovsXg"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 70959364,
+      "text": "5Igzl'c#ag?F"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 71022085,
+      "text": "UV4<K'#C7eFoe"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 71327416,
+      "text": "*Bf;7Pk!6]SQ"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 71495319,
+      "text": "9a$-DX5t[)S#"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 71808203,
+      "text": "U]OOd_x-S\\M|"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 73173546,
+      "text": "6\".43=Q1='Dr=C"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 73934326,
+      "text": "+ '7u!9ghOK)"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 73976689,
+      "text": "AB3n52oFwpD91p"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 74012241,
+      "text": "@o5;ZLYS@6?X"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 74321023,
+      "text": "]pqR=wo281Xo'"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 74380577,
+      "text": "-QQ$pwoFC:lI"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 75013704,
+      "text": "i,fTk=#R~\\r/"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "ipu_data",
+      "file_offset": 75551284,
+      "text": "24{@5BN%}C.@A"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "ipu_data",
+      "file_offset": 75734302,
+      "text": "(JZ`s}fthSn\"J"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rc_data",
+      "file_offset": 75907610,
+      "text": "cV0xK!wMTD7+"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rc_code",
+      "file_offset": 76099836,
+      "text": "1aepzda%zE_+B"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "nr_data",
+      "file_offset": 76325176,
+      "text": " 4L9Pu>%n9(K"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_prog",
+      "file_offset": 76685565,
+      "text": "P+L\"uam|DiH`"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 76926490,
+      "text": "imsI=1ixpNql^|+"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 77282326,
+      "text": "[+4zp2<FqvZ9"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 77321364,
+      "text": "Uj^$CQ\"_d&hhA"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 77819200,
+      "text": "H8T.Ag5DtL.*"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 77999901,
+      "text": "|.m5s[CtFSv8"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 78220270,
+      "text": "cux-z8-ws5W4"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 78386734,
+      "text": "T'`<4VH]4z&^"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 78388758,
+      "text": ".Kmcf a}HaOU"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 78949335,
+      "text": ":!/}Z$Cg49`Kbl"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 79116067,
+      "text": "B+'c@d\\VczCC|"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 79182837,
+      "text": ";k_XT6IvY ?+"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 79221723,
+      "text": "M,I&Y DoSrd8"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 79294226,
+      "text": "@2XzaNf[)Y/Kg"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 79445210,
+      "text": "-Bz0[f#,=-E|"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 79510303,
+      "text": "W=ed8w<Nk0aG"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 79743945,
+      "text": "D\\LpI)D,]7gu"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_ddr",
+      "file_offset": 80731199,
+      "text": "'*9ob*?a<X}6"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_ddr",
+      "file_offset": 80744699,
+      "text": "VTW\\lm`rH_TroFS"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_ddr",
+      "file_offset": 80772834,
+      "text": "Bk<vr-iomV?-"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 81271286,
+      "text": "5g5bGdlu88Kc"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 81370053,
+      "text": "1DA=tk,zu@U#~;"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 81611637,
+      "text": "u=!{Tv(J, |="
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 81639205,
+      "text": "UD'nP|xH9gdbl"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 82233660,
+      "text": "Q 8ilQKI}%gH;%^K"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 82583109,
+      "text": "z\"cXn2N@K<8="
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 82737010,
+      "text": "b+VyE_Y`{G2\"8e"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 83006678,
+      "text": "fJ=# +J>p3xkY"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 83146409,
+      "text": "U.!9,Q_czhp<"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 83234154,
+      "text": "V%O[bPc*aj>G"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 83339578,
+      "text": "1,T7Hy&$Gl^QI/"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 83591275,
+      "text": "fcCL}O>i>xk\"?"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 83761120,
+      "text": ")2y5i&/w3B2$"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 84205320,
+      "text": ":rb\"_dT!~sm%"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 84212451,
+      "text": "\\zzG!57(Gh_hW"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 84248757,
+      "text": "srHs_F>V<d&U"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 84802768,
+      "text": "DJj>2}E~#3N\""
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 85479498,
+      "text": "VCQ(nosAYk$5j"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 85774820,
+      "text": "lZXoLXdeojGt"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 86243962,
+      "text": "::D$B7 ht^4Z"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 86399485,
+      "text": "8+\\^)%Yc!'zvh"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 87018691,
+      "text": "!R:x6SC|cnc)"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 87049401,
+      "text": "JX{ayYi[|9l0|"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 87478749,
+      "text": "uL(8},sPC$KC["
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 87552177,
+      "text": "S5IuW>8f(,UqIq"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 87645581,
+      "text": ",n6u+%F9ZJOn["
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 87852395,
+      "text": "I!\"n'XU+;B?i"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 88261851,
+      "text": ">:A)J'C/n*5HA"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 88438875,
+      "text": "sMdI$}p%1#**C"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 88634011,
+      "text": "}rSYW&t/T7\"E\\I"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 88680090,
+      "text": "x}m#yMSl(2>R"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 89136107,
+      "text": "W%bz'JrXI*4cC"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hr_c_prog",
+      "file_offset": 89402261,
+      "text": "\\Vc-&uwQi1e)"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hr_d_prog",
+      "file_offset": 89661022,
+      "text": "pD?P+t= KjoQ>"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hr_c_ddr",
+      "file_offset": 89779035,
+      "text": "|r}eZV`U'e.2"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hr_c_ddr",
+      "file_offset": 90037899,
+      "text": " >>;x\"hRfD'MB*"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hr_c_ddr",
+      "file_offset": 90044083,
+      "text": "T!o+Gd8)e7t0"
+    }
+  ],
+  "payload_boundaries": [
+    {
+      "file": "S5___V28.bin",
+      "partition": "loader1",
+      "file_offset": 5632,
+      "size": 4096,
+      "head32": "f846e4874097739609719c3a8ff7b2ce279b411e02dd10a11714a09986b9c8c0",
+      "tail32": "391eea1eb716d31a24dacbae67c6052da0217b954e40b420fd5c70fe72da8043"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "loader2",
+      "file_offset": 9728,
+      "size": 38912,
+      "head32": "fb7f104ebbe7cae849ffff08dec54177cf2b1326b8609d6822b3db2435ece350",
+      "tail32": "a0727131c9fefbd677ccaeb8eb69352eee9ea3c5ed3f4c1be06ed7eda8fa0d0a"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "loader3",
+      "file_offset": 48640,
+      "size": 49152,
+      "head32": "28da2de96ffc5d528aa746ee6787b01564312d178d98831a4a83cd5d5f30dff7",
+      "tail32": "9f10026c2a58b58ac1fea8446724c62fe4428532554e278b76453a00a2896587"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "program",
+      "file_offset": 97792,
+      "size": 16674816,
+      "head32": "b85ff333211c9e958657ce0cfa3de1f69b328279c83dd9480eae3538b50c6fc5",
+      "tail32": "e740ca356a04e4e2d2bb7d3ff129ef3c7c2005d87177aafb641408d2bbbf7556"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "storage",
+      "file_offset": 16772608,
+      "size": 0,
+      "head32": "",
+      "tail32": ""
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot1",
+      "file_offset": 16772608,
+      "size": 4718592,
+      "head32": "6500c6cbcae8393039745e185277d3f0248e65636f9621d179b8ccadc63b139c",
+      "tail32": "43f0716cd45e28254a22a266ef705dbb50a98f10b9224fc53ad177ffa4b133e3"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot2",
+      "file_offset": 21491200,
+      "size": 131072,
+      "head32": "7f4236c1a87dc0415e2e0e5872a035fcbad12857c42504e2cf972b16645665ed",
+      "tail32": "24e724ce21183704fbcb2851c4561b871383340a84ff385df74750396707da8a"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot3",
+      "file_offset": 21622272,
+      "size": 8257536,
+      "head32": "d0a8966fd4db112cbfe37af21e1ba4db1b8e74940f703dcc9e3ae312431bd7f2",
+      "tail32": "a1436caf5f4fb973667a451a52c12891d0cadda06969154d08400839bef271e6"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot4",
+      "file_offset": 29879808,
+      "size": 131072,
+      "head32": "a212880e673067cfa1fdad9e286dc1562e4063c15cf9126508ba05057e8e1699",
+      "tail32": "bbb75c4a8351fb9c13f89b9e891573695696c1c04a746470a9fefb7f839d199e"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "postboot5",
+      "file_offset": 30010880,
+      "size": 917504,
+      "head32": "88ceda80f6baacfe657eb17289472e5d3020037b121cb44319c8492a843fc80c",
+      "tail32": "324f9ab2d67e1da97b3b64341027f7ed6f2dba475a08f7804cf349e38f48992a"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "dram_sleep",
+      "file_offset": 30928384,
+      "size": 6144,
+      "head32": "4f2c47911b33d3efec0d64c3b0fe3b60954e0924ddbd997175c74db607a13d3d",
+      "tail32": "d7d632db2941c730f59b43354742ed3eaeb8b0fbc5fe898cdbf5bb8de9adf94f"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "eep_ow_a",
+      "file_offset": 30934528,
+      "size": 131072,
+      "head32": "a410171f2d2c1a8f47ecd8d98c61b90990fe74fc2f8791aa625ee64f256ce792",
+      "tail32": "11bd5e8c255104e530ebbbc21a8371dbf8f96ba7cbb0a8ecf657ef4aa345fb2a"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "eep_ow_b",
+      "file_offset": 31065600,
+      "size": 131072,
+      "head32": "fecd69752fd78af570a79284ed7d0bfb2473fc3bab1032eb352d1f8ce767a9e7",
+      "tail32": "efd27db5bf52a32ad7488f49791bec630726435310d95c81be012cd9f73c98f3"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "eep_adj",
+      "file_offset": 31196672,
+      "size": 131072,
+      "head32": "781278856045d6d52e94c9349e2dc73f163a5e34fdb6de227c144943eef64a99",
+      "tail32": "6a24fa9c5ead15f0317be88a17dfbde6a73c450186eec46becf2286358f87699"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "eep_fix",
+      "file_offset": 31327744,
+      "size": 131072,
+      "head32": "078d6bea89a9f07baaae75e03b6ae736d1f8296c6cb540cd53bff411b14051e5",
+      "tail32": "302839ebb8564aa6f63ac007edee61a5d640ea038e8c782f27c09ae477a6f555"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "eep_act_a",
+      "file_offset": 31458816,
+      "size": 2048,
+      "head32": "0a3327f9815169fe70a10c388f0d7bd32b66270078ad87aa14b862f15f1363f3",
+      "tail32": "f036be30484204b7e10ec063f59e51b5016113543e456580791f22a9a35145be"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "eep_act_b",
+      "file_offset": 31460864,
+      "size": 2048,
+      "head32": "f5751b3000c522aba4d8d48d2ef782f062be163e2d3a02acd6634ee04741cb84",
+      "tail32": "019b4f873dca5069bd9d7bd473c9024b096c3b701f16a42a6358cee57d657179"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "history",
+      "file_offset": 31462912,
+      "size": 262144,
+      "head32": "0000000000000000000000000000000000000000000000000000000000000000",
+      "tail32": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "lens_hist",
+      "file_offset": 31725056,
+      "size": 393216,
+      "head32": "0000000000000000000000000000000000000000000000000000000000000000",
+      "tail32": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "music",
+      "file_offset": 32118272,
+      "size": 3538944,
+      "head32": "2056097848d25a5afe2aff99b59012bb5aa0e86a696d82c82043392318eeb755",
+      "tail32": "c218d7429858a6e5407e945b6989a52316e69a4baaedf103d95f4bcb80db1430"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osdover",
+      "file_offset": 35657216,
+      "size": 10485760,
+      "head32": "35fea632211610219333cd78b1158fcd95408f61976e6181f2c042434e4b0a73",
+      "tail32": "65d1497db701a3446971415d81fe8ba0efdc6ab412796229f5e805001c778a0c"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "osddata",
+      "file_offset": 46142976,
+      "size": 11010048,
+      "head32": "94d339f63ca8be7408cb160aeb5e1f6d582534647fd80bb40ccd78c006b91f86",
+      "tail32": "405835b888aaf911e65b1e2eaf924b44c0e34c9a962fc04aadcba4a0e30db2d2"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "fileinfo",
+      "file_offset": 57153024,
+      "size": 917504,
+      "head32": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "tail32": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "ninsho_db",
+      "file_offset": 58070528,
+      "size": 655360,
+      "head32": "0000000000000000000000000000000000000000000000000000000000000000",
+      "tail32": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "koutei_kao",
+      "file_offset": 58725888,
+      "size": 114688,
+      "head32": "484ff8e45edf5e91464562a9c7c1ab2f2472cda8481226230169ef75ebe39fd4",
+      "tail32": "fb6b1941544a8e41b8c6f538507ec766d8ce63b38485021dfb80c76261dbaba0"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "wifi_info",
+      "file_offset": 58840576,
+      "size": 131072,
+      "head32": "0000000000000000000000000000000000000000000000000000000000000000",
+      "tail32": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "menu_save",
+      "file_offset": 58971648,
+      "size": 131072,
+      "head32": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "tail32": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "zboot",
+      "file_offset": 59102720,
+      "size": 2048,
+      "head32": "d35e98a75f216a9a5f792411160919b3a0ffe12ad8149c1cbfdc4af8fe87a289",
+      "tail32": "bcdd4bee2ecb2dca3243a5d9e1090e1b77ef73c2e089b33b340ac88eec9efbfe"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "dtb",
+      "file_offset": 59104768,
+      "size": 4096,
+      "head32": "8572d7d613c5d3a334cc37a2a79f5c5207a18c12eb980b57c5f2fa8c1ce182c5",
+      "tail32": "2e291627fd1db85104d0b013d884b177fbcbc01af0f7a05fec53cbc5381ad37d"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "zimage",
+      "file_offset": 59108864,
+      "size": 2621440,
+      "head32": "9a49a8e82e07102ebe622c48f1d3afe7175169eeba6079f982a750e766dd2018",
+      "tail32": "499ee836f68f301d0018331764869386397f05c207a8e8499abdcd38a236392a"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs1",
+      "file_offset": 61730304,
+      "size": 3145728,
+      "head32": "f17423ca06e1c9c143cb82214e84b8cd7413760e22669f6a83d613f83f527e59",
+      "tail32": "e87d4ddb3a34b71a9cbb8c9a044a5c87a7a06bdb94907ed3ce6ef9ac6a6615f3"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rootfs2",
+      "file_offset": 64876032,
+      "size": 10485760,
+      "head32": "c3071d1b4b4902759b806085eb5b0da26c04b79f02f9f9079296d8ea7aa79eea",
+      "tail32": "47960f35c532c4f2d6d487f29a52fe1e33275901d36f812a3eaf9178acc1000f"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "usbcharge",
+      "file_offset": 75361792,
+      "size": 131072,
+      "head32": "a75a3be3a3bc4ee8310e18ce6d01f42cba7df4e74a8d5ce8fd8819f5a8cfadd8",
+      "tail32": "3eac6c582d9e2f574f4f47c0a53028a893b1f3f7f2fd54b1a0c34a0085fb663f"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "ipu_data",
+      "file_offset": 75492864,
+      "size": 262144,
+      "head32": "3230f791c72f1220661a5c8225c3e99d65c8bcc0a5882684e19b9403190c6fe2",
+      "tail32": "51f1e567882d4b725ee0ae1f7b86233b334254df46200ed22e52e1b672430c88"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "ipu_code",
+      "file_offset": 75755008,
+      "size": 65536,
+      "head32": "8a8bae2841f3082e6b7a40386475cdf28d2b2e8ca5df9d6ab06c6e2597deefa3",
+      "tail32": "9012c288dec564b2cc122bc23c8d23488e3cf6e653e43799aabc3d7a507fd042"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rc_data",
+      "file_offset": 75820544,
+      "size": 262144,
+      "head32": "faf6fd74bede6c0f22100d7dd57480e1973eeb7ad9390f73a54b9aae48e18506",
+      "tail32": "06c131ab16a1221e9880f01fa37575af165db9d5e78075a61b538cdbd9559bab"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "rc_code",
+      "file_offset": 76082688,
+      "size": 65536,
+      "head32": "b2c45c2c7f7c422f1f1779713768183af8a48d38587a8eea5fdfa6c1079ece28",
+      "tail32": "ea3ec21279da6eb42a899ae4ef235e05251e46611be5e8c6b8610e33127ee9cf"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "nr_data",
+      "file_offset": 76148224,
+      "size": 262144,
+      "head32": "d31a48bdce7b23623ec251edb478ce848c444a07fb55d8584ee46f083bc40307",
+      "tail32": "e4379774a1e1c605b2add907f502db5096bdbc921e215aa46f4e02bd3724900a"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "nr_code",
+      "file_offset": 76410368,
+      "size": 65536,
+      "head32": "3a899777a2ca2d920336ab913af2c22584125a264d532800b340ca1dc9e38193",
+      "tail32": "e8d1c09c07333fdf5cc13cbfe8cc9fefb6c18211ae5b4723f7c4489d44faa70c"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_c_prog",
+      "file_offset": 76475904,
+      "size": 65536,
+      "head32": "f9521f3080f22e2f9f1be4cfa248626d080cba3e80c418054fe553619c96b672",
+      "tail32": "c8d2acf16f1a70d115c36081c7dfdbb89154cd2420c76283f37bf07216c80624"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_prog",
+      "file_offset": 76541440,
+      "size": 262144,
+      "head32": "241131aa7618267e2ff82e4f85618202d013ec67044ff7b8bd59ac0dacfd8060",
+      "tail32": "4c592b6501f62b3b276eead1f6cd27a5ccb9b266e1474059dbf6a7a5c9911a44"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 76803584,
+      "size": 3145728,
+      "head32": "592298b2ac0c7bc0fa3ea397c243de6f7d1821bf3c2bcea3c9bc802715f182a6",
+      "tail32": "2fee43135971124955f46ed2c1ab293990e36ce1c3df4c9f14988e19a878a989"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_ddr",
+      "file_offset": 79949312,
+      "size": 1048576,
+      "head32": "56319d83324133ab6aa6280c5b9863bbe44de066ed8aaf209d356cca3a178ce5",
+      "tail32": "02a87a4a1737fb16509a78bcfefdb800457409923ed64aadf51ce704fff8fa32"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 80997888,
+      "size": 4194304,
+      "head32": "bcc4e37b010ff78e429b54df0d60f6ddbd6b095bff0b1f76a0c0931703edee67",
+      "tail32": "0b98fb9c9cf499585a6d8db204ee2df6f52393d38c0d42dc1ce8bd0e531bdd5e"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 85192192,
+      "size": 4194304,
+      "head32": "3a577d7887f4c8cbc16065686ffc80d8b7983bc2b4d81ada3b4807cc9d730794",
+      "tail32": "351575402ff4df1e5d6313140d88807f4926058a9688f34971873856bf8870ab"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hr_c_prog",
+      "file_offset": 89386496,
+      "size": 65536,
+      "head32": "6922df35abbaaa2fdd29fcf1dd7f9452282b7454c3496b590ce99438ec43ce10",
+      "tail32": "e67ab0a70abef9a4c9156fcbd8da96e77633c6529e5c25ecd8d43b837c8a6f9e"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hr_d_prog",
+      "file_offset": 89452032,
+      "size": 262144,
+      "head32": "74e16912a3a12450c15315f073b380098af313d059e7153a90d293547ce5173a",
+      "tail32": "3a2b9efae960fc66f1a3bb0d4690114cbc578c8dad92d172d9f6de7f80bdc65f"
+    },
+    {
+      "file": "S5___V28.bin",
+      "partition": "hr_c_ddr",
+      "file_offset": 89714176,
+      "size": 524288,
+      "head32": "41f61414e69ed3fdd73bc2f859d643581749b5b1b164970f102c68d723082ef7",
+      "tail32": "51e9f6c1cdaf8120dfbe108f064ccf065a91469281d75b16bc8f7dbe16e8bc56"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "loader1",
+      "file_offset": 5632,
+      "size": 4096,
+      "head32": "fa17bebcd04d71d69392a19acaa031adcc9bcfad801fc92feef91c32fb7d48dc",
+      "tail32": "29d8ff5ef6db108859eda04468c0219a54acbcbc1d9f680ae1f90734f8f5d790"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "loader2",
+      "file_offset": 9728,
+      "size": 38912,
+      "head32": "aa02de348f4044cfbd1b5188e800cf173d813ddbbc2c60e61561217121041a44",
+      "tail32": "4c82984864493d2fa442393f603842e04a9f90372fec95245a55fa77fa7b5c9a"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "loader3",
+      "file_offset": 48640,
+      "size": 49152,
+      "head32": "12dbda1001137cfaa30972f22804e160ab2733ae87909df8fd1e0c6d801defe1",
+      "tail32": "9b80c60997aac514671fd07c8e2afe8639cfd3402f389b65ef06eaf2bc081106"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "program",
+      "file_offset": 97792,
+      "size": 16674816,
+      "head32": "da80551dca5bf8d0f70ec414446bd52ef6516ca0eedff625fc21890fb8c35741",
+      "tail32": "3239eb7a265e756847d13d6466be300a28863c93297f659d2e697493291903dd"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "storage",
+      "file_offset": 16772608,
+      "size": 0,
+      "head32": "",
+      "tail32": ""
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot1",
+      "file_offset": 16772608,
+      "size": 4718592,
+      "head32": "9b26f0750998561999f660e565682c4cf5e49fd44707c960f9e29224ef95ad6d",
+      "tail32": "44fc70e3b05eda20de8cd15789d1a5ce5a19eb5a5a6cb228c5ea6a92f4203969"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot2",
+      "file_offset": 21491200,
+      "size": 131072,
+      "head32": "35e01ba5351705861ccd83fca25e68a7e2bfcc94f61783d26fd86349def9ab80",
+      "tail32": "d4965eaeb2fddc4d189ac0e57a92a2ea2ea9aefd4d2e60a37325105bace5feae"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot3",
+      "file_offset": 21622272,
+      "size": 8257536,
+      "head32": "99d9d06a405a863874f8e33f4f21d263bc7ad8e94526ad6bac71f7a474497f24",
+      "tail32": "9707a0e95e0b88b418d22174211d69717a5480914f91c11e4fefd318bf3a7b7a"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot4",
+      "file_offset": 29879808,
+      "size": 131072,
+      "head32": "47ce0902459cd8c9a3f574f6b29e314a5218f696ee7309a7036ab9c9c630bdc2",
+      "tail32": "335d66e81d8f9b17fcdd7ab537699bec02700755d8357170541fdf3e2e580d64"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "postboot5",
+      "file_offset": 30010880,
+      "size": 917504,
+      "head32": "dd7b3431af09de6667fb50131a6d2b7de4fc542b391d65b616288cc3dfc39baf",
+      "tail32": "203c03412e0a2845132882b697e5cc9f48c6e998ee2bdd1ba2927049c3ddf34d"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "dram_sleep",
+      "file_offset": 30928384,
+      "size": 6144,
+      "head32": "3d9017fd12aab56a85e3422b26adc70098ef5cda96d3fbb2b1cb61b4c2437d40",
+      "tail32": "00af3df170e588e6d0de54dee107c7158da10714f1d98f236ecb6e459ab375a2"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "eep_ow_a",
+      "file_offset": 30934528,
+      "size": 131072,
+      "head32": "0c4a247846f629aca91d7a84f802b8848c777545e14de7b5aac41d0c6f1403c2",
+      "tail32": "25e04a148c29ac5f816ffd413e58b3e18a9b7e29556c188655c67dc6caae1a54"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "eep_ow_b",
+      "file_offset": 31065600,
+      "size": 131072,
+      "head32": "22cc78e86241d33163b4326300165671653a876909da67f159cca8259c867c16",
+      "tail32": "f907a1f0ac88ed5e953c822b2d89e0dec0c4ce2202650bd12ccd9c068b18aa63"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "eep_adj",
+      "file_offset": 31196672,
+      "size": 131072,
+      "head32": "9b86c70183e0a30bc6b726decf0281246d76569d5f94a0bc56c732779d50d033",
+      "tail32": "b1a62c98ee1e9e0aa282dc02a77e0e5f474fb67465b1920208deedac9ad6196d"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "eep_fix",
+      "file_offset": 31327744,
+      "size": 131072,
+      "head32": "1af8f098dc3094f148b6c4f1377979ce4f5072de67cee5c27a6b2a8f4541577d",
+      "tail32": "b801b3dfdf3984f0b3649d340ac79685c046f27d102ea52cabf869ac77b449be"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "eep_act_a",
+      "file_offset": 31458816,
+      "size": 2048,
+      "head32": "27d1b8115eb05cf827e66b23ed07d9a9fd99f6046756bc01a84804460d641e45",
+      "tail32": "5388108bd183a67a96a8c39eb8acdf16b42227807ed31c370b8f186ebb099e82"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "eep_act_b",
+      "file_offset": 31460864,
+      "size": 2048,
+      "head32": "be1dd4b4325f153864fe7b3efb6c14daeef425140e189ee99ba1a23ce9b0f1d5",
+      "tail32": "0733d9e4b0b69c4d66f792b2ed072c7974c1832af87fd8d2bdd1311008ce2b51"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "history",
+      "file_offset": 31462912,
+      "size": 262144,
+      "head32": "0000000000000000000000000000000000000000000000000000000000000000",
+      "tail32": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "lens_hist",
+      "file_offset": 31725056,
+      "size": 393216,
+      "head32": "0000000000000000000000000000000000000000000000000000000000000000",
+      "tail32": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "music",
+      "file_offset": 32118272,
+      "size": 3538944,
+      "head32": "79dd89bc721c75b4d6e4fabcef553175666d342b1dcf25c454339494bf6bf8aa",
+      "tail32": "dd2e988fe78b9c3e36b41b7b681ac23cda7d99a11e40704df24307d3b4e92fb0"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osdover",
+      "file_offset": 35657216,
+      "size": 10485760,
+      "head32": "f7fd7f7f89551eb370afe0c5519c994ce760638c0cb0da827588fc7d8ea5dbe7",
+      "tail32": "3f90bfe62a2367b308b6e35e110d00207adb3b3e13586a1bf1314c06e6140bc3"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "osddata",
+      "file_offset": 46142976,
+      "size": 11010048,
+      "head32": "2679aa0702b2148e3be0e6eb26fa0c9a1142b9f40a980b82171b0db8d46a4eae",
+      "tail32": "0ca46d3d4a885564ea2981ec08d4b8ce613394c439f37afc1f161e55548837e5"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "fileinfo",
+      "file_offset": 57153024,
+      "size": 917504,
+      "head32": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "tail32": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "ninsho_db",
+      "file_offset": 58070528,
+      "size": 655360,
+      "head32": "0000000000000000000000000000000000000000000000000000000000000000",
+      "tail32": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "koutei_kao",
+      "file_offset": 58725888,
+      "size": 114688,
+      "head32": "41aea4728084d528b9eab5c370c3f1d6760eb439dd595da393e228a56b8a42dc",
+      "tail32": "4cbb5c5711d71f05823a112142c1318b954ee50f99dd5369b24f483919693096"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "wifi_info",
+      "file_offset": 58840576,
+      "size": 131072,
+      "head32": "0000000000000000000000000000000000000000000000000000000000000000",
+      "tail32": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "menu_save",
+      "file_offset": 58971648,
+      "size": 131072,
+      "head32": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "tail32": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "zboot",
+      "file_offset": 59102720,
+      "size": 2048,
+      "head32": "067ff3dcd4551a9f8dfa8da7068d55d585284648ac665aa6cbd4650c4eec5cec",
+      "tail32": "4c7260914fe6c8981ee9a814b4b518c30bf591acb97f1f4186c714a5d9f63731"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "dtb",
+      "file_offset": 59104768,
+      "size": 4096,
+      "head32": "c8028ea11d3050aa865dc5d37ba2d5e89c9da73787d795f7a74db3bec670bd5a",
+      "tail32": "a5483858086c8fd631db9fe5651a0ee1b0b2405bf53658fad6f43185028d2280"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "zimage",
+      "file_offset": 59108864,
+      "size": 2621440,
+      "head32": "25b28e5e2018d325893bda9c40cb1b7336bfdccac46fffbef1c60a7990ab8431",
+      "tail32": "b19a8f635a061d310c8df7397e684d6c3909db2cb23a8a09c7db351bd13556ac"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs1",
+      "file_offset": 61730304,
+      "size": 3145728,
+      "head32": "83f3bc9d09578a7901b4c8a3dbdd738907b4dd88b2013675f706da4c31b1f6d4",
+      "tail32": "9972ba95a2aca74b2715cb4456e89f20967ee6b8fd4966896d66a67c220cc258"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rootfs2",
+      "file_offset": 64876032,
+      "size": 10485760,
+      "head32": "990ed688d0926b013e3f64eec6f47cfc5eb21e2eba7b05b2083a9da3a9db86b6",
+      "tail32": "e047452440d5094b4ed9a4a49f5e9c058965487e5c25e7447667cc9d72d57c1c"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "usbcharge",
+      "file_offset": 75361792,
+      "size": 131072,
+      "head32": "63e13c05821df54b36b2a033c22e057cee02677aac344a92a947e8f4aef8ce64",
+      "tail32": "3c031cd9140498c5a112bf50a781b50b9209a033ba7552175852732d079d893a"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "ipu_data",
+      "file_offset": 75492864,
+      "size": 262144,
+      "head32": "45e5edbb167bca8e28128ef3375edbbb426e40b330cc187be626c836a52b5c1e",
+      "tail32": "7671fee444a17c97ea7603b9c0b6d1ef8dc492a747dac42874407995c25c26be"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "ipu_code",
+      "file_offset": 75755008,
+      "size": 65536,
+      "head32": "24b5f39e86b8224b5b34034b3215cbc98e344034c40d3dce11ffa315ccee1d1d",
+      "tail32": "662eeae4b8e5c12778e2bbe290ab62fd497eadf5c0eb0c40ded6197ae8ba9aa5"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rc_data",
+      "file_offset": 75820544,
+      "size": 262144,
+      "head32": "2d69a9165984b296d171bd6d7031ce9e0245d03b96eb16de1ea693b0aa735b86",
+      "tail32": "62958f3cc850013320e54f126604893073b3990d8fdaebc2d6fab4afd57c7b43"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "rc_code",
+      "file_offset": 76082688,
+      "size": 65536,
+      "head32": "b90ef3061b0cb472473bd96e9b64f2c0134dabea46701383d54bc9bfa6f2b637",
+      "tail32": "27ee29d33d52cddf29655ef35cee2be18b3bbdd71ff822d753d938dc2d21a8cc"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "nr_data",
+      "file_offset": 76148224,
+      "size": 262144,
+      "head32": "edaa5bf9a6348506fdc3b28f27713b42cf3c4265af098115129a4088e3ee9ac8",
+      "tail32": "ca88a78ccf56e0dac723421c88f90b4a309a13bb6a6c9ea0ffefbe708a469d6f"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "nr_code",
+      "file_offset": 76410368,
+      "size": 65536,
+      "head32": "bef6773cfe3ae504135ae1662d95ccab2e84451f99022ff3bedf89b64749ad66",
+      "tail32": "b388d8d5e85cb52fbf5d8941f50965f042571acdc1b48abd27b0d518d9c8ce85"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_c_prog",
+      "file_offset": 76475904,
+      "size": 65536,
+      "head32": "1059fcdc9690ba7e8da50a86ca22eef306c884d9984226297f4cf2f300bedfe2",
+      "tail32": "b053ce62218372d99335abb516a7acf70ace40b5c3317958c293d294c212d5fe"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_prog",
+      "file_offset": 76541440,
+      "size": 262144,
+      "head32": "c6f56464032264df136226d936355e19732aa71539050a7ba1b1a03acb5b0fa3",
+      "tail32": "6a6764046c5243270879ba3e93bb52c1f956f2837ebd622ede601fefb09f6147"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_c_ddr",
+      "file_offset": 76803584,
+      "size": 3145728,
+      "head32": "ef466323993b7efd0c3258a956c9f03e9a9419a24b772b115b82fb1ce1f09613",
+      "tail32": "65ad2ad62d1bb809e5de06b6696f0a482be172a702d466816683dee88afa8e1b"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_ddr",
+      "file_offset": 79949312,
+      "size": 1048576,
+      "head32": "6bbb79f78da8040b6b96d8e1daa3c473dc9f2f852de34d14d553a4b6723df44a",
+      "tail32": "654671654284108d0b2339184ff36b9ff7de9a75708e68c00798e6f26c8a9855"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw",
+      "file_offset": 80997888,
+      "size": 4194304,
+      "head32": "a81d857d5b36f5e47017f3b6db2dde9a9c55f2278588f63c7d3bcc4c6e9e6a1a",
+      "tail32": "4d1a51df8b5c81202da509eff0b1ed17fded3d44f8d308c8a6606e733f55c395"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hm_d_nw_sng",
+      "file_offset": 85192192,
+      "size": 4194304,
+      "head32": "891d4124888426f3546f6eb09f0176cda257acd2c123cdb45770c9dc70b902ef",
+      "tail32": "8bc09f1a1993c11bd29763e088fb51f99b7aab517f7591ee071955864bd1214c"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hr_c_prog",
+      "file_offset": 89386496,
+      "size": 65536,
+      "head32": "914d7e7b34eed5679c39d833648a1d8d2ce53349a3054af6cf34d7d82f7f843a",
+      "tail32": "1d51bfbc8164ab5fa3bdba54d0e33fd32aa64beab73bf837b5a90871272f5f5e"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hr_d_prog",
+      "file_offset": 89452032,
+      "size": 262144,
+      "head32": "c3b14246af089f0f034dcbeb463c02aca80f4b0cea87d9b5c7f21ead84eb2de2",
+      "tail32": "a607edea9858340196e6a42700c1afcb71a8c36c567a3f8b6ee1e2578d68b3a2"
+    },
+    {
+      "file": "S5___V29.bin",
+      "partition": "hr_c_ddr",
+      "file_offset": 89714176,
+      "size": 524288,
+      "head32": "1f88778f28fecd8764a0a96cf5061420ec5f60f99e92429e06d9fbc6fa113980",
+      "tail32": "e58e4c7a91287a9d3f08147d20dd9a63db56cfd8f71eb2b61befaf741c2e3c3b"
+    }
+  ]
+}

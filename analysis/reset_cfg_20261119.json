@@ -1,0 +1,114 @@
+{
+  "base": "0x80000000",
+  "mode": "ARM primary, Thumb helpers",
+  "nodes": [
+    {
+      "addr": "0x80000050",
+      "role": "reset_primary",
+      "edges": [
+        "0x80000090",
+        "0x80000240"
+      ]
+    },
+    {
+      "addr": "0x80000090",
+      "role": "mpidr/mailbox_wait",
+      "edges": [
+        "0x80000108"
+      ]
+    },
+    {
+      "addr": "0x80000108",
+      "role": "cache_tlb_init",
+      "edges": [
+        "0x80000134"
+      ]
+    },
+    {
+      "addr": "0x80000134",
+      "role": "clear_bss_like_range",
+      "range": "0xd044..0xe144",
+      "edges": [
+        "0x80000174"
+      ]
+    },
+    {
+      "addr": "0x80000174",
+      "role": "copy_init_range",
+      "source": "0x9868",
+      "destination": "0xd000",
+      "edges": [
+        "0x8000019c"
+      ]
+    },
+    {
+      "addr": "0x8000019c",
+      "role": "thumb_helper",
+      "target": "0x800010e8",
+      "edges": [
+        "0x800001e4"
+      ]
+    },
+    {
+      "addr": "0x800001e4",
+      "role": "peripheral_init",
+      "edges": [
+        "0x800001e8"
+      ]
+    },
+    {
+      "addr": "0x800001e8",
+      "role": "thumb_helper",
+      "target": "0x80001cf4",
+      "edges": [
+        "0x800001ec"
+      ]
+    },
+    {
+      "addr": "0x800001ec",
+      "role": "thumb_helper",
+      "target": "0x80001e64",
+      "edges": [
+        "0x8000023c"
+      ]
+    },
+    {
+      "addr": "0x8000023c",
+      "role": "literal_jump",
+      "literal": "0x8000048c",
+      "value": "0x330",
+      "edges": [
+        "0x80000330"
+      ]
+    },
+    {
+      "addr": "0x800003b8",
+      "role": "cache_sync",
+      "edges": [
+        "0x800003c4"
+      ]
+    },
+    {
+      "addr": "0x800003c4",
+      "role": "program_handoff",
+      "literal": "0x800004a4",
+      "value": "0x06280004",
+      "alias": "0x86280004",
+      "edges": [
+        "0x86280004"
+      ]
+    }
+  ],
+  "capture_point": {
+    "addr": "0x800003c4",
+    "reason": "last low-address ARM instruction before main program handoff",
+    "scratch_constraint": "must avoid 0xd000..0xe144 clear/copy range and early MMU/cache assumptions"
+  },
+  "negative_findings": [
+    "no UPD\\0",
+    "no FW_UPDATE_MODE",
+    "no NAND",
+    "no Panasonic update strings",
+    "no postboot plaintext in lowmem dump"
+  ]
+}
