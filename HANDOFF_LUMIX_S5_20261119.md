@@ -103,6 +103,7 @@ Service USB 已证明可以读取和逐半字写入主核 RAM，也已经证明�
 - `lumix_ml/build_fwupdate_entry_probe.py`。机身更新入口探针生成器。
 - `lumix_ml/read_fwupdate_entry_dump.py`、`read_nand_dump.py`、`read_dump.py`。捕获区和转储读取。
 - `lumix_ml/dtb_parse.py`、`lowmem_scan.py`、`scan_highmem.py`。设备树、低地址和高内存只读分析。
+- `lumix_ml/ram_only_observer.py`。只读采样启动入口、捕获区和活动表，不写 RAM、不执行载荷。
 
 ## 交接时第一步
 

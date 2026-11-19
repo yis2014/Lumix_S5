@@ -8,6 +8,7 @@
 - `ADDRESS_TABLE.md` 关键地址、范围和用途
 - `analysis/` 当前结论、CFG、转储差分和验签记录
 - `lumix_ml/` Service USB、探针、转储和静态分析脚本
+- `lumix_ml/ram_only_observer.py` 默认只读的 RAM-only 状态捕获器
 - `firmware/S5___V29.bin` 官方 V2.9 基线
 - `dumps/` 主核、启动链、rootfs、DTB 和必要窗口
 - `keys/` 镜头材料、公开验签公钥和 keyregion 窗口
