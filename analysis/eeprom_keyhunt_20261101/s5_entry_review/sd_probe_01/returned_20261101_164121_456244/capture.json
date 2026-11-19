@@ -1,0 +1,104 @@
+{
+  "captured_at": "2026-11-01T16:41:21.522972+08:00",
+  "source": "H:\\",
+  "files": [
+    {
+      "name": "vlog.vlt",
+      "bytes": 62565,
+      "sha256": "ea94c9ca24512cac2e4715f7214b05fe3e528e5602ced52105ed495570f737f6",
+      "expected_sha256": "ea94c9ca24512cac2e4715f7214b05fe3e528e5602ced52105ed495570f737f6",
+      "unchanged": true,
+      "status": "captured"
+    },
+    {
+      "name": "S5A.TXT",
+      "bytes": 356673,
+      "sha256": "5080c9143f490b3b2cdf15fa7d990d0a6218e97505fefa5d3085580bd555702f",
+      "expected_sha256": "5080c9143f490b3b2cdf15fa7d990d0a6218e97505fefa5d3085580bd555702f",
+      "unchanged": true,
+      "status": "captured"
+    },
+    {
+      "name": "S5F.TXT",
+      "bytes": 356670,
+      "sha256": "593143338f9b0341986607bfeec82ef2873e0a55c297488945c25e74bf321f01",
+      "expected_sha256": "593143338f9b0341986607bfeec82ef2873e0a55c297488945c25e74bf321f01",
+      "unchanged": true,
+      "status": "captured"
+    },
+    {
+      "name": "S5U.TXT",
+      "bytes": 356668,
+      "sha256": "5ab10aaf956376a2b1a7d0f1eda402a565c00135b79522c5d90cca51ab3f533b",
+      "expected_sha256": "5ab10aaf956376a2b1a7d0f1eda402a565c00135b79522c5d90cca51ab3f533b",
+      "unchanged": true,
+      "status": "captured"
+    },
+    {
+      "name": "S5BASE.VLT",
+      "bytes": 62565,
+      "sha256": "ea94c9ca24512cac2e4715f7214b05fe3e528e5602ced52105ed495570f737f6",
+      "expected_sha256": "ea94c9ca24512cac2e4715f7214b05fe3e528e5602ced52105ed495570f737f6",
+      "unchanged": true,
+      "status": "captured"
+    },
+    {
+      "name": "S5SHORT.VLT",
+      "bytes": 62550,
+      "sha256": "030c9d44acbed4830ab3c54ba5d1a1de4c062bf23ae92ed4602f389c49b29d81",
+      "expected_sha256": "030c9d44acbed4830ab3c54ba5d1a1de4c062bf23ae92ed4602f389c49b29d81",
+      "unchanged": true,
+      "status": "captured"
+    }
+  ],
+  "scope": "Six fixed allowlisted files only; no SD writes, no repair, no camera commands. No recursive media/private file reading.",
+  "root_listing": [
+    {
+      "name": "DCIM",
+      "is_directory": true,
+      "bytes": null
+    },
+    {
+      "name": "PRIVATE",
+      "is_directory": true,
+      "bytes": null
+    },
+    {
+      "name": "S5A.TXT",
+      "is_directory": false,
+      "bytes": 356673
+    },
+    {
+      "name": "S5BASE.VLT",
+      "is_directory": false,
+      "bytes": 62565
+    },
+    {
+      "name": "S5F.TXT",
+      "is_directory": false,
+      "bytes": 356670
+    },
+    {
+      "name": "S5SHORT.VLT",
+      "is_directory": false,
+      "bytes": 62550
+    },
+    {
+      "name": "S5U.TXT",
+      "is_directory": false,
+      "bytes": 356668
+    },
+    {
+      "name": "System Volume Information",
+      "is_directory": true,
+      "bytes": null
+    },
+    {
+      "name": "vlog.vlt",
+      "is_directory": false,
+      "bytes": 62565
+    }
+  ],
+  "interpretation": "Unchanged input files do not prove whether camera parsed every LUT row or committed a slot; no camera error log or memory dump is implied.",
+  "key_recovered": false
+}

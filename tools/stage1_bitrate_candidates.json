@@ -1,0 +1,221 @@
+{
+  "image": {
+    "physical_base": "0x86280000",
+    "main_core_virtual_base": "0x06280000",
+    "size": 30932992
+  },
+  "bitrate_logger": {
+    "function_physical": "0x8775c210",
+    "format_string_physical": "0x8775c609",
+    "format": "TSTargetBitrate = %d, TSMaxBitrate = %d, TSMinBitrate = %d",
+    "object_offsets": {
+      "trans_bitrate_wats": "0x20",
+      "trans_bitrate": "0x24",
+      "ts_target_bitrate": "0x28",
+      "ts_max_bitrate": "0x2c",
+      "ts_min_bitrate": "0x30",
+      "width_candidate": "0x34",
+      "height_candidate": "0x38",
+      "input_frame_rate_u16_candidate": "0x40",
+      "frame_rate_u16_candidate": "0x42"
+    },
+    "status": "instruction-level layout candidate; not a global runtime address"
+  },
+  "video_table": {
+    "first_entry_physical": "0x86a077e4",
+    "stride": "0x74",
+    "bitrate_offset_in_entry": "0x04",
+    "second_bitrate_offset_in_entry": "0x08",
+    "width_offset_in_entry": "0x0c",
+    "height_offset_in_entry": "0x10",
+    "entry_count_in_contiguous_block": 15,
+    "entries": [
+      {
+        "index": 0,
+        "entry_physical": "0x86a077e4",
+        "bitrate_field_physical": "0x86a077e8",
+        "bitrate_bps": 200000000,
+        "bitrate_mbps": 200,
+        "width": 4992,
+        "height": 3744,
+        "fps_field_unverified": 60,
+        "codec_field_unverified": 6,
+        "plausible_s5_mode": true
+      },
+      {
+        "index": 1,
+        "entry_physical": "0x86a07858",
+        "bitrate_field_physical": "0x86a0785c",
+        "bitrate_bps": 200000000,
+        "bitrate_mbps": 200,
+        "width": 4992,
+        "height": 3744,
+        "fps_field_unverified": 60,
+        "codec_field_unverified": 9,
+        "plausible_s5_mode": true
+      },
+      {
+        "index": 2,
+        "entry_physical": "0x86a078cc",
+        "bitrate_field_physical": "0x86a078d0",
+        "bitrate_bps": 200000000,
+        "bitrate_mbps": 200,
+        "width": 4992,
+        "height": 3744,
+        "fps_field_unverified": 60,
+        "codec_field_unverified": 7,
+        "plausible_s5_mode": true
+      },
+      {
+        "index": 3,
+        "entry_physical": "0x86a07940",
+        "bitrate_field_physical": "0x86a07944",
+        "bitrate_bps": 200000000,
+        "bitrate_mbps": 200,
+        "width": 4992,
+        "height": 3744,
+        "fps_field_unverified": 60,
+        "codec_field_unverified": 8,
+        "plausible_s5_mode": true
+      },
+      {
+        "index": 4,
+        "entry_physical": "0x86a079b4",
+        "bitrate_field_physical": "0x86a079b8",
+        "bitrate_bps": 200000000,
+        "bitrate_mbps": 200,
+        "width": 5184,
+        "height": 3456,
+        "fps_field_unverified": 60,
+        "codec_field_unverified": 6,
+        "plausible_s5_mode": true
+      },
+      {
+        "index": 5,
+        "entry_physical": "0x86a07a28",
+        "bitrate_field_physical": "0x86a07a2c",
+        "bitrate_bps": 200000000,
+        "bitrate_mbps": 200,
+        "width": 5120,
+        "height": 2880,
+        "fps_field_unverified": 60,
+        "codec_field_unverified": 6,
+        "plausible_s5_mode": true
+      },
+      {
+        "index": 6,
+        "entry_physical": "0x86a07a9c",
+        "bitrate_field_physical": "0x86a07aa0",
+        "bitrate_bps": 200000000,
+        "bitrate_mbps": 200,
+        "width": 3872,
+        "height": 3872,
+        "fps_field_unverified": 60,
+        "codec_field_unverified": 6,
+        "plausible_s5_mode": false
+      },
+      {
+        "index": 7,
+        "entry_physical": "0x86a07b10",
+        "bitrate_field_physical": "0x86a07b14",
+        "bitrate_bps": 72000000,
+        "bitrate_mbps": 72,
+        "width": 3840,
+        "height": 2160,
+        "fps_field_unverified": 51,
+        "codec_field_unverified": 6,
+        "plausible_s5_mode": true
+      },
+      {
+        "index": 8,
+        "entry_physical": "0x86a07b84",
+        "bitrate_field_physical": "0x86a07b88",
+        "bitrate_bps": 72000000,
+        "bitrate_mbps": 72,
+        "width": 3840,
+        "height": 2160,
+        "fps_field_unverified": 51,
+        "codec_field_unverified": 7,
+        "plausible_s5_mode": true
+      },
+      {
+        "index": 9,
+        "entry_physical": "0x86a07bf8",
+        "bitrate_field_physical": "0x86a07bfc",
+        "bitrate_bps": 72000000,
+        "bitrate_mbps": 72,
+        "width": 3840,
+        "height": 2160,
+        "fps_field_unverified": 51,
+        "codec_field_unverified": 9,
+        "plausible_s5_mode": true
+      },
+      {
+        "index": 10,
+        "entry_physical": "0x86a07c6c",
+        "bitrate_field_physical": "0x86a07c70",
+        "bitrate_bps": 72000000,
+        "bitrate_mbps": 72,
+        "width": 3840,
+        "height": 2160,
+        "fps_field_unverified": 51,
+        "codec_field_unverified": 8,
+        "plausible_s5_mode": true
+      },
+      {
+        "index": 11,
+        "entry_physical": "0x86a07ce0",
+        "bitrate_field_physical": "0x86a07ce4",
+        "bitrate_bps": 36000000,
+        "bitrate_mbps": 36,
+        "width": 3840,
+        "height": 2160,
+        "fps_field_unverified": 51,
+        "codec_field_unverified": 6,
+        "plausible_s5_mode": true
+      },
+      {
+        "index": 12,
+        "entry_physical": "0x86a07d54",
+        "bitrate_field_physical": "0x86a07d58",
+        "bitrate_bps": 200000000,
+        "bitrate_mbps": 200,
+        "width": 3840,
+        "height": 2160,
+        "fps_field_unverified": 52,
+        "codec_field_unverified": 2,
+        "plausible_s5_mode": true
+      },
+      {
+        "index": 13,
+        "entry_physical": "0x86a07dc8",
+        "bitrate_field_physical": "0x86a07dcc",
+        "bitrate_bps": 200000000,
+        "bitrate_mbps": 200,
+        "width": 3840,
+        "height": 2160,
+        "fps_field_unverified": 52,
+        "codec_field_unverified": 3,
+        "plausible_s5_mode": true
+      },
+      {
+        "index": 14,
+        "entry_physical": "0x86a07e3c",
+        "bitrate_field_physical": "0x86a07e40",
+        "bitrate_bps": 64000000,
+        "bitrate_mbps": 64,
+        "width": 7680,
+        "height": 4320,
+        "fps_field_unverified": 60,
+        "codec_field_unverified": 14,
+        "plausible_s5_mode": false
+      }
+    ],
+    "status": "static table candidate; runtime selection and mutability unverified"
+  },
+  "safety": {
+    "camera_writes_performed": false,
+    "nand_writes_performed": false,
+    "next_step": "read-only live differential across two recording modes; do not patch static candidates directly"
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 5358,
+    "sha256": "dbecf6d52a055e8368faaf746a194e0d348716abd62cbe8eb83e537d1cdd68b2",
+    "url": "https://raw.githubusercontent.com/williamwu1234/S5-reverse-engineering/660247dc05e68d0645d96984437a3dade0b2c076/README.md"
+  },
+  {
+    "path": "01_唯一权威调用文档.md",
+    "bytes": 61022,
+    "sha256": "516e6eab92162f63afc39678abb3bf1151d932feb0c1a13cd1765be4b5475459",
+    "url": "https://raw.githubusercontent.com/williamwu1234/S5-reverse-engineering/660247dc05e68d0645d96984437a3dade0b2c076/01_%E5%94%AF%E4%B8%80%E6%9D%83%E5%A8%81%E8%B0%83%E7%94%A8%E6%96%87%E6%A1%A3.md"
+  },
+  {
+    "path": "06_证据索引.md",
+    "bytes": 3749,
+    "sha256": "d3f0b73f16f156f3bf5799055c6856e912ea0d090572778994d69580421ce345",
+    "url": "https://raw.githubusercontent.com/williamwu1234/S5-reverse-engineering/660247dc05e68d0645d96984437a3dade0b2c076/06_%E8%AF%81%E6%8D%AE%E7%B4%A2%E5%BC%95.md"
+  },
+  {
+    "path": "13_新疑点与新方向_20261016.md",
+    "bytes": 18339,
+    "sha256": "6fef3327bdd09e7b744351ba91829a93477a634c82f59980161e62ff3e77d8a4",
+    "url": "https://raw.githubusercontent.com/williamwu1234/S5-reverse-engineering/660247dc05e68d0645d96984437a3dade0b2c076/13_%E6%96%B0%E7%96%91%E7%82%B9%E4%B8%8E%E6%96%B0%E6%96%B9%E5%90%91_20261016.md"
+  },
+  {
+    "path": "11_密码学_正确偏移密钥搜索_20261016/结论.md",
+    "bytes": 8042,
+    "sha256": "72003b3197355097f85af299b3cdc5fb79406171db1a0248700655c72fcc93d6",
+    "url": "https://raw.githubusercontent.com/williamwu1234/S5-reverse-engineering/660247dc05e68d0645d96984437a3dade0b2c076/11_%E5%AF%86%E7%A0%81%E5%AD%A6_%E6%AD%A3%E7%A1%AE%E5%81%8F%E7%A7%BB%E5%AF%86%E9%92%A5%E6%90%9C%E7%B4%A2_20261016/%E7%BB%93%E8%AE%BA.md"
+  },
+  {
+    "path": "11_密码学_正确偏移密钥搜索_20261016/upd_table.py",
+    "bytes": 9475,
+    "sha256": "4c61bf7d3a1211358ed77db405a9fd268b7e368e7c2a0219356d43986f5ca3d9",
+    "url": "https://raw.githubusercontent.com/williamwu1234/S5-reverse-engineering/660247dc05e68d0645d96984437a3dade0b2c076/11_%E5%AF%86%E7%A0%81%E5%AD%A6_%E6%AD%A3%E7%A1%AE%E5%81%8F%E7%A7%BB%E5%AF%86%E9%92%A5%E6%90%9C%E7%B4%A2_20261016/upd_table.py"
+  },
+  {
+    "path": "11_密码学_正确偏移密钥搜索_20261016/exp5_real_key_search_corrected.py",
+    "bytes": 20239,
+    "sha256": "aa928c3e6b9ef9892d5cabcbf3757a8ad074ba4dab050768da4338266161b5ab",
+    "url": "https://raw.githubusercontent.com/williamwu1234/S5-reverse-engineering/660247dc05e68d0645d96984437a3dade0b2c076/11_%E5%AF%86%E7%A0%81%E5%AD%A6_%E6%AD%A3%E7%A1%AE%E5%81%8F%E7%A7%BB%E5%AF%86%E9%92%A5%E6%90%9C%E7%B4%A2_20261016/exp5_real_key_search_corrected.py"
+  },
+  {
+    "path": "11_密码学_正确偏移密钥搜索_20261016/out/exp5_real_key_search.json",
+    "bytes": 5890,
+    "sha256": "169174ee1eee3a4c74b9a07ccaf92e97e91eb1c573ff8a23871c06b393f74758",
+    "url": "https://raw.githubusercontent.com/williamwu1234/S5-reverse-engineering/660247dc05e68d0645d96984437a3dade0b2c076/11_%E5%AF%86%E7%A0%81%E5%AD%A6_%E6%AD%A3%E7%A1%AE%E5%81%8F%E7%A7%BB%E5%AF%86%E9%92%A5%E6%90%9C%E7%B4%A2_20261016/out/exp5_real_key_search.json"
+  }
+]

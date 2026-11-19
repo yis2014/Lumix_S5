@@ -1,0 +1,10 @@
+{
+  "scan_range": [
+    "0x88000000",
+    "0x90000000"
+  ],
+  "descriptor_count": 28,
+  "hits": [],
+  "writes_performed": false,
+  "seconds": 127.8
+}

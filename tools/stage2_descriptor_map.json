@@ -1,0 +1,1297 @@
+{
+  "descriptor_stride": "0x15c",
+  "sub_offsets": [
+    "0x74",
+    "0xe8"
+  ],
+  "descriptors": [
+    {
+      "index": 0,
+      "pointer_slot_phys": "0x865b01f0",
+      "descriptor_phys": "0x86a06b20",
+      "descriptor_virt": "0x6a06b20",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a06b94",
+          "bitrate1_field_phys": "0x86a06bac",
+          "bitrate2_field_phys": "0x86a06bb0",
+          "bitrate1_mbps": 15.0,
+          "bitrate2_mbps": 15.0,
+          "width": 3840,
+          "height": 2160,
+          "codec": 7,
+          "fps_field": 51,
+          "link_clock": 12500000,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            18874368,
+            20971520,
+            13631488
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a06c08",
+          "bitrate1_field_phys": "0x86a06c20",
+          "bitrate2_field_phys": "0x86a06c24",
+          "bitrate1_mbps": 100.0,
+          "bitrate2_mbps": 0.0,
+          "width": 3328,
+          "height": 2496,
+          "codec": 6,
+          "fps_field": 51,
+          "link_clock": 96000000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            39845888,
+            17825792,
+            13631488
+          ]
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "pointer_slot_phys": "0x865b01f4",
+      "descriptor_phys": "0x86a06c7c",
+      "descriptor_virt": "0x6a06c7c",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a06cf0",
+          "bitrate1_field_phys": "0x86a06d08",
+          "bitrate2_field_phys": "0x86a06d0c",
+          "bitrate1_mbps": 100.0,
+          "bitrate2_mbps": 0.0,
+          "width": 3328,
+          "height": 2496,
+          "codec": 8,
+          "fps_field": 51,
+          "link_clock": 96000000,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            42991616,
+            13631488,
+            13631488
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a06d64",
+          "bitrate1_field_phys": "0x86a06d7c",
+          "bitrate2_field_phys": "0x86a06d80",
+          "bitrate1_mbps": 100.0,
+          "bitrate2_mbps": 0.0,
+          "width": 3328,
+          "height": 2496,
+          "codec": 9,
+          "fps_field": 51,
+          "link_clock": 96000000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            42991616,
+            13631488,
+            13631488
+          ]
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "pointer_slot_phys": "0x865b01f8",
+      "descriptor_phys": "0x86a06dd8",
+      "descriptor_virt": "0x6a06dd8",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a06e4c",
+          "bitrate1_field_phys": "0x86a06e64",
+          "bitrate2_field_phys": "0x86a06e68",
+          "bitrate1_mbps": 21.0,
+          "bitrate2_mbps": 0.0,
+          "width": 1920,
+          "height": 1088,
+          "codec": 7,
+          "fps_field": 40,
+          "link_clock": 20000000,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            8388608,
+            5242880,
+            7340032
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a06ec0",
+          "bitrate1_field_phys": "0x86a06ed8",
+          "bitrate2_field_phys": "0x86a06edc",
+          "bitrate1_mbps": 28.0,
+          "bitrate2_mbps": 0.0,
+          "width": 1920,
+          "height": 1088,
+          "codec": 2,
+          "fps_field": 42,
+          "link_clock": 27000000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            12582912,
+            7340032,
+            7340032
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "pointer_slot_phys": "0x865b01fc",
+      "descriptor_phys": "0x86a06f34",
+      "descriptor_virt": "0x6a06f34",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a06fa8",
+          "bitrate1_field_phys": "0x86a06fc0",
+          "bitrate2_field_phys": "0x86a06fc4",
+          "bitrate1_mbps": 24.0,
+          "bitrate2_mbps": 0.0,
+          "width": 1920,
+          "height": 1088,
+          "codec": 9,
+          "fps_field": 41,
+          "link_clock": 23040000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            10485760,
+            4194304,
+            7340032
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a0701c",
+          "bitrate1_field_phys": "0x86a07034",
+          "bitrate2_field_phys": "0x86a07038",
+          "bitrate1_mbps": 75.0,
+          "bitrate2_mbps": 0.0,
+          "width": 3840,
+          "height": 2160,
+          "codec": 2,
+          "fps_field": 52,
+          "link_clock": 72000000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            32505856,
+            20971520,
+            13631488
+          ]
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "pointer_slot_phys": "0x865b0200",
+      "descriptor_phys": "0x86a07090",
+      "descriptor_virt": "0x6a07090",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a07104",
+          "bitrate1_field_phys": "0x86a0711c",
+          "bitrate2_field_phys": "0x86a07120",
+          "bitrate1_mbps": 30.0,
+          "bitrate2_mbps": 30.0,
+          "width": 3840,
+          "height": 2160,
+          "codec": 2,
+          "fps_field": 52,
+          "link_clock": 25000000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            20971520,
+            16777216,
+            13631488
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a07178",
+          "bitrate1_field_phys": "0x86a07190",
+          "bitrate2_field_phys": "0x86a07194",
+          "bitrate1_mbps": 15.0,
+          "bitrate2_mbps": 15.0,
+          "width": 3840,
+          "height": 2160,
+          "codec": 2,
+          "fps_field": 52,
+          "link_clock": 12500000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            17825792,
+            16777216,
+            13631488
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "pointer_slot_phys": "0x865b0204",
+      "descriptor_phys": "0x86a071ec",
+      "descriptor_virt": "0x6a071ec",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a07260",
+          "bitrate1_field_phys": "0x86a07278",
+          "bitrate2_field_phys": "0x86a0727c",
+          "bitrate1_mbps": 60.0,
+          "bitrate2_mbps": 60.0,
+          "width": 3840,
+          "height": 2160,
+          "codec": 3,
+          "fps_field": 52,
+          "link_clock": 50000000,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            29360128,
+            17825792,
+            13631488
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a072d4",
+          "bitrate1_field_phys": "0x86a072ec",
+          "bitrate2_field_phys": "0x86a072f0",
+          "bitrate1_mbps": 30.0,
+          "bitrate2_mbps": 30.0,
+          "width": 3840,
+          "height": 2160,
+          "codec": 3,
+          "fps_field": 52,
+          "link_clock": 25000000,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            24117248,
+            16777216,
+            13631488
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "pointer_slot_phys": "0x865b0208",
+      "descriptor_phys": "0x86a07348",
+      "descriptor_virt": "0x6a07348",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a073bc",
+          "bitrate1_field_phys": "0x86a073d4",
+          "bitrate2_field_phys": "0x86a073d8",
+          "bitrate1_mbps": 90.0,
+          "bitrate2_mbps": 90.0,
+          "width": 3840,
+          "height": 2160,
+          "codec": 6,
+          "fps_field": 51,
+          "link_clock": 75000000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            31457280,
+            27262976,
+            13631488
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a07430",
+          "bitrate1_field_phys": "0x86a07448",
+          "bitrate2_field_phys": "0x86a0744c",
+          "bitrate1_mbps": 60.0,
+          "bitrate2_mbps": 60.0,
+          "width": 3840,
+          "height": 2160,
+          "codec": 6,
+          "fps_field": 51,
+          "link_clock": 50000000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            25165824,
+            24117248,
+            13631488
+          ]
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "pointer_slot_phys": "0x865b020c",
+      "descriptor_phys": "0x86a074a4",
+      "descriptor_virt": "0x6a074a4",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a07518",
+          "bitrate1_field_phys": "0x86a07530",
+          "bitrate2_field_phys": "0x86a07534",
+          "bitrate1_mbps": 15.0,
+          "bitrate2_mbps": 15.0,
+          "width": 3840,
+          "height": 2160,
+          "codec": 6,
+          "fps_field": 51,
+          "link_clock": 12500000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            16777216,
+            20971520,
+            13631488
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a0758c",
+          "bitrate1_field_phys": "0x86a075a4",
+          "bitrate2_field_phys": "0x86a075a8",
+          "bitrate1_mbps": 90.0,
+          "bitrate2_mbps": 90.0,
+          "width": 3840,
+          "height": 2160,
+          "codec": 7,
+          "fps_field": 51,
+          "link_clock": 75000000,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            34603008,
+            25165824,
+            13631488
+          ]
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "pointer_slot_phys": "0x865b0210",
+      "descriptor_phys": "0x86a07600",
+      "descriptor_virt": "0x6a07600",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a07674",
+          "bitrate1_field_phys": "0x86a0768c",
+          "bitrate2_field_phys": "0x86a07690",
+          "bitrate1_mbps": 30.0,
+          "bitrate2_mbps": 30.0,
+          "width": 3840,
+          "height": 2160,
+          "codec": 7,
+          "fps_field": 51,
+          "link_clock": 25000000,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            22020096,
+            20971520,
+            13631488
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a076e8",
+          "bitrate1_field_phys": "0x86a07700",
+          "bitrate2_field_phys": "0x86a07704",
+          "bitrate1_mbps": 15.0,
+          "bitrate2_mbps": 15.0,
+          "width": 3840,
+          "height": 2160,
+          "codec": 7,
+          "fps_field": 51,
+          "link_clock": 12500000,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            18874368,
+            20971520,
+            13631488
+          ]
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "pointer_slot_phys": "0x865b0214",
+      "descriptor_phys": "0x86a0775c",
+      "descriptor_virt": "0x6a0775c",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a077d0",
+          "bitrate1_field_phys": "0x86a077e8",
+          "bitrate2_field_phys": "0x86a077ec",
+          "bitrate1_mbps": 200.0,
+          "bitrate2_mbps": 200.0,
+          "width": 4992,
+          "height": 3744,
+          "codec": 6,
+          "fps_field": 60,
+          "link_clock": 192000000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            87031808,
+            41943040,
+            50331648
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a07844",
+          "bitrate1_field_phys": "0x86a0785c",
+          "bitrate2_field_phys": "0x86a07860",
+          "bitrate1_mbps": 200.0,
+          "bitrate2_mbps": 200.0,
+          "width": 4992,
+          "height": 3744,
+          "codec": 9,
+          "fps_field": 60,
+          "link_clock": 192000000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            95420416,
+            35651584,
+            50331648
+          ]
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "pointer_slot_phys": "0x865b0218",
+      "descriptor_phys": "0x86a078b8",
+      "descriptor_virt": "0x6a078b8",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a0792c",
+          "bitrate1_field_phys": "0x86a07944",
+          "bitrate2_field_phys": "0x86a07948",
+          "bitrate1_mbps": 200.0,
+          "bitrate2_mbps": 200.0,
+          "width": 4992,
+          "height": 3744,
+          "codec": 8,
+          "fps_field": 60,
+          "link_clock": 192000000,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            95420416,
+            35651584,
+            50331648
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a079a0",
+          "bitrate1_field_phys": "0x86a079b8",
+          "bitrate2_field_phys": "0x86a079bc",
+          "bitrate1_mbps": 200.0,
+          "bitrate2_mbps": 200.0,
+          "width": 5184,
+          "height": 3456,
+          "codec": 6,
+          "fps_field": 60,
+          "link_clock": 192000000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            87031808,
+            39845888,
+            48234496
+          ]
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "pointer_slot_phys": "0x865b021c",
+      "descriptor_phys": "0x86a07a14",
+      "descriptor_virt": "0x6a07a14",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a07a88",
+          "bitrate1_field_phys": "0x86a07aa0",
+          "bitrate2_field_phys": "0x86a07aa4",
+          "bitrate1_mbps": 200.0,
+          "bitrate2_mbps": 200.0,
+          "width": 3872,
+          "height": 3872,
+          "codec": 6,
+          "fps_field": 60,
+          "link_clock": 192000000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            87031808,
+            28311552,
+            40894464
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a07afc",
+          "bitrate1_field_phys": "0x86a07b14",
+          "bitrate2_field_phys": "0x86a07b18",
+          "bitrate1_mbps": 72.0,
+          "bitrate2_mbps": 72.0,
+          "width": 3840,
+          "height": 2160,
+          "codec": 6,
+          "fps_field": 51,
+          "link_clock": 60000000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            35651584,
+            17825792,
+            32505856
+          ]
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "pointer_slot_phys": "0x865b0220",
+      "descriptor_phys": "0x86a07b70",
+      "descriptor_virt": "0x6a07b70",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a07be4",
+          "bitrate1_field_phys": "0x86a07bfc",
+          "bitrate2_field_phys": "0x86a07c00",
+          "bitrate1_mbps": 72.0,
+          "bitrate2_mbps": 72.0,
+          "width": 3840,
+          "height": 2160,
+          "codec": 9,
+          "fps_field": 51,
+          "link_clock": 60000000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            39845888,
+            17825792,
+            32505856
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a07c58",
+          "bitrate1_field_phys": "0x86a07c70",
+          "bitrate2_field_phys": "0x86a07c74",
+          "bitrate1_mbps": 72.0,
+          "bitrate2_mbps": 72.0,
+          "width": 3840,
+          "height": 2160,
+          "codec": 8,
+          "fps_field": 51,
+          "link_clock": 60000000,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            39845888,
+            17825792,
+            32505856
+          ]
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "pointer_slot_phys": "0x865b0224",
+      "descriptor_phys": "0x86a07ccc",
+      "descriptor_virt": "0x6a07ccc",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a07d40",
+          "bitrate1_field_phys": "0x86a07d58",
+          "bitrate2_field_phys": "0x86a07d5c",
+          "bitrate1_mbps": 200.0,
+          "bitrate2_mbps": 200.0,
+          "width": 3840,
+          "height": 2160,
+          "codec": 2,
+          "fps_field": 52,
+          "link_clock": 192000000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            70254592,
+            19922944,
+            23068672
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a07db4",
+          "bitrate1_field_phys": "0x86a07dcc",
+          "bitrate2_field_phys": "0x86a07dd0",
+          "bitrate1_mbps": 200.0,
+          "bitrate2_mbps": 200.0,
+          "width": 3840,
+          "height": 2160,
+          "codec": 3,
+          "fps_field": 52,
+          "link_clock": 192000000,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            73400320,
+            19922944,
+            23068672
+          ]
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "pointer_slot_phys": "0x865b0228",
+      "descriptor_phys": "0x86a07e28",
+      "descriptor_virt": "0x6a07e28",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a07e9c",
+          "bitrate1_field_phys": "0x86a07eb4",
+          "bitrate2_field_phys": "0x86a07eb8",
+          "bitrate1_mbps": 54.133333,
+          "bitrate2_mbps": 54.133333,
+          "width": 6496,
+          "height": 4320,
+          "codec": 14,
+          "fps_field": 60,
+          "link_clock": 54133333,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            26308800,
+            53477376,
+            28311552
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a07f10",
+          "bitrate1_field_phys": "0x86a07f28",
+          "bitrate2_field_phys": "0x86a07f2c",
+          "bitrate1_mbps": 48.0,
+          "bitrate2_mbps": 48.0,
+          "width": 5760,
+          "height": 4320,
+          "codec": 14,
+          "fps_field": 60,
+          "link_clock": 48000000,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            23328000,
+            50331648,
+            25165824
+          ]
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "pointer_slot_phys": "0x865b022c",
+      "descriptor_phys": "0x86a07f84",
+      "descriptor_virt": "0x6a07f84",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a07ff8",
+          "bitrate1_field_phys": "0x86a08010",
+          "bitrate2_field_phys": "0x86a08014",
+          "bitrate1_mbps": 38.785185,
+          "bitrate2_mbps": 38.785185,
+          "width": 5984,
+          "height": 3360,
+          "codec": 14,
+          "fps_field": 60,
+          "link_clock": 38785185,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            18849600,
+            39845888,
+            20971520
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a0806c",
+          "bitrate1_field_phys": "0x86a08084",
+          "bitrate2_field_phys": "0x86a08088",
+          "bitrate1_mbps": 45.988148,
+          "bitrate2_mbps": 45.988148,
+          "width": 5984,
+          "height": 3984,
+          "codec": 14,
+          "fps_field": 60,
+          "link_clock": 45988148,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            22350240,
+            44040192,
+            24117248
+          ]
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "pointer_slot_phys": "0x865b0230",
+      "descriptor_phys": "0x86a080e0",
+      "descriptor_virt": "0x6a080e0",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a08154",
+          "bitrate1_field_phys": "0x86a0816c",
+          "bitrate2_field_phys": "0x86a08170",
+          "bitrate1_mbps": 30.864197,
+          "bitrate2_mbps": 30.864197,
+          "width": 4000,
+          "height": 4000,
+          "codec": 14,
+          "fps_field": 60,
+          "link_clock": 30864197,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            15000000,
+            33554432,
+            16777216
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a081c8",
+          "bitrate1_field_phys": "0x86a081e0",
+          "bitrate2_field_phys": "0x86a081e4",
+          "bitrate1_mbps": 16.0,
+          "bitrate2_mbps": 16.0,
+          "width": 3840,
+          "height": 2160,
+          "codec": 14,
+          "fps_field": 51,
+          "link_clock": 16000000,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            3888000,
+            28311552,
+            16777216
+          ]
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "pointer_slot_phys": "0x865b0234",
+      "descriptor_phys": "0x86a0823c",
+      "descriptor_virt": "0x6a0823c",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a082b0",
+          "bitrate1_field_phys": "0x86a082c8",
+          "bitrate2_field_phys": "0x86a082cc",
+          "bitrate1_mbps": 12.0,
+          "bitrate2_mbps": 12.0,
+          "width": 2880,
+          "height": 2160,
+          "codec": 14,
+          "fps_field": 51,
+          "link_clock": 12000000,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            2916000,
+            24117248,
+            12582912
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a08324",
+          "bitrate1_field_phys": "0x86a0833c",
+          "bitrate2_field_phys": "0x86a08340",
+          "bitrate1_mbps": 8.86716,
+          "bitrate2_mbps": 8.86716,
+          "width": 2144,
+          "height": 2144,
+          "codec": 14,
+          "fps_field": 51,
+          "link_clock": 8867160,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            2154720,
+            20971520,
+            9437184
+          ]
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "pointer_slot_phys": "0x865b0238",
+      "descriptor_phys": "0x86a08398",
+      "descriptor_virt": "0x6a08398",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a0840c",
+          "bitrate1_field_phys": "0x86a08424",
+          "bitrate2_field_phys": "0x86a08428",
+          "bitrate1_mbps": 60.0,
+          "bitrate2_mbps": 60.0,
+          "width": 3840,
+          "height": 2160,
+          "codec": 6,
+          "fps_field": 51,
+          "link_clock": 50000000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            32505856,
+            17825792,
+            26214400
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a08480",
+          "bitrate1_field_phys": "0x86a08498",
+          "bitrate2_field_phys": "0x86a0849c",
+          "bitrate1_mbps": 30.0,
+          "bitrate2_mbps": 30.0,
+          "width": 3840,
+          "height": 2160,
+          "codec": 6,
+          "fps_field": 51,
+          "link_clock": 25000000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            25165824,
+            17825792,
+            26214400
+          ]
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "pointer_slot_phys": "0x865b023c",
+      "descriptor_phys": "0x86a084f4",
+      "descriptor_virt": "0x6a084f4",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a08568",
+          "bitrate1_field_phys": "0x86a08580",
+          "bitrate2_field_phys": "0x86a08584",
+          "bitrate1_mbps": 9.6,
+          "bitrate2_mbps": 9.6,
+          "width": 3840,
+          "height": 2160,
+          "codec": 6,
+          "fps_field": 51,
+          "link_clock": 8000000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            19922944,
+            17825792,
+            26214400
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a085dc",
+          "bitrate1_field_phys": "0x86a085f4",
+          "bitrate2_field_phys": "0x86a085f8",
+          "bitrate1_mbps": 90.0,
+          "bitrate2_mbps": 90.0,
+          "width": 3840,
+          "height": 2160,
+          "codec": 7,
+          "fps_field": 51,
+          "link_clock": 75000000,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            42991616,
+            17825792,
+            26214400
+          ]
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "pointer_slot_phys": "0x865b0240",
+      "descriptor_phys": "0x86a08650",
+      "descriptor_virt": "0x6a08650",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a086c4",
+          "bitrate1_field_phys": "0x86a086dc",
+          "bitrate2_field_phys": "0x86a086e0",
+          "bitrate1_mbps": 30.0,
+          "bitrate2_mbps": 30.0,
+          "width": 3840,
+          "height": 2160,
+          "codec": 7,
+          "fps_field": 51,
+          "link_clock": 25000000,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            28311552,
+            17825792,
+            26214400
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a08738",
+          "bitrate1_field_phys": "0x86a08750",
+          "bitrate2_field_phys": "0x86a08754",
+          "bitrate1_mbps": 15.0,
+          "bitrate2_mbps": 15.0,
+          "width": 3840,
+          "height": 2160,
+          "codec": 7,
+          "fps_field": 51,
+          "link_clock": 12500000,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            24117248,
+            17825792,
+            26214400
+          ]
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "pointer_slot_phys": "0x865b0244",
+      "descriptor_phys": "0x86a087ac",
+      "descriptor_virt": "0x6a087ac",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a08820",
+          "bitrate1_field_phys": "0x86a08838",
+          "bitrate2_field_phys": "0x86a0883c",
+          "bitrate1_mbps": 200.0,
+          "bitrate2_mbps": 200.0,
+          "width": 4096,
+          "height": 2160,
+          "codec": 2,
+          "fps_field": 52,
+          "link_clock": 192000000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            70254592,
+            19922944,
+            24117248
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a08894",
+          "bitrate1_field_phys": "0x86a088ac",
+          "bitrate2_field_phys": "0x86a088b0",
+          "bitrate1_mbps": 200.0,
+          "bitrate2_mbps": 200.0,
+          "width": 4096,
+          "height": 2160,
+          "codec": 3,
+          "fps_field": 52,
+          "link_clock": 192000000,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            73400320,
+            19922944,
+            24117248
+          ]
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "pointer_slot_phys": "0x865b0248",
+      "descriptor_phys": "0x86a08908",
+      "descriptor_virt": "0x6a08908",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a0897c",
+          "bitrate1_field_phys": "0x86a08994",
+          "bitrate2_field_phys": "0x86a08998",
+          "bitrate1_mbps": 45.988148,
+          "bitrate2_mbps": 45.988148,
+          "width": 5888,
+          "height": 3312,
+          "codec": 14,
+          "fps_field": 60,
+          "link_clock": 45988148,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            18282240,
+            38797312,
+            19922944
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a089f0",
+          "bitrate1_field_phys": "0x86a08a08",
+          "bitrate2_field_phys": "0x86a08a0c",
+          "bitrate1_mbps": 38.785185,
+          "bitrate2_mbps": 38.785185,
+          "width": 5984,
+          "height": 4000,
+          "codec": 14,
+          "fps_field": 60,
+          "link_clock": 38785185,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            22440000,
+            44040192,
+            24117248
+          ]
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "pointer_slot_phys": "0x865b024c",
+      "descriptor_phys": "0x86a08a64",
+      "descriptor_virt": "0x6a08a64",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a08ad8",
+          "bitrate1_field_phys": "0x86a08af0",
+          "bitrate2_field_phys": "0x86a08af4",
+          "bitrate1_mbps": 200.0,
+          "bitrate2_mbps": 200.0,
+          "width": 5952,
+          "height": 3968,
+          "codec": 9,
+          "fps_field": 60,
+          "link_clock": 192000000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            95420416,
+            40894464,
+            63963136
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a08b4c",
+          "bitrate1_field_phys": "0x86a08b64",
+          "bitrate2_field_phys": "0x86a08b68",
+          "bitrate1_mbps": 200.0,
+          "bitrate2_mbps": 200.0,
+          "width": 5376,
+          "height": 3584,
+          "codec": 6,
+          "fps_field": 60,
+          "link_clock": 192000000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            87031808,
+            35651584,
+            52428800
+          ]
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "pointer_slot_phys": "0x865b0250",
+      "descriptor_phys": "0x86a08bc0",
+      "descriptor_virt": "0x6a08bc0",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a08c34",
+          "bitrate1_field_phys": "0x86a08c4c",
+          "bitrate2_field_phys": "0x86a08c50",
+          "bitrate1_mbps": 200.0,
+          "bitrate2_mbps": 200.0,
+          "width": 5888,
+          "height": 3312,
+          "codec": 6,
+          "fps_field": 60,
+          "link_clock": 192000000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            87031808,
+            35651584,
+            52428800
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a08ca8",
+          "bitrate1_field_phys": "0x86a08cc0",
+          "bitrate2_field_phys": "0x86a08cc4",
+          "bitrate1_mbps": 200.0,
+          "bitrate2_mbps": 200.0,
+          "width": 5888,
+          "height": 3312,
+          "codec": 7,
+          "fps_field": 60,
+          "link_clock": 192000000,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            93323264,
+            35651584,
+            52428800
+          ]
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "pointer_slot_phys": "0x865b0254",
+      "descriptor_phys": "0x86a08d1c",
+      "descriptor_virt": "0x6a08d1c",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a08d90",
+          "bitrate1_field_phys": "0x86a08da8",
+          "bitrate2_field_phys": "0x86a08dac",
+          "bitrate1_mbps": 200.0,
+          "bitrate2_mbps": 200.0,
+          "width": 5888,
+          "height": 3312,
+          "codec": 9,
+          "fps_field": 60,
+          "link_clock": 192000000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            95420416,
+            35651584,
+            52428800
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a08e04",
+          "bitrate1_field_phys": "0x86a08e1c",
+          "bitrate2_field_phys": "0x86a08e20",
+          "bitrate1_mbps": 150.0,
+          "bitrate2_mbps": 150.0,
+          "width": 1920,
+          "height": 1088,
+          "codec": 0,
+          "fps_field": 51,
+          "link_clock": 144000000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            44040192,
+            8388608,
+            6291456
+          ]
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "pointer_slot_phys": "0x865b0258",
+      "descriptor_phys": "0x86a08e78",
+      "descriptor_virt": "0x6a08e78",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a08eec",
+          "bitrate1_field_phys": "0x86a08f04",
+          "bitrate2_field_phys": "0x86a08f08",
+          "bitrate1_mbps": 100.0,
+          "bitrate2_mbps": 100.0,
+          "width": 1920,
+          "height": 1088,
+          "codec": 4,
+          "fps_field": 51,
+          "link_clock": 96000000,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            37748736,
+            8388608,
+            6291456
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a08f60",
+          "bitrate1_field_phys": "0x86a08f78",
+          "bitrate2_field_phys": "0x86a08f7c",
+          "bitrate1_mbps": 100.0,
+          "bitrate2_mbps": 100.0,
+          "width": 1920,
+          "height": 1088,
+          "codec": 5,
+          "fps_field": 51,
+          "link_clock": 96000000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            37748736,
+            8388608,
+            6291456
+          ]
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "pointer_slot_phys": "0x865b025c",
+      "descriptor_phys": "0x86a08fd4",
+      "descriptor_virt": "0x6a08fd4",
+      "sub_entries": [
+        {
+          "sub": 0,
+          "sub_phys": "0x86a09048",
+          "bitrate1_field_phys": "0x86a09060",
+          "bitrate2_field_phys": "0x86a09064",
+          "bitrate1_mbps": 200.0,
+          "bitrate2_mbps": 200.0,
+          "width": 4096,
+          "height": 2160,
+          "codec": 5,
+          "fps_field": 52,
+          "link_clock": 192000000,
+          "fps_fraction": 1001,
+          "mem_sizes": [
+            74448896,
+            19922944,
+            24117248
+          ]
+        },
+        {
+          "sub": 1,
+          "sub_phys": "0x86a090bc",
+          "bitrate1_field_phys": "0x86a090d4",
+          "bitrate2_field_phys": "0x86a090d8",
+          "bitrate1_mbps": 200.0,
+          "bitrate2_mbps": 200.0,
+          "width": 3840,
+          "height": 2160,
+          "codec": 4,
+          "fps_field": 52,
+          "link_clock": 192000000,
+          "fps_fraction": 1000,
+          "mem_sizes": [
+            74448896,
+            19922944,
+            23068672
+          ]
+        }
+      ]
+    }
+  ]
+}

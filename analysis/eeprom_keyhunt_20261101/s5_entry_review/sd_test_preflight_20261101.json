@@ -1,0 +1,18 @@
+{
+  "scope": "User explicitly permits adding S5 research test files to their SD card; preflight only, no SD writes or repair executed.",
+  "source_drive": "H:",
+  "observations": {
+    "filesystem": "exFAT",
+    "health_status": "Warning",
+    "operational_status": "Full Repair Needed",
+    "size_bytes": 63562579968,
+    "free_bytes": 61816569856,
+    "dirty_query_output": "Volume - H: is Dirty",
+    "root_entries": ["DCIM", "PRIVATE", "System Volume Information", "S5A.TXT", "S5F.TXT", "S5U.TXT", "vlog.vlt"]
+  },
+  "interpretation": "Filesystem reports an unclean state. This is not proof of physical media failure. Card filesystem problems would confound camera parser tests.",
+  "prior_backup_scope": "Existing inventory records only 12 selected small research files, not a verified full-card backup.",
+  "actions_not_performed": ["write test files", "overwrite files", "delete files", "repair filesystem", "format card", "run firmware update", "write camera EEPROM"],
+  "test_package_status": "No verified S5 key-export trigger or payload is available. Do not label a generic marker/LUT/update file as a key extractor.",
+  "pending_choice": "Use a separate healthy test card, or first create and verify a complete ordinary-file backup of this card before separately deciding repair."
+}

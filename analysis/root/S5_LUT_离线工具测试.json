@@ -1,0 +1,26 @@
+{
+  "self_test": "PASS",
+  "synthetic_only": true,
+  "network_or_camera_used": false,
+  "checks": [
+    "ABAB repeatability",
+    "nonrepeatable control",
+    "record-relative vs file offsets",
+    "config lengths/records/tag",
+    "PTP length/direction/parameters"
+  ],
+  "does_not_validate": [
+    "camera image pipeline",
+    "instruction address",
+    "hook safety",
+    "LUT recording functionality"
+  ],
+  "inventory": {
+    "workspace": "E:\\desktop\\LUMIX",
+    "file_count": 66,
+    "raw_trace_or_executable_or_archive_candidates": [],
+    "config_binary_candidates": [],
+    "g100_image_candidates": [],
+    "note": "Filename inventory, not a proof of file contents or exhaustive capture detection. Markdown citations and repository tree listings are not the cited raw artifacts."
+  }
+}

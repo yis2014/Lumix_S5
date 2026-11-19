@@ -1,0 +1,329 @@
+[
+  {
+    "id": "CVE-2008-3482",
+    "description": "Cross-site scripting (XSS) vulnerability in the error page feature in Panasonic Network Camera BL-C111, BL-C131, BB-HCM511, BB-HCM531, BB-HCM580, BB-HCM581, BB-HCM527, and BB-HCM515 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.",
+    "references": [
+      "http://jvn.jp/en/jp/JVN33706820/index.html",
+      "http://jvndb.jvn.jp/contents/ja/2008/JVNDB-2008-000037.html",
+      "http://panasonic.net/pcc/support/netwkcam/support/info_xss.html",
+      "http://secunia.com/advisories/31304",
+      "http://www.vupen.com/english/advisories/2008/2257/references",
+      "https://exchange.xforce.ibmcloud.com/vulnerabilities/44118"
+    ]
+  },
+  {
+    "id": "CVE-2013-2310",
+    "description": "SoftBank Wi-Fi Spot Configuration Software, as used on SoftBank SHARP 3G handsets, SoftBank Panasonic 3G handsets, SoftBank NEC 3G handsets, SoftBank Samsung 3G handsets, SoftBank mobile Wi-Fi routers, SoftBank Android smartphones with the Wi-Fi application before 1.7.1, SoftBank Windows Mobile smartphones with the WISPrClient application before 1.3.1, SoftBank Disney Mobile Android smartphones with the Wi-Fi application before 1.7.1, and WILLCOM Android smartphones with the Wi-Fi application before 1.7.1, does not properly connect to access points, which allows remote attackers to obtain sensitive information by leveraging access to an 802.11 network.",
+    "references": [
+      "http://jvn.jp/en/jp/JVN85371480/397327/index.html",
+      "http://jvn.jp/en/jp/JVN85371480/995319/index.html",
+      "http://jvn.jp/en/jp/JVN85371480/995417/index.html",
+      "http://jvn.jp/en/jp/JVN85371480/index.html",
+      "http://jvndb.jvn.jp/jvndb/JVNDB-2013-000039"
+    ]
+  },
+  {
+    "id": "CVE-2014-8755",
+    "description": "Panasonic Network Camera View 3 and 4 allows remote attackers to execute arbitrary code via a crafted page, which triggers an invalid pointer dereference, related to \"the ability to nullify an arbitrary address in memory.\"",
+    "references": [
+      "http://security.panasonic.com/pss/security/library/howto_update_NCV.html",
+      "http://www.zerodayinitiative.com/advisories/ZDI-14-364/"
+    ]
+  },
+  {
+    "id": "CVE-2014-8756",
+    "description": "The NcrCtl4.NcrNet.1 control in Panasonic Network Camera Recorder before 4.04R03 allows remote attackers to execute arbitrary code via a crafted GetVOLHeader method call, which writes null bytes to an arbitrary address.",
+    "references": [
+      "http://panasonic.net/pcc/cgi-bin/products/netwkcam/download_us/tbookmarka_m.cgi?m=%20&mm=2010073014092324",
+      "http://www.zerodayinitiative.com/advisories/ZDI-14-363/"
+    ]
+  },
+  {
+    "id": "CVE-2014-9596",
+    "description": "Panasonic Arbitrator Back-End Server (BES) MK 2.0 VPU before 9.3.1 build 4.08.003.0, when USB Wi-Fi or Direct LAN is enabled, and MK 3.0 VPU before 9.3.1 build 5.06.000.0, when Embedded Wi-Fi or Direct LAN is enabled, does not use encryption, which allows remote attackers to obtain sensitive information by sniffing the network for client-server traffic, as demonstrated by Active Directory credential information.",
+    "references": [
+      "http://us2.campaign-archive1.com/?u=8c9cff2e712e3b7d09a07ecef&id=21f059b3ab",
+      "http://www.kb.cert.org/vuls/id/117604"
+    ]
+  },
+  {
+    "id": "CVE-2015-4647",
+    "description": "Multiple stack-based buffer overflows in Ipropsapi in Panasonic Security API (PS-API) ActiveX SDK before 8.10.18 allow remote attackers to execute arbitrary code via a long string in the (1) FilePassword property or to the (2) GetStringInfo method.",
+    "references": [
+      "http://security.panasonic.com/pss/security/library/developer.html#SDK",
+      "http://www.securityfocus.com/bid/75409",
+      "http://www.zerodayinitiative.com/advisories/ZDI-15-259/",
+      "http://www.zerodayinitiative.com/advisories/ZDI-15-260/"
+    ]
+  },
+  {
+    "id": "CVE-2015-4648",
+    "description": "Stack-based buffer overflow in the Ipropsapi.ipropsapiCtrl.1 ActiveX control in ipropsapivideo in Panasonic Security API (PS-API) ActiveX SDK before 8.10.18 allows remote attackers to execute arbitrary code via a long string to the MulticastAddr method.",
+    "references": [
+      "http://security.panasonic.com/pss/security/library/developer.html#SDK",
+      "http://www.securityfocus.com/bid/75405",
+      "http://www.zerodayinitiative.com/advisories/ZDI-15-261/"
+    ]
+  },
+  {
+    "id": "CVE-2016-4496",
+    "description": "Panasonic FPWIN Pro 5.x through 7.x before 7.130 allows local users to cause a denial of service (out-of-bounds write) or possibly have unspecified other impact by triggering a crafted index value, as demonstrated by an integer overflow.",
+    "references": [
+      "http://www.securityfocus.com/bid/90520",
+      "http://zerodayinitiative.com/advisories/ZDI-16-333/",
+      "http://zerodayinitiative.com/advisories/ZDI-16-335/",
+      "http://zerodayinitiative.com/advisories/ZDI-16-336/",
+      "http://zerodayinitiative.com/advisories/ZDI-16-337/",
+      "https://ics-cert.us-cert.gov/advisories/ICSA-16-131-01"
+    ]
+  },
+  {
+    "id": "CVE-2016-4497",
+    "description": "Panasonic FPWIN Pro 5.x through 7.x before 7.130 allows local users to cause a denial of service or possibly have unspecified other impact via vectors that leverage \"type confusion.\"",
+    "references": [
+      "http://www.securityfocus.com/bid/90523",
+      "http://zerodayinitiative.com/advisories/ZDI-16-334/",
+      "https://ics-cert.us-cert.gov/advisories/ICSA-16-131-01"
+    ]
+  },
+  {
+    "id": "CVE-2016-4498",
+    "description": "Panasonic FPWIN Pro 5.x through 7.x before 7.130 accesses an uninitialized pointer, which allows local users to cause a denial of service or possibly have unspecified other impact via unknown vectors.",
+    "references": [
+      "http://www.securityfocus.com/bid/90521",
+      "http://zerodayinitiative.com/advisories/ZDI-16-332/",
+      "https://ics-cert.us-cert.gov/advisories/ICSA-16-131-01"
+    ]
+  },
+  {
+    "id": "CVE-2016-4499",
+    "description": "Heap-based buffer overflow in Panasonic FPWIN Pro 5.x through 7.x before 7.130 allows local users to cause a denial of service (application crash) via unspecified vectors.",
+    "references": [
+      "http://www.securityfocus.com/bid/90522",
+      "http://zerodayinitiative.com/advisories/ZDI-16-330/",
+      "http://zerodayinitiative.com/advisories/ZDI-16-331/",
+      "https://ics-cert.us-cert.gov/advisories/ICSA-16-131-01"
+    ]
+  },
+  {
+    "id": "CVE-2017-2131",
+    "description": "Panasonic KX-HJB1000 Home unit devices with firmware GHX1YG 14.50 or HJB1000_4.47 allow an attacker to bypass access restrictions to view the configuration menu via unspecified vectors.",
+    "references": [
+      "http://www.securityfocus.com/bid/101581",
+      "https://jvn.jp/en/jp/JVN54795166/"
+    ]
+  },
+  {
+    "id": "CVE-2017-2132",
+    "description": "Panasonic KX-HJB1000 Home unit devices with firmware GHX1YG 14.50 or HJB1000_4.47 allow an attacker to delete arbitrary files in a specific directory via unspecified vectors.",
+    "references": [
+      "http://www.securityfocus.com/bid/101584",
+      "https://jvn.jp/en/jp/JVN54795166/"
+    ]
+  },
+  {
+    "id": "CVE-2017-2133",
+    "description": "SQL injection vulnerability in Panasonic KX-HJB1000 Home unit devices with firmware GHX1YG 14.50 or HJB1000_4.47 allows authenticated attackers to execute arbitrary SQL commands via unspecified vectors.",
+    "references": [
+      "http://www.securityfocus.com/bid/101583",
+      "https://jvn.jp/en/jp/JVN54795166/"
+    ]
+  },
+  {
+    "id": "CVE-2018-16183",
+    "description": "An unquoted search path vulnerability in some pre-installed applications on Panasonic PC run on Windows 7 (32bit), Windows 7 (64bit), Windows 8 (64bit), Windows 8.1 (64bit), Windows 10 (64bit) delivered in or later than October 2009 allow local users to gain privileges via a Trojan horse executable file and execute arbitrary code with eleveted privileges.",
+    "references": [
+      "https://jvn.jp/en/jp/JVN36895151/index.html",
+      "https://pc-dl.panasonic.co.jp/dl/docs/077770"
+    ]
+  },
+  {
+    "id": "CVE-2019-6530",
+    "description": "Panasonic FPWIN Pro version 7.3.0.0 and prior allows attacker-created project files to be loaded by an authenticated user causing heap-based buffer overflows, which may lead to remote code execution.",
+    "references": [
+      "http://www.securityfocus.com/bid/108683",
+      "https://ics-cert.us-cert.gov/advisories/ICSA-19-157-02",
+      "https://www.zerodayinitiative.com/advisories/ZDI-19-565/",
+      "https://www.zerodayinitiative.com/advisories/ZDI-19-567/"
+    ]
+  },
+  {
+    "id": "CVE-2019-6532",
+    "description": "Panasonic FPWIN Pro version 7.3.0.0 and prior allows attacker-created project files to be loaded by an authenticated user triggering incompatible type errors because the resource does not have expected properties. This may lead to remote code execution.",
+    "references": [
+      "http://www.securityfocus.com/bid/108683",
+      "https://ics-cert.us-cert.gov/advisories/ICSA-19-157-02",
+      "https://www.zerodayinitiative.com/advisories/ZDI-19-566/",
+      "https://www.zerodayinitiative.com/advisories/ZDI-19-568/",
+      "https://www.zerodayinitiative.com/advisories/ZDI-19-570/"
+    ]
+  },
+  {
+    "id": "CVE-2019-15376",
+    "description": "The Panasonic Eluga Ray 530 Android device with a build fingerprint of Panasonic/ELUGA_Ray_530/ELUGA_Ray_530:8.1.0/O11019/1531828974:user/release-keys contains a pre-installed app with a package name of com.mediatek.wfo.impl app (versionCode=27, versionName=8.1.0) that allows any app co-located on the device to modify a system property through an exported interface without proper authorization.",
+    "references": [
+      "https://mobile.panasonic.com/in/advisory",
+      "https://www.kryptowire.com/android-firmware-2019/"
+    ]
+  },
+  {
+    "id": "CVE-2019-15378",
+    "description": "The Panasonic Eluga Ray 600 Android device with a build fingerprint of Panasonic/ELUGA_Ray_600/ELUGA_Ray_600:8.1.0/O11019/1532692680:user/release-keys contains a pre-installed app with a package name of com.mediatek.wfo.impl app (versionCode=27, versionName=8.1.0) that allows any app co-located on the device to modify a system property through an exported interface without proper authorization.",
+    "references": [
+      "https://mobile.panasonic.com/in/advisory",
+      "https://www.kryptowire.com/android-firmware-2019/"
+    ]
+  },
+  {
+    "id": "CVE-2019-15429",
+    "description": "The Panasonic ELUGA_I9 Android device with a build fingerprint of Panasonic/ELUGA_I9/ELUGA_I9:7.0/NRD90M/1501740649:user/release-keys contains a pre-installed app with a package name of com.ovvi.modem app (versionCode=1, versionName=1) that allows unauthorized attacker-controlled at command via a confused deputy attack. This capability can be accessed by any app co-located on the device.",
+    "references": [
+      "https://mobile.panasonic.com/in/advisory",
+      "https://www.kryptowire.com/android-firmware-2019/"
+    ]
+  },
+  {
+    "id": "CVE-2020-11715",
+    "description": "Panasonic P99 devices through 2020-04-10 have Incorrect Access Control. NOTE: the vendor states that all affected products are at \"End-of-software-support.\"",
+    "references": [
+      "https://mobile.panasonic.com/in/advisory"
+    ]
+  },
+  {
+    "id": "CVE-2020-11716",
+    "description": "Panasonic P110, Eluga Z1 Pro, Eluga X1, and Eluga X1 Pro devices through 2020-04-10 have Insecure Permissions. NOTE: the vendor states that all affected products are at \"End-of-software-support.\"",
+    "references": [
+      "https://mobile.panasonic.com/in/advisory"
+    ]
+  },
+  {
+    "id": "CVE-2020-29193",
+    "description": "[Non-operational summary; exact credential omitted] Panasonic Security System WV-S2231L 4.25 contains a hard-coded password. This is not a LUMIX product.",
+    "references": [
+      "https://github.com/cecada/Panasonic-WV-S2231L/blob/main/README.md",
+      "https://security.panasonic.com/products_technology/products/wv-s2231l/"
+    ]
+  },
+  {
+    "id": "CVE-2020-29194",
+    "description": "[Non-operational summary; request payload omitted] Panasonic Security System WV-S2231L 4.25 has an administrative-panel denial-of-service issue requiring physical reset. This is not a LUMIX product.",
+    "references": [
+      "https://github.com/cecada/Panasonic-WV-S2231L/blob/main/README.md",
+      "https://security.panasonic.com/products_technology/products/wv-s2231l/"
+    ]
+  },
+  {
+    "id": "CVE-2021-32972",
+    "description": "Panasonic FPWIN Pro, all Versions 7.5.1.1 and prior, allows an attacker to craft a project file specifying a URI that causes the XML parser to access the URI and embed the contents, which may allow the attacker to disclose information that is accessible in the context of the user executing software.",
+    "references": [
+      "https://us-cert.cisa.gov/ics/advisories/icsa-21-180-03"
+    ]
+  },
+  {
+    "id": "CVE-2022-4621",
+    "description": "Panasonic Sanyo CCTV Network Cameras versions 1.02-05 and 2.03-0x are \nvulnerable to CSRFs that can be exploited to allow an attacker to \nperform changes with administrator level privileges. \n\n\n\n",
+    "references": [
+      "https://archives.connect.panasonic.com/security/sanyo/index.html",
+      "https://www.cisa.gov/uscert/ics/advisories/icsa-23-012-04"
+    ]
+  },
+  {
+    "id": "CVE-2023-28726",
+    "description": "Panasonic AiSEG2 versions 2.80F through 2.93A allows remote attackers to execute arbitrary OS commands.",
+    "references": [
+      "https://www2.panasonic.biz/jp/densetsu/aiseg/firmup_info.html"
+    ]
+  },
+  {
+    "id": "CVE-2023-28727",
+    "description": "Panasonic AiSEG2 versions 2.00J through 2.93A allows adjacent attackers bypass authentication due to mishandling of X-Forwarded-For headers.",
+    "references": [
+      "https://www2.panasonic.biz/jp/densetsu/aiseg/firmup_info.html"
+    ]
+  },
+  {
+    "id": "CVE-2023-28728",
+    "description": "A stack-based buffer overflow in Panasonic Control FPWIN Pro versions 7.6.0.3 and all previous versions may allow arbitrary code execution when opening specially crafted project files.",
+    "references": [
+      "https://industry.panasonic.eu/factory-automation/programmable-logic-controllers-plc/plc-software/programming-software-control-fpwin-pro"
+    ]
+  },
+  {
+    "id": "CVE-2023-28729",
+    "description": "A type confusion vulnerability in Panasonic Control FPWIN Pro versions 7.6.0.3 and all previous versions may allow arbitrary code execution when opening specially crafted project files.",
+    "references": [
+      "https://industry.panasonic.eu/factory-automation/programmable-logic-controllers-plc/plc-software/programming-software-control-fpwin-pro"
+    ]
+  },
+  {
+    "id": "CVE-2023-28730",
+    "description": "A memory corruption vulnerability Panasonic Control FPWIN Pro versions 7.6.0.3 and all previous versions may allow arbitrary code execution when opening specially crafted project files.",
+    "references": [
+      "https://industry.panasonic.eu/factory-automation/programmable-logic-controllers-plc/plc-software/programming-software-control-fpwin-pro"
+    ]
+  },
+  {
+    "id": "CVE-2023-3471",
+    "description": "Buffer overflow vulnerability in Panasonic KW Watcher versions 1.00 through 2.82 may allow attackers to execute arbitrary code.",
+    "references": [
+      "https://www3.panasonic.biz/ac/e/fasys/software_info/eco/kwwatcher_versioninfo.jsp",
+      "https://www3.panasonic.biz/ac/j/fasys/software_info/eco/tol_kwwatcher.jsp"
+    ]
+  },
+  {
+    "id": "CVE-2023-3472",
+    "description": "Use after free vulnerability in Panasonic KW Watcher versions 1.00 through 2.82 may allow attackers to execute arbitrary code.",
+    "references": [
+      "https://www3.panasonic.biz/ac/e/fasys/software_info/eco/kwwatcher_versioninfo.jsp",
+      "https://www3.panasonic.biz/ac/j/fasys/software_info/eco/tol_kwwatcher.jsp"
+    ]
+  },
+  {
+    "id": "CVE-2024-4162",
+    "description": "A buffer error in Panasonic KW Watcher versions 1.00 through 2.83 may allow attackers malicious read access to memory.",
+    "references": [
+      "https://www3.panasonic.biz/ac/e/fasys/software_info/eco/tol_kwwatcher.jsp"
+    ]
+  },
+  {
+    "id": "CVE-2024-46859",
+    "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nplatform/x86: panasonic-laptop: Fix SINF array out of bounds accesses\n\nThe panasonic laptop code in various places uses the SINF array with index\nvalues of 0 - SINF_CUR_BRIGHT(0x0d) without checking that the SINF array\nis big enough.\n\nNot all panasonic laptops have this many SINF array entries, for example\nthe Toughbook CF-18 model only has 10 SINF array entries. So it only\nsupports the AC+DC brightness entries and mute.\n\nCheck that the SINF array has a minimum size which covers all AC+DC\nbrightness entries and refuse to load if the SINF array is smaller.\n\nFor higher SINF indexes hide the sysfs attributes when the SINF array\ndoes not contain an entry for that attribute, avoiding show()/store()\naccessing the array out of bounds and add bounds checking to the probe()\nand resume() code accessing these.",
+    "references": [
+      "https://git.kernel.org/stable/c/6821a82616f60aa72c5909b3e252ad97fb9f7e2a",
+      "https://git.kernel.org/stable/c/9291fadbd2720a869b1d2fcf82305648e2e62a16",
+      "https://git.kernel.org/stable/c/b38c19783286a71693c2194ed1b36665168c09c4",
+      "https://git.kernel.org/stable/c/b7c2f692307fe704be87ea80d7328782b33c3cef",
+      "https://git.kernel.org/stable/c/f52e98d16e9bd7dd2b3aef8e38db5cbc9899d6a4",
+      "https://lists.debian.org/debian-lts-announce/2025/01/msg00001.html"
+    ]
+  },
+  {
+    "id": "CVE-2025-1073",
+    "description": "Panasonic IR Control Hub (IR Blaster) versions 1.17 and earlier may allow an attacker with physical access to load unauthorized firmware onto the device.",
+    "references": [
+      "https://lsin.panasonic.com/release-notes"
+    ]
+  },
+  {
+    "id": "CVE-2025-11223",
+    "description": "Installer of \n\nPanasonic \n\nAutoDownloader \n\n\n\n version 1.2.8\ncontains an issue with the DLL search path, which may lead to loading \n\na crafted DLL file in the same directory.",
+    "references": [
+      "https://content.connect.panasonic.com/jp-ja/fai/file/66248"
+    ]
+  },
+  {
+    "id": "CVE-2026-89436",
+    "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nplatform/x86: panasonic-laptop: Fix sentinel write past pcc->sinf[]\n\nacpi_pcc_retrieve_biosdata() rejects SINF packages only when\npcc->num_sifr is strictly less than hkey->package.count, then\nunconditionally writes a trailing sentinel at\npcc->sinf[hkey->package.count]. But pcc->sinf[] is allocated with\nexactly pcc->num_sifr elements (valid indices 0..num_sifr-1), so that\nwrite needs num_sifr strictly greater than package.count to stay in\nbounds -- num_sifr == package.count passes the existing check but\nstill overflows by one element.\n\nThis is exactly the case probe()'s existing num_sifr++ workaround\n(\"Some DSDT-s have an off-by-one bug where the SINF package count is\none higher than the SQTY reported value\") is written to accommodate:\nwhen a DSDT's SINF package count equals SQTY+1, the workaround makes\nnum_sifr equal to package.count, which is precisely the boundary that\noverflows here. Found via UBSan (array-index-out-of-bounds) on\nhardware where HKEY.SQTY returns 37 and HKEY.SINF()'s package has 38\nelements: num_sifr becomes 38 after the += 1 workaround, the loop\ncorrectly fills indices 0..37, and the sentinel write then targets\nindex 38, one past the end -- a silent 4-byte heap overflow on kernels\nwithout CONFIG_UBSAN.\n\nTightening the rejection check to num_sifr <= package.count would\navoid the overflow but breaks probe() entirely on exactly this\nhardware, since num_sifr == package.count is the case the off-by-one\nworkaround exists to support. Nothing else in the driver reads this\nsentinel value back, so simply skip the write when there is no room\nfor it instead.",
+    "references": [
+      "https://git.kernel.org/stable/c/329f10d8be193bf36af124e00b9dd6644cd71724",
+      "https://git.kernel.org/stable/c/a93df956ee4d903735b6d395362c839cb1dc07e3"
+    ]
+  },
+  {
+    "id": "CVE-2026-16726",
+    "description": "Buffer overflow vulnerability in Panasonic Industry USB Driver for MINAS A5/A6 allows \nattackers  to stop Windows.",
+    "references": [
+      "https://industry.panasonic.com/global/en/products/motor/fa-motor/ac-servo/ptusbdrva5"
+    ]
+  }
+]

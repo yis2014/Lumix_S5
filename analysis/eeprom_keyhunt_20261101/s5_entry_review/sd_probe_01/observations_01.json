@@ -1,0 +1,24 @@
+{
+  "test_id": "S5_SD_VLT_ROWCOUNT_01",
+  "user_report_verbatim": "全部都成功了",
+  "user_report_interpretation": "User reports both files loaded successfully and both effects applied. Exact camera message, current firmware and objectively distinguishable slot-content change were not supplied; the two samples differ only at the last RGB row.",
+  "control_reported_result": "success",
+  "one_row_short_reported_result": "success",
+  "camera_firmware_version": null,
+  "exact_screen_message": null,
+  "rendered_effect_verified": "user_reported_both_loaded_and_applied_effects; not independently screen-captured",
+  "user_clarification_verbatim": "两份都加载完成，也分别启用了画面效果",
+  "crash_reported": false,
+  "host_readback": "returned_20261101_164121_456244/capture.json",
+  "host_findings": {
+    "card_health": "Healthy",
+    "card_operational_status": "OK",
+    "six_allowlisted_file_hashes_unchanged": true,
+    "new_root_entries_relative_to_deployment": [],
+    "scope": "Root listing and six allowlisted files only; no recursive log/media inspection."
+  },
+  "supported_conclusion": "A 4912-row file declaring17^3 rows did not produce a failure reported by the user in this test; input files remained intact.",
+  "not_established": ["all4912 rows were actually parsed", "LUT slot contents changed", "missing row read out of bounds", "uninitialized memory was disclosed", "code execution", "key recovery"],
+  "alternative_explanations": ["missing row filled/defaulted", "previous slot contents retained", "parser reads untilEOF and accepts partial content", "success refers to file selection rather than committed LUT contents"],
+  "next_observation_needed": "Distinguish completed import and actual applied effect from file listing/selection success before constructing more malformed samples."
+}

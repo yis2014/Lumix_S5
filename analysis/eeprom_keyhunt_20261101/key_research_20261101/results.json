@@ -1,0 +1,227 @@
+{
+  "scope": "Conditional AES hypotheses and schedule scan; not a cipher identification or exhaustive key search.",
+  "inputs": {
+    "S5___V28.bin": {
+      "size": 90238464,
+      "sha256": "44944f9bd0fc72b2d612f1acb714f735ca70cea58c2265ac60ec7fca08131939"
+    },
+    "S5___V29.bin": {
+      "size": 90238464,
+      "sha256": "b2ec4aeec209693b874df8dfdf11fc85b38fa4675b44ec554b7a167f430827e1"
+    },
+    "S5m2_V37.bin": {
+      "size": 179207168,
+      "sha256": "99180a1738d74d0d0062e146dd0f239f65cb5bca6b49a8d2a1a94a8018d93ffa"
+    },
+    "400BV020.plf": {
+      "size": 361176,
+      "sha256": "a871c3d47aceba5588a3479354841e6c960d1166203d8a71b4b6f702bbbcfc46"
+    }
+  },
+  "cryptography_version": "46.0.3",
+  "selftests": {
+    "nist_cbc": true,
+    "nist_ctr_ofb_cfb": true,
+    "fips197_expansion_128_192_256": true,
+    "cbc_unknown_iv": true,
+    "wrong_offset_negative": true,
+    "synthetic_schedule_tests": [
+      {
+        "bits": 128,
+        "layout": "bytes",
+        "pass_test": true
+      },
+      {
+        "bits": 128,
+        "layout": "reversed-u32",
+        "pass_test": true
+      },
+      {
+        "bits": 192,
+        "layout": "bytes",
+        "pass_test": true
+      },
+      {
+        "bits": 192,
+        "layout": "reversed-u32",
+        "pass_test": true
+      },
+      {
+        "bits": 256,
+        "layout": "bytes",
+        "pass_test": true
+      },
+      {
+        "bits": 256,
+        "layout": "reversed-u32",
+        "pass_test": true
+      }
+    ],
+    "synthetic_results_are_real_keys": false
+  },
+  "schedule_scan": [
+    {
+      "file": "S5___V28.bin",
+      "bytes": 90238464,
+      "prefilter_hits": {
+        "128": 2,
+        "192": 2,
+        "256": 0
+      },
+      "fully_valid_schedules": []
+    },
+    {
+      "file": "S5___V29.bin",
+      "bytes": 90238464,
+      "prefilter_hits": {
+        "128": 2,
+        "192": 3,
+        "256": 0
+      },
+      "fully_valid_schedules": []
+    },
+    {
+      "file": "S5m2_V37.bin",
+      "bytes": 179207168,
+      "prefilter_hits": {
+        "128": 2,
+        "192": 2,
+        "256": 0
+      },
+      "fully_valid_schedules": []
+    },
+    {
+      "file": "400BV020.plf",
+      "bytes": 361176,
+      "prefilter_hits": {
+        "128": 3,
+        "192": 2,
+        "256": 19
+      },
+      "fully_valid_schedules": []
+    }
+  ],
+  "candidate_count": 67102,
+  "candidate_counts_by_bits": {
+    "128": 20230,
+    "192": 22614,
+    "256": 24258
+  },
+  "candidate_source_ranges": {
+    "S5___V28.bin": {
+      "metadata_range": [
+        0,
+        5632
+      ],
+      "new_unique_candidates": 13439
+    },
+    "S5___V29.bin": {
+      "metadata_range": [
+        0,
+        5632
+      ],
+      "new_unique_candidates": 6098
+    },
+    "S5m2_V37.bin": {
+      "metadata_range": [
+        0,
+        6144
+      ],
+      "new_unique_candidates": 14018
+    }
+  },
+  "candidate_pool_sha256": "d2931d593e1ba7f5f708d990ba93262adc0eb77a6433c70401fb6493679b8193",
+  "target_resources": [
+    {
+      "image": "S5___V28.bin",
+      "partition": "eep_act_a",
+      "size": 2048,
+      "sha256": "59aa79d1fdaa9ed58e3eb53b3bad24ca7301ad21fd2f967af4ec8a7c518ecf4a"
+    },
+    {
+      "image": "S5___V29.bin",
+      "partition": "eep_act_a",
+      "size": 2048,
+      "sha256": "59aa79d1fdaa9ed58e3eb53b3bad24ca7301ad21fd2f967af4ec8a7c518ecf4a"
+    },
+    {
+      "image": "S5___V28.bin",
+      "partition": "eep_act_b",
+      "size": 2048,
+      "sha256": "59aa79d1fdaa9ed58e3eb53b3bad24ca7301ad21fd2f967af4ec8a7c518ecf4a"
+    },
+    {
+      "image": "S5___V29.bin",
+      "partition": "eep_act_b",
+      "size": 2048,
+      "sha256": "59aa79d1fdaa9ed58e3eb53b3bad24ca7301ad21fd2f967af4ec8a7c518ecf4a"
+    },
+    {
+      "image": "S5___V28.bin",
+      "partition": "ipu_data",
+      "size": 262144,
+      "sha256": "8a39d2abd3999ab73c34db2476849cddf303ce389b35826850f9a700589b4a90"
+    },
+    {
+      "image": "S5___V29.bin",
+      "partition": "ipu_data",
+      "size": 262144,
+      "sha256": "8a39d2abd3999ab73c34db2476849cddf303ce389b35826850f9a700589b4a90"
+    },
+    {
+      "image": "S5___V28.bin",
+      "partition": "koutei_kao",
+      "size": 114688,
+      "sha256": "0fb19aef2e26fbb568abce93c300cb41b2754c6e309726c880fd11c2a1f7776d"
+    },
+    {
+      "image": "S5___V29.bin",
+      "partition": "koutei_kao",
+      "size": 114688,
+      "sha256": "0fb19aef2e26fbb568abce93c300cb41b2754c6e309726c880fd11c2a1f7776d"
+    },
+    {
+      "image": "S5___V28.bin",
+      "partition": "music",
+      "size": 3538944,
+      "sha256": "5dcc34ae10f9d7be2150752d7fbf4e7bae58d585ea3b3eeff93e985cf557c723"
+    },
+    {
+      "image": "S5___V29.bin",
+      "partition": "music",
+      "size": 3538944,
+      "sha256": "5dcc34ae10f9d7be2150752d7fbf4e7bae58d585ea3b3eeff93e985cf557c723"
+    },
+    {
+      "image": "S5m2_V37.bin",
+      "partition": "music",
+      "size": 3538944,
+      "sha256": "5dcc34ae10f9d7be2150752d7fbf4e7bae58d585ea3b3eeff93e985cf557c723"
+    }
+  ],
+  "tests": {
+    "cbc_unknown_iv": 738122,
+    "ecb": 738122,
+    "stream_initial_states": 4428732
+  },
+  "full_verified_matches": [],
+  "key_recovered": false,
+  "zero_plaintext_ecb_check": {
+    "image": "S5___V28.bin",
+    "partition": "ipu_data",
+    "known_plaintext_all_zero": true,
+    "ciphertext_first_two_blocks_identical": false,
+    "conclusion": "Direct AES-ECB without preprocessing is inconsistent with known all-zero resource when ciphertext blocks differ; does not exclude hybrid/chunked encoding."
+  },
+  "elapsed_seconds": 14.62176929996349,
+  "original_inputs_unchanged": true,
+  "limits": [
+    "AES use is not established by these tests.",
+    "No arbitrary KDF/hash/wordlist/random-padding candidates.",
+    "CBC assumes exact known plaintext aligned at partition start and direct CBC encoding.",
+    "Stream tests cover listed initial states, CTR full128 big-endian increments, OFB and CFB128 only.",
+    "No chunk resets, byte permutations of payload, wrappers, compression before encryption, wrapped/hardware keys or general KDF tested.",
+    "Schedule scan covers contiguous forward schedules and reversed-u32 storage, not all decryption/transformed schedules.",
+    "Negative results reject only exact candidate+encoding hypotheses; no OTP/key absence conclusion."
+  ]
+}

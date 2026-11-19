@@ -1,0 +1,10 @@
+[
+  {
+    "digest": "be",
+    "sig": "file",
+    "pub": "stored",
+    "r0": 0,
+    "instructions": 16871571,
+    "negative_control_r0": 1
+  }
+]

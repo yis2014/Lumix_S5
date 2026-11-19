@@ -1,0 +1,260 @@
+{
+  "purpose": "Recover and verify metadata PUBLIC keys only; not decryption keys/private signing keys.",
+  "curve": "secp256r1",
+  "point_arithmetic_checked_against_cryptography": true,
+  "g100_known_public_control_passed": true,
+  "input_signatures": [
+    {
+      "file": "analysis\\eeprom_keyhunt_20261101\\g100_official\\G100_V13.bin",
+      "file_sha256": "6c726fe0278a2a4a31a5c4f21f7f05915dfbb435579f5241259f85e3dc91492c",
+      "message_start": 672,
+      "message_end": 4152,
+      "message_sha256": "706b0aa7607a461096d19eaa77920598d4c8f5d87cf5af7679874237b431874a",
+      "signature_raw64": "a925a08df71952734a32a3e9ada0794f2aa72305fcdf3675d25c3d9d6cd64347ac993d1f205d4dc298a7204b616e268c08f854ccc70c9a9cc64ee2e9af84a1bc",
+      "candidates": [
+        {
+          "public_raw64_BE": "c07e398fd6639710600f823acebb2ab36913fcf5bd079c0a33e37658ac02405e1b3d0bb18491ceb167ae403ccc7cc5dda88dace8db7b08d505691a098fd53ef3",
+          "public_raw64_LE": "5e4002ac5876e3330a9c07bdf5fc1369b32abbce3a820f60109763d68f397ec0f33ed58f091a6905d5087bdbe8ac8da8ddc57ccc3c40ae67b1ce9184b10b3d1b",
+          "signature_scalar_endian": "little",
+          "digest_interpretation": "standard"
+        },
+        {
+          "public_raw64_BE": "e4741e443ada5fc6f390ebe17255e9efdf3efb5e4761702af00905d884e2360c2fbaec564e23c29e3f4e403c44d6c9372f9677cc0ef461b2eb64f377e5732dab",
+          "public_raw64_LE": "0c36e284d80509f02a7061475efb3edfefe95572e1eb90f3c65fda3a441e74e4ab2d73e577f364ebb261f40ecc77962f37c9d6443c404e3f9ec2234e56ecba2f",
+          "signature_scalar_endian": "little",
+          "digest_interpretation": "standard"
+        },
+        {
+          "public_raw64_BE": "c7d0e5db14e361b1694a9613d4876428348fab7b92ef2f9de973258e1c54d3b2919bf28b39221f0a0b670d6100de2b3e94f21ca130c2511d0dc60ddfa59df6fe",
+          "public_raw64_LE": "b2d3541c8e2573e99d2fef927bab8f34286487d413964a69b161e314dbe5d0c7fef69da5df0dc60d1d51c230a11cf2943e2bde00610d670b0a1f22398bf29b91",
+          "signature_scalar_endian": "little",
+          "digest_interpretation": "reversed"
+        },
+        {
+          "public_raw64_BE": "88f5e2980d2a0112f32562b6e504bd16343c82e5463fc88922508463a8887acae38cb34027f2432dce0d514ce9cb328703f60adf15b0c8978bc4bcf4110dcc2b",
+          "public_raw64_LE": "ca7a88a86384502289c83f46e5823c3416bd04e5b66225f312012a0d98e2f5882bcc0d11f4bcc48b97c8b015df0af6038732cbe94c510dce2d43f22740b38ce3",
+          "signature_scalar_endian": "little",
+          "digest_interpretation": "reversed"
+        }
+      ]
+    },
+    {
+      "file": "S5___V28.bin",
+      "file_sha256": "44944f9bd0fc72b2d612f1acb714f735ca70cea58c2265ac60ec7fca08131939",
+      "message_start": 672,
+      "message_end": 5164,
+      "message_sha256": "45ed3b864d3454853b0263488f38b5261b1ad26b79f0608e31041319771274c3",
+      "signature_raw64": "8bb85c66edc7a5bf46cbc5efb9b907538ac0c6e558f2b9fde9f6584aff4296036e1f83bd8f07e34262bb23673f84d1715a2de5513d03cecbbce6b883478718a2",
+      "candidates": [
+        {
+          "public_raw64_BE": "8fee670bda97f56d91782e01190d705d8cb17b1e7501cacd94156f434c3edc7cbd8451fdcc27d71785edd98dbb04ae17bc7d14d9f8d82bc42695d50615b9fc96",
+          "public_raw64_LE": "7cdc3e4c436f1594cdca01751e7bb18c5d700d19012e78916df597da0b67ee8f96fcb91506d59526c42bd8f8d9147dbc17ae04bb8dd9ed8517d727ccfd5184bd",
+          "signature_scalar_endian": "little",
+          "digest_interpretation": "standard"
+        },
+        {
+          "public_raw64_BE": "2fbad56bbca0bebfa40b2e4e59454415fa2359eab983a7db0e7bb990f7b7bb76922e70d7e9223436465bdbe033f6270e82780de28b26b54288af484012d3fd13",
+          "public_raw64_LE": "76bbb7f790b97b0edba783b9ea5923fa154445594e2e0ba4bfbea0bc6bd5ba2f13fdd3124048af8842b5268be20d78820e27f633e0db5b46363422e9d7702e92",
+          "signature_scalar_endian": "little",
+          "digest_interpretation": "standard"
+        },
+        {
+          "public_raw64_BE": "1f675991a845a7a8dbe3d633ba19d829093210028db26b7635f0ede64648d29e9168eab8780dda99265758dfe996a1234577cae4e08f54a6238fabc5221553cc",
+          "public_raw64_LE": "9ed24846e6edf035766bb28d0210320929d819ba33d6e3dba8a745a89159671fcc531522c5ab8f23a6548fe0e4ca774523a196e9df58572699da0d78b8ea6891",
+          "signature_scalar_endian": "little",
+          "digest_interpretation": "reversed"
+        },
+        {
+          "public_raw64_BE": "97a782ade4b6fb52f688a59e431506853c744faadf40c1aaa65a3ea007ea34fc4b0b262ea5ab902785f6d9e2d465504723e3b21fd6dae4c7d68f375126bc7868",
+          "public_raw64_LE": "fc34ea07a03e5aa6aac140dfaa4f743c850615439ea588f652fbb6e4ad82a7976878bc2651378fd6c7e4dad61fb2e323475065d4e2d9f6852790aba52e260b4b",
+          "signature_scalar_endian": "little",
+          "digest_interpretation": "reversed"
+        },
+        {
+          "public_raw64_BE": "916f8b6294f91886ef84ef2093ca53fc91e174c2a18bdfb4b3c97281e020495d697a91c845b18b40bc20efcc509687d260161227c634fca262e169ad374bb2cb",
+          "public_raw64_LE": "5d4920e08172c9b3b4df8ba1c274e191fc53ca9320ef84ef8618f994628b6f91cbb24b37ad69e162a2fc34c627121660d2879650ccef20bc408bb145c8917a69",
+          "signature_scalar_endian": "big",
+          "digest_interpretation": "standard"
+        },
+        {
+          "public_raw64_BE": "408ce0206d399584551044289a7cd6dd23680b10407beaafcf45abff8250365ba2a6b4c84a3639f063fa5e1bfab55682812ea43262aa0688f2cc12cc95dcd01e",
+          "public_raw64_LE": "5b365082ffab45cfafea7b40100b6823ddd67c9a284410558495396d20e08c401ed0dc95cc12ccf28806aa6232a42e818256b5fa1b5efa63f039364ac8b4a6a2",
+          "signature_scalar_endian": "big",
+          "digest_interpretation": "standard"
+        },
+        {
+          "public_raw64_BE": "0d5ae6e685b937f43c4483339bec79f5d43aef651a1b0b7488ea09140f07a796652a35a32b8857f57a47bd6fa776dd425864d63707bb4ccddc6f6ec001f24099",
+          "public_raw64_LE": "96a7070f1409ea88740b1b1a65ef3ad4f579ec9b3383443cf437b985e6e65a0d9940f201c06e6fdccd4cbb0737d6645842dd76a76fbd477af557882ba3352a65",
+          "signature_scalar_endian": "big",
+          "digest_interpretation": "reversed"
+        },
+        {
+          "public_raw64_BE": "fb57ebbe47f6841e3a2e1486d04af5e286c01cc540286674623ccccd1391e7a2e4e30f463aaed6343ac45ef1b848764c6467c27fb19431f37d0f31cf20918d0c",
+          "public_raw64_LE": "a2e79113cdcc3c6274662840c51cc086e2f54ad086142e3a1e84f647beeb57fb0c8d9120cf310f7df33194b17fc267644c7648b8f15ec43a34d6ae3a460fe3e4",
+          "signature_scalar_endian": "big",
+          "digest_interpretation": "reversed"
+        }
+      ]
+    },
+    {
+      "file": "S5___V29.bin",
+      "file_sha256": "b2ec4aeec209693b874df8dfdf11fc85b38fa4675b44ec554b7a167f430827e1",
+      "message_start": 672,
+      "message_end": 5164,
+      "message_sha256": "74bab435dae4b52adcfed52e96ad8e2caab480677f93a1371596d6d36e7a8a3d",
+      "signature_raw64": "9acfa33f545b047520c25d2d5e0870bbc935ee0842c8d9cda44e058e5629bc7adc0e5e6656325de2485a9ac8e67a612000f2ee5d0e6fb8c0d9f09f7a9419510e",
+      "candidates": [
+        {
+          "public_raw64_BE": "d4883698720dc21836fc34d3b1995de4e52487154ba3ce67b487dd452711c49b675c934dab83485b933f89b07a50253f22b371603f2dac04596d297d51135326",
+          "public_raw64_LE": "9bc4112745dd87b467cea34b158724e5e45d99b1d334fc3618c20d72983688d4265313517d296d5904ac2d3f6071b3223f25507ab0893f935b4883ab4d935c67",
+          "signature_scalar_endian": "little",
+          "digest_interpretation": "standard"
+        },
+        {
+          "public_raw64_BE": "6bf9dd56fa1ee440e7bdde2dc2462cdc308263e7156f63a988284e8e79991baff82e81c6f235f242a1b94d25f892e3bbfecb38959d92ac72cb8b0acb40e20a5c",
+          "public_raw64_LE": "af1b99798e4e2888a9636f15e7638230dc2c46c22ddebde740e41efa56ddf96b5c0ae240cb0a8bcb72ac929d9538cbfebbe392f8254db9a142f235f2c6812ef8",
+          "signature_scalar_endian": "little",
+          "digest_interpretation": "standard"
+        },
+        {
+          "public_raw64_BE": "7d1123eceb252e1aabefaa6cb3e9e31092ea316285201d152c74e3dded701269e1130d27cb07d9c83a3f83cff669509af1d742cc984543f9bb699266696c9add",
+          "public_raw64_LE": "691270eddde3742c151d20856231ea9210e3e9b36caaefab1a2e25ebec23117ddd9a6c69669269bbf9434598cc42d7f19a5069f6cf833f3ac8d907cb270d13e1",
+          "signature_scalar_endian": "little",
+          "digest_interpretation": "reversed"
+        },
+        {
+          "public_raw64_BE": "1f675991a845a7a8dbe3d633ba19d829093210028db26b7635f0ede64648d29e9168eab8780dda99265758dfe996a1234577cae4e08f54a6238fabc5221553cc",
+          "public_raw64_LE": "9ed24846e6edf035766bb28d0210320929d819ba33d6e3dba8a745a89159671fcc531522c5ab8f23a6548fe0e4ca774523a196e9df58572699da0d78b8ea6891",
+          "signature_scalar_endian": "little",
+          "digest_interpretation": "reversed"
+        },
+        {
+          "public_raw64_BE": "bc2a1629d26f43ee886e41f898700bf6ce417dfc27dc4f39ea805ddefbf4092b6c416808f8f33ada05c8b8ec57446fb533ae5802932b26f49d65c3ffb1b86cda",
+          "public_raw64_LE": "2b09f4fbde5d80ea394fdc27fc7d41cef60b7098f8416e88ee436fd229162abcda6cb8b1ffc3659df4262b930258ae33b56f4457ecb8c805da3af3f80868416c",
+          "signature_scalar_endian": "big",
+          "digest_interpretation": "standard"
+        },
+        {
+          "public_raw64_BE": "e7b73cad51e6c9ed196814574745a9b6d8e6ee4032ae52a797b628b8cd95bdd21e36e96b8a98fa6930ec0851632e93344b61e104c83b2abb05a923504184175d",
+          "public_raw64_LE": "d2bd95cdb828b697a752ae3240eee6d8b6a9454757146819edc9e651ad3cb7e75d1784415023a905bb2a3bc804e1614b34932e635108ec3069fa988a6be9361e",
+          "signature_scalar_endian": "big",
+          "digest_interpretation": "standard"
+        },
+        {
+          "public_raw64_BE": "21099c2e30d0e9ee059f75bff53cd14ec326da175db84250723be19f7c127813d3ac4f5a12edb74816a1f9ac1be9fe26a93d315cb308ef9d7a98bdd98447cd15",
+          "public_raw64_LE": "1378127c9fe13b725042b85d17da26c34ed13cf5bf759f05eee9d0302e9c092115cd4784d9bd987a9def08b35c313da926fee91bacf9a11648b7ed125a4facd3",
+          "signature_scalar_endian": "big",
+          "digest_interpretation": "reversed"
+        },
+        {
+          "public_raw64_BE": "dfeacb9c5639eb6a2c1a3467fc9cf547b053c61d56d8d12a5c7a5e354fc3599cd8e091f38315d879af742768a2ad58996e051858a894c70bcee05e0b673f0b42",
+          "public_raw64_LE": "9c59c34f355e7a5c2ad1d8561dc653b047f59cfc67341a2c6aeb39569ccbeadf420b3f670b5ee0ce0bc794a85818056e9958ada2682774af79d81583f391e0d8",
+          "signature_scalar_endian": "big",
+          "digest_interpretation": "reversed"
+        }
+      ]
+    },
+    {
+      "file": "S5m2_V37.bin",
+      "file_sha256": "99180a1738d74d0d0062e146dd0f239f65cb5bca6b49a8d2a1a94a8018d93ffa",
+      "message_start": 672,
+      "message_end": 6084,
+      "message_sha256": "d53790bbbbed128a1907b525e3692fa2f3717686e4c954fc434804a82482077c",
+      "signature_raw64": "1aac8ffdc7ba7efd2a960e9ad6caa7709c0fbecb8f1739cc264f4aeb82df4558eca69487786cc66bf762686bed7a9f4149c636f2380956e92e6f2385b8cd3b74",
+      "candidates": [
+        {
+          "public_raw64_BE": "5e0e443cad8ad175485d6abfb6ba8518481e63d67ac6f41434ab9d6452ba868b1198c2e495f1c6c974ec734b00a351847c11cebe1ce51950890e0f5124b7b36c",
+          "public_raw64_LE": "8b86ba52649dab3414f4c67ad6631e481885bab6bf6a5d4875d18aad3c440e5e6cb3b724510f0e895019e51cbece117c8451a3004b73ec74c9c6f195e4c29811",
+          "signature_scalar_endian": "little",
+          "digest_interpretation": "standard"
+        },
+        {
+          "public_raw64_BE": "683eb5e19dec5dc9b2b2f9465e0096725bd6cd00671b19ea6974d2f5d5118b721bbfce62c30556f71a5f9e9ac698d0c08d51b8140a69e75e0ab2a78adf0a2061",
+          "public_raw64_LE": "728b11d5f5d27469ea191b6700cdd65b7296005e46f9b2b2c95dec9de1b53e6861200adf8aa7b20a5ee7690a14b8518dc0d098c69a9e5f1af75605c362cebf1b",
+          "signature_scalar_endian": "little",
+          "digest_interpretation": "standard"
+        },
+        {
+          "public_raw64_BE": "a1bf093811354e9f3492c6e9be0065350ca86ecdc5777b6f6f0f24b2f5c656549f5c5b4fe6d9e766e17d61784bd2a013566efb8ff6cf97ea4a2bf1a3c3ecb5ac",
+          "public_raw64_LE": "5456c6f5b2240f6f6f7b77c5cd6ea80c356500bee9c692349f4e35113809bfa1acb5ecc3a3f12b4aea97cff68ffb6e5613a0d24b78617de166e7d9e64f5b5c9f",
+          "signature_scalar_endian": "little",
+          "digest_interpretation": "reversed"
+        },
+        {
+          "public_raw64_BE": "72e335c05d276ee6cc236a67a84bf8ce8251be1b703eca0ae08345248082f926f41d0169ab11c8aea0f7483cbcc2ba63bfb196a5ca14ec9097ee694b5bec165b",
+          "public_raw64_LE": "26f98280244583e00aca3e701bbe5182cef84ba8676a23cce66e275dc035e3725b16ec5b4b69ee9790ec14caa596b1bf63bac2bc3c48f7a0aec811ab69011df4",
+          "signature_scalar_endian": "little",
+          "digest_interpretation": "reversed"
+        }
+      ]
+    }
+  ],
+  "s5_two_signature_intersection_count": 1,
+  "selected_s5_public_keys": [
+    {
+      "public_raw64_BE": "1f675991a845a7a8dbe3d633ba19d829093210028db26b7635f0ede64648d29e9168eab8780dda99265758dfe996a1234577cae4e08f54a6238fabc5221553cc",
+      "public_raw64_LE": "9ed24846e6edf035766bb28d0210320929d819ba33d6e3dba8a745a89159671fcc531522c5ab8f23a6548fe0e4ca774523a196e9df58572699da0d78b8ea6891",
+      "verified_images": [
+        {
+          "file": "S5___V28.bin",
+          "signature_scalar_endian": "little",
+          "digest_interpretation": "reversed",
+          "verified": true
+        },
+        {
+          "file": "S5___V29.bin",
+          "signature_scalar_endian": "little",
+          "digest_interpretation": "reversed",
+          "verified": true
+        }
+      ],
+      "common_verification_parameters": [
+        {
+          "signature_scalar_endian": "little",
+          "digest_interpretation": "reversed"
+        }
+      ],
+      "artifacts": [
+        {
+          "file": "analysis\\eeprom_keyhunt_20261101\\metadata_public_recovery\\S5_V28_V29_metadata_public_0ffaf83e958b.pem",
+          "sha256": "bff859ce76a2dc269fcd002b0e93e048c6a57af2ef9937275b6c96d88b9e2fc6"
+        },
+        {
+          "file": "analysis\\eeprom_keyhunt_20261101\\metadata_public_recovery\\S5_V28_V29_metadata_public_0ffaf83e958b.der",
+          "sha256": "cb84bc9ef75985840d7c3c841cc0a1443925bd8cbb5e4ecd5cddf970e16a1b7f"
+        },
+        {
+          "file": "analysis\\eeprom_keyhunt_20261101\\metadata_public_recovery\\S5_V28_V29_metadata_public_0ffaf83e958b_raw64_LE.bin",
+          "sha256": "f97431f70dd04f124b40192e8a013ec713e611a26f016c92696adf64df689f5a"
+        },
+        {
+          "file": "analysis\\eeprom_keyhunt_20261101\\metadata_public_recovery\\S5_V28_V29_metadata_public_0ffaf83e958b_raw64_BE.bin",
+          "sha256": "0ffaf83e958bc679a847a36882c8fa90bb98601e53e0b710ed91e7d0ff37af0b"
+        }
+      ]
+    }
+  ],
+  "negative_controls": [
+    {
+      "file": "S5___V28.bin",
+      "original_verifies": true,
+      "directory_one_bit_rejected": true,
+      "directory_mutation_file_offset": 748,
+      "signature_one_bit_rejected": true,
+      "repeated_header_one_bit_rejected": true
+    },
+    {
+      "file": "S5___V29.bin",
+      "original_verifies": true,
+      "directory_one_bit_rejected": true,
+      "directory_mutation_file_offset": 748,
+      "signature_one_bit_rejected": true,
+      "repeated_header_one_bit_rejected": true
+    }
+  ],
+  "recovered_public_key_locations": [],
+  "s5_public_key_uniquely_recovered": true,
+  "payload_decryption_key_recovered": false,
+  "private_key_recovered": false,
+  "elapsed_seconds": 1.1056963999872096
+}

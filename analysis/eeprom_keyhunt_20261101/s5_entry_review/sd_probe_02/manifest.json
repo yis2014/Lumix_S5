@@ -1,0 +1,66 @@
+{
+  "test_id": "S5_SD_VLT_VISUAL_PROVENANCE_02",
+  "created_at": "2026-11-01T16:42:51.070970+08:00",
+  "stage": "deployed",
+  "purpose": "Distinguish new partial-file contents actually applied from prior LUT slot retention; not an out-of-bounds/leak/code-execution/key test.",
+  "files": [
+    {
+      "name": "S5GREEN.VLT",
+      "bytes": 44335,
+      "sha256": "8ecf6e7cfa3eeeaf05925cdffb75f7bc087c9102b9b25fdf3f4b52e0e26131d6",
+      "records": 4913,
+      "rgb": [
+        0,
+        4095,
+        0
+      ]
+    },
+    {
+      "name": "S5MAG.VLT",
+      "bytes": 59074,
+      "sha256": "b747fa972f95471333293dbf723933b6cca628a0b26291d3f53ca7a1bed3e80b",
+      "records": 4913,
+      "rgb": [
+        4095,
+        0,
+        4095
+      ]
+    },
+    {
+      "name": "S5MSHORT.VLT",
+      "bytes": 59062,
+      "sha256": "5687c6bdae152e74f2ab3d11f366e4714b00427a6a8f790d7aa15ed9dcd9e075",
+      "records": 4912,
+      "rgb": [
+        4095,
+        0,
+        4095
+      ]
+    }
+  ],
+  "probe_diff": "S5MSHORT is exact S5MAG minus final RGB record; complete green is distinguishable reset control.",
+  "expected_visuals": {
+    "S5GREEN": "Uniform green when this LUT is actually applied.",
+    "S5MAG": "Uniform magenta when this LUT is actually applied.",
+    "S5MSHORT": "Unknown until tested; observe whether previously green view becomes magenta."
+  },
+  "steps": [
+    "Use same unused user LUT slot as prior test, no firmware-update or service menu.",
+    "Import/apply S5GREEN: confirm green.",
+    "Import/apply complete S5MAG: confirm magenta. Stop if either complete control fails or no distinct preview effect.",
+    "Import/apply S5GREEN again: confirm green immediately before shortened sample.",
+    "Import/apply S5MSHORT once: record exact import message and resulting color. Do not infer key leakage from a color.",
+    "Restore original normal LUT selection and view-assist state after observations. LUT file deletion alone does not restore a modified user slot."
+  ],
+  "side_effect": "Deliberately uniform preview colors; may affect LUT-assisted HDMI preview if enabled. Not a sensor/firmware modification. Avoid recording test-preview output as real footage.",
+  "decision": "If short imports and changes green→magenta without abnormal behavior, supported result is partial LUT content accepted; stop row-count branch absent further evidence.",
+  "key_export_capability": false,
+  "camera_executed": false,
+  "card_root": "H:\\",
+  "six_prior_hashes_unchanged": true,
+  "readback_sha256": {
+    "S5GREEN.VLT": "8ecf6e7cfa3eeeaf05925cdffb75f7bc087c9102b9b25fdf3f4b52e0e26131d6",
+    "S5MAG.VLT": "b747fa972f95471333293dbf723933b6cca628a0b26291d3f53ca7a1bed3e80b",
+    "S5MSHORT.VLT": "5687c6bdae152e74f2ab3d11f366e4714b00427a6a8f790d7aa15ed9dcd9e075"
+  }
+}

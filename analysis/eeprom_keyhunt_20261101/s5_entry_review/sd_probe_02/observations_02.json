@@ -1,0 +1,15 @@
+{
+  "test_id": "S5_SD_VLT_VISUAL_PROVENANCE_02",
+  "user_report_verbatim": "S5MSHORT.VLT 没变化是灰色",
+  "result_classification": "ambiguous_gray_observation",
+  "gray_ui_element": null,
+  "green_control_observed_green": null,
+  "magenta_control_observed_magenta": null,
+  "green_reset_observed_green": null,
+  "short_import_completed": null,
+  "exact_screen_message": null,
+  "interpretation": "Gray may describe a disabled filename/menu entry or the rendered preview; no branch classification is justified until distinguished. Full-color control results were not provided in this message.",
+  "next_action": "Clarify menu/file-entry gray versus preview gray. Do not deploy additional variants or infer memory disclosure from an unclassified visual report.",
+  "key_recovered": false,
+  "new_sd_writes_this_turn": false
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "name": "eep_act_a",
+    "url": "https://raw.githubusercontent.com/williamwu1234/S5-reverse-engineering/660247dc05e68d0645d96984437a3dade0b2c076/04_%E5%85%B3%E9%94%AE%E6%95%B0%E6%8D%AE/K32%E6%81%A2%E5%A4%8D%E6%98%8E%E6%96%87/rec_S5V29_eep_act_a_from_G100.bin",
+    "bytes": 2048,
+    "sha256": "59aa79d1fdaa9ed58e3eb53b3bad24ca7301ad21fd2f967af4ec8a7c518ecf4a",
+    "nonzero_bytes": 1538,
+    "local_versions": [
+      {
+        "file": "S5___V28.bin",
+        "size_matches": true,
+        "stored_sha256_matches": true,
+        "ciphertext_sha256": "a5d336d2cd63d9705b97a21bb923ff5a04d073723e670e5090836bd48dc4dc7d"
+      },
+      {
+        "file": "S5___V29.bin",
+        "size_matches": true,
+        "stored_sha256_matches": true,
+        "ciphertext_sha256": "dfb6c6d25c364671ea79fa725c5cba45c74d55b1e62d6b2fb1cf521b79980919"
+      }
+    ]
+  },
+  {
+    "name": "eep_act_b",
+    "url": "https://raw.githubusercontent.com/williamwu1234/S5-reverse-engineering/660247dc05e68d0645d96984437a3dade0b2c076/04_%E5%85%B3%E9%94%AE%E6%95%B0%E6%8D%AE/K32%E6%81%A2%E5%A4%8D%E6%98%8E%E6%96%87/rec_S5V29_eep_act_b_from_G100.bin",
+    "bytes": 2048,
+    "sha256": "59aa79d1fdaa9ed58e3eb53b3bad24ca7301ad21fd2f967af4ec8a7c518ecf4a",
+    "nonzero_bytes": 1538,
+    "local_versions": [
+      {
+        "file": "S5___V28.bin",
+        "size_matches": true,
+        "stored_sha256_matches": true,
+        "ciphertext_sha256": "4038c93ee00fc3cda78ca453394008a1385de7b866adcbf627aaf27012bdea4e"
+      },
+      {
+        "file": "S5___V29.bin",
+        "size_matches": true,
+        "stored_sha256_matches": true,
+        "ciphertext_sha256": "14feda5611797df0f12c5737a2f73ee2d67a370e0e0decb493900b3734d5432d"
+      }
+    ]
+  },
+  {
+    "name": "ipu_data",
+    "url": "https://raw.githubusercontent.com/williamwu1234/S5-reverse-engineering/660247dc05e68d0645d96984437a3dade0b2c076/04_%E5%85%B3%E9%94%AE%E6%95%B0%E6%8D%AE/K32%E6%81%A2%E5%A4%8D%E6%98%8E%E6%96%87/rec_S5V29_ipu_data_from_G100.bin",
+    "bytes": 262144,
+    "sha256": "8a39d2abd3999ab73c34db2476849cddf303ce389b35826850f9a700589b4a90",
+    "nonzero_bytes": 0,
+    "local_versions": [
+      {
+        "file": "S5___V28.bin",
+        "size_matches": true,
+        "stored_sha256_matches": true,
+        "ciphertext_sha256": "cc1c94493a4b9dd989ed9968c93c407c60a7e5df7044f6c92a378b90529d84ea"
+      },
+      {
+        "file": "S5___V29.bin",
+        "size_matches": true,
+        "stored_sha256_matches": true,
+        "ciphertext_sha256": "5ff049e5847b4ed01eed4ee827627e587d36d368f1565d8ad51e043532a20468"
+      }
+    ]
+  },
+  {
+    "name": "koutei_kao",
+    "url": "https://raw.githubusercontent.com/williamwu1234/S5-reverse-engineering/660247dc05e68d0645d96984437a3dade0b2c076/04_%E5%85%B3%E9%94%AE%E6%95%B0%E6%8D%AE/K32%E6%81%A2%E5%A4%8D%E6%98%8E%E6%96%87/rec_S5V29_koutei_kao_from_G100.bin",
+    "bytes": 114688,
+    "sha256": "0fb19aef2e26fbb568abce93c300cb41b2754c6e309726c880fd11c2a1f7776d",
+    "nonzero_bytes": 113799,
+    "local_versions": [
+      {
+        "file": "S5___V28.bin",
+        "size_matches": true,
+        "stored_sha256_matches": true,
+        "ciphertext_sha256": "7673be67013895dd95339fabfda0622af20766dcd7ea86004d1d1155272fbd96"
+      },
+      {
+        "file": "S5___V29.bin",
+        "size_matches": true,
+        "stored_sha256_matches": true,
+        "ciphertext_sha256": "3f9a829ade0576990ac63fb6b533d91019d233821ceecd752ed33db160197872"
+      }
+    ]
+  },
+  {
+    "name": "music",
+    "url": "https://raw.githubusercontent.com/williamwu1234/S5-reverse-engineering/660247dc05e68d0645d96984437a3dade0b2c076/04_%E5%85%B3%E9%94%AE%E6%95%B0%E6%8D%AE/K32%E6%81%A2%E5%A4%8D%E6%98%8E%E6%96%87/rec_S5V29_music_from_G100.bin",
+    "bytes": 3538944,
+    "sha256": "5dcc34ae10f9d7be2150752d7fbf4e7bae58d585ea3b3eeff93e985cf557c723",
+    "nonzero_bytes": 3296000,
+    "local_versions": [
+      {
+        "file": "S5___V28.bin",
+        "size_matches": true,
+        "stored_sha256_matches": true,
+        "ciphertext_sha256": "275e4f67fd2adb47559fbbe4440195be4780d3e7b9af46caa5aac31c33cf2fec"
+      },
+      {
+        "file": "S5___V29.bin",
+        "size_matches": true,
+        "stored_sha256_matches": true,
+        "ciphertext_sha256": "9695253d9753a4de0d3aa5c1ea1edd6415f0cc88c8f1578df07db63d1d886fd3"
+      }
+    ]
+  }
+]

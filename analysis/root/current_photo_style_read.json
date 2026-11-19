@@ -1,0 +1,114 @@
+{
+  "self_test": "PASS",
+  "input": "analysis\\current_photo_style_read.bin",
+  "bytes": 152,
+  "sha256": "13c48f262a648e092ff49c340d220f945e177e89dcf3d5663d7c1055abb795fe",
+  "scope": "observed 9402 group TLV framing; field meanings unassigned",
+  "records": [
+    {
+      "offset": 0,
+      "tag": "0x02000011",
+      "bytes": 2,
+      "value_hex": "2800",
+      "integer_le": 40
+    },
+    {
+      "offset": 10,
+      "tag": "0x02000012",
+      "bytes": 2,
+      "value_hex": "0000",
+      "integer_le": 0
+    },
+    {
+      "offset": 20,
+      "tag": "0x02000013",
+      "bytes": 2,
+      "value_hex": "0000",
+      "integer_le": 0
+    },
+    {
+      "offset": 30,
+      "tag": "0x02000014",
+      "bytes": 2,
+      "value_hex": "0000",
+      "integer_le": 0
+    },
+    {
+      "offset": 40,
+      "tag": "0x02000015",
+      "bytes": 2,
+      "value_hex": "0000",
+      "integer_le": 0
+    },
+    {
+      "offset": 50,
+      "tag": "0x02000016",
+      "bytes": 2,
+      "value_hex": "0000",
+      "integer_le": 0
+    },
+    {
+      "offset": 60,
+      "tag": "0x02000017",
+      "bytes": 2,
+      "value_hex": "0000",
+      "integer_le": 0
+    },
+    {
+      "offset": 70,
+      "tag": "0x02000018",
+      "bytes": 2,
+      "value_hex": "0000",
+      "integer_le": 0
+    },
+    {
+      "offset": 80,
+      "tag": "0x02000019",
+      "bytes": 2,
+      "value_hex": "0100",
+      "integer_le": 1
+    },
+    {
+      "offset": 90,
+      "tag": "0x0200001a",
+      "bytes": 2,
+      "value_hex": "0000",
+      "integer_le": 0
+    },
+    {
+      "offset": 100,
+      "tag": "0x0200001b",
+      "bytes": 2,
+      "value_hex": "0000",
+      "integer_le": 0
+    },
+    {
+      "offset": 110,
+      "tag": "0x0200001c",
+      "bytes": 2,
+      "value_hex": "0000",
+      "integer_le": 0
+    },
+    {
+      "offset": 120,
+      "tag": "0x0200001d",
+      "bytes": 4,
+      "value_hex": "ffffffff",
+      "integer_le": 4294967295
+    },
+    {
+      "offset": 132,
+      "tag": "0x0200001e",
+      "bytes": 2,
+      "value_hex": "0200",
+      "integer_le": 2
+    },
+    {
+      "offset": 142,
+      "tag": "0x0200001f",
+      "bytes": 2,
+      "value_hex": "2800",
+      "integer_le": 40
+    }
+  ]
+}

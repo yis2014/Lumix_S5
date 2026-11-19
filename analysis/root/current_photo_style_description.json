@@ -1,0 +1,483 @@
+{
+  "self_test": "PASS: synthetic bounds/width fixtures; no camera fuzz",
+  "scope": "observed PhotoStyle description tree only; no other property queries",
+  "description_sha256": "bb7a02000ed24dd4093fc368baec8431e8c70b280f3f6af60be727a133c61f18",
+  "getter_sha256": "13c48f262a648e092ff49c340d220f945e177e89dcf3d5663d7c1055abb795fe",
+  "root_tag": "0x2000010",
+  "root_metadata_words": [
+    20,
+    65537,
+    0,
+    15,
+    1114
+  ],
+  "child_count": 15,
+  "all_current_values_match_getter": true,
+  "fields": [
+    {
+      "tag": "0x02000011",
+      "descriptor_offset": 28,
+      "descriptor_words_u32": [
+        20,
+        65537,
+        0,
+        1,
+        76
+      ],
+      "value_record_offset": 56,
+      "opaque_value_metadata_u32": [
+        0,
+        65537,
+        0,
+        1,
+        4,
+        2
+      ],
+      "width": 2,
+      "current_hex": "2800",
+      "current_u32": 40,
+      "matches_independent_getter": true,
+      "enumerated_values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        40,
+        41,
+        42,
+        44,
+        45
+      ]
+    },
+    {
+      "tag": "0x02000012",
+      "descriptor_offset": 132,
+      "descriptor_words_u32": [
+        20,
+        65537,
+        0,
+        1,
+        38
+      ],
+      "value_record_offset": 160,
+      "opaque_value_metadata_u32": [
+        0,
+        65537,
+        0,
+        1,
+        4,
+        2
+      ],
+      "width": 2,
+      "current_hex": "0000",
+      "current_u32": 0,
+      "matches_independent_getter": true,
+      "enumerated_values": []
+    },
+    {
+      "tag": "0x02000013",
+      "descriptor_offset": 198,
+      "descriptor_words_u32": [
+        20,
+        65537,
+        0,
+        1,
+        80
+      ],
+      "value_record_offset": 226,
+      "opaque_value_metadata_u32": [
+        0,
+        65537,
+        0,
+        1,
+        4,
+        2
+      ],
+      "width": 2,
+      "current_hex": "0000",
+      "current_u32": 0,
+      "matches_independent_getter": true,
+      "enumerated_values": [
+        0,
+        513,
+        1,
+        515,
+        2,
+        517,
+        3,
+        519,
+        4,
+        521,
+        5,
+        523,
+        6,
+        525,
+        7,
+        527,
+        8,
+        529,
+        9,
+        531,
+        10
+      ]
+    },
+    {
+      "tag": "0x02000014",
+      "descriptor_offset": 306,
+      "descriptor_words_u32": [
+        20,
+        65537,
+        0,
+        1,
+        80
+      ],
+      "value_record_offset": 334,
+      "opaque_value_metadata_u32": [
+        0,
+        65537,
+        0,
+        1,
+        4,
+        2
+      ],
+      "width": 2,
+      "current_hex": "0000",
+      "current_u32": 0,
+      "matches_independent_getter": true,
+      "enumerated_values": [
+        0,
+        513,
+        1,
+        515,
+        2,
+        517,
+        3,
+        519,
+        4,
+        521,
+        5,
+        523,
+        6,
+        525,
+        7,
+        527,
+        8,
+        529,
+        9,
+        531,
+        10
+      ]
+    },
+    {
+      "tag": "0x02000015",
+      "descriptor_offset": 414,
+      "descriptor_words_u32": [
+        20,
+        65537,
+        0,
+        1,
+        38
+      ],
+      "value_record_offset": 442,
+      "opaque_value_metadata_u32": [
+        0,
+        65537,
+        0,
+        1,
+        4,
+        2
+      ],
+      "width": 2,
+      "current_hex": "0000",
+      "current_u32": 0,
+      "matches_independent_getter": true,
+      "enumerated_values": []
+    },
+    {
+      "tag": "0x02000016",
+      "descriptor_offset": 480,
+      "descriptor_words_u32": [
+        20,
+        65537,
+        0,
+        1,
+        38
+      ],
+      "value_record_offset": 508,
+      "opaque_value_metadata_u32": [
+        0,
+        65537,
+        0,
+        1,
+        4,
+        2
+      ],
+      "width": 2,
+      "current_hex": "0000",
+      "current_u32": 0,
+      "matches_independent_getter": true,
+      "enumerated_values": []
+    },
+    {
+      "tag": "0x02000017",
+      "descriptor_offset": 546,
+      "descriptor_words_u32": [
+        20,
+        65537,
+        0,
+        1,
+        38
+      ],
+      "value_record_offset": 574,
+      "opaque_value_metadata_u32": [
+        0,
+        65537,
+        0,
+        1,
+        4,
+        2
+      ],
+      "width": 2,
+      "current_hex": "0000",
+      "current_u32": 0,
+      "matches_independent_getter": true,
+      "enumerated_values": []
+    },
+    {
+      "tag": "0x02000018",
+      "descriptor_offset": 612,
+      "descriptor_words_u32": [
+        20,
+        65537,
+        0,
+        1,
+        38
+      ],
+      "value_record_offset": 640,
+      "opaque_value_metadata_u32": [
+        0,
+        65537,
+        0,
+        1,
+        4,
+        2
+      ],
+      "width": 2,
+      "current_hex": "0000",
+      "current_u32": 0,
+      "matches_independent_getter": true,
+      "enumerated_values": []
+    },
+    {
+      "tag": "0x02000019",
+      "descriptor_offset": 678,
+      "descriptor_words_u32": [
+        20,
+        65537,
+        0,
+        1,
+        38
+      ],
+      "value_record_offset": 706,
+      "opaque_value_metadata_u32": [
+        0,
+        65537,
+        0,
+        1,
+        4,
+        2
+      ],
+      "width": 2,
+      "current_hex": "0100",
+      "current_u32": 1,
+      "matches_independent_getter": true,
+      "enumerated_values": []
+    },
+    {
+      "tag": "0x0200001a",
+      "descriptor_offset": 744,
+      "descriptor_words_u32": [
+        20,
+        65537,
+        0,
+        1,
+        38
+      ],
+      "value_record_offset": 772,
+      "opaque_value_metadata_u32": [
+        0,
+        65537,
+        0,
+        1,
+        4,
+        2
+      ],
+      "width": 2,
+      "current_hex": "0000",
+      "current_u32": 0,
+      "matches_independent_getter": true,
+      "enumerated_values": []
+    },
+    {
+      "tag": "0x0200001b",
+      "descriptor_offset": 810,
+      "descriptor_words_u32": [
+        20,
+        65537,
+        0,
+        1,
+        38
+      ],
+      "value_record_offset": 838,
+      "opaque_value_metadata_u32": [
+        0,
+        65537,
+        0,
+        1,
+        4,
+        2
+      ],
+      "width": 2,
+      "current_hex": "0000",
+      "current_u32": 0,
+      "matches_independent_getter": true,
+      "enumerated_values": []
+    },
+    {
+      "tag": "0x0200001c",
+      "descriptor_offset": 876,
+      "descriptor_words_u32": [
+        20,
+        65537,
+        0,
+        1,
+        38
+      ],
+      "value_record_offset": 904,
+      "opaque_value_metadata_u32": [
+        0,
+        65537,
+        0,
+        1,
+        4,
+        2
+      ],
+      "width": 2,
+      "current_hex": "0000",
+      "current_u32": 0,
+      "matches_independent_getter": true,
+      "enumerated_values": []
+    },
+    {
+      "tag": "0x0200001d",
+      "descriptor_offset": 942,
+      "descriptor_words_u32": [
+        20,
+        65537,
+        0,
+        1,
+        40
+      ],
+      "value_record_offset": 970,
+      "opaque_value_metadata_u32": [
+        0,
+        65537,
+        0,
+        1,
+        6,
+        2
+      ],
+      "width": 4,
+      "current_hex": "ffffffff",
+      "current_u32": 4294967295,
+      "matches_independent_getter": true,
+      "enumerated_values": []
+    },
+    {
+      "tag": "0x0200001e",
+      "descriptor_offset": 1010,
+      "descriptor_words_u32": [
+        20,
+        65537,
+        0,
+        1,
+        38
+      ],
+      "value_record_offset": 1038,
+      "opaque_value_metadata_u32": [
+        0,
+        65537,
+        0,
+        1,
+        4,
+        2
+      ],
+      "width": 2,
+      "current_hex": "0200",
+      "current_u32": 2,
+      "matches_independent_getter": true,
+      "enumerated_values": []
+    },
+    {
+      "tag": "0x0200001f",
+      "descriptor_offset": 1076,
+      "descriptor_words_u32": [
+        20,
+        65537,
+        0,
+        1,
+        38
+      ],
+      "value_record_offset": 1104,
+      "opaque_value_metadata_u32": [
+        0,
+        65537,
+        0,
+        1,
+        4,
+        2
+      ],
+      "width": 2,
+      "current_hex": "2800",
+      "current_u32": 40,
+      "matches_independent_getter": true,
+      "enumerated_values": []
+    }
+  ],
+  "PhotoStyle_first_field_summary": {
+    "current": 40,
+    "advertised_values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      14,
+      15,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      40,
+      41,
+      42,
+      44,
+      45
+    ],
+    "value_49_advertised": false,
+    "limitations": "Absence from this response is not proof of absent ISP capability or a hidden global command/property"
+  }
+}

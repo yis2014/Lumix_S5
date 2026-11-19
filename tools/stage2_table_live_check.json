@@ -1,0 +1,159 @@
+{
+  "table_physical": "0x86a077e4",
+  "stride": "0x74",
+  "entries": [
+    {
+      "index": 0,
+      "physical": "0x86a077e4",
+      "live_bitrate_mbps": 200.0,
+      "live_bitrate2_mbps": 200.0,
+      "width": 4992,
+      "height": 0,
+      "diff_bytes_vs_program_bin": 0,
+      "identical": true
+    },
+    {
+      "index": 1,
+      "physical": "0x86a07858",
+      "live_bitrate_mbps": 200.0,
+      "live_bitrate2_mbps": 200.0,
+      "width": 4992,
+      "height": 0,
+      "diff_bytes_vs_program_bin": 0,
+      "identical": true
+    },
+    {
+      "index": 2,
+      "physical": "0x86a078cc",
+      "live_bitrate_mbps": 200.0,
+      "live_bitrate2_mbps": 200.0,
+      "width": 4992,
+      "height": 0,
+      "diff_bytes_vs_program_bin": 0,
+      "identical": true
+    },
+    {
+      "index": 3,
+      "physical": "0x86a07940",
+      "live_bitrate_mbps": 200.0,
+      "live_bitrate2_mbps": 200.0,
+      "width": 4992,
+      "height": 0,
+      "diff_bytes_vs_program_bin": 0,
+      "identical": true
+    },
+    {
+      "index": 4,
+      "physical": "0x86a079b4",
+      "live_bitrate_mbps": 200.0,
+      "live_bitrate2_mbps": 200.0,
+      "width": 5184,
+      "height": 0,
+      "diff_bytes_vs_program_bin": 0,
+      "identical": true
+    },
+    {
+      "index": 5,
+      "physical": "0x86a07a28",
+      "live_bitrate_mbps": 200.0,
+      "live_bitrate2_mbps": 200.0,
+      "width": 5120,
+      "height": 0,
+      "diff_bytes_vs_program_bin": 0,
+      "identical": true
+    },
+    {
+      "index": 6,
+      "physical": "0x86a07a9c",
+      "live_bitrate_mbps": 200.0,
+      "live_bitrate2_mbps": 200.0,
+      "width": 3872,
+      "height": 0,
+      "diff_bytes_vs_program_bin": 0,
+      "identical": true
+    },
+    {
+      "index": 7,
+      "physical": "0x86a07b10",
+      "live_bitrate_mbps": 72.0,
+      "live_bitrate2_mbps": 72.0,
+      "width": 3840,
+      "height": 0,
+      "diff_bytes_vs_program_bin": 0,
+      "identical": true
+    },
+    {
+      "index": 8,
+      "physical": "0x86a07b84",
+      "live_bitrate_mbps": 72.0,
+      "live_bitrate2_mbps": 72.0,
+      "width": 3840,
+      "height": 0,
+      "diff_bytes_vs_program_bin": 0,
+      "identical": true
+    },
+    {
+      "index": 9,
+      "physical": "0x86a07bf8",
+      "live_bitrate_mbps": 72.0,
+      "live_bitrate2_mbps": 72.0,
+      "width": 3840,
+      "height": 0,
+      "diff_bytes_vs_program_bin": 0,
+      "identical": true
+    },
+    {
+      "index": 10,
+      "physical": "0x86a07c6c",
+      "live_bitrate_mbps": 72.0,
+      "live_bitrate2_mbps": 72.0,
+      "width": 3840,
+      "height": 0,
+      "diff_bytes_vs_program_bin": 0,
+      "identical": true
+    },
+    {
+      "index": 11,
+      "physical": "0x86a07ce0",
+      "live_bitrate_mbps": 36.0,
+      "live_bitrate2_mbps": 36.0,
+      "width": 3840,
+      "height": 0,
+      "diff_bytes_vs_program_bin": 0,
+      "identical": true
+    },
+    {
+      "index": 12,
+      "physical": "0x86a07d54",
+      "live_bitrate_mbps": 200.0,
+      "live_bitrate2_mbps": 200.0,
+      "width": 3840,
+      "height": 0,
+      "diff_bytes_vs_program_bin": 0,
+      "identical": true
+    },
+    {
+      "index": 13,
+      "physical": "0x86a07dc8",
+      "live_bitrate_mbps": 200.0,
+      "live_bitrate2_mbps": 200.0,
+      "width": 3840,
+      "height": 0,
+      "diff_bytes_vs_program_bin": 0,
+      "identical": true
+    },
+    {
+      "index": 14,
+      "physical": "0x86a07e3c",
+      "live_bitrate_mbps": 64.0,
+      "live_bitrate2_mbps": 64.0,
+      "width": 7680,
+      "height": 0,
+      "diff_bytes_vs_program_bin": 0,
+      "identical": true
+    }
+  ],
+  "total_diff_bytes": 0,
+  "verdict": "live RAM table identical to dumped program image",
+  "writes_performed": false
+}

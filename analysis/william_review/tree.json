@@ -1,0 +1,3076 @@
+{
+  "sha": "660247dc05e68d0645d96984437a3dade0b2c076",
+  "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/660247dc05e68d0645d96984437a3dade0b2c076",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce8c8f6e4fcbf2847ea096d421c6f6f18519860a",
+      "size": 1502,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/ce8c8f6e4fcbf2847ea096d421c6f6f18519860a"
+    },
+    {
+      "path": "00_成果总览.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "851bbbe5a3343f1a58dbab7c52f7eb5842531ddd",
+      "size": 4423,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/851bbbe5a3343f1a58dbab7c52f7eb5842531ddd"
+    },
+    {
+      "path": "01_唯一权威调用文档.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c82e7b0ecd27687e1f4d4673c27a3041878ef56",
+      "size": 61022,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/6c82e7b0ecd27687e1f4d4673c27a3041878ef56"
+    },
+    {
+      "path": "02_证据链",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f82a8078de6975da37a2d513bda6ae45f2535692",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/f82a8078de6975da37a2d513bda6ae45f2535692"
+    },
+    {
+      "path": "02_证据链/A_核心总包.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4b3645e78da5db141a25fe2bb7aef498fe1421e",
+      "size": 113748,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/f4b3645e78da5db141a25fe2bb7aef498fe1421e"
+    },
+    {
+      "path": "02_证据链/B_研究报告.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e96d8fb39987baa0c127502700daecb9e81cfef8",
+      "size": 105715,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/e96d8fb39987baa0c127502700daecb9e81cfef8"
+    },
+    {
+      "path": "02_证据链/C_DCS5成果包.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efdd8a77ce947fd43bac3c4e92a348f7a38bf324",
+      "size": 195350,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/efdd8a77ce947fd43bac3c4e92a348f7a38bf324"
+    },
+    {
+      "path": "02_证据链/D_定因USB服务与SD.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4caa2b4d05ed41df4ec3c20a21eaa219eab99c80",
+      "size": 97645,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/4caa2b4d05ed41df4ec3c20a21eaa219eab99c80"
+    },
+    {
+      "path": "02_证据链/E_审计监看与LUT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7297d2e980e0b5043777aa96c7ed4533823968b7",
+      "size": 132786,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/7297d2e980e0b5043777aa96c7ed4533823968b7"
+    },
+    {
+      "path": "02_证据链/F_G100与路径1.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bd08abde317039c216c19631d8ab8b96afca01c",
+      "size": 97956,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/7bd08abde317039c216c19631d8ab8b96afca01c"
+    },
+    {
+      "path": "02_证据链/G_工具与数据资产.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de2b066468ad4e3d03f5feb5ecc9bbaf51ce0dad",
+      "size": 86675,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/de2b066468ad4e3d03f5feb5ecc9bbaf51ce0dad"
+    },
+    {
+      "path": "02_证据链/H_命令结论与危险索引.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "320447b6db8100de4bbb8f9555ca4ad173e45f0b",
+      "size": 531508,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/320447b6db8100de4bbb8f9555ca4ad173e45f0b"
+    },
+    {
+      "path": "03_工具",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1bbb5e84e92f55a7e61ee31c31f16e69f493ffc6",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/1bbb5e84e92f55a7e61ee31c31f16e69f493ffc6"
+    },
+    {
+      "path": "03_工具/ble_win",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7bd8ef2da992bd46a02141e6e8d8d51626f9aedc",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/7bd8ef2da992bd46a02141e6e8d8d51626f9aedc"
+    },
+    {
+      "path": "03_工具/ble_win/s5_ble.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "99ca3659401684d412c4ca42c85b7ef3026f207a",
+      "size": 6882,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/99ca3659401684d412c4ca42c85b7ef3026f207a"
+    },
+    {
+      "path": "03_工具/ble_win/s5_ble_handshake.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c249327926debe8064feb493f71d4ec9cefa5d1d",
+      "size": 5969,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/c249327926debe8064feb493f71d4ec9cefa5d1d"
+    },
+    {
+      "path": "03_工具/ble_win/s5_ble_pair.ps1",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d2117c140d2ce5d4d901d62a4017a8f33e6d91ba",
+      "size": 6376,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/d2117c140d2ce5d4d901d62a4017a8f33e6d91ba"
+    },
+    {
+      "path": "03_工具/ble_win/s5_ble_watch.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "692a43961e1e288a30269217471cb99af1c9052b",
+      "size": 3359,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/692a43961e1e288a30269217471cb99af1c9052b"
+    },
+    {
+      "path": "03_工具/campaign2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ea3457d2b7b3ad7a279006ac76840f6f1f4c19a3",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/ea3457d2b7b3ad7a279006ac76840f6f1f4c19a3"
+    },
+    {
+      "path": "03_工具/campaign2/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74afedb100a758f0f39def75ed250bedb24ceb54",
+      "size": 5235,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/74afedb100a758f0f39def75ed250bedb24ceb54"
+    },
+    {
+      "path": "03_工具/campaign2/api_enum.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19d6b296dfb0453197f4a85f43cacb4f67250bf6",
+      "size": 1905,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/19d6b296dfb0453197f4a85f43cacb4f67250bf6"
+    },
+    {
+      "path": "03_工具/campaign2/api_enum2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2245c7b8c50b78b4ee2dd589097e79aa04b01b1",
+      "size": 1952,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/e2245c7b8c50b78b4ee2dd589097e79aa04b01b1"
+    },
+    {
+      "path": "03_工具/campaign2/batch_enable.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f04b497c4f614a235ebc890763911d294b972313",
+      "size": 4998,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/f04b497c4f614a235ebc890763911d294b972313"
+    },
+    {
+      "path": "03_工具/campaign2/ble_diag",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b15b93876c09eef08f48ece56748f862d71bc56f",
+      "size": 146744,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/b15b93876c09eef08f48ece56748f862d71bc56f"
+    },
+    {
+      "path": "03_工具/campaign2/ble_diag.swift",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa4851d3e0fbddca082fed6205b83bbccac22de8",
+      "size": 7716,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/fa4851d3e0fbddca082fed6205b83bbccac22de8"
+    },
+    {
+      "path": "03_工具/campaign2/ble_hold",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9b72f6b4fcc01f2620061f3174f6c67b5219e84a",
+      "size": 140024,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/9b72f6b4fcc01f2620061f3174f6c67b5219e84a"
+    },
+    {
+      "path": "03_工具/campaign2/ble_hold.swift",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44d99be6458e96b7f7da13966891594ba8dec135",
+      "size": 7811,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/44d99be6458e96b7f7da13966891594ba8dec135"
+    },
+    {
+      "path": "03_工具/campaign2/ble_lan_pair",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3288dbc3a1c9b7a29f74d0d62fb9d1cabd44063f",
+      "size": 160704,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/3288dbc3a1c9b7a29f74d0d62fb9d1cabd44063f"
+    },
+    {
+      "path": "03_工具/campaign2/ble_lan_pair.swift",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56cef66d0577edd6dca35be0f91b669f089edde7",
+      "size": 9915,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/56cef66d0577edd6dca35be0f91b669f089edde7"
+    },
+    {
+      "path": "03_工具/campaign2/ble_pair",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "de9373485bcfc24e1ad508a97b515e4c600c794b",
+      "size": 158632,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/de9373485bcfc24e1ad508a97b515e4c600c794b"
+    },
+    {
+      "path": "03_工具/campaign2/ble_pair.swift",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5657e4e7feccad608d9ab62190be5e0490be5f97",
+      "size": 11336,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/5657e4e7feccad608d9ab62190be5e0490be5f97"
+    },
+    {
+      "path": "03_工具/campaign2/ble_read",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5be5d9a1f51ab2ef4f38557d52058fa54fbc6839",
+      "size": 112184,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/5be5d9a1f51ab2ef4f38557d52058fa54fbc6839"
+    },
+    {
+      "path": "03_工具/campaign2/ble_read.swift",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5411924edca16370e1f78ca6919a526cc697f815",
+      "size": 4396,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/5411924edca16370e1f78ca6919a526cc697f815"
+    },
+    {
+      "path": "03_工具/campaign2/ble_scan",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f30673017c5b53b8339c114b9526a681354633d8",
+      "size": 120280,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/f30673017c5b53b8339c114b9526a681354633d8"
+    },
+    {
+      "path": "03_工具/campaign2/ble_scan.swift",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf07d98ed81d5c12290d854ebe08f4224f600d9a",
+      "size": 5717,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/bf07d98ed81d5c12290d854ebe08f4224f600d9a"
+    },
+    {
+      "path": "03_工具/campaign2/ble_then_ap.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "aae9e47dc8ae50bbb999b3329180f3472bd88548",
+      "size": 4295,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/aae9e47dc8ae50bbb999b3329180f3472bd88548"
+    },
+    {
+      "path": "03_工具/campaign2/ble_wifi_pair",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b5693195fe85a0ac6d10f78c29050c54bdb19eaf",
+      "size": 139360,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/b5693195fe85a0ac6d10f78c29050c54bdb19eaf"
+    },
+    {
+      "path": "03_工具/campaign2/ble_wifi_pair.swift",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54f7d4c0e449f673258d854fe525cf7a6d4cabb0",
+      "size": 8126,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/54f7d4c0e449f673258d854fe525cf7a6d4cabb0"
+    },
+    {
+      "path": "03_工具/campaign2/ble_wr",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c6e802354e7335ac01d3b5e6768596996a47af98",
+      "size": 155112,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/c6e802354e7335ac01d3b5e6768596996a47af98"
+    },
+    {
+      "path": "03_工具/campaign2/ble_write_then_read.swift",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a77308b829d67a53217021989f5ff21064d0e7fc",
+      "size": 10663,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/a77308b829d67a53217021989f5ff21064d0e7fc"
+    },
+    {
+      "path": "03_工具/campaign2/blindwrite.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e47b4c990e5d0874f2b6c11699f74445fbf243c0",
+      "size": 5677,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/e47b4c990e5d0874f2b6c11699f74445fbf243c0"
+    },
+    {
+      "path": "03_工具/campaign2/campaign.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcb685a87fd3fcf69381dfdc1890e4f84cef7cb7",
+      "size": 25336,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/dcb685a87fd3fcf69381dfdc1890e4f84cef7cb7"
+    },
+    {
+      "path": "03_工具/campaign2/common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fde3e74d79e7943b19100350a709fe40018dd7c4",
+      "size": 15495,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/fde3e74d79e7943b19100350a709fe40018dd7c4"
+    },
+    {
+      "path": "03_工具/campaign2/container_switch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40d3d68b2fb94e40dffe62c384b2ce9ba407b0c4",
+      "size": 5064,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/40d3d68b2fb94e40dffe62c384b2ce9ba407b0c4"
+    },
+    {
+      "path": "03_工具/campaign2/control.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f3ccfd78281e4003790ce0d036db3d0813902ca",
+      "size": 6061,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/0f3ccfd78281e4003790ce0d036db3d0813902ca"
+    },
+    {
+      "path": "03_工具/campaign2/crash_cam.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cb9e8ce3a7425acf1ee40beab73752aebc12f96",
+      "size": 14079,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/5cb9e8ce3a7425acf1ee40beab73752aebc12f96"
+    },
+    {
+      "path": "03_工具/campaign2/crash_v3.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d0f0d642c3ba03a14927ba9b70bcc76aef5762d",
+      "size": 23222,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/0d0f0d642c3ba03a14927ba9b70bcc76aef5762d"
+    },
+    {
+      "path": "03_工具/campaign2/crash_v3b.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85f90d8c7dd678349d3a4abef2d695864957f2ca",
+      "size": 11667,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/85f90d8c7dd678349d3a4abef2d695864957f2ca"
+    },
+    {
+      "path": "03_工具/campaign2/crash_v3c.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ed255e18326428486f42f66dbe1df2ee2caafc5",
+      "size": 18884,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/4ed255e18326428486f42f66dbe1df2ee2caafc5"
+    },
+    {
+      "path": "03_工具/campaign2/crk.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff0a151e5123a305baae77d24e644b39ea5b9fb7",
+      "size": 3326,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/ff0a151e5123a305baae77d24e644b39ea5b9fb7"
+    },
+    {
+      "path": "03_工具/campaign2/crk2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "092f3745f2bcaa44cb1fd6fad5d3b0441c3bf0f9",
+      "size": 5104,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/092f3745f2bcaa44cb1fd6fad5d3b0441c3bf0f9"
+    },
+    {
+      "path": "03_工具/campaign2/enable_one.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff5f610281c9f7b4e7772ff6e9d880ba5656f2fb",
+      "size": 3227,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/ff5f610281c9f7b4e7772ff6e9d880ba5656f2fb"
+    },
+    {
+      "path": "03_工具/campaign2/enc_handshake_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "169232ee83a120ae22bab8301bad739067e2b3ed",
+      "size": 3797,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/169232ee83a120ae22bab8301bad739067e2b3ed"
+    },
+    {
+      "path": "03_工具/campaign2/enum_video_use.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd8b23469e1c81a4431db841d98ca8c5fcaeaa34",
+      "size": 3583,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/dd8b23469e1c81a4431db841d98ca8c5fcaeaa34"
+    },
+    {
+      "path": "03_工具/campaign2/enum_videoquality.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "132eb55c70f1eb0c2b7a022698a632cb688057ba",
+      "size": 6060,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/132eb55c70f1eb0c2b7a022698a632cb688057ba"
+    },
+    {
+      "path": "03_工具/campaign2/enum_vq2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8c4085797140083bd3f1cd678c8aafc8adb9556",
+      "size": 6443,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/c8c4085797140083bd3f1cd678c8aafc8adb9556"
+    },
+    {
+      "path": "03_工具/campaign2/exfat_patch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47fbd8fab46eeb1765bb50e0930a2c8dd4790399",
+      "size": 59943,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/47fbd8fab46eeb1765bb50e0930a2c8dd4790399"
+    },
+    {
+      "path": "03_工具/campaign2/exfat_spray.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7699a70a6805c6e60b47d8d3a5daac83030a7acb",
+      "size": 5842,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/7699a70a6805c6e60b47d8d3a5daac83030a7acb"
+    },
+    {
+      "path": "03_工具/campaign2/experiment_mov_shadow.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "668a36bb3000c7ba80497269e49c91ba03ef7725",
+      "size": 6990,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/668a36bb3000c7ba80497269e49c91ba03ef7725"
+    },
+    {
+      "path": "03_工具/campaign2/finalfix.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bc760f7c38b28f43864ecce2f4e5783b4cabea6",
+      "size": 14185,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/1bc760f7c38b28f43864ecce2f4e5783b4cabea6"
+    },
+    {
+      "path": "03_工具/campaign2/find_checksum.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2fcd83ca5975effd7741669397e9164b062fb77",
+      "size": 2282,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/c2fcd83ca5975effd7741669397e9164b062fb77"
+    },
+    {
+      "path": "03_工具/campaign2/gate_probe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5374990720b5cad1de270f66c05b495930dbcba3",
+      "size": 3247,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/5374990720b5cad1de270f66c05b495930dbcba3"
+    },
+    {
+      "path": "03_工具/campaign2/gate_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ae709bd6e49eb19063b52e1ba6e490bc1b27a92",
+      "size": 5076,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/9ae709bd6e49eb19063b52e1ba6e490bc1b27a92"
+    },
+    {
+      "path": "03_工具/campaign2/goahead_overflow.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8aeb126d28f7f78735d87e87946622acfaf2809",
+      "size": 3278,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/c8aeb126d28f7f78735d87e87946622acfaf2809"
+    },
+    {
+      "path": "03_工具/campaign2/hidden_features.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33250569e2000db84c7b6b38a2d5ce74024d2aa6",
+      "size": 5746,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/33250569e2000db84c7b6b38a2d5ce74024d2aa6"
+    },
+    {
+      "path": "03_工具/campaign2/hidden_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4db9483ef2388bbf6dcdae44ddac0ed079d1890",
+      "size": 3852,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/e4db9483ef2388bbf6dcdae44ddac0ed079d1890"
+    },
+    {
+      "path": "03_工具/campaign2/hidden_test_hlg.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9638fab2d59c88cec7c968572cf2d398c7362443",
+      "size": 3004,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/9638fab2d59c88cec7c968572cf2d398c7362443"
+    },
+    {
+      "path": "03_工具/campaign2/hold_then_ap.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a1be2e4eed08718eb49fc04392197b54256ee159",
+      "size": 4230,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/a1be2e4eed08718eb49fc04392197b54256ee159"
+    },
+    {
+      "path": "03_工具/campaign2/http_fingerprint.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed1d49276496840785b97bbd4903d852908c83e7",
+      "size": 9069,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/ed1d49276496840785b97bbd4903d852908c83e7"
+    },
+    {
+      "path": "03_工具/campaign2/http_primitives.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef8d62d804078b8901b50d5fb414c9eadfcfe711",
+      "size": 2548,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/ef8d62d804078b8901b50d5fb414c9eadfcfe711"
+    },
+    {
+      "path": "03_工具/campaign2/isolate_videoquality.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b622e6ee8c52766eeafc8edf0a64c74e31c61aef",
+      "size": 4901,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/b622e6ee8c52766eeafc8edf0a64c74e31c61aef"
+    },
+    {
+      "path": "03_工具/campaign2/launch_daemon.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a60e4a901d17d548e18debe933a86cca4b267928",
+      "size": 1435,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/a60e4a901d17d548e18debe933a86cca4b267928"
+    },
+    {
+      "path": "03_工具/campaign2/menu_map.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a12269d5b5c3f4823192df34e6beb7748be132b",
+      "size": 4288,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/5a12269d5b5c3f4823192df34e6beb7748be132b"
+    },
+    {
+      "path": "03_工具/campaign2/menu_recon_live.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "620cfe4c4371998158848dd0eed43d2dca15ad37",
+      "size": 4317,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/620cfe4c4371998158848dd0eed43d2dca15ad37"
+    },
+    {
+      "path": "03_工具/campaign2/mutation_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b83ddddcde2857c560938a769489ab3b26155609",
+      "size": 2154,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/b83ddddcde2857c560938a769489ab3b26155609"
+    },
+    {
+      "path": "03_工具/campaign2/oob_read_probe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e305acb06e391bdcc24a9fed3c2cf6198585c0ed",
+      "size": 5456,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/e305acb06e391bdcc24a9fed3c2cf6198585c0ed"
+    },
+    {
+      "path": "03_工具/campaign2/opengate_recon.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f32ebe0bf98869a11dd6881281ea76ddf1be1d5f",
+      "size": 5067,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/f32ebe0bf98869a11dd6881281ea76ddf1be1d5f"
+    },
+    {
+      "path": "03_工具/campaign2/out",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f0410b9413aacc91e79301acdb95cc22b4f08efb",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/f0410b9413aacc91e79301acdb95cc22b4f08efb"
+    },
+    {
+      "path": "03_工具/campaign2/out/S1H_format_persistence.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a06b478c76488748e572b068da7c65eedb850ff",
+      "size": 5771,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/4a06b478c76488748e572b068da7c65eedb850ff"
+    },
+    {
+      "path": "03_工具/campaign2/out/S1M2_format_field_notes.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac3e0446530190897695458fb6efe5e503c42504",
+      "size": 9762,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/ac3e0446530190897695458fb6efe5e503c42504"
+    },
+    {
+      "path": "03_工具/campaign2/out/S5II_slot_crosscheck_20261013.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39adce79b65d4aea35111b5fce873b84e38f3993",
+      "size": 6807,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/39adce79b65d4aea35111b5fce873b84e38f3993"
+    },
+    {
+      "path": "03_工具/campaign2/out/S5_camsetting_fieldmap.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d15cda49361228200be2ffc424d85bc6467a7e6c",
+      "size": 11656,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/d15cda49361228200be2ffc424d85bc6467a7e6c"
+    },
+    {
+      "path": "03_工具/campaign2/out/S5_format_slots_analysis.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f9ea0a55dd17c8d85303d24717956969f3e48f0",
+      "size": 14363,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/8f9ea0a55dd17c8d85303d24717956969f3e48f0"
+    },
+    {
+      "path": "03_工具/campaign2/out/backup_pre_movshadow_20261013_015703.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a049218bd9a77df2ac9ce5f5b84673323f5d3b60",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/a049218bd9a77df2ac9ce5f5b84673323f5d3b60"
+    },
+    {
+      "path": "03_工具/campaign2/out/backup_pre_movshadow_20261013_020428.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a049218bd9a77df2ac9ce5f5b84673323f5d3b60",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/a049218bd9a77df2ac9ce5f5b84673323f5d3b60"
+    },
+    {
+      "path": "03_工具/campaign2/out/backup_pre_quality_20261013_024240.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b4e62312a69bc7cc3dedfde3c5745119c1c3ae7",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/4b4e62312a69bc7cc3dedfde3c5745119c1c3ae7"
+    },
+    {
+      "path": "03_工具/campaign2/out/backup_pre_quality_20261013_025134.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6eb92d3a46278b9e5c712bc5af9a2c44e5d8f26",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/e6eb92d3a46278b9e5c712bc5af9a2c44e5d8f26"
+    },
+    {
+      "path": "03_工具/campaign2/out/backup_pre_restore_20261014_015738.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c22e7f70e2617c8a8f3eb35ae3e1603bc6861cc",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/3c22e7f70e2617c8a8f3eb35ae3e1603bc6861cc"
+    },
+    {
+      "path": "03_工具/campaign2/out/backup_pre_restore_20261014_175604.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39479563a9fb0792bbaea7eaf8d3bbebbe702233",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/39479563a9fb0792bbaea7eaf8d3bbebbe702233"
+    },
+    {
+      "path": "03_工具/campaign2/out/backup_pre_restore_20261014_180310.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9341ae0dbb6d82f748ee153b1a30dfd97b0095e3",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/9341ae0dbb6d82f748ee153b1a30dfd97b0095e3"
+    },
+    {
+      "path": "03_工具/campaign2/out/backup_pre_restorefrom_mp4ed_20261013_031327.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a76ad14f89b5155fa801e31b9771f03d06f0b94",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/6a76ad14f89b5155fa801e31b9771f03d06f0b94"
+    },
+    {
+      "path": "03_工具/campaign2/out/ble_lan",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e475eb382d0c2c6795d10c8650b3e49b2eb22d20",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/e475eb382d0c2c6795d10c8650b3e49b2eb22d20"
+    },
+    {
+      "path": "03_工具/campaign2/out/ble_lan/run.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e9387929aaac7cf77f5ca2d327677461384655b",
+      "size": 1419,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/3e9387929aaac7cf77f5ca2d327677461384655b"
+    },
+    {
+      "path": "03_工具/campaign2/out/ble_pair_evidence.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5595721072b253f9a2f71fd7437618ef3ea417f",
+      "size": 1050,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/e5595721072b253f9a2f71fd7437618ef3ea417f"
+    },
+    {
+      "path": "03_工具/campaign2/out/ble_pair_evidence",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9b9ef35f44dead2e49a83c452c0a0666170325f5",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/9b9ef35f44dead2e49a83c452c0a0666170325f5"
+    },
+    {
+      "path": "03_工具/campaign2/out/ble_pair_evidence/ble_cred_read.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddfcaeb0fdcf75290cbbcd732e67ecc407a4d06b",
+      "size": 1553,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/ddfcaeb0fdcf75290cbbcd732e67ecc407a4d06b"
+    },
+    {
+      "path": "03_工具/campaign2/out/ble_scan_20261013.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "102b58d91f701df6cdb22c210fc271c1a243b10d",
+      "size": 2985,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/102b58d91f701df6cdb22c210fc271c1a243b10d"
+    },
+    {
+      "path": "03_工具/campaign2/out/ble_scan_reads.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98057b20321ac6229b8d202e1b116154da8b2d7a",
+      "size": 2985,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/98057b20321ac6229b8d202e1b116154da8b2d7a"
+    },
+    {
+      "path": "03_工具/campaign2/out/blob_GOLD_mov_persisted_20261013_020600.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82565482fda0576ff29f67df528155f44fb9cd30",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/82565482fda0576ff29f67df528155f44fb9cd30"
+    },
+    {
+      "path": "03_工具/campaign2/out/blob_app_online_20261013.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "269523e53c38b5eb67d62194c495472b53f3c8d5",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/269523e53c38b5eb67d62194c495472b53f3c8d5"
+    },
+    {
+      "path": "03_工具/campaign2/out/blob_postreboot_20261013_000547.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a049218bd9a77df2ac9ce5f5b84673323f5d3b60",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/a049218bd9a77df2ac9ce5f5b84673323f5d3b60"
+    },
+    {
+      "path": "03_工具/campaign2/out/blob_postreboot_59k_20261013_024511.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b4e62312a69bc7cc3dedfde3c5745119c1c3ae7",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/4b4e62312a69bc7cc3dedfde3c5745119c1c3ae7"
+    },
+    {
+      "path": "03_工具/campaign2/out/blob_postreboot_movshadow_20261013_020304.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a049218bd9a77df2ac9ce5f5b84673323f5d3b60",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/a049218bd9a77df2ac9ce5f5b84673323f5d3b60"
+    },
+    {
+      "path": "03_工具/campaign2/out/diff_blob_mov.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65526ebec4d6f55402287f746fa40a82d5b2263d",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/65526ebec4d6f55402287f746fa40a82d5b2263d"
+    },
+    {
+      "path": "03_工具/campaign2/out/diff_blob_mp4.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a049218bd9a77df2ac9ce5f5b84673323f5d3b60",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/a049218bd9a77df2ac9ce5f5b84673323f5d3b60"
+    },
+    {
+      "path": "03_工具/campaign2/out/mov_shadow_dryrun_20261013_012941.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82565482fda0576ff29f67df528155f44fb9cd30",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/82565482fda0576ff29f67df528155f44fb9cd30"
+    },
+    {
+      "path": "03_工具/campaign2/out/mov_shadow_dryrun_20261013_013146.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82565482fda0576ff29f67df528155f44fb9cd30",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/82565482fda0576ff29f67df528155f44fb9cd30"
+    },
+    {
+      "path": "03_工具/campaign2/out/mov_shadow_dryrun_20261013_020722.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82565482fda0576ff29f67df528155f44fb9cd30",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/82565482fda0576ff29f67df528155f44fb9cd30"
+    },
+    {
+      "path": "03_工具/campaign2/out/mov_shadow_dryrun_20261014_015519.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82565482fda0576ff29f67df528155f44fb9cd30",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/82565482fda0576ff29f67df528155f44fb9cd30"
+    },
+    {
+      "path": "03_工具/campaign2/out/mov_shadow_test_20261013_015703.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82565482fda0576ff29f67df528155f44fb9cd30",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/82565482fda0576ff29f67df528155f44fb9cd30"
+    },
+    {
+      "path": "03_工具/campaign2/out/mov_shadow_test_20261013_020428.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82565482fda0576ff29f67df528155f44fb9cd30",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/82565482fda0576ff29f67df528155f44fb9cd30"
+    },
+    {
+      "path": "03_工具/campaign2/out/parse_out.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76148a109fa5f13c9e8e9741acea56f16a55c086",
+      "size": 161954,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/76148a109fa5f13c9e8e9741acea56f16a55c086"
+    },
+    {
+      "path": "03_工具/campaign2/out/parse_s5_records.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4a1f2c31da2a52b08426bd7387cd83113f069b5",
+      "size": 5609,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/f4a1f2c31da2a52b08426bd7387cd83113f069b5"
+    },
+    {
+      "path": "03_工具/campaign2/out/probe_baseline_013743.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a049218bd9a77df2ac9ce5f5b84673323f5d3b60",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/a049218bd9a77df2ac9ce5f5b84673323f5d3b60"
+    },
+    {
+      "path": "03_工具/campaign2/out/probe_mov_013809.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65526ebec4d6f55402287f746fa40a82d5b2263d",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/65526ebec4d6f55402287f746fa40a82d5b2263d"
+    },
+    {
+      "path": "03_工具/campaign2/out/quality_payload_mov_30p_200mbps_5_9k_10bit_20261013_024240.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b4e62312a69bc7cc3dedfde3c5745119c1c3ae7",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/4b4e62312a69bc7cc3dedfde3c5745119c1c3ae7"
+    },
+    {
+      "path": "03_工具/campaign2/out/quality_payload_mov_60p_150mbps_c4k_20261013_022201.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88ed207d0fe3a11b08ae97d07ae91634baa5708e",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/88ed207d0fe3a11b08ae97d07ae91634baa5708e"
+    },
+    {
+      "path": "03_工具/campaign2/out/quality_payload_mov_60p_150mbps_c4k_20261013_025134.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6eb92d3a46278b9e5c712bc5af9a2c44e5d8f26",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/e6eb92d3a46278b9e5c712bc5af9a2c44e5d8f26"
+    },
+    {
+      "path": "03_工具/campaign2/out/restore_payload_20261014_015738.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b891a59a6419560b527462e7cfc6c652eb558eee",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/b891a59a6419560b527462e7cfc6c652eb558eee"
+    },
+    {
+      "path": "03_工具/campaign2/out/restore_payload_20261014_175604.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39479563a9fb0792bbaea7eaf8d3bbebbe702233",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/39479563a9fb0792bbaea7eaf8d3bbebbe702233"
+    },
+    {
+      "path": "03_工具/campaign2/out/restore_payload_20261014_180310.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9341ae0dbb6d82f748ee153b1a30dfd97b0095e3",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/9341ae0dbb6d82f748ee153b1a30dfd97b0095e3"
+    },
+    {
+      "path": "03_工具/campaign2/out/s5_ap",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ea229ab0ee421781c1197d2809a6cd7072c0306b",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/ea229ab0ee421781c1197d2809a6cd7072c0306b"
+    },
+    {
+      "path": "03_工具/campaign2/out/s5_ap/ap_probe.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbfb21491729cbd07ebd6bc75ca4bc7ba297117d",
+      "size": 4704,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/fbfb21491729cbd07ebd6bc75ca4bc7ba297117d"
+    },
+    {
+      "path": "03_工具/campaign2/out/s5_ap/ap_probe.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7974446223b2e79ccb6a6cf4277199cb76c867a5",
+      "size": 5469,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/7974446223b2e79ccb6a6cf4277199cb76c867a5"
+    },
+    {
+      "path": "03_工具/campaign2/out/s5_ap2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cc160d389d05e446364d718b854edfb295605bb5",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/cc160d389d05e446364d718b854edfb295605bb5"
+    },
+    {
+      "path": "03_工具/campaign2/out/s5_ap2/DONE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "149ff294049c675d266cdf2fa549a03694adafbb",
+      "size": 30,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/149ff294049c675d266cdf2fa549a03694adafbb"
+    },
+    {
+      "path": "03_工具/campaign2/out/s5_ap2/ap_probe2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1a0c7e85d4437600d609026947efa4c6bd24467",
+      "size": 4104,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/a1a0c7e85d4437600d609026947efa4c6bd24467"
+    },
+    {
+      "path": "03_工具/campaign2/out/s5_ap2/ap_probe2.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcc509934c47fc5285cb23663a83a0e169f40984",
+      "size": 3246,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/bcc509934c47fc5285cb23663a83a0e169f40984"
+    },
+    {
+      "path": "03_工具/campaign2/out/s5_ap_pair",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d44ccc7b69ba8f226202d18455be0c5be869c3c6",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/d44ccc7b69ba8f226202d18455be0c5be869c3c6"
+    },
+    {
+      "path": "03_工具/campaign2/out/s5_ap_pair/ap_pair.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b048882854daa0a6cb0626b0c32fb8c54d53757",
+      "size": 8750,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/0b048882854daa0a6cb0626b0c32fb8c54d53757"
+    },
+    {
+      "path": "03_工具/campaign2/out/s5_ap_pair/ap_pair.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6131532d1c5e7455a0b922cb2690000bf4d2219",
+      "size": 2902,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/a6131532d1c5e7455a0b922cb2690000bf4d2219"
+    },
+    {
+      "path": "03_工具/campaign2/out/s5_ble_ap",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "314f8f570e3b0a08733a00e3f05359346202c834",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/314f8f570e3b0a08733a00e3f05359346202c834"
+    },
+    {
+      "path": "03_工具/campaign2/out/s5_ble_ap/run.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c899eb0f6902e570c1dbbfb4e580d532ee2f0f5a",
+      "size": 1288,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/c899eb0f6902e570c1dbbfb4e580d532ee2f0f5a"
+    },
+    {
+      "path": "03_工具/campaign2/out/s5_ble_pair",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0c3462b32e5cff85f90c0e15a794fc482178a42a",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/0c3462b32e5cff85f90c0e15a794fc482178a42a"
+    },
+    {
+      "path": "03_工具/campaign2/out/s5_ble_pair/ap_ble_pair.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c48a9ad24899fdea395dcf4df097b3cdafbb7554",
+      "size": 3774,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/c48a9ad24899fdea395dcf4df097b3cdafbb7554"
+    },
+    {
+      "path": "03_工具/campaign2/out/s5_hold",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f0e4a67b96632035b7c98b11ee5b3500e8c33bb4",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/f0e4a67b96632035b7c98b11ee5b3500e8c33bb4"
+    },
+    {
+      "path": "03_工具/campaign2/out/s5_hold/DONE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09a8bdff7f90c1d63023fa9b11d91d33e06d0048",
+      "size": 25,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/09a8bdff7f90c1d63023fa9b11d91d33e06d0048"
+    },
+    {
+      "path": "03_工具/campaign2/out/s5_hold/ble_hold.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7d7a0521bfe5f0c59f264ce97dce50e670c8604",
+      "size": 1724,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/c7d7a0521bfe5f0c59f264ce97dce50e670c8604"
+    },
+    {
+      "path": "03_工具/campaign2/out/s5_hold/pair.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "149069af83f13fdb83047516f7e1830a5721eccf",
+      "size": 6047,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/149069af83f13fdb83047516f7e1830a5721eccf"
+    },
+    {
+      "path": "03_工具/campaign2/out/s5_hold/run.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cee70d11ff37fb3368986d99fc89d7074bb31e11",
+      "size": 4280,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/cee70d11ff37fb3368986d99fc89d7074bb31e11"
+    },
+    {
+      "path": "03_工具/campaign2/overflow_fuzz.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44efc64c3c1152e33bede38bd09b4fad234ee56c",
+      "size": 7633,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/44efc64c3c1152e33bede38bd09b4fad234ee56c"
+    },
+    {
+      "path": "03_工具/campaign2/payload.S",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94ee62cbec2a9d3fc32b9b9b9ad37312865e20c9",
+      "size": 1247,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/94ee62cbec2a9d3fc32b9b9b9ad37312865e20c9"
+    },
+    {
+      "path": "03_工具/campaign2/persist.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e26e1613cfd8d3e3403a8578598c5b7af93b194b",
+      "size": 19443,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/e26e1613cfd8d3e3403a8578598c5b7af93b194b"
+    },
+    {
+      "path": "03_工具/campaign2/persist_quality.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c698430a893c3502009d530dbcc6d60af6cb219",
+      "size": 5848,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/0c698430a893c3502009d530dbcc6d60af6cb219"
+    },
+    {
+      "path": "03_工具/campaign2/portscan.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fefe0949900454645d84fb51fdd335a00b7c7a5",
+      "size": 849,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/7fefe0949900454645d84fb51fdd335a00b7c7a5"
+    },
+    {
+      "path": "03_工具/campaign2/probe_final_chunk.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbd365ac77a95e206bfa373f10b8184fca26361a",
+      "size": 6546,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/dbd365ac77a95e206bfa373f10b8184fca26361a"
+    },
+    {
+      "path": "03_工具/campaign2/probe_format_slots.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c224a45f26b122a5ca85b9a73c959f83f9937dc6",
+      "size": 6315,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/c224a45f26b122a5ca85b9a73c959f83f9937dc6"
+    },
+    {
+      "path": "03_工具/campaign2/probe_partial_final.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f15f9c2a64d0c4ea3ceb60f97f433e3bee24e8ff",
+      "size": 7940,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/f15f9c2a64d0c4ea3ceb60f97f433e3bee24e8ff"
+    },
+    {
+      "path": "03_工具/campaign2/ptp_attack.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab2e839217ad8316ef5ae9e476e4e8cb1ec7995e",
+      "size": 9408,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/ab2e839217ad8316ef5ae9e476e4e8cb1ec7995e"
+    },
+    {
+      "path": "03_工具/campaign2/rce_ldpreload.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81071841218568d8eeb5be6c86138acc8eb2a2de",
+      "size": 4068,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/81071841218568d8eeb5be6c86138acc8eb2a2de"
+    },
+    {
+      "path": "03_工具/campaign2/rce_ldpreload.py.bak",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc463337d220dc47032ca6f5099c3b5eaaf7f6e5",
+      "size": 4098,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/cc463337d220dc47032ca6f5099c3b5eaaf7f6e5"
+    },
+    {
+      "path": "03_工具/campaign2/rce_probe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a08be12a9cbead2c2174051ebb4abd561602dae7",
+      "size": 16260,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/a08be12a9cbead2c2174051ebb4abd561602dae7"
+    },
+    {
+      "path": "03_工具/campaign2/rce_surface_probe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17c6f052f97a789f0ecd357d2eb4b8cfea78aff9",
+      "size": 4649,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/17c6f052f97a789f0ecd357d2eb4b8cfea78aff9"
+    },
+    {
+      "path": "03_工具/campaign2/read_values.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "993fe91f04d2a975c5d4f80db20f734e51e547a8",
+      "size": 1286,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/993fe91f04d2a975c5d4f80db20f734e51e547a8"
+    },
+    {
+      "path": "03_工具/campaign2/recon.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "512eec1d8b4efe786b90730d2bc1347ee67569be",
+      "size": 5639,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/512eec1d8b4efe786b90730d2bc1347ee67569be"
+    },
+    {
+      "path": "03_工具/campaign2/roundtrip_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3a7ab2d1936d2ec654d146fc8466646cebbc67f",
+      "size": 5821,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/d3a7ab2d1936d2ec654d146fc8466646cebbc67f"
+    },
+    {
+      "path": "03_工具/campaign2/run_recon_when_up.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7b1f16a90b1df28b686b2c0f429505006f0049a0",
+      "size": 4143,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/7b1f16a90b1df28b686b2c0f429505006f0049a0"
+    },
+    {
+      "path": "03_工具/campaign2/s5_ap_pair.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e70a88af5c80e22c769b582e7cd4b84184d86e5a",
+      "size": 7207,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/e70a88af5c80e22c769b582e7cd4b84184d86e5a"
+    },
+    {
+      "path": "03_工具/campaign2/s5_ap_probe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "affc581ad26373c56fabcffec23a4c077c8ea072",
+      "size": 7207,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/affc581ad26373c56fabcffec23a4c077c8ea072"
+    },
+    {
+      "path": "03_工具/campaign2/s5_ap_probe2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07ae3613012eba46fb19178819bce045525f1405",
+      "size": 6343,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/07ae3613012eba46fb19178819bce045525f1405"
+    },
+    {
+      "path": "03_工具/campaign2/s5_exfat_test.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6129170f40ab0b496a9177baa9a10f801373d1c4",
+      "size": 9529,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/6129170f40ab0b496a9177baa9a10f801373d1c4"
+    },
+    {
+      "path": "03_工具/campaign2/s5_quality.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7706ae474eaa969274fff3dc2d5f6e7b32381e8a",
+      "size": 17061,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/7706ae474eaa969274fff3dc2d5f6e7b32381e8a"
+    },
+    {
+      "path": "03_工具/campaign2/s5ctl.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "caa2a7ae44a52fa36a0d2cc8e422365ceda10ac7",
+      "size": 4526,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/caa2a7ae44a52fa36a0d2cc8e422365ceda10ac7"
+    },
+    {
+      "path": "03_工具/campaign2/safe_handshake.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "645aa79403b6df2f3335b6ad8303e2a3fadbf965",
+      "size": 8313,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/645aa79403b6df2f3335b6ad8303e2a3fadbf965"
+    },
+    {
+      "path": "03_工具/campaign2/session_gate_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbd3e7df6872a38bd4ad74563fa582f134f05376",
+      "size": 7782,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/bbd3e7df6872a38bd4ad74563fa582f134f05376"
+    },
+    {
+      "path": "03_工具/campaign2/startsend_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2b6deef69db367438b6cac1d06ae6010f168aba",
+      "size": 1589,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/d2b6deef69db367438b6cac1d06ae6010f168aba"
+    },
+    {
+      "path": "03_工具/campaign2/state_check.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebbe16e6ea3526d387e7ed3e050c5977bedf6ceb",
+      "size": 2012,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/ebbe16e6ea3526d387e7ed3e050c5977bedf6ceb"
+    },
+    {
+      "path": "03_工具/campaign2/unlock_video.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c6d9cfbb58c9bed452c6262f65f174d4b40d46a",
+      "size": 3900,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/2c6d9cfbb58c9bed452c6262f65f174d4b40d46a"
+    },
+    {
+      "path": "03_工具/campaign2/unlock_video2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9553ab47f6b4a52740a23464cf2ca48a08755338",
+      "size": 5919,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/9553ab47f6b4a52740a23464cf2ca48a08755338"
+    },
+    {
+      "path": "03_工具/campaign2/upload.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3edf7408291f2e3a6d001fda1b1523d75aa226c2",
+      "size": 38960,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/3edf7408291f2e3a6d001fda1b1523d75aa226c2"
+    },
+    {
+      "path": "03_工具/campaign2/upload_diag.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c56983b95e915589b716cee2beb6c1f1d0b9d146",
+      "size": 4398,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/c56983b95e915589b716cee2beb6c1f1d0b9d146"
+    },
+    {
+      "path": "03_工具/campaign2/usb_oob.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec2d9d0f032c88de761a3da5c662f48239839f59",
+      "size": 7422,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/ec2d9d0f032c88de761a3da5c662f48239839f59"
+    },
+    {
+      "path": "03_工具/campaign2/wait_and_run.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a40b9eca80a2490684be0e8a569e26ed0f0ca48e",
+      "size": 2651,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/a40b9eca80a2490684be0e8a569e26ed0f0ca48e"
+    },
+    {
+      "path": "03_工具/campaign2/wifi_ap_pair.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9d0f43063524407dd933bfeb56167548d46734b6",
+      "size": 4554,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/9d0f43063524407dd933bfeb56167548d46734b6"
+    },
+    {
+      "path": "03_工具/campaign2/wifi_ap_probe.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "87140003fec38e1c5b1f15ccb21364809fea7a50",
+      "size": 3924,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/87140003fec38e1c5b1f15ccb21364809fea7a50"
+    },
+    {
+      "path": "03_工具/campaign2/wifi_ap_probe2.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c141867e7975728018088bf78dfb6f1cbfa81ab8",
+      "size": 4562,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/c141867e7975728018088bf78dfb6f1cbfa81ab8"
+    },
+    {
+      "path": "03_工具/campaign2/wifi_ble_pair.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "088362c6bcb806f65ce4301839479de5938b2316",
+      "size": 5132,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/088362c6bcb806f65ce4301839479de5938b2316"
+    },
+    {
+      "path": "03_工具/campaign2/隐藏格式持久化_成果.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6da136821aa7cb87f1905ddc3fcec37e4fba879",
+      "size": 12327,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/a6da136821aa7cb87f1905ddc3fcec37e4fba879"
+    },
+    {
+      "path": "03_工具/campaign2/隐藏格式持久化_成果_副本.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "942c21af884ab62e40f6af976471364b817e988e",
+      "size": 4259,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/942c21af884ab62e40f6af976471364b817e988e"
+    },
+    {
+      "path": "03_工具/firmware_crypto",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2cc94571ac5e7e32d0e85fdf32f54c1dc6a15f75",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/2cc94571ac5e7e32d0e85fdf32f54c1dc6a15f75"
+    },
+    {
+      "path": "03_工具/firmware_crypto/exp_cipher.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24384cd89424dbc0bea68abc4bd044ccfbe8d7be",
+      "size": 2035,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/24384cd89424dbc0bea68abc4bd044ccfbe8d7be"
+    },
+    {
+      "path": "03_工具/firmware_crypto/ivsig.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8aab2d79a503c10ca7164ec79bc9ab4cb4dcf16",
+      "size": 2299,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/c8aab2d79a503c10ca7164ec79bc9ab4cb4dcf16"
+    },
+    {
+      "path": "03_工具/firmware_crypto/keyhunt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11fc812e485b4b198c0340fbe8d2a7de59d9a788",
+      "size": 3836,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/11fc812e485b4b198c0340fbe8d2a7de59d9a788"
+    },
+    {
+      "path": "03_工具/firmware_crypto/keyhunt2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e84add6383f74d88d31ef7e5bc1b15b9fafc07b",
+      "size": 3049,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/9e84add6383f74d88d31ef7e5bc1b15b9fafc07b"
+    },
+    {
+      "path": "03_工具/firmware_crypto/ks_extract.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f020e95696c7a72faed9c79f6025727a4c5ab1b",
+      "size": 1790,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/7f020e95696c7a72faed9c79f6025727a4c5ab1b"
+    },
+    {
+      "path": "03_工具/firmware_crypto/parse_all.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47a1b90f0c30cc1f44f90709a8e5c89442e67506",
+      "size": 1316,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/47a1b90f0c30cc1f44f90709a8e5c89442e67506"
+    },
+    {
+      "path": "03_工具/firmware_crypto/parse_upd.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b12aaea4259a0336ed7a1790e88f6c8245081976",
+      "size": 2243,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/b12aaea4259a0336ed7a1790e88f6c8245081976"
+    },
+    {
+      "path": "03_工具/firmware_crypto/rawtest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb5f656d4de7e218d301aaf649b85af13b634467",
+      "size": 1898,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/fb5f656d4de7e218d301aaf649b85af13b634467"
+    },
+    {
+      "path": "03_工具/firmware_crypto/verify512.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ad33d551f1f7b3cfda82bcb219af62c50f015c1",
+      "size": 1248,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/5ad33d551f1f7b3cfda82bcb219af62c50f015c1"
+    },
+    {
+      "path": "03_工具/firmware_crypto/verify_sha.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e2f042c183c466eb1d055ecacfbd0a8999dff18",
+      "size": 1236,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/5e2f042c183c466eb1d055ecacfbd0a8999dff18"
+    },
+    {
+      "path": "03_工具/firmware_crypto/xver.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8971257c9e484c98da48cc87ddf3f75769ab870",
+      "size": 1950,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/a8971257c9e484c98da48cc87ddf3f75769ab870"
+    },
+    {
+      "path": "03_工具/firmware_crypto/xver2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b09a52ab2400e971be23b3f171104cdb526433a9",
+      "size": 2204,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/b09a52ab2400e971be23b3f171104cdb526433a9"
+    },
+    {
+      "path": "03_工具/firmware_crypto/xver_fixed.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4081a66757fab0ed21449a4f290383fc4bc15d53",
+      "size": 3803,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/4081a66757fab0ed21449a4f290383fc4bc15d53"
+    },
+    {
+      "path": "03_工具/ptp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "88b8f62adae832e82b20466bfb3500267808505e",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/88b8f62adae832e82b20466bfb3500267808505e"
+    },
+    {
+      "path": "03_工具/ptp/PTP_0x9421_dump_使用说明.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d3723f1236a3b9e6981d55bb835b85baa9cbf10",
+      "size": 11438,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/7d3723f1236a3b9e6981d55bb835b85baa9cbf10"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "78c60e300c3fcd80ecad21fc2d23eb4017676a85",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/78c60e300c3fcd80ecad21fc2d23eb4017676a85"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out/capture_log.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63cec51489035311e4eaafb0d4a886814ccb439b",
+      "size": 238,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/63cec51489035311e4eaafb0d4a886814ccb439b"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b95597462b3bba634ea14c1156d88481bf97ee56",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/b95597462b3bba634ea14c1156d88481bf97ee56"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out2/capture_log.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40e52a4ff4a6b5c627af760d92beb0bbdb3cebbe",
+      "size": 238,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/40e52a4ff4a6b5c627af760d92beb0bbdb3cebbe"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out3",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f5df6e9f7662f9d36a6c8a2e4076b97001969e9d",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/f5df6e9f7662f9d36a6c8a2e4076b97001969e9d"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out3/capture_log.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "518fdb4ee458dc8d79e877e57017ae7df33a7be0",
+      "size": 238,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/518fdb4ee458dc8d79e877e57017ae7df33a7be0"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out4",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "69f55af2c07bac40ce432069930d46455a323a50",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/69f55af2c07bac40ce432069930d46455a323a50"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out4/capture_log.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9436f53eb7af0e6a9b706b592e74011a6867e238",
+      "size": 238,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/9436f53eb7af0e6a9b706b592e74011a6867e238"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out5",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b734571f6441b62fc2f21d4edbf3ad20fa4ac2cb",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/b734571f6441b62fc2f21d4edbf3ad20fa4ac2cb"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out5/capture_log.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28f4092e62dfa30a0cf9ce3f5b7c68a663acfb3a",
+      "size": 238,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/28f4092e62dfa30a0cf9ce3f5b7c68a663acfb3a"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out6",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2c31e0ad493f84ff86b416fc20eb6f99d6860861",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/2c31e0ad493f84ff86b416fc20eb6f99d6860861"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out6/capture_log.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90266b7229621e6f768c977c94bde132a5fb189b",
+      "size": 238,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/90266b7229621e6f768c977c94bde132a5fb189b"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out_fwup",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a60d422e42e06d43b7c9c2e45517332445b02492",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/a60d422e42e06d43b7c9c2e45517332445b02492"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out_fwup/capture_log.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "851993726de1e18968732648664f3debe75d8fb8",
+      "size": 2150,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/851993726de1e18968732648664f3debe75d8fb8"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out_fwup/fwup_ev_0x41000012.resp.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3999ec7c5187541dacd5feee113f8ea4bc15fac",
+      "size": 12,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/e3999ec7c5187541dacd5feee113f8ea4bc15fac"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out_fwup/fwup_ev_0x41000013.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be6d850bf568c7de210b81a9530f2072984da90a",
+      "size": 20,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/be6d850bf568c7de210b81a9530f2072984da90a"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out_fwup/fwup_ev_0x41000013.resp.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68247887192d59f9320e4801070068c499f03f90",
+      "size": 12,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/68247887192d59f9320e4801070068c499f03f90"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out_fwup/fwup_ev_0x41000014.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06644b720b45fd0b04b2506da41a8a3cc55df31f",
+      "size": 20,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/06644b720b45fd0b04b2506da41a8a3cc55df31f"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out_fwup/fwup_ev_0x41000014.resp.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4165e04d66a11a50c366b11b203b9dd906aeb9c8",
+      "size": 12,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/4165e04d66a11a50c366b11b203b9dd906aeb9c8"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out_fwup/fwup_ev_0x41000015.resp.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb894126d044927e2ae77b7821e71d884f06ee7f",
+      "size": 12,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/bb894126d044927e2ae77b7821e71d884f06ee7f"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out_fwup/fwup_ev_0x41000016.resp.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8718bb432ea4fd5c0239aa6270fd06810ef78efc",
+      "size": 12,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/8718bb432ea4fd5c0239aa6270fd06810ef78efc"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out_fwup/fwup_ev_0x41000017.resp.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78c369c7a4e287179e6a46d22444e53432b907b6",
+      "size": 12,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/78c369c7a4e287179e6a46d22444e53432b907b6"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out_wired",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e72addbef0074efbf5d38e3fbe58a3b77b664423",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/e72addbef0074efbf5d38e3fbe58a3b77b664423"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out_wired/capture_log.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1a7aff7f794866d2dfe400cc7546a833638bf60",
+      "size": 1558,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/a1a7aff7f794866d2dfe400cc7546a833638bf60"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out_wired/config_0x9421.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c74c797a816e0a1a011eccf471bb3f74cd63105f",
+      "size": 65545,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/c74c797a816e0a1a011eccf471bb3f74cd63105f"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out_wired/config_0x9421.resp.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fa0855e65a34adcb2e30fed09b39ec21cb844a1",
+      "size": 12,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/3fa0855e65a34adcb2e30fed09b39ec21cb844a1"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out_wired/device_info.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2895c38908b4d2e6e54be20aa7bd4ef0b17b247",
+      "size": 225,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/c2895c38908b4d2e6e54be20aa7bd4ef0b17b247"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out_wired/device_info.resp.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f137c02e497eb4845aabab72cead61cc2843c26",
+      "size": 12,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/3f137c02e497eb4845aabab72cead61cc2843c26"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out_wired/storage_ids.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4238c66f7a1c0b896d2bd8c77755832dc18e4ecb",
+      "size": 12,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/4238c66f7a1c0b896d2bd8c77755832dc18e4ecb"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out_wired/storage_ids.resp.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68247887192d59f9320e4801070068c499f03f90",
+      "size": 12,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/68247887192d59f9320e4801070068c499f03f90"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out_wired/sync_list.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33d2f12d43a80f459c9af00beeae3cd6c41ab9e5",
+      "size": 32,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/33d2f12d43a80f459c9af00beeae3cd6c41ab9e5"
+    },
+    {
+      "path": "03_工具/ptp/ptp_out_wired/sync_list.resp.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4165e04d66a11a50c366b11b203b9dd906aeb9c8",
+      "size": 12,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/4165e04d66a11a50c366b11b203b9dd906aeb9c8"
+    },
+    {
+      "path": "03_工具/ptp/s5_config_0x9421_DC-S5_v2.9.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5757c53e704a5909f9971fda1c53d0ac0a36d711",
+      "size": 65545,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/5757c53e704a5909f9971fda1c53d0ac0a36d711"
+    },
+    {
+      "path": "03_工具/ptp/s5_ptp_dump",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2618fa7cae03b6a7bdc35c900347400785c88e00",
+      "size": 78920,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/2618fa7cae03b6a7bdc35c900347400785c88e00"
+    },
+    {
+      "path": "03_工具/ptp/s5_ptp_dump.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fe89fa2c6680909bd9b381d9f825976b66f9e3f",
+      "size": 20601,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/1fe89fa2c6680909bd9b381d9f825976b66f9e3f"
+    },
+    {
+      "path": "03_工具/ptp/s5_ptp_dump.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "259cdeca9d5c91e8bb7ac4c84b2615f9c21a0fde",
+      "size": 22935,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/259cdeca9d5c91e8bb7ac4c84b2615f9c21a0fde"
+    },
+    {
+      "path": "03_工具/ptp/s5_ptp_raw",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f6524a7e9b52ef451a986f277019df6ac934884c",
+      "size": 35720,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/f6524a7e9b52ef451a986f277019df6ac934884c"
+    },
+    {
+      "path": "03_工具/ptp/s5_ptp_raw.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9726bf4714b4b360e87b52a23ecf1546af548494",
+      "size": 14404,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/9726bf4714b4b360e87b52a23ecf1546af548494"
+    },
+    {
+      "path": "03_工具/ptp/s5_usb_desc",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9dfbd034e60fd73f4ec7a575a7767286ad4bbe37",
+      "size": 35800,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/9dfbd034e60fd73f4ec7a575a7767286ad4bbe37"
+    },
+    {
+      "path": "03_工具/ptp/s5_usb_desc.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eff680247b46d89a2412abffb33ed201c5c0efaa",
+      "size": 16486,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/eff680247b46d89a2412abffb33ed201c5c0efaa"
+    },
+    {
+      "path": "03_工具/ptp/s5_usb_ep0",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e8909ca75ea95dcaa90a6707e8fac18ff9c3a4bb",
+      "size": 34968,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/e8909ca75ea95dcaa90a6707e8fac18ff9c3a4bb"
+    },
+    {
+      "path": "03_工具/ptp/s5_usb_ep0.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "311272cf29e78d23690b0eb5e193cd518dfa1c45",
+      "size": 8553,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/311272cf29e78d23690b0eb5e193cd518dfa1c45"
+    },
+    {
+      "path": "03_工具/ptp/s5_usb_ep0out",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "81fbad3ba357fe31c9d43371cf487823b7b6451c",
+      "size": 34976,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/81fbad3ba357fe31c9d43371cf487823b7b6451c"
+    },
+    {
+      "path": "03_工具/ptp/s5_usb_ep0out.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71e9d77276ea3ca8aac1d64e305411bc22bdad8c",
+      "size": 11236,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/71e9d77276ea3ca8aac1d64e305411bc22bdad8c"
+    },
+    {
+      "path": "03_工具/ptp/s5_usb_listen",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2f562052e190ebd1e33a6fcdfc794fd1bf0ea4d1",
+      "size": 35392,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/2f562052e190ebd1e33a6fcdfc794fd1bf0ea4d1"
+    },
+    {
+      "path": "03_工具/ptp/s5_usb_listen.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "462a30aaaa57bd1f740d3a3cd7f6e3661f2c9f79",
+      "size": 15140,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/462a30aaaa57bd1f740d3a3cd7f6e3661f2c9f79"
+    },
+    {
+      "path": "03_工具/s5_monitor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d20f86e2b3daa38d515b57cac84b32a0eca693f5",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/d20f86e2b3daa38d515b57cac84b32a0eca693f5"
+    },
+    {
+      "path": "03_工具/s5_monitor/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0e1a71809b7aa836702075303b86d9ecfa47bee",
+      "size": 26039,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/a0e1a71809b7aa836702075303b86d9ecfa47bee"
+    },
+    {
+      "path": "03_工具/s5_monitor/run.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2e9c7fae4e87fef4d2a1792e8a2a2fa4e987978f",
+      "size": 1788,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/2e9c7fae4e87fef4d2a1792e8a2a2fa4e987978f"
+    },
+    {
+      "path": "03_工具/s5_monitor/s5gate_test.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ab13154ef869d62cc073d618abafa587f7c1515d",
+      "size": 2673,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/ab13154ef869d62cc073d618abafa587f7c1515d"
+    },
+    {
+      "path": "03_工具/s5_monitor/s5monitor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b9ddda69453d598c751e0a2da111d57a760eec0",
+      "size": 53394,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/4b9ddda69453d598c751e0a2da111d57a760eec0"
+    },
+    {
+      "path": "03_工具/s5_monitor/s5probe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1aeb825fdf2e3a7b76b83b35ae32bf094c4ff61",
+      "size": 8414,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/a1aeb825fdf2e3a7b76b83b35ae32bf094c4ff61"
+    },
+    {
+      "path": "03_工具/s5_monitor/www",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fb348555f094529cf14812d96d96cb5f390941d8",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/fb348555f094529cf14812d96d96cb5f390941d8"
+    },
+    {
+      "path": "03_工具/s5_monitor/www/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afce6a5d7b557409fe0365bbc841ed945795780d",
+      "size": 24502,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/afce6a5d7b557409fe0365bbc841ed945795780d"
+    },
+    {
+      "path": "03_工具/s5_monitor/设置枚举测试计划.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6327f9e01d15d871c17d492cd71f4e7eda56b089",
+      "size": 4779,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/6327f9e01d15d871c17d492cd71f4e7eda56b089"
+    },
+    {
+      "path": "03_工具/交付包_tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4b9dae408fafa2e585cd3e5631aa35eb8ae75683",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/4b9dae408fafa2e585cd3e5631aa35eb8ae75683"
+    },
+    {
+      "path": "03_工具/交付包_tools/analysis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2cc94571ac5e7e32d0e85fdf32f54c1dc6a15f75",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/2cc94571ac5e7e32d0e85fdf32f54c1dc6a15f75"
+    },
+    {
+      "path": "03_工具/交付包_tools/analysis/exp_cipher.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24384cd89424dbc0bea68abc4bd044ccfbe8d7be",
+      "size": 2035,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/24384cd89424dbc0bea68abc4bd044ccfbe8d7be"
+    },
+    {
+      "path": "03_工具/交付包_tools/analysis/ivsig.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8aab2d79a503c10ca7164ec79bc9ab4cb4dcf16",
+      "size": 2299,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/c8aab2d79a503c10ca7164ec79bc9ab4cb4dcf16"
+    },
+    {
+      "path": "03_工具/交付包_tools/analysis/keyhunt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11fc812e485b4b198c0340fbe8d2a7de59d9a788",
+      "size": 3836,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/11fc812e485b4b198c0340fbe8d2a7de59d9a788"
+    },
+    {
+      "path": "03_工具/交付包_tools/analysis/keyhunt2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e84add6383f74d88d31ef7e5bc1b15b9fafc07b",
+      "size": 3049,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/9e84add6383f74d88d31ef7e5bc1b15b9fafc07b"
+    },
+    {
+      "path": "03_工具/交付包_tools/analysis/ks_extract.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f020e95696c7a72faed9c79f6025727a4c5ab1b",
+      "size": 1790,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/7f020e95696c7a72faed9c79f6025727a4c5ab1b"
+    },
+    {
+      "path": "03_工具/交付包_tools/analysis/parse_all.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47a1b90f0c30cc1f44f90709a8e5c89442e67506",
+      "size": 1316,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/47a1b90f0c30cc1f44f90709a8e5c89442e67506"
+    },
+    {
+      "path": "03_工具/交付包_tools/analysis/parse_upd.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b12aaea4259a0336ed7a1790e88f6c8245081976",
+      "size": 2243,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/b12aaea4259a0336ed7a1790e88f6c8245081976"
+    },
+    {
+      "path": "03_工具/交付包_tools/analysis/rawtest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb5f656d4de7e218d301aaf649b85af13b634467",
+      "size": 1898,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/fb5f656d4de7e218d301aaf649b85af13b634467"
+    },
+    {
+      "path": "03_工具/交付包_tools/analysis/verify512.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ad33d551f1f7b3cfda82bcb219af62c50f015c1",
+      "size": 1248,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/5ad33d551f1f7b3cfda82bcb219af62c50f015c1"
+    },
+    {
+      "path": "03_工具/交付包_tools/analysis/verify_sha.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e2f042c183c466eb1d055ecacfbd0a8999dff18",
+      "size": 1236,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/5e2f042c183c466eb1d055ecacfbd0a8999dff18"
+    },
+    {
+      "path": "03_工具/交付包_tools/analysis/xver.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8971257c9e484c98da48cc87ddf3f75769ab870",
+      "size": 1950,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/a8971257c9e484c98da48cc87ddf3f75769ab870"
+    },
+    {
+      "path": "03_工具/交付包_tools/analysis/xver2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b09a52ab2400e971be23b3f171104cdb526433a9",
+      "size": 2204,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/b09a52ab2400e971be23b3f171104cdb526433a9"
+    },
+    {
+      "path": "03_工具/交付包_tools/analysis/xver_fixed.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4081a66757fab0ed21449a4f290383fc4bc15d53",
+      "size": 3803,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/4081a66757fab0ed21449a4f290383fc4bc15d53"
+    },
+    {
+      "path": "03_工具/交付包_tools/s5_ptp_dump",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2618fa7cae03b6a7bdc35c900347400785c88e00",
+      "size": 78920,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/2618fa7cae03b6a7bdc35c900347400785c88e00"
+    },
+    {
+      "path": "03_工具/交付包_tools/s5_ptp_dump.m",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fe89fa2c6680909bd9b381d9f825976b66f9e3f",
+      "size": 20601,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/1fe89fa2c6680909bd9b381d9f825976b66f9e3f"
+    },
+    {
+      "path": "03_工具/交付包_tools/s5_ptp_dump.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "259cdeca9d5c91e8bb7ac4c84b2615f9c21a0fde",
+      "size": 22935,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/259cdeca9d5c91e8bb7ac4c84b2615f9c21a0fde"
+    },
+    {
+      "path": "04_关键数据",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "51c5e5da04fbb3cc1cb4b32ad9b7691d5271f051",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/51c5e5da04fbb3cc1cb4b32ad9b7691d5271f051"
+    },
+    {
+      "path": "04_关键数据/K32恢复明文",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5b80e65cb8ab184951c33558940876de80e94601",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/5b80e65cb8ab184951c33558940876de80e94601"
+    },
+    {
+      "path": "04_关键数据/K32恢复明文/ks_S5V29_eep_act_a.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e9424825b4816101d913e1b8e34a661548a512f",
+      "size": 2048,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/8e9424825b4816101d913e1b8e34a661548a512f"
+    },
+    {
+      "path": "04_关键数据/K32恢复明文/ks_S5V29_eep_act_b.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94e4ac52b8a71138c6a9282f645ffdea4c5e7bc4",
+      "size": 2048,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/94e4ac52b8a71138c6a9282f645ffdea4c5e7bc4"
+    },
+    {
+      "path": "04_关键数据/K32恢复明文/ks_S5V29_ipu_data.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7716e72aafa17956d4269cb333efaec2b4cc0138",
+      "size": 262144,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/7716e72aafa17956d4269cb333efaec2b4cc0138"
+    },
+    {
+      "path": "04_关键数据/K32恢复明文/ks_S5V29_koutei_kao.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "429f77b8fdaa792429ae4ab47271fdaa70e75069",
+      "size": 114688,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/429f77b8fdaa792429ae4ab47271fdaa70e75069"
+    },
+    {
+      "path": "04_关键数据/K32恢复明文/ks_S5V29_music.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "131958e1a9811168622367e9ae40a167f94ddf8f",
+      "size": 3538944,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/131958e1a9811168622367e9ae40a167f94ddf8f"
+    },
+    {
+      "path": "04_关键数据/K32恢复明文/rec_S5V29_eep_act_a_from_G100.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da610cd129d7c0d201296f96158dc8618661749c",
+      "size": 2048,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/da610cd129d7c0d201296f96158dc8618661749c"
+    },
+    {
+      "path": "04_关键数据/K32恢复明文/rec_S5V29_eep_act_b_from_G100.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da610cd129d7c0d201296f96158dc8618661749c",
+      "size": 2048,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/da610cd129d7c0d201296f96158dc8618661749c"
+    },
+    {
+      "path": "04_关键数据/K32恢复明文/rec_S5V29_ipu_data_from_G100.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d23118f0d0084657a974875123ddc1b9a0738dd",
+      "size": 262144,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/6d23118f0d0084657a974875123ddc1b9a0738dd"
+    },
+    {
+      "path": "04_关键数据/K32恢复明文/rec_S5V29_koutei_kao_from_G100.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e6f28f046f54c981de37e1a83129a6cdc590849",
+      "size": 114688,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/3e6f28f046f54c981de37e1a83129a6cdc590849"
+    },
+    {
+      "path": "04_关键数据/K32恢复明文/rec_S5V29_music_from_G100.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ec5ccdc2bf41df31eda84df78361fa0b4de3bc5",
+      "size": 3538944,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/8ec5ccdc2bf41df31eda84df78361fa0b4de3bc5"
+    },
+    {
+      "path": "04_关键数据/K32恢复明文/rec_music_from_G100.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ec5ccdc2bf41df31eda84df78361fa0b4de3bc5",
+      "size": 3538944,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/8ec5ccdc2bf41df31eda84df78361fa0b4de3bc5"
+    },
+    {
+      "path": "04_关键数据/K32恢复明文/s5_check_code_log.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce613d3b06f49e27f75978e248409b132d7534ff",
+      "size": 3350,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/ce613d3b06f49e27f75978e248409b132d7534ff"
+    },
+    {
+      "path": "04_关键数据/camsetting.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "698fe95f323b6608a0f50ee1178713f713ff9ab2",
+      "size": 65533,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/698fe95f323b6608a0f50ee1178713f713ff9ab2"
+    },
+    {
+      "path": "04_关键数据/rombackup_20261013",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "03f588b8e168d9e3f08dda2fc876781b341c6bc3",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/03f588b8e168d9e3f08dda2fc876781b341c6bc3"
+    },
+    {
+      "path": "04_关键数据/rombackup_20261013/ADJUST.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6203aedc92e6a36f81413a0a95d8b625a6e7bca1",
+      "size": 131072,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/6203aedc92e6a36f81413a0a95d8b625a6e7bca1"
+    },
+    {
+      "path": "04_关键数据/rombackup_20261013/FIX.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ad0a406ad95355c98f9a0248b3b2d28a05d60ad",
+      "size": 131072,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/0ad0a406ad95355c98f9a0248b3b2d28a05d60ad"
+    },
+    {
+      "path": "04_关键数据/rombackup_20261013/S5A.TXT",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "edca0f13ce0af74a68ef17b9b9518a926c7d6793",
+      "size": 356673,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/edca0f13ce0af74a68ef17b9b9518a926c7d6793"
+    },
+    {
+      "path": "04_关键数据/rombackup_20261013/S5F.TXT",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4c88194130620ad289343ab4c5aa5c036cb0acbc",
+      "size": 356670,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/4c88194130620ad289343ab4c5aa5c036cb0acbc"
+    },
+    {
+      "path": "04_关键数据/rombackup_20261013/S5U.TXT",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a7bf81d8752a50569910190213c41e992748cd5d",
+      "size": 356668,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/a7bf81d8752a50569910190213c41e992748cd5d"
+    },
+    {
+      "path": "04_关键数据/rombackup_20261013/UPDATE.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26f4163036f3785e35e9803e3e3d005dfffa7c0e",
+      "size": 131072,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/26f4163036f3785e35e9803e3e3d005dfffa7c0e"
+    },
+    {
+      "path": "04_关键数据/s5_config_0x9421_DC-S5_v2.9.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5757c53e704a5909f9971fda1c53d0ac0a36d711",
+      "size": 65545,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/5757c53e704a5909f9971fda1c53d0ac0a36d711"
+    },
+    {
+      "path": "05_交付产物",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3a68d4fa87f9c7470069b2e89ff262c81140998e",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/3a68d4fa87f9c7470069b2e89ff262c81140998e"
+    },
+    {
+      "path": "05_交付产物/S5无线监看_LUT版_v1.5",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ac0c68c3924281b546cf408717758123276d7328",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/ac0c68c3924281b546cf408717758123276d7328"
+    },
+    {
+      "path": "05_交付产物/S5无线监看_LUT版_v1.5/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d551f6f932265fe5755b19b398ba814641f4b3bb",
+      "size": 7005,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/d551f6f932265fe5755b19b398ba814641f4b3bb"
+    },
+    {
+      "path": "05_交付产物/S5无线监看_LUT版_v1.5/VERSION",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c239c60cba28a79a295acb60a122b8c46eb57271",
+      "size": 4,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/c239c60cba28a79a295acb60a122b8c46eb57271"
+    },
+    {
+      "path": "05_交付产物/S5无线监看_LUT版_v1.5/lut",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1ed13bcac26a516dcc3a6401413256e642bf7bd4",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/1ed13bcac26a516dcc3a6401413256e642bf7bd4"
+    },
+    {
+      "path": "05_交付产物/S5无线监看_LUT版_v1.5/lut/GR4-CineG Plady.cube",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c658cc2840d658072f1dd1dd1dcdfc03a8b26ffe",
+      "size": 970482,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/c658cc2840d658072f1dd1dd1dcdfc03a8b26ffe"
+    },
+    {
+      "path": "05_交付产物/S5无线监看_LUT版_v1.5/lut/GR4-CineY Plady.cube",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb2802bcfc1eca2c85212ec5e12aa919397a1ea9",
+      "size": 970482,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/bb2802bcfc1eca2c85212ec5e12aa919397a1ea9"
+    },
+    {
+      "path": "05_交付产物/S5无线监看_LUT版_v1.5/lut/VOL12 TXD FUJI NC P.cube",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aebe5f547b77ff0d2dedf7cd6fec0a99d64203ea",
+      "size": 970605,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/aebe5f547b77ff0d2dedf7cd6fec0a99d64203ea"
+    },
+    {
+      "path": "05_交付产物/S5无线监看_LUT版_v1.5/lut/VOL19 TXD GLOD 200T V2.cube",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcca2ac2bd51951d1077563b850857feaca7e05c",
+      "size": 970612,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/bcca2ac2bd51951d1077563b850857feaca7e05c"
+    },
+    {
+      "path": "05_交付产物/S5无线监看_LUT版_v1.5/lut/vlog_to_709_17.cube",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d6ab21454e65d710591fcd2c7734a2cba76d912",
+      "size": 132733,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/1d6ab21454e65d710591fcd2c7734a2cba76d912"
+    },
+    {
+      "path": "05_交付产物/S5无线监看_LUT版_v1.5/lut/vlog_to_709_17.vlt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c76732f0217f72bcf89ab3778f8756a1ed554b8",
+      "size": 51873,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/0c76732f0217f72bcf89ab3778f8756a1ed554b8"
+    },
+    {
+      "path": "05_交付产物/S5无线监看_LUT版_v1.5/lut/vlog_to_709_17_altAxis.vlt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ffb6bfaefe06307c1209e37ff6f31b78ec1c20b",
+      "size": 51881,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/2ffb6bfaefe06307c1209e37ff6f31b78ec1c20b"
+    },
+    {
+      "path": "05_交付产物/S5无线监看_LUT版_v1.5/lut/vlog_to_709_33.cube",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00b4713ff6ac650c7e53d280e39f33161f9d69ee",
+      "size": 970381,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/00b4713ff6ac650c7e53d280e39f33161f9d69ee"
+    },
+    {
+      "path": "05_交付产物/S5无线监看_LUT版_v1.5/lut/vlog_to_709_33.vlt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f33f5dc814e33b02ccea69bb8df15e43705c11e",
+      "size": 380320,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/6f33f5dc814e33b02ccea69bb8df15e43705c11e"
+    },
+    {
+      "path": "05_交付产物/S5无线监看_LUT版_v1.5/s5_content.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b364b844dc5ad79f6525e610b13e0a59a4263372",
+      "size": 23196,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/b364b844dc5ad79f6525e610b13e0a59a4263372"
+    },
+    {
+      "path": "05_交付产物/S5无线监看_LUT版_v1.5/s5_get_photo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4325a4390e99403b430f93be45b7c766d5c13a49",
+      "size": 5080,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/4325a4390e99403b430f93be45b7c766d5c13a49"
+    },
+    {
+      "path": "05_交付产物/S5无线监看_LUT版_v1.5/s5_lut.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1da44a5048a743320385eb1a95e86ab769dade6b",
+      "size": 17297,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/1da44a5048a743320385eb1a95e86ab769dade6b"
+    },
+    {
+      "path": "05_交付产物/S5无线监看_LUT版_v1.5/s5_selfcheck.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a65ee1889c76e5dac114ca048d9256f2619dfd1",
+      "size": 8871,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/3a65ee1889c76e5dac114ca048d9256f2619dfd1"
+    },
+    {
+      "path": "05_交付产物/S5无线监看_LUT版_v1.5/s5_transfer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3a2ce4014ee2dcc9dc7d934b5042885ad298678",
+      "size": 10785,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/e3a2ce4014ee2dcc9dc7d934b5042885ad298678"
+    },
+    {
+      "path": "05_交付产物/S5无线监看_LUT版_v1.5/s5monitor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33acd72e23d18b3def16109c8679c49e4b7358d1",
+      "size": 69757,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/33acd72e23d18b3def16109c8679c49e4b7358d1"
+    },
+    {
+      "path": "05_交付产物/S5无线监看_LUT版_v1.5/www",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "31ef369e507807f6f3ee194f22ef08bb11efc70d",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/31ef369e507807f6f3ee194f22ef08bb11efc70d"
+    },
+    {
+      "path": "05_交付产物/S5无线监看_LUT版_v1.5/www/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68ca57d4dc2cc13e9af35530ddd67dd7721a906d",
+      "size": 37870,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/68ca57d4dc2cc13e9af35530ddd67dd7721a906d"
+    },
+    {
+      "path": "05_交付产物/S5无线监看_LUT版_v1.5/使用说明.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08580767bcc64706c8c1056887860415c94ce30c",
+      "size": 5639,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/08580767bcc64706c8c1056887860415c94ce30c"
+    },
+    {
+      "path": "05_交付产物/S5无线监看_LUT版_v1.5/启动.command",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3ad4d62484b35602021fa30675c39302bd088988",
+      "size": 2516,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/3ad4d62484b35602021fa30675c39302bd088988"
+    },
+    {
+      "path": "05_交付产物/S5无线监看_LUT版_v1.5/附_技术参考.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ae2389db0c9d86a4902ebe182410557ec6f5a12",
+      "size": 7413,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/9ae2389db0c9d86a4902ebe182410557ec6f5a12"
+    },
+    {
+      "path": "05_交付产物/S5无线监看_LUT版_v1.5/首次运行_安装依赖.command",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "41453715d9dbdb84cb7010fe751e64b7570c3118",
+      "size": 2516,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/41453715d9dbdb84cb7010fe751e64b7570c3118"
+    },
+    {
+      "path": "06_证据索引.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e99ba1521dae0ca8fa73bf17d8a2606537d4db0",
+      "size": 3749,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/1e99ba1521dae0ca8fa73bf17d8a2606537d4db0"
+    },
+    {
+      "path": "07_四板块遗漏审计与不拆机路径_20261015.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "536fbdc6f95b5f64ca22605ecfa58d109a60090e",
+      "size": 30236,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/536fbdc6f95b5f64ca22605ecfa58d109a60090e"
+    },
+    {
+      "path": "08_Linux攻击面_P1候选漏洞_20261015.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9da1cdc661218f0f773cc954986355c41dd22d8",
+      "size": 17382,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/d9da1cdc661218f0f773cc954986355c41dd22d8"
+    },
+    {
+      "path": "09_QEMU复现_CVE-2016-10229",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3092eb76106ab407156a33d2ddaed38a04e3f746",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/3092eb76106ab407156a33d2ddaed38a04e3f746"
+    },
+    {
+      "path": "09_QEMU复现_CVE-2016-10229/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e6ac58d0b7eff10e92a4bed659c9936a3ff1bb5",
+      "size": 5064,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/7e6ac58d0b7eff10e92a4bed659c9936a3ff1bb5"
+    },
+    {
+      "path": "09_QEMU复现_CVE-2016-10229/elf.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2da9de9d11bab51e3afd304d069a43a7dc089f7f",
+      "size": 7041,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/2da9de9d11bab51e3afd304d069a43a7dc089f7f"
+    },
+    {
+      "path": "09_QEMU复现_CVE-2016-10229/init",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "714fe7919d23c383bbf7d83f43cf0d83d0f2090f",
+      "size": 6288,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/714fe7919d23c383bbf7d83f43cf0d83d0f2090f"
+    },
+    {
+      "path": "09_QEMU复现_CVE-2016-10229/init.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9649e280b7cc0a697b5f1d5573d9e185a0e20a9",
+      "size": 2838,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/c9649e280b7cc0a697b5f1d5573d9e185a0e20a9"
+    },
+    {
+      "path": "09_QEMU复现_CVE-2016-10229/initramfs.cpio.gz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf0ba2cfd7e7d891d679c352327c128b4346572a",
+      "size": 1283,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/bf0ba2cfd7e7d891d679c352327c128b4346572a"
+    },
+    {
+      "path": "09_QEMU复现_CVE-2016-10229/initramfs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0c194126981097c7d7e843150f2265dcb0f9d3df",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/0c194126981097c7d7e843150f2265dcb0f9d3df"
+    },
+    {
+      "path": "09_QEMU复现_CVE-2016-10229/initramfs/init",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "714fe7919d23c383bbf7d83f43cf0d83d0f2090f",
+      "size": 6288,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/714fe7919d23c383bbf7d83f43cf0d83d0f2090f"
+    },
+    {
+      "path": "09_QEMU复现_CVE-2016-10229/poc.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d6ca15b1261b3281f9b7d8037016960b38c910e",
+      "size": 2926,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/6d6ca15b1261b3281f9b7d8037016960b38c910e"
+    },
+    {
+      "path": "09_QEMU复现_CVE-2016-10229/run_qemu.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83f6037411ae7dfca3b6733c49d0f088d542f824",
+      "size": 890,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/83f6037411ae7dfca3b6733c49d0f088d542f824"
+    },
+    {
+      "path": "09_QEMU复现_CVE-2016-10229/构建补丁说明.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aec01afb4770d751a2154fdc092e697ce7616866",
+      "size": 3660,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/aec01afb4770d751a2154fdc092e697ce7616866"
+    },
+    {
+      "path": "10_实机触发验证",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a7e8c80ba1ee857a85988b6ab470000063be2da5",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/a7e8c80ba1ee857a85988b6ab470000063be2da5"
+    },
+    {
+      "path": "10_实机触发验证/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54f615756c85e652c11a36f749db954c9f3ba839",
+      "size": 5614,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/54f615756c85e652c11a36f749db954c9f3ba839"
+    },
+    {
+      "path": "10_实机触发验证/bad_udp",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8aec61b0929972d72de61d4df25ddc0adbfbf085",
+      "size": 34760,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/8aec61b0929972d72de61d4df25ddc0adbfbf085"
+    },
+    {
+      "path": "10_实机触发验证/bad_udp.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9dd671c1b17d714f1688a033d91a75401e297e4",
+      "size": 5877,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/c9dd671c1b17d714f1688a033d91a75401e297e4"
+    },
+    {
+      "path": "10_实机触发验证/crash_cases",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ce3416b44759433752460057ad7fe431f9765ce6",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/ce3416b44759433752460057ad7fe431f9765ce6"
+    },
+    {
+      "path": "10_实机触发验证/crash_cases/001_type_StartingIndex_2147483647.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5a298d3848bf37499856826465ee9fb9f6a3da7",
+      "size": 547,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/b5a298d3848bf37499856826465ee9fb9f6a3da7"
+    },
+    {
+      "path": "10_实机触发验证/crash_cases/dlna_down_repro_orig_r1.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5a298d3848bf37499856826465ee9fb9f6a3da7",
+      "size": 547,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/b5a298d3848bf37499856826465ee9fb9f6a3da7"
+    },
+    {
+      "path": "10_实机触发验证/deep_reset_session.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c37d3ff4759b9f4b54cce6dcc6a8788725223c2a",
+      "size": 5565,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/c37d3ff4759b9f4b54cce6dcc6a8788725223c2a"
+    },
+    {
+      "path": "10_实机触发验证/drs_run1.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e9f0ea09ef47f84ca5b4c1519061ab61d187d13",
+      "size": 3167,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/4e9f0ea09ef47f84ca5b4c1519061ab61d187d13"
+    },
+    {
+      "path": "10_实机触发验证/dryrun_20261016_160631",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c54fc1c0c087a6a175a8245af8dcf4515fa18700",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/c54fc1c0c087a6a175a8245af8dcf4515fa18700"
+    },
+    {
+      "path": "10_实机触发验证/dryrun_20261016_160631/mock_p12.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cecdf83f6948b4592faaae1d6dfcbabc01c6cd3",
+      "size": 96,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/8cecdf83f6948b4592faaae1d6dfcbabc01c6cd3"
+    },
+    {
+      "path": "10_实机触发验证/dryrun_20261016_160631/mock_p34.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d4cd5f9ebd1ac7c164843a55036f90d644bab0f",
+      "size": 97,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/7d4cd5f9ebd1ac7c164843a55036f90d644bab0f"
+    },
+    {
+      "path": "10_实机触发验证/dryrun_20261016_160631/p1_handshake.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adfde81ba9334faa71e3cab6ecbd64ec819f3a0b",
+      "size": 1028,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/adfde81ba9334faa71e3cab6ecbd64ec819f3a0b"
+    },
+    {
+      "path": "10_实机触发验证/dryrun_20261016_160631/p2_repro.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a478d073ea652564d80e6e5d4338a4147ab456ad",
+      "size": 675,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/a478d073ea652564d80e6e5d4338a4147ab456ad"
+    },
+    {
+      "path": "10_实机触发验证/dryrun_offline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed3ba3e4099cbc820149c92a9b78aeb605f66879",
+      "size": 8226,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/ed3ba3e4099cbc820149c92a9b78aeb605f66879"
+    },
+    {
+      "path": "10_实机触发验证/fuzz_dlna.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86f42cd1fbd3be82b697e15cfff34a9f5762cc3c",
+      "size": 33663,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/86f42cd1fbd3be82b697e15cfff34a9f5762cc3c"
+    },
+    {
+      "path": "10_实机触发验证/fuzz_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df39cd5d3e345f484e6f331d0eb0f97bb4048a6f",
+      "size": 16979,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/df39cd5d3e345f484e6f331d0eb0f97bb4048a6f"
+    },
+    {
+      "path": "10_实机触发验证/handshake.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "200d33608f6fa56f8aa1b49daea4f03f3b4c5ec7",
+      "size": 6432,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/200d33608f6fa56f8aa1b49daea4f03f3b4c5ec7"
+    },
+    {
+      "path": "10_实机触发验证/mock_cam.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f2551d0757333ddf6e8d9fda4156c9e1b17b4a6",
+      "size": 11419,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/1f2551d0757333ddf6e8d9fda4156c9e1b17b4a6"
+    },
+    {
+      "path": "10_实机触发验证/pag_run1.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd163fcb978fb0fc9cd5e268bcf17f5bec686274",
+      "size": 461,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/dd163fcb978fb0fc9cd5e268bcf17f5bec686274"
+    },
+    {
+      "path": "10_实机触发验证/pag_run2.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f8c00084ca4811f6d90a61e6eb8bcc584fe5747",
+      "size": 1645,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/6f8c00084ca4811f6d90a61e6eb8bcc584fe5747"
+    },
+    {
+      "path": "10_实机触发验证/post_approval_grab.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89f25a06c1c0c4229c1adeb11c7cea9a5a8132ff",
+      "size": 5241,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/89f25a06c1c0c4229c1adeb11c7cea9a5a8132ff"
+    },
+    {
+      "path": "10_实机触发验证/radar_run1.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b847999fa331f9c4709bf5d1ea745ff43a424cc6",
+      "size": 319,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/b847999fa331f9c4709bf5d1ea745ff43a424cc6"
+    },
+    {
+      "path": "10_实机触发验证/repro_crash.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48bd1aabc8f9151894131b01df8c07079ec3628b",
+      "size": 8454,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/48bd1aabc8f9151894131b01df8c07079ec3628b"
+    },
+    {
+      "path": "10_实机触发验证/repro_log_20261016_145234.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "beb115241285760a574257c68997a26d9a5cb92d",
+      "size": 202,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/beb115241285760a574257c68997a26d9a5cb92d"
+    },
+    {
+      "path": "10_实机触发验证/repro_log_20261016_160634.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c2a4bf6227a8683ed62cb7897b521dbe2394a14",
+      "size": 473,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/1c2a4bf6227a8683ed62cb7897b521dbe2394a14"
+    },
+    {
+      "path": "10_实机触发验证/repro_run2.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6a3c41377a1776055d7c1f44e15cbdb922c2dcc",
+      "size": 189,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/f6a3c41377a1776055d7c1f44e15cbdb922c2dcc"
+    },
+    {
+      "path": "10_实机触发验证/send_bad_udp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0b2d250bd3fd05aba8af4762d6beb2a906a08ca",
+      "size": 3029,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/c0b2d250bd3fd05aba8af4762d6beb2a906a08ca"
+    },
+    {
+      "path": "10_实机触发验证/session_radar.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cc143102c6a121e075b7ca8c3129ce14211574d",
+      "size": 5157,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/5cc143102c6a121e075b7ca8c3129ce14211574d"
+    },
+    {
+      "path": "10_实机触发验证/wg_run1.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "663eb20d4e759d06ed988d3eefd2ebc7f25440f1",
+      "size": 1450,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/663eb20d4e759d06ed988d3eefd2ebc7f25440f1"
+    },
+    {
+      "path": "10_实机触发验证/window_grab.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c5f5424ea62999bfb8f48a51296388b75a05bc4",
+      "size": 5936,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/0c5f5424ea62999bfb8f48a51296388b75a05bc4"
+    },
+    {
+      "path": "11_密码学_正确偏移密钥搜索_20261016",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c32677c898a9c3335dc31b7785226828bf7f54c1",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/c32677c898a9c3335dc31b7785226828bf7f54c1"
+    },
+    {
+      "path": "11_密码学_正确偏移密钥搜索_20261016/exp5_real_key_search_corrected.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "484585f3c29535c692e3bfbf13db65e48a4471fe",
+      "size": 20239,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/484585f3c29535c692e3bfbf13db65e48a4471fe"
+    },
+    {
+      "path": "11_密码学_正确偏移密钥搜索_20261016/out",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cf820de1529fab2886daf67d6086e9123131a107",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/cf820de1529fab2886daf67d6086e9123131a107"
+    },
+    {
+      "path": "11_密码学_正确偏移密钥搜索_20261016/out/exp5_console.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28440eafe0b9d4addf45e05ab4650e8cf74567d4",
+      "size": 6482,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/28440eafe0b9d4addf45e05ab4650e8cf74567d4"
+    },
+    {
+      "path": "11_密码学_正确偏移密钥搜索_20261016/out/exp5_real_key_search.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "244c3394d5f6bd591e83d77fdb0fb572af7e7666",
+      "size": 5890,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/244c3394d5f6bd591e83d77fdb0fb572af7e7666"
+    },
+    {
+      "path": "11_密码学_正确偏移密钥搜索_20261016/upd_table.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61f348f0d7bc71f869ba28c4bc16ad1331be01ce",
+      "size": 9475,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/61f348f0d7bc71f869ba28c4bc16ad1331be01ce"
+    },
+    {
+      "path": "11_密码学_正确偏移密钥搜索_20261016/结论.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8667f020ca4d91692debb5276200ddade864adaf",
+      "size": 8042,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/8667f020ca4d91692debb5276200ddade864adaf"
+    },
+    {
+      "path": "12_全包通读指南.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1af28229cd71639e301cc284cbd5241415d7291",
+      "size": 7826,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/f1af28229cd71639e301cc284cbd5241415d7291"
+    },
+    {
+      "path": "13_新疑点与新方向_20261016.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26e637297e68b61d7434546cb66155c2c7db3bcb",
+      "size": 18339,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/26e637297e68b61d7434546cb66155c2c7db3bcb"
+    },
+    {
+      "path": "15_机型身份面_离线反汇编证据_20261016",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b72f61cd5ef96e38228e65ca8b55348900ea6c30",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/b72f61cd5ef96e38228e65ca8b55348900ea6c30"
+    },
+    {
+      "path": "15_机型身份面_离线反汇编证据_20261016/NOTES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f4f884cd1aed557e2fdf0b1d7f1b1b4064fcab6",
+      "size": 6434,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/6f4f884cd1aed557e2fdf0b1d7f1b1b4064fcab6"
+    },
+    {
+      "path": "15_机型身份面_离线反汇编证据_20261016/disasm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "127cf3e7a131cfcf09d54f832fe8ffcf82d83b68",
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/trees/127cf3e7a131cfcf09d54f832fe8ffcf82d83b68"
+    },
+    {
+      "path": "15_机型身份面_离线反汇编证据_20261016/disasm/dlna_camxml_hdr_build2_d1e20.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c5771ef19b55575d4138ed123f8b0d09772b064",
+      "size": 3210,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/8c5771ef19b55575d4138ed123f8b0d09772b064"
+    },
+    {
+      "path": "15_机型身份面_离线反汇编证据_20261016/disasm/dlna_camxml_hdr_build_d1ac0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b35288944889b054f2c9c26c6d5e680a81474637",
+      "size": 3050,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/b35288944889b054f2c9c26c6d5e680a81474637"
+    },
+    {
+      "path": "15_机型身份面_离线反汇编证据_20261016/disasm/dlna_fromcp_parse_e7794.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9189c012de41f57d6ae2e1a72eaf5e1f6895d47",
+      "size": 2830,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/c9189c012de41f57d6ae2e1a72eaf5e1f6895d47"
+    },
+    {
+      "path": "15_机型身份面_离线反汇编证据_20261016/disasm/dlna_fromcp_store_e7848.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9841d86884aba41f0fcc9e79f6ae4cc60d483c3e",
+      "size": 2372,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/9841d86884aba41f0fcc9e79f6ae4cc60d483c3e"
+    },
+    {
+      "path": "15_机型身份面_离线反汇编证据_20261016/disasm/dlna_hdr_table_60acc.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db8161f305293e4c73b92665a7a45cf88dbbd2a3",
+      "size": 1280,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/db8161f305293e4c73b92665a7a45cf88dbbd2a3"
+    },
+    {
+      "path": "15_机型身份面_离线反汇编证据_20261016/disasm/dlna_identity_register_13c8c.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b5ba1abb65337dddfc34a69f3811ce107ac9bfd",
+      "size": 1333,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/6b5ba1abb65337dddfc34a69f3811ce107ac9bfd"
+    },
+    {
+      "path": "15_机型身份面_离线反汇编证据_20261016/disasm/dlna_lumixlink_gate_13ef0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62e0232e8a9af90ea4b4ca0e6db05362dee1843e",
+      "size": 1367,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/62e0232e8a9af90ea4b4ca0e6db05362dee1843e"
+    },
+    {
+      "path": "15_机型身份面_离线反汇编证据_20261016/disasm/psm_capability_3f620.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b56a305c66a325a0e99ff4d25dc37d07d23d8a6",
+      "size": 1004,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/7b56a305c66a325a0e99ff4d25dc37d07d23d8a6"
+    },
+    {
+      "path": "15_机型身份面_离线反汇编证据_20261016/disasm/psm_getcapabilitybody_4bb60.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82c4203c4b549e5ae91ecde8cf814dd527dc519a",
+      "size": 3183,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/82c4203c4b549e5ae91ecde8cf814dd527dc519a"
+    },
+    {
+      "path": "15_机型身份面_离线反汇编证据_20261016/disasm/psm_menuxml_table_18fbc.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcd6386d18f4a67e66b60bd10922bf20adf69afe",
+      "size": 5166,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/dcd6386d18f4a67e66b60bd10922bf20adf69afe"
+    },
+    {
+      "path": "15_机型身份面_离线反汇编证据_20261016/dlna_stridx.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a2183f95aba5ba9f55f7c2d32bdceaac1d899bf",
+      "size": 151597,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/3a2183f95aba5ba9f55f7c2d32bdceaac1d899bf"
+    },
+    {
+      "path": "15_机型身份面_离线反汇编证据_20261016/extract_stridx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07ccc43f5e8d790d7ec2778099280ceccafb859d",
+      "size": 2687,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/07ccc43f5e8d790d7ec2778099280ceccafb859d"
+    },
+    {
+      "path": "15_机型身份面_离线反汇编证据_20261016/psm_stridx.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38dcb52ef14668f27fc6b8d4434f2afbf0101075",
+      "size": 182695,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/38dcb52ef14668f27fc6b8d4434f2afbf0101075"
+    },
+    {
+      "path": "MANIFEST.sha256",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d222eb06c9c2f0538ccda473b8c69391ef77cd2d",
+      "size": 39072,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/d222eb06c9c2f0538ccda473b8c69391ef77cd2d"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f245c69d07554d83e24e6cf6c4acb93ed73557d9",
+      "size": 5358,
+      "url": "https://api.github.com/repos/williamwu1234/S5-reverse-engineering/git/blobs/f245c69d07554d83e24e6cf6c4acb93ed73557d9"
+    }
+  ],
+  "truncated": false
+}

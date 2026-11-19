@@ -1,0 +1,99 @@
+{
+  "hypothesis": "Simple unsalted digest/encoding relation between signature public key and initialized 16B data constant; not an observed firmware KDF.",
+  "source_program_sha256": "27b26e32a545191ec6d435a49b29ac4c1d68e0b95a3cc6b0a53c2124db330b35",
+  "g100_initialized_constant_offset": 9429688,
+  "g100_initialized_constant_sha256": "548c0f3ea729d3989db2a80afbbaeabe39310bc639442eae9695990a0f286945",
+  "public_key_program_offset": 8180830,
+  "public_encodings": [
+    {
+      "encoding": "xy_BE",
+      "size": 64,
+      "sha256": "fbceb26918f5dcad16409fd36611b8946d78ddc82af5e709a6543a4b15c3b7eb"
+    },
+    {
+      "encoding": "xy_LE",
+      "size": 64,
+      "sha256": "a1c73bb7fe133d30d78f0cfa3e2dd746f999a2d4803c095f50556029fc9fc26a"
+    },
+    {
+      "encoding": "yx_BE",
+      "size": 64,
+      "sha256": "b3fece1c802a279dc1ff3b00fa9645318b93c2eaae90bbdfc19a10a52d622db0"
+    },
+    {
+      "encoding": "yx_LE",
+      "size": 64,
+      "sha256": "cb7bb103cef5cc3526f9d6f4d27e92dceae6a9d70ce769e83241426e58810c28"
+    },
+    {
+      "encoding": "x_BE",
+      "size": 32,
+      "sha256": "963e28f320cfb892cff48c89a7c4d5c3e85a831ea81aa738de3f5137a3b54b65"
+    },
+    {
+      "encoding": "y_BE",
+      "size": 32,
+      "sha256": "f5b5ddb294c8b8154c7b86b4c737c68170da75a18bca16ff3adc5dcf90d2c6e1"
+    },
+    {
+      "encoding": "x_LE",
+      "size": 32,
+      "sha256": "2f027f365c43757c9e47d0997c300518e710fdb626059db916684adbf14d45a1"
+    },
+    {
+      "encoding": "y_LE",
+      "size": 32,
+      "sha256": "0450d1e709f12075dd64eaa712c9a2967d76afd754f349612866f790332e1323"
+    },
+    {
+      "encoding": "sec1_uncompressed",
+      "size": 65,
+      "sha256": "321a93644bcf1e39e6cc75b3022687b8c203e718197e8c803200d29e7efea683"
+    },
+    {
+      "encoding": "sec1_compressed",
+      "size": 33,
+      "sha256": "4ca1a12cd78451a696b875dabf044a71216f6c55c2c18ec1b89130fc1df7abc2"
+    },
+    {
+      "encoding": "spki_DER",
+      "size": 91,
+      "sha256": "32227a661efe25cca45028a4122c6086fdef40eb4a015b26de9f43303e955a00"
+    },
+    {
+      "encoding": "spki_PEM_LF",
+      "size": 178,
+      "sha256": "fe8edacd3644c00454bcc741636cfc45c73abae6c0c23546d8f356a5e6d6c95f"
+    },
+    {
+      "encoding": "spki_PEM_CRLF",
+      "size": 182,
+      "sha256": "1d4fad1f7b8f20033ac2b98ab67398f8dbb49792b172f00564acbe6a28e5f630"
+    },
+    {
+      "encoding": "spki_PEM_stripped",
+      "size": 177,
+      "sha256": "cf5aeb00d228edff22978952207decc26fdf1620633c9a7add3313493509d57b"
+    }
+  ],
+  "hash_algorithms": [
+    "md5",
+    "sha1",
+    "sha224",
+    "sha256",
+    "sha384",
+    "sha512"
+  ],
+  "digest_windows": "All contiguous16B slices",
+  "output_layouts": "Eight finite explicit byte permutations",
+  "recipe_screenings": 13216,
+  "unique_16B_outputs": 13216,
+  "exact_G100_control_matches": [],
+  "S5_followup_candidates": [],
+  "manufacturer_KDF_established": false,
+  "limits": [
+    "Negative result excludes only this finite unsalted hash/encoding family.",
+    "The target is G100 scatter initialization, not an independently verified encrypted-G100 payload key.",
+    "A positive relation in one build would still need real S5 complete-resource verification."
+  ]
+}

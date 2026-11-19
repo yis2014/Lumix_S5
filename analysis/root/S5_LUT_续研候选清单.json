@@ -1,0 +1,112 @@
+{
+  "scope": "offline only; no camera, no firmware writes, no executable patch output",
+  "evidence_levels": {
+    "E0": "research hypothesis only",
+    "E1": "secondary documentation pointer, not reproduced from original code",
+    "E2": "local byte/format/metadata check, not executable-function proof",
+    "E3": "reserved: original S5 plaintext disassembly and control/data-flow verified",
+    "E4": "reserved: authorized reversible on-device validation with measured result"
+  },
+  "patch_ready": false,
+  "baseline_status": {
+    "LUT_field_id": null,
+    "LUT_control_ABAB_samples": "not supplied in visible workspace",
+    "S5_plaintext_program": "not supplied",
+    "G100_original_program_and_mapping": "not supplied",
+    "official_Tether_success_capture": "not supplied",
+    "external_user_claims": "not denied; need original artifacts for independent verification"
+  },
+  "candidates": [
+    {
+      "id": "O1",
+      "priority": 1,
+      "name": "LUT_state_record_observer",
+      "name_is": "proposed analysis label, not a recovered firmware symbol",
+      "class": "offline observation candidate",
+      "level": "E0",
+      "config_record_id": null,
+      "S5_function_va": null,
+      "risk": "offline low; a config field does not prove an encoder read",
+      "Tether_dependency": "no, if existing serialized config samples are supplied",
+      "required": ["same-version A/B/A2/B2 exported config", "sham-control exports", "monitor vs HDMI vs playback labels", "photostyle and record-state labels"]
+    },
+    {
+      "id": "O2",
+      "priority": 2,
+      "name": "LUT_mode_gate_xrefs",
+      "name_is": "proposed analysis label, not a recovered firmware symbol",
+      "class": "static observation / possible later branch patch",
+      "level": "E0",
+      "S5_function_va": null,
+      "condition": "trace confirmed config parser/key lookup to readers in monitor/playback/record dispatch",
+      "patch_logic_conditional": "only consider changing a confirmed record-path policy bypass after resource, format, lifecycle and error checks; no blind NOP",
+      "native_recording_risk": "high if patch attempted before pipeline data flow is established",
+      "Tether_dependency": "not intrinsically; an execution/loading path is currently absent"
+    },
+    {
+      "id": "O3",
+      "priority": 3,
+      "name": "LUT_buffer_consumer_observer",
+      "name_is": "proposed analysis label, not a recovered firmware symbol",
+      "class": "possible later observation hook",
+      "level": "E0",
+      "S5_function_va": null,
+      "condition": "identify buffer metadata, CPU/DMA address mapping, producer and refcounts/fences; confirm recording encoder consumes it",
+      "patch_logic_conditional": "observation-only logging preserving ABI/flags/cache and returning original values; do not substitute frame pointers",
+      "native_recording_risk": "nonzero: timing, cache, ABI or buffer lifetime failures can corrupt frames or crash recording",
+      "Tether_dependency": "not intrinsically; no usable execution channel verified"
+    },
+    {
+      "id": "P1",
+      "priority": 4,
+      "name": "encoder_preinput_LUT_selector",
+      "name_is": "proposed analysis label, not a recovered firmware symbol",
+      "class": "conditional functional patch candidate, NOT approved for testing",
+      "level": "E0",
+      "S5_function_va": null,
+      "original_bytes": null,
+      "replacement_bytes": null,
+      "condition": "existing encoder-compatible LUT path and all invariants demonstrated",
+      "patch_logic_conditional": "redirect confirmed policy selection to existing LUT-ready path with identical frame descriptor ABI; preserve all capability/resource/error checks; otherwise reject design",
+      "native_recording_risk": "high; wrong color space, resolution, lifetime or synchronization may destroy recording",
+      "Tether_dependency": "not intrinsically; arbitrary writes over Tether are not established"
+    },
+    {
+      "id": "G1",
+      "priority": "supporting prerequisite",
+      "name": "sub_4C687C2",
+      "name_is": "G100 secondary-document disassembler label; not S5 symbol",
+      "class": "G100 upgrade header validation literature lead",
+      "level": "E1",
+      "reported_address": "0x04C687C2",
+      "address_space": "G100 author analysis database coordinates; not independently mapped",
+      "S5_function_va": null,
+      "source": "analysis/william_usb/F_G100与路径1.md:588",
+      "risk": "cannot port address or infer LUT role",
+      "Tether_dependency": "no for offline original-code review"
+    },
+    {
+      "id": "F1",
+      "priority": "known coordinate only",
+      "name": "S5 program opaque payload",
+      "class": "container location, NEVER an instruction/hook address",
+      "level": "E2",
+      "address_space": "firmware file offset",
+      "file_offset": "0x00017E00",
+      "size": "0x00FE7000",
+      "directory_logical_target": "0x00080000",
+      "S5_function_va": null,
+      "warning": "directory target is not a proven RAM mapping; payload is not available as verified plaintext"
+    }
+  ],
+  "patch_admission_requirements": [
+    "original S5 model/version and image digest pinned",
+    "verified plaintext module, ISA and actual load mapping",
+    "function boundaries, original bytes and instruction boundaries verified",
+    "LUT producer-consumer path and mode conditions verified",
+    "frame format, dimensions, stride, color range and lifetime invariants verified",
+    "usable authorized volatile loading/rollback mechanism independently verified",
+    "no flash, calibration, OTP, signing or updater patch required for the experiment",
+    "stable observation-only result with full native-recording regression before functional change"
+  ]
+}
