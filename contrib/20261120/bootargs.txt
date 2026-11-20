@@ -1,0 +1,1 @@
+root=/dev/mtdblock0 slram=slram0,0x83100000,+0x00300000,slram1,0x83400000,+0x00A00000 console=ttyAMA,115200 lpj=6213632
