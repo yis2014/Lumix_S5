@@ -1,0 +1,503 @@
+/
+/bin/
+/bin/cat  [ERROR lzo1x: unexpected end of input]
+/bin/chmod -> /mnt/rfs2/bin/chmod
+/bin/clockdiff -> /mnt/rfs2/bin/clockdiff
+/bin/cp -> /mnt/rfs2/bin/cp
+/bin/date -> /mnt/rfs2/bin/date
+/bin/dmesg -> /mnt/rfs2/bin/dmesg
+/bin/echo  [ERROR lzo1x: unexpected end of input]
+/bin/free -> /mnt/rfs2/bin/free
+/bin/hostname  [ERROR lzo1x: unexpected end of input]
+/bin/ln -> /mnt/rfs2/bin/ln
+/bin/login  [ERROR lzo1x: unexpected end of input]
+/bin/ls  [ERROR lzo1x: unexpected end of input]
+/bin/mkdir  [ERROR lzo1x: unexpected end of input]
+/bin/more -> /mnt/rfs2/bin/more
+/bin/mount  [ERROR lzo1x: unexpected end of input]
+/bin/mv -> /mnt/rfs2/bin/mv
+/bin/netstat -> /mnt/rfs2/bin/netstat
+/bin/pgrep -> /mnt/rfs2/bin/pgrep
+/bin/ping -> /mnt/rfs2/bin/ping
+/bin/pkill -> /mnt/rfs2/bin/pkill
+/bin/pmap -> /mnt/rfs2/bin/pmap
+/bin/ps -> /mnt/rfs2/bin/ps
+/bin/pwdx -> /mnt/rfs2/bin/pwdx
+/bin/rm  [ERROR lzo1x: unexpected end of input]
+/bin/rmdir -> /mnt/rfs2/bin/rmdir
+/bin/run-parts -> /mnt/rfs2/bin/run-parts
+/bin/sh -> bash
+/bin/slabtop -> /mnt/rfs2/bin/slabtop
+/bin/tar -> /mnt/rfs2/bin/tar
+/bin/tload -> /mnt/rfs2/bin/tload
+/bin/top -> /mnt/rfs2/bin/top
+/bin/tracepath -> /mnt/rfs2/bin/tracepath
+/bin/traceroute6 -> /mnt/rfs2/bin/traceroute6
+/bin/umount  [ERROR lzo1x: unexpected end of input]
+/bin/vmstat -> /mnt/rfs2/bin/vmstat
+/bin/w -> /mnt/rfs2/bin/w
+/bin/watch -> /mnt/rfs2/bin/watch
+/dev/
+/dev/log -> ../tmp/log
+/dev/pts/
+/dev/shm/
+/etc/
+/etc/dhcp/
+/etc/dhcp/dhclient.conf  [ERROR lzo1x: unexpected end of input]
+/etc/dhcp/dhcpd.conf  [ERROR lzo1x: unexpected end of input]
+/etc/dhcpcd.conf  [ERROR lzo1x: unexpected end of input]
+/etc/fstab  [ERROR lzo1x: unexpected end of input]
+/etc/group  [ERROR lzo1x: unexpected end of input]
+/etc/hostname  [ERROR lzo1x: unexpected end of input]
+/etc/hosts  [ERROR lzo1x: unexpected end of input]
+/etc/htb.init  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/
+/etc/init.d/S02-mount  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/S03-modules  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/S10-ifup  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/S20urandom  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/btdevstart  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/btdevstop  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/btteststart  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/btteststop  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/ifup  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/lighttpd  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/mediastart  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/mount  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/netdevstart  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/netdevstop  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/netstart  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/network  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/rcK  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/rcS  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/usbdevstart  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/usbgadget  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/wait_if_down  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/wait_if_up  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/wait_supp_start  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/wait_supp_stop  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/wifidevrestart  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/wifidevstart  [ERROR lzo1x: unexpected end of input]
+/etc/init.d/wifidevstop  [ERROR lzo1x: unexpected end of input]
+/etc/inittab  [ERROR lzo1x: unexpected end of input]
+/etc/iproute2/
+/etc/issue  [ERROR lzo1x: unexpected end of input]
+/etc/libnl/
+/etc/libnl/classid  [ERROR lzo1x: unexpected end of input]
+/etc/libnl/pktloc  [ERROR lzo1x: unexpected end of input]
+/etc/lighttpd/
+/etc/lighttpd/conf.d/
+/etc/lighttpd/conf.d/access_log.conf  [ERROR lzo1x: unexpected end of input]
+/etc/lighttpd/conf.d/debug.conf  [ERROR lzo1x: unexpected end of input]
+/etc/lighttpd/conf.d/dirlisting.conf  [ERROR lzo1x: unexpected end of input]
+/etc/lighttpd/conf.d/mime.conf  [ERROR lzo1x: unexpected end of input]
+/etc/lighttpd/lighttpd.conf  [ERROR lzo1x: invalid lookbehind reference]
+/etc/lighttpd/modules.conf  [ERROR lzo1x: invalid lookbehind reference]
+/etc/lighttpd.conf  [ERROR lzo1x: invalid lookbehind reference]
+/etc/menuxml/
+/etc/modules  [ERROR lzo1x: invalid lookbehind reference]
+/etc/mtab -> ../proc/self/mounts
+/etc/network/
+/etc/network/if-down.d/
+/etc/network/if-post-down.d/
+/etc/network/if-pre-up.d/
+/etc/network/if-pre-up.d/wait_iface  [ERROR lzo1x: invalid lookbehind reference]
+/etc/network/if-up.d/
+/etc/network/interfaces  [ERROR lzo1x: invalid lookbehind reference]
+/etc/network/run -> /usr/pvc/etc/network/run
+/etc/nsswitch.conf  [ERROR lzo1x: invalid lookbehind reference]
+/etc/pam.d/
+/etc/pam.d/login  [ERROR lzo1x: invalid lookbehind reference]
+/etc/pam.d/other  [ERROR lzo1x: invalid lookbehind reference]
+/etc/pam.d/su  [ERROR lzo1x: invalid lookbehind reference]
+/etc/pam.d/su-l  [ERROR lzo1x: invalid lookbehind reference]
+/etc/passwd  [ERROR lzo1x: invalid lookbehind reference]
+/etc/profile  [ERROR lzo1x: invalid lookbehind reference]
+/etc/profile.d/
+/etc/profile.d/umask.sh  [ERROR lzo1x: invalid lookbehind reference]
+/etc/rc3.d/
+/etc/resolv.conf -> /usr/pvc/etc/resolv.conf
+/etc/security/
+/etc/security/access.conf  [ERROR lzo1x: invalid lookbehind reference]
+/etc/security/group.conf  [ERROR lzo1x: invalid lookbehind reference]
+/etc/security/limits.conf  [ERROR lzo1x: invalid lookbehind reference]
+/etc/security/limits.d/
+/etc/security/namespace.conf  [ERROR lzo1x: invalid lookbehind reference]
+/etc/security/namespace.d/
+/etc/security/namespace.init  [ERROR lzo1x: invalid lookbehind reference]
+/etc/security/pam_env.conf  [ERROR lzo1x: invalid lookbehind reference]
+/etc/security/time.conf  [ERROR lzo1x: invalid lookbehind reference]
+/etc/shadow  [ERROR lzo1x: invalid lookbehind reference]
+/etc/ssl/
+/etc/ssl/certs/
+/etc/ssl/certs/Security_Communication_Root_CA.pem  [ERROR lzo1x: invalid lookbehind reference]
+/etc/ssl/man/
+/etc/ssl/man/man1/
+/etc/ssl/man/man3/
+/etc/ssl/man/man5/
+/etc/ssl/man/man7/
+/etc/ssl/misc/
+/etc/ssl/misc/CA.sh  [ERROR lzo1x: invalid lookbehind reference]
+/etc/ssl/misc/c_hash  [ERROR lzo1x: invalid lookbehind reference]
+/etc/ssl/misc/c_info  [ERROR lzo1x: invalid lookbehind reference]
+/etc/ssl/misc/c_issuer  [ERROR lzo1x: invalid lookbehind reference]
+/etc/ssl/misc/c_name  [ERROR lzo1x: invalid lookbehind reference]
+/etc/ssl/openssl.cnf  [ERROR lzo1x: invalid lookbehind reference]
+/etc/ssl/private/
+/etc/wpa_supplicant/
+/etc/wpa_supplicant/hostapd.conf  [ERROR lzo1x: unexpected end of input]
+/etc/wpa_supplicant/wpa_supplicant.conf  [ERROR lzo1x: unexpected end of input]
+/etc/www/
+/etc/www/cam.fcgi  [ERROR lzo1x: unexpected end of input]
+/lib/
+/lib/dhcpcd -> /mnt/rfs2/lib/dhcpcd
+/lib/firmware/
+/lib/firmware/WIFI -> /tmp/mediatek/WIFI
+/lib/firmware/WIFI_RAM_CODE_MT6630 -> /mnt/rfs2/lib/firmware/WIFI_RAM_CODE_MT6630
+/lib/firmware/WIFI_org -> /mnt/rfs2/lib/firmware/WIFI_org
+/lib/firmware/WMT.cfg -> /mnt/rfs2/lib/firmware/WMT.cfg
+/lib/firmware/entropy.bin -> /mnt/rfs2/lib/firmware/entropy.bin
+/lib/firmware/mt6630_patch_e3_0_hdr.bin -> /mnt/rfs2/lib/firmware/mt6630_patch_e3_0_hdr.bin
+/lib/firmware/mt6630_patch_e3_1_hdr.bin -> /mnt/rfs2/lib/firmware/mt6630_patch_e3_1_hdr.bin
+/lib/firmware/wifi.cfg -> /mnt/rfs2/lib/firmware/wifi.cfg
+/lib/ifupdown -> /mnt/rfs2/lib/ifupdown
+/lib/ld-linux.so.3 -> ld-2.23.so
+/lib/libatomic.so -> libatomic.so.1.0.0
+/lib/libblkid.so.1 -> libblkid.so.1.1.0
+/lib/libc.so.6 -> libc-2.23.so
+/lib/libcrypt-2.23.so -> /mnt/rfs2/lib/libcrypt-2.23.so
+/lib/libcrypt.so.1 -> libcrypt-2.23.so
+/lib/libdl-2.23.so  [ERROR lzo1x: unexpected end of input]
+/lib/libdl.so.2 -> libdl-2.23.so
+/lib/libgcc_s.so  [ERROR lzo1x: unexpected end of input]
+/lib/libgcc_s.so.1  [ERROR lzo1x: invalid lookbehind reference]
+/lib/libm-2.23.so -> /mnt/rfs2/lib/libm-2.23.so
+/lib/libm.so.6 -> libm-2.23.so
+/lib/libmount.so.1 -> libmount.so.1.1.0
+/lib/libnsl-2.23.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/libnsl.so.1 -> libnsl-2.23.so
+/lib/libnss_dns-2.23.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/libnss_dns.so.2 -> libnss_dns-2.23.so
+/lib/libnss_files-2.23.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/libnss_files.so.2 -> libnss_files-2.23.so
+/lib/libpam.so -> libpam.so.0.84.2
+/lib/libpam.so.0 -> libpam.so.0.84.2
+/lib/libpam.so.0.84.2  [ERROR lzo1x: invalid lookbehind reference]
+/lib/libpam_misc.so -> libpam_misc.so.0.82.1
+/lib/libpam_misc.so.0 -> libpam_misc.so.0.82.1
+/lib/libpam_misc.so.0.82.1  [ERROR lzo1x: invalid lookbehind reference]
+/lib/libpamc.so -> libpamc.so.0.82.1
+/lib/libpamc.so.0 -> libpamc.so.0.82.1
+/lib/libpamc.so.0.82.1 -> /mnt/rfs2/lib/libpamc.so.0.82.1
+/lib/libpthread-2.23.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/libpthread.so.0 -> libpthread-2.23.so
+/lib/libresolv-2.23.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/libresolv.so.2 -> libresolv-2.23.so
+/lib/librt-2.23.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/librt.so.1 -> librt-2.23.so
+/lib/libutil-2.23.so -> /mnt/rfs2/lib/libutil-2.23.so
+/lib/libutil.so.1 -> libutil-2.23.so
+/lib/libuuid.so.1 -> libuuid.so.1.3.0
+/lib/libuuid.so.1.3.0  [ERROR lzo1x: invalid lookbehind reference]
+/lib/modules/
+/lib/modules/3.18.18/
+/lib/modules/3.18.18/extra/
+/lib/modules/3.18.18/extra/common -> /mnt/rfs2/lib/modules/3.18.18/extra/common
+/lib/modules/3.18.18/extra/cpu_iccdrv.ko  [ERROR lzo1x: invalid lookbehind reference]
+/lib/modules/3.18.18/extra/cpu_icsmdrv.ko  [ERROR lzo1x: invalid lookbehind reference]
+/lib/modules/3.18.18/extra/pvc_eepromdrv.ko  [ERROR lzo1x: invalid lookbehind reference]
+/lib/modules/3.18.18/extra/wlan -> /mnt/rfs2/lib/modules/3.18.18/extra/wlan
+/lib/modules/3.18.18/kernel -> /mnt/rfs2/lib/modules/3.18.18/kernel
+/lib/modules/3.18.18/modules.alias  [ERROR lzo1x: invalid lookbehind reference]
+/lib/modules/3.18.18/modules.alias.bin  [ERROR lzo1x: invalid lookbehind reference]
+/lib/modules/3.18.18/modules.builtin  [ERROR lzo1x: invalid lookbehind reference]
+/lib/modules/3.18.18/modules.builtin.bin  [ERROR lzo1x: invalid lookbehind reference]
+/lib/modules/3.18.18/modules.dep  [ERROR lzo1x: invalid lookbehind reference]
+/lib/modules/3.18.18/modules.dep.bin  [ERROR lzo1x: invalid lookbehind reference]
+/lib/modules/3.18.18/modules.devname  [ERROR lzo1x: invalid lookbehind reference]
+/lib/modules/3.18.18/modules.order  [ERROR lzo1x: invalid lookbehind reference]
+/lib/modules/3.18.18/modules.softdep  [ERROR lzo1x: invalid lookbehind reference]
+/lib/modules/3.18.18/modules.symbols  [ERROR lzo1x: invalid lookbehind reference]
+/lib/modules/3.18.18/modules.symbols.bin  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/
+/lib/security/pam_access.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_debug.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_deny.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_echo.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_env.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_exec.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_faildelay.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_filter/
+/lib/security/pam_filter/upperLOWER  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_filter.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_ftp.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_group.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_issue.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_keyinit.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_lastlog.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_limits.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_listfile.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_localuser.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_loginuid.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_mail.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_mkhomedir.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_motd.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_namespace.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_nologin.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_permit.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_pwhistory.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_rhosts.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_rootok.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_securetty.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_shells.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_stress.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_succeed_if.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_tally.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_tally2.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_time.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_timestamp.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_umask.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_unix.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_warn.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_wheel.so  [ERROR lzo1x: invalid lookbehind reference]
+/lib/security/pam_xauth.so  [ERROR lzo1x: invalid lookbehind reference]
+/libexec -> /mnt/rfs2/libexec
+/media -> /mnt/rfs2/media
+/mnt/
+/mnt/CamShare/
+/mnt/rfs2/
+/opt/
+/proc/
+/root/
+/run/
+/sbin/
+/sbin/agetty  [ERROR lzo1x: invalid lookbehind reference]
+/sbin/arping -> /mnt/rfs2/sbin/arping
+/sbin/depmod -> ../usr/bin/kmod
+/sbin/dhclient -> /mnt/rfs2/sbin/dhclient
+/sbin/dhclient-script -> /mnt/rfs2/sbin/dhclient-script
+/sbin/dhcpcd -> /mnt/rfs2/sbin/dhcpcd
+/sbin/getty -> agetty
+/sbin/ifconfig -> /mnt/rfs2/sbin/ifconfig
+/sbin/ifdown -> /sbin/ifup
+/sbin/ifquery -> /sbin/ifup
+/sbin/ifup -> /mnt/rfs2/sbin/ifup
+/sbin/init  [ERROR lzo1x: invalid lookbehind reference]
+/sbin/insmod -> ../usr/bin/kmod
+/sbin/iwconfig -> /mnt/rfs2/sbin/iwconfig
+/sbin/iwgetid -> iwconfig
+/sbin/iwlist -> iwconfig
+/sbin/iwpriv -> iwconfig
+/sbin/iwspy -> iwconfig
+/sbin/killall5  [ERROR lzo1x: invalid lookbehind reference]
+/sbin/lsmod -> ../usr/bin/kmod
+/sbin/modinfo -> ../usr/bin/kmod
+/sbin/modprobe -> ../usr/bin/kmod
+/sbin/rdisc -> /mnt/rfs2/sbin/rdisc
+/sbin/rmmod -> ../usr/bin/kmod
+/sbin/route -> /mnt/rfs2/sbin/route
+/sbin/sulogin -> /mnt/rfs2/sbin/sulogin
+/sbin/sysctl -> /mnt/rfs2/sbin/sysctl
+/sbin/tc -> /mnt/rfs2/sbin/tc
+/sys/
+/tmp/
+/usr/
+/usr/bin/
+/usr/bin/bunzip2 -> /mnt/rfs2/usr/bin/bunzip2
+/usr/bin/bzcat -> /mnt/rfs2/usr/bin/bzcat
+/usr/bin/bzcmp -> bzdiff
+/usr/bin/bzdiff -> /mnt/rfs2/usr/bin/bzdiff
+/usr/bin/bzegrep -> bzgrep
+/usr/bin/bzfgrep -> bzgrep
+/usr/bin/bzgrep -> /mnt/rfs2/usr/bin/bzgrep
+/usr/bin/bzip2 -> /mnt/rfs2/usr/bin/bzip2
+/usr/bin/bzip2recover -> /mnt/rfs2/usr/bin/bzip2recover
+/usr/bin/bzless -> bzmore
+/usr/bin/bzmore -> /mnt/rfs2/usr/bin/bzmore
+/usr/bin/cgi-fcgi -> /mnt/rfs2/usr/bin/cgi-fcgi
+/usr/bin/curl -> /mnt/rfs2/usr/bin/curl
+/usr/bin/egrep -> /mnt/rfs2/usr/bin/egrep
+/usr/bin/fgrep -> /mnt/rfs2/usr/bin/fgrep
+/usr/bin/grep  [ERROR lzo1x: invalid lookbehind reference]
+/usr/bin/id  [ERROR lzo1x: invalid lookbehind reference]
+/usr/bin/iperf -> /mnt/rfs2/usr/bin/iperf
+/usr/bin/iptables-xml -> /usr/sbin/xtables-multi
+/usr/bin/kill  [ERROR lzo1x: invalid lookbehind reference]
+/usr/bin/kmod  [ERROR lzo1x: invalid lookbehind reference]
+/usr/bin/less -> /mnt/rfs2/usr/bin/less
+/usr/bin/lspci -> /mnt/rfs2/usr/bin/lspci
+/usr/bin/openssl -> /mnt/rfs2/usr/bin/openssl
+/usr/bin/pcregrep -> /mnt/rfs2/usr/bin/pcregrep
+/usr/bin/pcretest -> /mnt/rfs2/usr/bin/pcretest
+/usr/bin/setpci -> /mnt/rfs2/usr/bin/setpci
+/usr/bin/strace -> /mnt/rfs2/usr/bin/strace
+/usr/bin/strace-log-merge -> /mnt/rfs2/usr/bin/strace-log-merge
+/usr/bin/su -> /mnt/rfs2/usr/bin/su
+/usr/bin/time -> /mnt/rfs2/usr/bin/time
+/usr/bin/update-pciids -> /mnt/rfs2/usr/bin/update-pciids
+/usr/bin/uptime -> /mnt/rfs2/usr/bin/uptime
+/usr/lib/
+/usr/lib/engines -> /mnt/rfs2/usr/lib/engines
+/usr/lib/libblkid.so -> ../../lib/libblkid.so.1.1.0
+/usr/lib/libbz2.so -> libbz2.so.1.0.6
+/usr/lib/libbz2.so.1.0 -> libbz2.so.1.0.6
+/usr/lib/libbz2.so.1.0.6 -> /mnt/rfs2/usr/lib/libbz2.so.1.0.6
+/usr/lib/libcrypto.so -> libcrypto.so.1.0.0
+/usr/lib/libcrypto.so.1.0.0 -> /mnt/rfs2/usr/lib/libcrypto.so.1.0.0
+/usr/lib/libcurl.so -> libcurl.so.4.4.0
+/usr/lib/libcurl.so.4 -> libcurl.so.4.4.0
+/usr/lib/libcurl.so.4.4.0 -> /mnt/rfs2/usr/lib/libcurl.so.4.4.0
+/usr/lib/libcurses.so -> libncurses.so.5.9
+/usr/lib/libexpat.so -> libexpat.so.1.6.2
+/usr/lib/libexpat.so.1 -> libexpat.so.1.6.2
+/usr/lib/libexpat.so.1.6.2 -> /mnt/rfs2/usr/lib/libexpat.so.1.6.2
+/usr/lib/libfcgi++.so -> libfcgi++.so.0.0.0
+/usr/lib/libfcgi++.so.0 -> libfcgi++.so.0.0.0
+/usr/lib/libfcgi++.so.0.0.0 -> /mnt/rfs2/usr/lib/libfcgi++.so.0.0.0
+/usr/lib/libfcgi.so -> libfcgi.so.0.0.0
+/usr/lib/libfcgi.so.0 -> libfcgi.so.0.0.0
+/usr/lib/libfcgi.so.0.0.0 -> /mnt/rfs2/usr/lib/libfcgi.so.0.0.0
+/usr/lib/libffi.so -> libffi.so.6.0.4
+/usr/lib/libffi.so.6 -> libffi.so.6.0.4
+/usr/lib/libffi.so.6.0.4 -> /mnt/rfs2/usr/lib/libffi.so.6.0.4
+/usr/lib/libip4tc.so -> libip4tc.so.0.1.0
+/usr/lib/libip4tc.so.0 -> libip4tc.so.0.1.0
+/usr/lib/libip4tc.so.0.1.0 -> /mnt/rfs2/usr/lib/libip4tc.so.0.1.0
+/usr/lib/libip6tc.so -> libip6tc.so.0.1.0
+/usr/lib/libip6tc.so.0 -> libip6tc.so.0.1.0
+/usr/lib/libip6tc.so.0.1.0 -> /mnt/rfs2/usr/lib/libip6tc.so.0.1.0
+/usr/lib/libiptc.so -> libiptc.so.0.0.0
+/usr/lib/libiptc.so.0 -> libiptc.so.0.0.0
+/usr/lib/libiptc.so.0.0.0 -> /mnt/rfs2/usr/lib/libiptc.so.0.0.0
+/usr/lib/libkmod.so -> libkmod.so.2.3.1
+/usr/lib/libkmod.so.2 -> libkmod.so.2.3.1
+/usr/lib/libkmod.so.2.3.1 -> /mnt/rfs2/usr/lib/libkmod.so.2.3.1
+/usr/lib/libmount.so -> ../../lib/libmount.so.1.1.0
+/usr/lib/libncurses.so -> libncurses.so.5
+/usr/lib/libncurses.so.5 -> libncurses.so.5.9
+/usr/lib/libnl-3.so -> libnl-3.so.200.22.0
+/usr/lib/libnl-3.so.200 -> libnl-3.so.200.22.0
+/usr/lib/libnl-3.so.200.22.0 -> /mnt/rfs2/usr/lib/libnl-3.so.200.22.0
+/usr/lib/libnl-genl-3.so -> libnl-genl-3.so.200.22.0
+/usr/lib/libnl-genl-3.so.200 -> libnl-genl-3.so.200.22.0
+/usr/lib/libnl-genl-3.so.200.22.0 -> /mnt/rfs2/usr/lib/libnl-genl-3.so.200.22.0
+/usr/lib/libnl-idiag-3.so -> libnl-idiag-3.so.200.22.0
+/usr/lib/libnl-idiag-3.so.200 -> libnl-idiag-3.so.200.22.0
+/usr/lib/libnl-idiag-3.so.200.22.0 -> /mnt/rfs2/usr/lib/libnl-idiag-3.so.200.22.0
+/usr/lib/libnl-nf-3.so -> libnl-nf-3.so.200.22.0
+/usr/lib/libnl-nf-3.so.200 -> libnl-nf-3.so.200.22.0
+/usr/lib/libnl-nf-3.so.200.22.0 -> /mnt/rfs2/usr/lib/libnl-nf-3.so.200.22.0
+/usr/lib/libnl-route-3.so -> libnl-route-3.so.200.22.0
+/usr/lib/libnl-route-3.so.200 -> libnl-route-3.so.200.22.0
+/usr/lib/libnl-route-3.so.200.22.0 -> /mnt/rfs2/usr/lib/libnl-route-3.so.200.22.0
+/usr/lib/libnl-xfrm-3.so -> libnl-xfrm-3.so.200.22.0
+/usr/lib/libnl-xfrm-3.so.200 -> libnl-xfrm-3.so.200.22.0
+/usr/lib/libnl-xfrm-3.so.200.22.0 -> /mnt/rfs2/usr/lib/libnl-xfrm-3.so.200.22.0
+/usr/lib/libpci.so -> libpci.so.3
+/usr/lib/libpci.so.3 -> libpci.so.3.5.2
+/usr/lib/libpci.so.3.5.2 -> /mnt/rfs2/usr/lib/libpci.so.3.5.2
+/usr/lib/libpcre.so -> libpcre.so.1.2.8
+/usr/lib/libpcre.so.1 -> libpcre.so.1.2.8
+/usr/lib/libpcre.so.1.2.8 -> /mnt/rfs2/usr/lib/libpcre.so.1.2.8
+/usr/lib/libpcrecpp.so -> libpcrecpp.so.0.0.1
+/usr/lib/libpcrecpp.so.0 -> libpcrecpp.so.0.0.1
+/usr/lib/libpcrecpp.so.0.0.1 -> /mnt/rfs2/usr/lib/libpcrecpp.so.0.0.1
+/usr/lib/libpcreposix.so -> libpcreposix.so.0.0.4
+/usr/lib/libpcreposix.so.0 -> libpcreposix.so.0.0.4
+/usr/lib/libpcreposix.so.0.0.4 -> /mnt/rfs2/usr/lib/libpcreposix.so.0.0.4
+/usr/lib/libpng.so -> libpng16.so
+/usr/lib/libpng16.so -> libpng16.so.16.28.0
+/usr/lib/libpng16.so.16 -> libpng16.so.16.28.0
+/usr/lib/libpng16.so.16.28.0 -> /mnt/rfs2/usr/lib/libpng16.so.16.28.0
+/usr/lib/libprocps.so -> libprocps.so.6.0.0
+/usr/lib/libprocps.so.6 -> libprocps.so.6.0.0
+/usr/lib/libprocps.so.6.0.0 -> /mnt/rfs2/usr/lib/libprocps.so.6.0.0
+/usr/lib/libssl.so -> libssl.so.1.0.0
+/usr/lib/libssl.so.1.0.0 -> /mnt/rfs2/usr/lib/libssl.so.1.0.0
+/usr/lib/libstdc++.so -> libstdc++.so.6.0.19
+/usr/lib/libstdc++.so.6 -> libstdc++.so.6.0.19
+/usr/lib/libstdc++.so.6.0.19 -> /mnt/rfs2/usr/lib/libstdc++.so.6.0.19
+/usr/lib/libuuid.so -> ../../lib/libuuid.so.1.3.0
+/usr/lib/libxtables.so -> libxtables.so.12.0.0
+/usr/lib/libxtables.so.12 -> libxtables.so.12.0.0
+/usr/lib/libxtables.so.12.0.0 -> /mnt/rfs2/usr/lib/libxtables.so.12.0.0
+/usr/lib/libz.so -> libz.so.1.2.11
+/usr/lib/libz.so.1 -> libz.so.1.2.11
+/usr/lib/libz.so.1.2.11  [ERROR lzo1x: invalid lookbehind reference]
+/usr/lib/lighttpd -> /mnt/rfs2/usr/lib/lighttpd
+/usr/lib/tc/
+/usr/lib/tc/experimental.dist -> /mnt/rfs2/usr/lib/tc/experimental.dist
+/usr/lib/tc/m_ipt.so -> m_xt.so
+/usr/lib/tc/m_xt.so -> /mnt/rfs2/usr/lib/tc/m_xt.so
+/usr/lib/tc/normal.dist -> /mnt/rfs2/usr/lib/tc/normal.dist
+/usr/lib/tc/pareto.dist -> /mnt/rfs2/usr/lib/tc/pareto.dist
+/usr/lib/tc/paretonormal.dist -> /mnt/rfs2/usr/lib/tc/paretonormal.dist
+/usr/lib/terminfo -> ../share/terminfo
+/usr/lib/xtables -> /mnt/rfs2/usr/lib/xtables
+/usr/local -> /mnt/rfs2/usr/local
+/usr/pvc/
+/usr/pvc/bin/
+/usr/pvc/bin/bt -> /mnt/rfs2/usr/pvc/bin/bt
+/usr/pvc/bin/bt_drv -> /mnt/rfs2/usr/pvc/bin/bt_drv
+/usr/pvc/bin/dlna -> /mnt/rfs2/usr/pvc/bin/dlna
+/usr/pvc/bin/get_noise -> /mnt/rfs2/usr/pvc/bin/get_noise
+/usr/pvc/bin/hci_cmd -> /mnt/rfs2/usr/pvc/bin/hci_cmd
+/usr/pvc/bin/hostapd -> /mnt/rfs2/usr/pvc/bin/hostapd
+/usr/pvc/bin/hostapd_cli -> /mnt/rfs2/usr/pvc/bin/hostapd_cli
+/usr/pvc/bin/ipdiagDup -> /mnt/rfs2/usr/pvc/bin/ipdiagDup
+/usr/pvc/bin/link -> /mnt/rfs2/usr/pvc/bin/link
+/usr/pvc/bin/linuxutil -> /mnt/rfs2/usr/pvc/bin/linuxutil
+/usr/pvc/bin/lvdp -> /mnt/rfs2/usr/pvc/bin/lvdp
+/usr/pvc/bin/mtkbt -> /mnt/rfs2/usr/pvc/bin/mtkbt
+/usr/pvc/bin/myMsleep -> /mnt/rfs2/usr/pvc/bin/myMsleep
+/usr/pvc/bin/mySleep -> /mnt/rfs2/usr/pvc/bin/mySleep
+/usr/pvc/bin/myTouch -> /mnt/rfs2/usr/pvc/bin/myTouch
+/usr/pvc/bin/net -> /mnt/rfs2/usr/pvc/bin/net
+/usr/pvc/bin/nwa  [ERROR lzo1x: invalid lookbehind reference]
+/usr/pvc/bin/nws -> /mnt/rfs2/usr/pvc/bin/nws
+/usr/pvc/bin/picm -> /mnt/rfs2/usr/pvc/bin/picm
+/usr/pvc/bin/psm -> /mnt/rfs2/usr/pvc/bin/psm
+/usr/pvc/bin/ptpip -> /mnt/rfs2/usr/pvc/bin/ptpip
+/usr/pvc/bin/usleep -> /mnt/rfs2/usr/pvc/bin/usleep
+/usr/pvc/bin/wifitest -> /mnt/rfs2/usr/pvc/bin/wifitest
+/usr/pvc/bin/wmt_launcher_sdio -> /mnt/rfs2/usr/pvc/bin/wmt_launcher_sdio
+/usr/pvc/bin/wmt_tool -> /mnt/rfs2/usr/pvc/bin/wmt_tool
+/usr/pvc/bin/wpa_cli -> /mnt/rfs2/usr/pvc/bin/wpa_cli
+/usr/pvc/bin/wpa_supplicant -> /mnt/rfs2/usr/pvc/bin/wpa_supplicant
+/usr/pvc/etc/
+/usr/pvc/lib/
+/usr/pvc/lib/libbluetooth.blueangel.so -> /mnt/rfs2/usr/pvc/lib/libbluetooth.blueangel.so
+/usr/pvc/lib/libbtcust.so -> /mnt/rfs2/usr/pvc/lib/libbtcust.so
+/usr/pvc/lib/libbtcust_tab.so -> /mnt/rfs2/usr/pvc/lib/libbtcust_tab.so
+/usr/pvc/lib/libbtdrv.so -> /mnt/rfs2/usr/pvc/lib/libbtdrv.so
+/usr/pvc/lib/libbtstd.so -> /mnt/rfs2/usr/pvc/lib/libbtstd.so
+/usr/pvc/lib/libicc.so  [ERROR lzo1x: invalid lookbehind reference]
+/usr/pvc/lib/libicsm.so  [ERROR lzo1x: invalid lookbehind reference]
+/usr/pvc/lib/libipsearch.so -> /mnt/rfs2/usr/pvc/lib/libipsearch.so
+/usr/pvc/lib/libnetutil.so  [ERROR lzo1x: invalid lookbehind reference]
+/usr/pvc/lib/libnfs.so -> /mnt/rfs2/usr/pvc/lib/libnfs.so
+/usr/pvc/lib/libpcurl.so -> /mnt/rfs2/usr/pvc/lib/libpcurl.so
+/usr/pvc/lib/libpvc.so  [ERROR lzo1x: invalid lookbehind reference]
+/usr/pvc/lib/libpvc_eeprom.so -> /mnt/rfs2/usr/pvc/lib/libpvc_eeprom.so
+/usr/pvc/lib/libsbc_dec.so -> /mnt/rfs2/usr/pvc/lib/libsbc_dec.so
+/usr/pvc/lib/libsbc_enc.so -> /mnt/rfs2/usr/pvc/lib/libsbc_enc.so
+/usr/pvc/sbin -> /mnt/rfs2/usr/pvc/sbin
+/usr/pvc/tmp/
+/usr/sbin -> /mnt/rfs2/usr/sbin
+/usr/share/
+/usr/share/dhcpcd -> /mnt/rfs2/usr/share/dhcpcd
+/usr/share/terminfo -> /mnt/rfs2/usr/share/terminfo
+/var/
+/var/cache -> ../tmp
+/var/db/
+/var/lib/
+/var/lib/arpd/
+/var/lib/dhcp -> /tmp/var
+/var/lib/lighttpd -> /tmp/var
+/var/lib/misc -> ../../tmp
+/var/lock -> ../tmp
+/var/log -> ../tmp
+/var/run -> ../run
+/var/spool -> ../tmp
+/var/tmp -> ../tmp
+/var/www/
