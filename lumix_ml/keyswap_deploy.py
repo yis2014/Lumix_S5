@@ -37,6 +37,7 @@ if str(SCRIPT_DIR) not in sys.path:
 from ecdsa_recover import P256, mul, verify as ec_verify  # noqa: E402
 
 DEFAULT_KEYPAIR = REPO_ROOT / "keys" / "local_keypair.json"
+FALLBACK_KEYPAIR = REPO_ROOT / "analysis" / "vectors" / "ecdsa" / "p256_ref_keypair.json"
 DEFAULT_BACKUP = REPO_ROOT / "keyswap_backup.json"
 DEFAULT_FW_SRC = REPO_ROOT / "firmware" / "S5___V29.bin"
 DEFAULT_FW_OUT = REPO_ROOT / "S5___V29_selfsigned.bin"
@@ -59,6 +60,8 @@ def our_pubkey_ram(kp: dict) -> bytes:
 
 
 def load_keypair(path: Path) -> dict:
+    if not path.is_file() and path == DEFAULT_KEYPAIR and FALLBACK_KEYPAIR.is_file():
+        path = FALLBACK_KEYPAIR
     if not path.is_file():
         raise SystemExit(
             f"Keypair not found: {path}\n"

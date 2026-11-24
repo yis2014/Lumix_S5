@@ -32,7 +32,14 @@ from ecdsa_recover import P256, mul, verify as ec_verify  # noqa: E402
 DEFAULT_SRC = REPO_ROOT / "firmware" / "S5___V29.bin"
 DEFAULT_OUT = REPO_ROOT / "S5___V29_selfsigned_2a0.bin"
 DEFAULT_KEYPAIR = REPO_ROOT / "keys" / "local_keypair.json"
+FALLBACK_KEYPAIR = REPO_ROOT / "analysis" / "vectors" / "ecdsa" / "p256_ref_keypair.json"
 DEFAULT_VERSION = 0x02A002A0  # 2.160 (> 2.90)
+
+
+def _resolve_keypair(keypair_path: Path) -> Path:
+    if not keypair_path.is_file() and keypair_path == DEFAULT_KEYPAIR and FALLBACK_KEYPAIR.is_file():
+        return FALLBACK_KEYPAIR
+    return keypair_path
 
 
 def build(src: Path, out: Path, keypair_path: Path, version: int) -> None:
@@ -47,7 +54,7 @@ def build(src: Path, out: Path, keypair_path: Path, version: int) -> None:
     e = int.from_bytes(digest, "little")
 
     # 3. self-sign
-    kp = json.loads(keypair_path.read_text(encoding="utf-8"))
+    kp = json.loads(_resolve_keypair(keypair_path).read_text(encoding="utf-8"))
     priv = int(kp["private"], 16)
     n = P256.n
     while True:
@@ -79,7 +86,7 @@ def build(src: Path, out: Path, keypair_path: Path, version: int) -> None:
 
 def verify_file(path: Path, keypair_path: Path, expected_version: int) -> bool:
     fw = path.read_bytes()
-    kp = json.loads(keypair_path.read_text(encoding="utf-8"))
+    kp = json.loads(_resolve_keypair(keypair_path).read_text(encoding="utf-8"))
     q = (int(kp["public_x"], 16), int(kp["public_y"], 16))
 
     v1 = struct.unpack_from("<I", fw, 0x1C)[0]
