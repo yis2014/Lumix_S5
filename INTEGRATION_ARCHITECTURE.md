@@ -1,46 +1,48 @@
-# LUMIX DC-S5 三项目技术整合架构
+# LUMIX DC-S5 技术架构总览
 
-本文档说明如何将 **[`yis2014/Lumix_S5`](https://github.com/yis2014/Lumix_S5)（我们的密钥、自签固件与 SD 基座路线）**、**[`rileydeacon/s5-unlocker`](https://github.com/rileydeacon/s5-unlocker)** 与 **[`USER-HFC/Lumix_Tool`](https://github.com/USER-HFC/Lumix_Tool)** 整合成一套完整、分层、可安全回滚的 DC-S5（`MC801` / `pvc03v`, FW 2.9）开源研究与实用工具体系。
+> [!CAUTION]
+> 本文档仅作嵌入式系统与固件安全技术研究记录，不构成任何商业或官方技术支持。请先阅读 **[DISCLAIMER.md](DISCLAIMER.md)**。
+
+本文档说明 DC-S5（`MC801` / `pvc03v`, FW 2.9）仓库中**易失性 RAM 解锁模块**、**Windows 桌面端驱动/音效工具箱**与**密钥自签及 SD 卡模块化基座**三层技术架构的协同关系与安全边界。
 
 ---
 
-## 一、三项目互补全景
+## 一、分层架构全景
 
 ```mermaid
 flowchart TD
-    U["用户 / 开发者"] --> T1["Tier 1: 零刷机即时体验 (仅改 RAM, 热重启存活, 拔电池还原)"]
+    U["用户 / 研究者"] --> T1["Tier 1: 零刷机即时体验 (仅改 RAM, 热重启存活, 拔电池还原)"]
     U --> T2["Tier 2: 密钥与自签固件链路 (Own the Signature / 固件构建)"]
     U --> T3["Tier 3: 终极免 USB 形态 (一次最小化引导 + 纯 SD 卡模块化加载)"]
 
-    T1 --> S5U["integrations/s5-unlocker<br/>WebUSB / Android OTG / macOS CLI<br/>19 半字解锁 6K Open Gate + 5.9K + 无限录制"]
-    T1 --> LT["integrations/lumix-tool/app<br/>Windows Electron+React 桌面端<br/>一键 WinUSB 驱动 / 内存诊断 / 28 项提示音替换"]
+    T1 --> S5U["易失性 RAM 解锁客户端<br/>WebUSB / Android OTG / macOS CLI<br/>19 半字解锁 6K Open Gate + 5.9K + 无限录制"]
+    T1 --> LT["Windows 桌面端工具箱<br/>Electron+React+Python<br/>一键 WinUSB 驱动 / 内存诊断 / 28 项提示音替换"]
 
-    T2 --> AES["lumix_ml/decrypt_all.py<br/>5 轮 AES-128-CBC 解密全部 47 分区<br/>(补齐 hm_/hr_/ipu_/nr_/rc_/music 明文)"]
+    T2 --> AES["lumix_ml/decrypt_all.py<br/>5 轮 AES-128-CBC 解密全部 47 分区<br/>(含 hm_/hr_/ipu_/nr_/rc_/music 明文)"]
     T2 --> KS["lumix_ml/keyswap_deploy.py & build_selfsigned.py<br/>RAM 替换 K2@0x86F53722 + K3@0x86F537C0<br/>ECDSA P-256 自签通过机身验签 0x868C08C6"]
-    T2 --> LT_FW["integrations/lumix-tool/tools<br/>flags=2 明文重打包 + 0x8631801A 验签开关<br/>recover.py 一键降级恢复"]
+    T2 --> LT_FW["容器重打包与恢复工具<br/>flags=2 明文重打包 + 0x8631801A 验签开关<br/>recover.py 一键降级恢复"]
 
-    T3 --> SD["sd_toolkit/ (LMLX PATCHES.BIN)<br/>PC 端零依赖 GUI/CLI 管理功能档案<br/>已内置 s5-unlocker 19 半字实测补丁"]
+    T3 --> SD["sd_toolkit/ (LMLX PATCHES.BIN)<br/>PC 端零依赖 GUI/CLI 管理功能档案<br/>内置 6K/5.9K 原生菜单与无限录制档案"]
     KS --> BOOT["最小化持久化引导 (规划中)<br/>program.bin K2@0xCD3722 换公钥 + SD Loader"]
     BOOT --> SD
 ```
 
 ---
 
-## 二、核心技术路线对照与互补
+## 二、三条技术路线对照
 
-| 维度 | `yis2014/Lumix_S5`（本项目密钥/固件路线） | `rileydeacon/s5-unlocker` | `USER-HFC/Lumix_Tool` |
+| 维度 | 密钥自签与 SD 卡基座路线 | 易失性 RAM 视频解锁路线 | 桌面端音效与容器分析路线 |
 |---|---|---|---|
-| **核心优势** | 完整掌握 **AES 5 轮全分区解密** + **ECDSA 换公钥自签（Own the Signature）** + 启动链钩取 + SD 卡模块化 `LMLX` 协议 | **真机 100% 实测可用**的 6K Open Gate / 5.9K 原生菜单与全模式无限录制；跨平台 WebUSB / Android OTG / macOS | 完善的 **Windows 桌面 GUI**、一键 WinUSB 驱动安装、RAM 暂存区可视化诊断、28 项音效替换与免密钥 `flags=2` 重打包工具 |
-| **固件解密** | AES-128-CBC 5 轮密钥 `194364775255595d04e48de2b15e5c2c`，**47 分区全明文** | 仅需运行态 RAM 读写，不依赖解密 | 已提取 RAM 中 `program` / `postboot` / `rootfs`，但 `hm_/hr_/ipu_/music` 缺 AES 密钥（**由本项目补齐**） |
-| **验签突破机制** | **换公钥自签**：替换 `K2@0x86F53722` + `K3@0x86F537C0` 为本地 P-256 公钥，机身 `0x868C08C6` 正常验签通过，**保留签名保护** | 不改 Flash，仅写 19 个 RAM 半字 + 13 锚点校验 | **验签开关绕过**：`0x8631801A` 写 `1` 跳过更新验签 + 容器记录 `flags=2` 明文打包 |
-| **持久化边界** | RAM 换公钥已验证；持久化换公钥（改 `program.bin` 偏移 `0xCD3722` + 重加密 + 自签）规划就绪 | 电源键热重启（Suspend-to-RAM）持久化，拔电池还原 | 音效为 RAM 暂存区热重启持久化；固件重打包为候选待刷写验证 |
-| **整合后的协同** | 作为底层密码学、自签与 SD Loader 基座 | 其 19 半字实测补丁已直接作为内置 profile 合入 `sd_toolkit/profiles_v29.json` | 其 WinUSB 驱动、RAM 诊断、音效替换与 `recover.py` 恢复机制构成完整桌面生态 |
+| **核心能力** | **AES 5 轮全分区解密** + **ECDSA 换公钥自签（Own the Signature）** + 启动链钩取 + SD 卡模块化 `LMLX` 协议 | **真机已验证**的 6K Open Gate / 5.9K 原生菜单与全模式无限录制；跨平台 WebUSB / Android OTG / macOS | **Windows 桌面 GUI**、一键 WinUSB 驱动安装、RAM 暂存区可视化诊断、28 项音效替换与 `flags=2` 明文重打包工具 |
+| **固件解密** | AES-128-CBC 5 轮密钥 `194364775255595d04e48de2b15e5c2c`，**47 分区全明文** | 仅需运行态 RAM 读写，不依赖解密 | 从 RAM 提取 `program` / `postboot` / `rootfs`，配合 AES 全解密补齐其余分区 |
+| **验签机制** | **换公钥自签**：替换 `K2@0x86F53722` + `K3@0x86F537C0` 为本地 P-256 公钥，机身 `0x868C08C6` 正常验签通过，**保留签名保护** | 不改 Flash，仅写 19 个 RAM 半字 + 13 锚点校验 | **验签开关**：`0x8631801A` 写 `1` 跳过更新验签 + 容器记录 `flags=2` 明文打包 |
+| **持久化边界** | RAM 换公钥已验证；持久化换公钥（改 `program.bin` 偏移 `0xCD3722` + 重加密 + 自签）规划就绪 | 电源键热重启（Suspend-to-RAM）持久化，拔电池还原 | 音效为 RAM 暂存区热重启持久化；`recover.py` 提供版本降级恢复支持 |
 
 ---
 
-## 三、我们的密钥与自签固件链路（Own the Signature）
+## 三、密钥与自签固件链路（Own the Signature）
 
-相较于直接关闭验签（`0x8631801A = 1`），**换公钥（Own the Signature）** 在持久化阶段具备显著安全性优势：相机依然执行完整的 ECDSA P-256 验签与外层 CRC32 校验，只是信任锚从原厂公钥切换为开发者自己的公钥，防止误刷损坏或未签名包。
+相较于直接关闭验签（`0x8631801A = 1`），**换公钥（Own the Signature）** 在持久化阶段具备显著安全性优势：相机依然执行完整的 ECDSA P-256 验签与外层 CRC32 校验，只是信任锚从原厂公钥切换为本地生成的公钥，防止误刷损坏或未签名包。
 
 ### 1. 固件容器正确打包顺序（已实机验证，顺序不可颠倒）
 1. **修改版本号**：写入 `0x1C`（外层头）与 `0x2BC`（签名摘要覆盖区内），例如 `0x02A002A0`（高于机身当前 V2.90）。
@@ -51,11 +53,10 @@ flowchart TD
 对应便携实现：`lumix_ml/build_selfsigned.py` 与 `lumix_ml/keyswap_deploy.py`（纯 Python 标准库，依赖同目录 `lumix_ml/ecdsa_recover.py`，无第三方包）。
 
 ### 2. 从 RAM 换公钥到 SD 卡模块化基座的演进路径
-1. **阶段 0（安全基线）**：确认可正常通过官方 `S5___V29.bin`（或配合 `integrations/lumix-tool/tools/recover.py` 版本降级）完成安全回滚。
-2. **阶段 1（RAM 级闭环，已完成）**：
-   - 使用 `s5-unlocker` 或 `lumix_ml/keyswap_deploy.py` 在纯 RAM 中完成 6K/5.9K/无限录制解锁与换公钥自签验证。
+1. **阶段 0（安全基线）**：确认可正常通过官方 `S5___V29.bin`（或配合 `recover.py` 版本降级）完成安全回滚。
+2. **阶段 1（RAM 级闭环，已完成）**：在纯 RAM 中完成 6K/5.9K/无限录制解锁与换公钥自签验证。
 3. **阶段 2（RAM 级 SD Loader 联调）**：
-   - 利用 `sd_toolkit` 生成 `SD:\LUMIX_ML\PATCHES.BIN`（已内置 `s5-unlocker` 19 半字实测档案）。
+   - 利用 `sd_toolkit` 生成 `SD:\LUMIX_ML\PATCHES.BIN`（已内置 19 半字实测档案）。
    - 在主核 SD 挂载完成切入点（首选 `0x06470124` 之后，调用主核 `FS_Open@0x065d36ae` / `FS_Read@0x065d376c` / `FS_Close@0x065d3722`）验证纯 RAM 加载、原厂半字校验与拔卡还原。
 4. **阶段 3（唯一一次最小化持久化）**：
    - 在明文 `program.bin` 中替换 `K2` 公钥（偏移 `0xCD3722`）并植入最小化 SD Loader → 5 轮 AES-128-CBC 重加密 → 按正确顺序自签打包 → 刷入机身。
@@ -65,19 +66,19 @@ flowchart TD
 
 ## 四、统一关键地址速查（DC-S5 `MC801` FW 2.9）
 
-| 模块 | Service USB 地址 | 主核 VA | 说明 | 来源 |
-|---|---|---|---|---|
-| **主核代码基址** | `0x86280000` | `0x06280000` | `program.bin` 解压后运行基址（16 MB） | 共同 |
-| **机身版本字段** | `0x863B0000` / `0x863181E2` | `0x063B0000` / `0x063181E2` | `2×u16`，V2.90 = `0x0290` | 共同 |
-| **更新验签函数** | `0x868C08C6` | `0x068C08C6` | 原厂字节 `70b5b0b0`，机身固件 ECDSA 验签 | 本项目 |
-| **ECDSA 公钥 K2 / K3** | `0x86F53722` / `0x86F537C0` | `0x06F53722` / `0x06F537C0` | 各 64 字节（`x[::-1] || y[::-1]`），明文偏移 `0xCD3722` | 本项目 |
-| **更新验签开关** | `0x8631801A` | `0x0631801A` | `0`=正常验签，`1`=跳过验签（配合 `recover.py`） | Lumix_Tool |
-| **启动链 Detour / Cave** | `0x800003C4` / `0x8000E300` | — | 复位早期任意 ARM 载荷钩取 | 本项目 |
-| **主核任意执行 Cave** | `0x87086300` | `0x07086300` | 跨热重启存活的主核载荷区 | 本项目 |
-| **NTSC 白名单尾部** | `0x86F15E90`–`96` | `0x06F15E90`–`96` | 替换 `00D1/00D2` → `00F1/00ED`（5.9K/6K） | s5-unlocker |
-| **Master ROM-in-RAM 模板** | `0x87089614`–`2C` | `0x07089614`–`2C` | 保障电源键热重启后 5.9K/6K 菜单持续存活 | s5-unlocker |
-| **活动/实时 UI 菜单缓冲** | `0x08A68C5C`–`74` / `0x08A6845C`–`74` | 同左 | 实时 `Rec Quality (MOV)` 菜单显示 | s5-unlocker |
-| **录制时长限制 Getter** | `0x868261B6` | `0x068261B6` | `0x4628` → `0x2000` (`movs r0, #0`) 解除 15/30 分钟限制 | s5-unlocker |
-| **音效暂存区** | `0x8F000000` 起 | — | 44.1 kHz 单声道自定义提示音写入区 | Lumix_Tool |
-| **SD 文件系统 API** | — | `0x065D36AE` 等 | `FS_Open`/`FS_Read`/`FS_Write`/`FS_Close` | 本项目 |
-| **未映射黑洞区（禁读/禁写）** | `>= 0x8C000000` | `>= 0x0C000000` | 访问触发 `err=121` USB 挂起 | 共同 |
+| 模块 | Service USB 地址 | 主核 VA | 说明 |
+|---|---|---|---|
+| **主核代码基址** | `0x86280000` | `0x06280000` | `program.bin` 解压后运行基址（16 MB） |
+| **机身版本字段** | `0x863B0000` / `0x863181E2` | `0x063B0000` / `0x063181E2` | `2×u16`，V2.90 = `0x0290` |
+| **更新验签函数** | `0x868C08C6` | `0x068C08C6` | 原厂字节 `70b5b0b0`，机身固件 ECDSA 验签 |
+| **ECDSA 公钥 K2 / K3** | `0x86F53722` / `0x86F537C0` | `0x06F53722` / `0x06F537C0` | 各 64 字节（`x[::-1] || y[::-1]`），明文偏移 `0xCD3722` |
+| **更新验签开关** | `0x8631801A` | `0x0631801A` | `0`=正常验签，`1`=跳过验签 |
+| **启动链 Detour / Cave** | `0x800003C4` / `0x8000E300` | — | 复位早期任意 ARM 载荷钩取 |
+| **主核任意执行 Cave** | `0x87086300` | `0x07086300` | 跨热重启存活的主核载荷区 |
+| **NTSC 白名单尾部** | `0x86F15E90`–`96` | `0x06F15E90`–`96` | 替换 `00D1/00D2` → `00F1/00ED`（5.9K/6K） |
+| **Master ROM-in-RAM 模板** | `0x87089614`–`2C` | `0x07089614`–`2C` | 保障电源键热重启后 5.9K/6K 菜单持续存活 |
+| **活动/实时 UI 菜单缓冲** | `0x08A68C5C`–`74` / `0x08A6845C`–`74` | 同左 | 实时 `Rec Quality (MOV)` 菜单显示 |
+| **录制时长限制 Getter** | `0x868261B6` | `0x068261B6` | `0x4628` → `0x2000` (`movs r0, #0`) 解除 15/30 分钟限制 |
+| **音效暂存区** | `0x8F000000` 起 | — | 44.1 kHz 单声道自定义提示音写入区 |
+| **SD 文件系统 API** | — | `0x065D36AE` 等 | `FS_Open`/`FS_Read`/`FS_Write`/`FS_Close` |
+| **未映射黑洞区（禁读/禁写）** | `>= 0x8C000000` | `>= 0x0C000000` | 访问触发 `err=121` USB 挂起 |
