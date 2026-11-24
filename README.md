@@ -93,3 +93,13 @@ python lumix_ml/keyswap_deploy.py rollback
 - **风险自担**：服务模式操作、内存改写及固件自签/刷写均不在官方支持范围内，可能导致设备故障、数据丢失、保修失效或永久性变砖。所有代码与文档均按“现状（AS-IS）”提供，不提供任何明示或暗示的担保，作者与维护者不对任何直接或间接损失承担责任。
 - **安全边界**：RAM 级工具仅修改易失性内存，拔电池即可恢复原厂；`lumix_ml/keyswap_deploy.py deploy` 同样仅修改 RAM 中公钥。**仅当用户主动将自定义固件包写入 SD 卡并经相机菜单执行更新时才会改写 Flash**，任何涉及 Flash 的实验前请务必先完成官方恢复回滚演练。
 - 完整条款请见 **[DISCLAIMER.md](DISCLAIMER.md)**。
+
+---
+
+## 致谢
+
+感谢以下社区项目与研究者的开源贡献（相关模块与原协议文件已保留于 `integrations/` 目录）：
+
+- **[USER-HFC/Lumix_Tool](https://github.com/USER-HFC/Lumix_Tool)**：桌面端工具箱、WinUSB 驱动安装、RAM 诊断、提示音替换与固件研究工具。
+- **[rileydeacon/s5-unlocker](https://github.com/rileydeacon/s5-unlocker)**（MIT License）：6K Open Gate / 5.9K 原生菜单与全模式无限录制的易失性 RAM 解锁实现。
+
