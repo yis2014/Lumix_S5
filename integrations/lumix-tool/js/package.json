@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@alexaltea/capstone-js": "^5.0.9",
+    "@dimmkirr/squashts": "^0.1.6",
+    "lz4js": "^0.2.0",
+    "lzo-decompress": "^1.0.11",
+    "lzo1x": "^1.0.1"
+  }
+}

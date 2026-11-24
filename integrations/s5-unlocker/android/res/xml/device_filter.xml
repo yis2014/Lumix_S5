@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Panasonic Lumix DC-S5 Service Mode: VID 0x04DA (1242), PID 0x2370 (9072) -->
+    <usb-device vendor-id="1242" product-id="9072" />
+</resources>

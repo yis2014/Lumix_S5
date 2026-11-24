@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "fw_version": "0x00000290",
+  "fw_label": "LUMIX DC-S5 V2.9",
+  "profiles": [
+    {
+      "id": "s5_v29_native_6k_59k_menu",
+      "name": "原生菜单 6K Open Gate & 5.9K 23.98p (s5-unlocker 实测)",
+      "category": "视频录制",
+      "risk": "低 (纯数据表 18 半字)",
+      "status": "真机已验证 (源自 rileydeacon/s5-unlocker)",
+      "description": "将 NTSC MOV 菜单末位两个低优先 FHD 槽位 (0x00D1/0x00D2) 替换为 5.9K 16:9 23.98p (0x00F1, 5888x3312) 与 6K 3:2 Open Gate 23.98p (0x00ED, 5952x3968)，同时补齐白名单、ROM-in-RAM 主模板、活动模板与实时 UI 缓冲，支持热重启持久化与原生角标/机内回放。",
+      "entries": [
+        { "addr": "0x06F15E90", "orig": "0x00D1", "new": "0x00F1", "note": "NTSC 白名单: 5.9K 23.98p lo" },
+        { "addr": "0x06F15E92", "orig": "0x80D1", "new": "0x80F1", "note": "NTSC 白名单: 5.9K 23.98p hi" },
+        { "addr": "0x06F15E94", "orig": "0x00D2", "new": "0x00ED", "note": "NTSC 白名单: 6K Open Gate 23.98p lo" },
+        { "addr": "0x06F15E96", "orig": "0x80D2", "new": "0x80ED", "note": "NTSC 白名单: 6K Open Gate 23.98p hi" },
+        { "addr": "0x07089614", "orig": "0x00D1", "new": "0x00F1", "note": "Master ROM-in-RAM MOV 模板: 5.9K lo" },
+        { "addr": "0x0708961C", "orig": "0x80D1", "new": "0x80F1", "note": "Master ROM-in-RAM MOV 模板: 5.9K hi" },
+        { "addr": "0x07089624", "orig": "0x00D2", "new": "0x00ED", "note": "Master ROM-in-RAM MOV 模板: 6K lo" },
+        { "addr": "0x0708962C", "orig": "0x80D2", "new": "0x80ED", "note": "Master ROM-in-RAM MOV 模板: 6K hi" },
+        { "addr": "0x08A68C5C", "orig": "0x00D1", "new": "0x00F1", "note": "活动 NTSC MOV 源模板: 5.9K lo (运行态 RAM)" },
+        { "addr": "0x08A68C64", "orig": "0x80D1", "new": "0x80F1", "note": "活动 NTSC MOV 源模板: 5.9K hi (运行态 RAM)" },
+        { "addr": "0x08A68C6C", "orig": "0x00D2", "new": "0x00ED", "note": "活动 NTSC MOV 源模板: 6K lo (运行态 RAM)" },
+        { "addr": "0x08A68C74", "orig": "0x80D2", "new": "0x80ED", "note": "活动 NTSC MOV 源模板: 6K hi (运行态 RAM)" },
+        { "addr": "0x08A6845C", "orig": "0x00D1", "new": "0x00F1", "note": "实时 UI 菜单缓冲: 5.9K lo (运行态 RAM)" },
+        { "addr": "0x08A6845E", "orig": "0x0104", "new": "0x0104", "note": "实时 UI 菜单缓冲: 5.9K 可见标志" },
+        { "addr": "0x08A68464", "orig": "0x80D1", "new": "0x80F1", "note": "实时 UI 菜单缓冲: 5.9K hi (运行态 RAM)" },
+        { "addr": "0x08A6846C", "orig": "0x00D2", "new": "0x00ED", "note": "实时 UI 菜单缓冲: 6K lo (运行态 RAM)" },
+        { "addr": "0x08A6846E", "orig": "0x0104", "new": "0x0104", "note": "实时 UI 菜单缓冲: 6K 可见标志" },
+        { "addr": "0x08A68474", "orig": "0x80D2", "new": "0x80ED", "note": "实时 UI 菜单缓冲: 6K hi (运行态 RAM)" }
+      ]
+    },
+    {
+      "id": "s5_v29_unlimited_rec",
+      "name": "全模式无限录制 (解除 15/30 分钟限制)",
+      "category": "视频录制",
+      "risk": "低 (单条 Thumb 指令)",
+      "status": "真机已验证 (源自 rileydeacon/s5-unlocker)",
+      "description": "将 0x068261B6 处录制时长限制返回值指令从 0x4628 改为 0x2000 (movs r0, #0)，解除所有 4K / C4K / 4K-A 10-bit / 60p / VFR 模式的 30 分钟与 15 分钟人工限制（保留硬件过热保护）。",
+      "entries": [
+        {
+          "addr": "0x068261B6",
+          "orig": "0x4628",
+          "new": "0x2000",
+          "note": "录制时长限制 getter 返回 0 (movs r0, #0)"
+        }
+      ]
+    },
+    {
+      "id": "s5_v29_opengate_6k",
+      "name": "6K Open Gate 24p 描述符直改 (5 半字实验方案)",
+      "category": "视频录制",
+      "risk": "低 (纯数据表 5 半字)",
+      "status": "已离线仿真验证 / 待 SD Loader 联调",
+      "description": "将 5.9K 24p 描述符槽位 (0x02AD) 直接切换为 6K Open Gate 3:2 全画幅读出 (5952x3968, HEVC 4:2:0 10-bit 200Mbps, FourCC POB)。仅修改 5 个半字，不触碰 C4K 模板。",
+      "entries": [
+        {
+          "addr": "0x06E3DB1C",
+          "orig": "0x0002",
+          "new": "0x0000",
+          "note": "分辨率索引 5888x3312 -> 5952x3968"
+        },
+        {
+          "addr": "0x06E3DB28",
+          "orig": "0x1059",
+          "new": "0x1053",
+          "note": "NTSC 传感器/编码器 ROM 读出表 ID"
+        },
+        {
+          "addr": "0x06E3DB2C",
+          "orig": "0x1059",
+          "new": "0x1053",
+          "note": "PAL 传感器/编码器 ROM 读出表 ID"
+        },
+        {
+          "addr": "0x06E3DB32",
+          "orig": "0x0045",
+          "new": "0x0042",
+          "note": "FourCC POE -> POB"
+        },
+        {
+          "addr": "0x074FEF5C",
+          "orig": "0x2F32",
+          "new": "0x2F33",
+          "note": "角标文字 5.9K -> 6K"
+        }
+      ]
+    }
+  ]
+}

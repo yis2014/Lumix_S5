@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>S5 Unlocker</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 108 108'%3E%3Crect width='108' height='108' rx='24' fill='%23151515'/%3E%3Crect x='24' y='34' width='60' height='40' rx='3' fill='none' stroke='%23C1C1C1' stroke-width='4'/%3E%3Ccircle cx='54' cy='54' r='6.5' fill='%23B8212F'/%3E%3C/svg%3E">
+<style>
+  /* Baxter family interface language — draft 2 (2026-10-21) */
+  :root {
+    --board:   #0B0B0B;
+    --ground:  #0E0E0E;
+    --well:    #141414;
+    --surface: #151515;
+    --panel:   #1E1E1E;
+    --hover:   #242424;
+    --open:    #2D2D2D;
+    --on:      #3A3A3A;
+    --pressed: #525252;
+    --edge:    #717171;
+    --dim:     #989898;
+    --light:   #C1C1C1;
+    --needle:  #E8E8E8;
+    --signal:  #B8212F;
+    --sans: "Geist", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Roboto, sans-serif;
+    --mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background: var(--board);
+    color: var(--light);
+    font-family: var(--sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  .app {
+    width: 100%;
+    max-width: 440px;
+    min-height: 100dvh;
+    background: var(--ground);
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (min-width: 520px) {
+    body { padding: 32px 16px; align-items: center; }
+    .app {
+      min-height: 740px;
+      border-radius: 20px;
+      overflow: hidden;
+      border: 1px solid var(--hover);
+    }
+  }
+
+  /* Header row (#1E1E1E panel tone, edge-to-edge) */
+  header {
+    background: var(--panel);
+    padding: 20px 20px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .brand {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--needle);
+    letter-spacing: -0.01em;
+    margin: 0;
+  }
+  .status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    color: var(--dim);
+  }
+  .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--edge);
+    flex-shrink: 0;
+  }
+  .dot.ready  { background: var(--light); }
+  .dot.armed  { background: var(--signal); }
+  .status.ready { color: var(--light); }
+  .status.armed { color: var(--needle); font-weight: 500; }
+
+  /* State views */
+  .stage {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .hidden { display: none !important; }
+
+  /* Waiting state */
+  .waiting-center {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 28px 24px;
+    text-align: center;
+  }
+  .reticle-cap {
+    margin-top: 10px;
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    color: var(--edge);
+  }
+  .reticle-cap.armed { color: var(--dim); }
+  .hint-primary {
+    margin: 36px 0 0;
+    font-size: 13px;
+    color: var(--light);
+  }
+  .hint-secondary {
+    margin: 6px 0 0;
+    font-size: 11px;
+    color: var(--dim);
+  }
+  .shelf {
+    background: var(--surface);
+    padding: 22px 20px;
+  }
+
+  /* Ready & Armed surface band (#151515, edge-to-edge) */
+  .surface-band {
+    background: var(--surface);
+    padding: 20px;
+  }
+  .wells {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 22px;
+  }
+  .well {
+    background: var(--ground);
+    border-radius: 4px;
+    padding: 9px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .well-k {
+    font-size: 11px;
+    color: var(--dim);
+  }
+  .well-v {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--needle);
+  }
+
+  .sec-title {
+    margin: 0 0 12px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--needle);
+  }
+  .spec-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 0;
+  }
+  .spec-l { font-size: 13px; color: var(--light); }
+  .spec-r { font-family: var(--mono); font-size: 11px; color: var(--dim); }
+  .armed-rows .spec-l { color: var(--needle); }
+  .armed-rows .spec-r { color: var(--light); }
+
+  /* Armed hero */
+  .armed-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 26px 20px 22px;
+  }
+
+  /* Ground action stage */
+  .action-area {
+    padding: 26px 20px 16px;
+    text-align: center;
+  }
+  .armed-headline {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--needle);
+  }
+  .armed-sub {
+    margin: 4px 0 20px;
+    font-size: 11px;
+    color: var(--dim);
+  }
+  .sub-mono {
+    margin: 14px 0 0;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--dim);
+  }
+
+  /* Controls */
+  button {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-family: var(--sans);
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity 0.12s ease, background 0.12s ease;
+  }
+  button:disabled { opacity: 0.42; cursor: not-allowed; }
+  .btn-primary {
+    background: var(--pressed);
+    color: var(--needle);
+    font-size: 15px;
+    padding: 16px;
+  }
+  .btn-primary:hover:not(:disabled) { background: #5e5e5e; }
+  .btn-secondary {
+    background: var(--hover);
+    color: var(--light);
+    font-size: 13px;
+    padding: 14px;
+  }
+  .btn-secondary:hover:not(:disabled) { background: var(--open); }
+
+  /* Collapsible session log */
+  .log-bar {
+    padding: 0 20px 20px;
+    margin-top: auto;
+  }
+  .log-toggle {
+    width: 100%;
+    background: var(--well);
+    border: 1px solid var(--hover);
+    border-radius: 6px;
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 11px;
+    color: var(--dim);
+    font-weight: 400;
+  }
+  .log-toggle-title { font-family: var(--mono); }
+  .log-toggle-caret { color: var(--edge); font-family: var(--sans); }
+  .log-box {
+    margin: 6px 0 0;
+    background: var(--well);
+    border: 1px solid var(--hover);
+    border-radius: 6px;
+    padding: 10px 12px;
+    font-family: var(--mono);
+    font-size: 11px;
+    line-height: 1.5;
+    color: var(--dim);
+    max-height: 150px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <h1 class="brand">S5 Unlocker</h1>
+    <div id="statusWrap" class="status">
+      <span id="statusDot" class="dot"></span>
+      <span id="statusLabel">Waiting</span>
+    </div>
+  </header>
+
+  <main class="stage">
+    <!-- 01 · Waiting -->
+    <section id="viewWaiting" class="stage">
+      <div class="waiting-center">
+        <svg width="136" height="90" viewBox="0 0 136 90" aria-hidden="true">
+          <rect x="1" y="1" width="134" height="88" rx="3" fill="none" stroke="#2D2D2D" stroke-width="1.5"/>
+          <path d="M9 15 h10 M117 15 h10 M9 75 h10 M117 75 h10" fill="none" stroke="#242424" stroke-width="1"/>
+          <path d="M62 45 h12 M68 39 v12" fill="none" stroke="#3A3A3A" stroke-width="1"/>
+        </svg>
+        <div class="reticle-cap">04DA:2370 &middot; SERVICE MODE</div>
+        <p class="hint-primary">Hold Playback + AF/AE Lock and power on</p>
+        <p id="waitingHint" class="hint-secondary">Plug in USB-C cable and connect in Chrome</p>
+      </div>
+      <div class="shelf">
+        <button id="btnConnect" class="btn-secondary">Connect USB</button>
+      </div>
+    </section>
+
+    <!-- 02 · Ready -->
+    <section id="viewReady" class="stage hidden">
+      <div class="surface-band">
+        <div class="wells">
+          <div class="well"><span class="well-k">Firmware</span><span class="well-v">MC801 2.9</span></div>
+          <div class="well"><span class="well-k">State</span><span class="well-v">Stock</span></div>
+        </div>
+        <h2 class="sec-title">Modes to enable</h2>
+        <div class="spec-row"><span class="spec-l">6K Open Gate</span><span class="spec-r">5952&times;3968 &middot; 23.98p &middot; 10-bit</span></div>
+        <div class="spec-row"><span class="spec-l">5.9K Full</span><span class="spec-r">5888&times;3312 &middot; 23.98p &middot; 10-bit</span></div>
+        <div class="spec-row"><span class="spec-l">Recording limit</span><span class="spec-r">Unlimited &middot; all modes</span></div>
+        <div class="spec-row"><span class="spec-l">Power switch</span><span class="spec-r">Survives until battery pull</span></div>
+      </div>
+      <div class="action-area">
+        <button id="btnUnlock" class="btn-primary">Unlock camera</button>
+        <p id="readySubNote" class="sub-mono">13 signatures verified &middot; 19 RAM words</p>
+      </div>
+    </section>
+
+    <!-- 03 · Armed -->
+    <section id="viewArmed" class="stage hidden">
+      <div class="armed-hero">
+        <svg width="136" height="90" viewBox="0 0 136 90" aria-hidden="true">
+          <rect x="1" y="1" width="134" height="88" rx="3" fill="none" stroke="#C1C1C1" stroke-width="1.5"/>
+          <path d="M9 15 h10 M117 15 h10 M9 75 h10 M117 75 h10" fill="none" stroke="#525252" stroke-width="1"/>
+          <circle cx="68" cy="45" r="6" fill="#B8212F"/>
+        </svg>
+        <div class="reticle-cap armed">5952 &times; 3968 &middot; 3:2 OPEN GATE</div>
+      </div>
+      <div class="surface-band armed-rows">
+        <div class="wells">
+          <div class="well"><span class="well-k">Firmware</span><span class="well-v">MC801 2.9</span></div>
+          <div class="well"><span class="well-k">State</span><span class="well-v">Armed</span></div>
+        </div>
+        <div class="spec-row"><span class="spec-l">6K Open Gate</span><span class="spec-r">Active &middot; MOV menu</span></div>
+        <div class="spec-row"><span class="spec-l">5.9K Full</span><span class="spec-r">Active &middot; MOV menu</span></div>
+        <div class="spec-row"><span class="spec-l">Recording limit</span><span class="spec-r">Unlimited</span></div>
+      </div>
+      <div class="action-area">
+        <p id="armedHeadline" class="armed-headline">Safe to unplug USB-C</p>
+        <p class="armed-sub">Rec Quality (MOV) &rarr; scroll to bottom</p>
+        <button id="btnRestore" class="btn-secondary">Restore stock</button>
+      </div>
+    </section>
+
+    <!-- Collapsible session log (shown in Ready & Armed) -->
+    <div id="logBar" class="log-bar hidden">
+      <button id="btnLogToggle" class="log-toggle" type="button">
+        <span id="logBarTitle" class="log-toggle-title">Session log</span>
+        <span id="logBarCaret" class="log-toggle-caret">Show &#9662;</span>
+      </button>
+      <pre id="logBox" class="log-box hidden">ready</pre>
+    </div>
+  </main>
+</div>
+
+<script>
+(() => {
+  const VID = 0x04DA;
+  const PID = 0x2370;
+
+  // MC801 FW 2.9 signature anchors (13 halfwords verified before any write)
+  const SIG_CHECKS = [
+    [0x866B493A, [0x2801], 'rtos_sig1'],
+    [0x866B493E, [0xB2E0], 'rtos_sig2'],
+    [0x866B4952, [0x486B], 'rtos_sig3'],
+    [0x866B4956, [0xBD10], 'rtos_sig4'],
+    [0x86F15E8C, [0x00CE], 'wl_anchor'],
+    [0x86F15E98, [0xFFFF], 'wl_sentinel'],
+    [0x87089604, [0x00CE], 'rom_tpl_anchor'],
+    [0x87089634, [0xFFFF], 'rom_tpl_sentinel'],
+    [0x08A68C4C, [0x00CE], 'tpl_anchor'],
+    [0x08A6844C, [0x00CE], 'ui_anchor'],
+    [0x868261B4, [0x460D], 'cap_prev'],
+    [0x868261B6, [0x4628, 0x2000], 'cap_ret'],
+    [0x868261B8, [0xE8BD], 'cap_pop'],
+  ];
+
+  // 19 RAM halfwords (survives Power-Switch OFF/ON until battery pull)
+  const PATCHES = [
+    // 1) NTSC Validator Whitelist (0x86F15E30 tail)
+    [0x86F15E90, 0x00F1, 0x00D1, 'wl_59k24_lo'],
+    [0x86F15E92, 0x80F1, 0x80D1, 'wl_59k24_hi'],
+    [0x86F15E94, 0x00ED, 0x00D2, 'wl_6k2398_lo'],
+    [0x86F15E96, 0x80ED, 0x80D2, 'wl_6k2398_hi'],
+
+    // 2) Master ROM-in-RAM MOV Template (0x87089524 tail)
+    [0x87089614, 0x00F1, 0x00D1, 'rom_tpl_59k24_lo'],
+    [0x8708961C, 0x80F1, 0x80D1, 'rom_tpl_59k24_hi'],
+    [0x87089624, 0x00ED, 0x00D2, 'rom_tpl_6k2398_lo'],
+    [0x8708962C, 0x80ED, 0x80D2, 'rom_tpl_6k2398_hi'],
+
+    // 3) Active NTSC MOV Source Template (0x08A68B6C tail)
+    [0x08A68C5C, 0x00F1, 0x00D1, 'tpl_59k24_lo'],
+    [0x08A68C64, 0x80F1, 0x80D1, 'tpl_59k24_hi'],
+    [0x08A68C6C, 0x00ED, 0x00D2, 'tpl_6k2398_lo'],
+    [0x08A68C74, 0x80ED, 0x80D2, 'tpl_6k2398_hi'],
+
+    // 4) Live UI Menu Table (0x08A6836C tail, visibility=0x0104)
+    [0x08A6845C, 0x00F1, 0x00D1, 'ui_59k24_lo'],
+    [0x08A6845E, 0x0104, 0x0104, 'ui_59k24_vis'],
+    [0x08A68464, 0x80F1, 0x80D1, 'ui_59k24_hi'],
+    [0x08A6846C, 0x00ED, 0x00D2, 'ui_6k2398_lo'],
+    [0x08A6846E, 0x0104, 0x0104, 'ui_6k2398_vis'],
+    [0x08A68474, 0x80ED, 0x80D2, 'ui_6k2398_hi'],
+
+    // 5) Unlimited recording in ALL limited modes (0x86826102 returns 0)
+    [0x868261B6, 0x2000, 0x4628, 'unlimited_all'],
+  ];
+
+  let dev = null;
+  let epOut = 1;
+  let epIn = 2;
+  let busy = false;
+  let isUnlocked = false;
+  let logExpanded = false;
+  let uiState = 'waiting';
+
+  const $ = id => document.getElementById(id);
+
+  function hex4(v) { return '0x' + v.toString(16).toUpperCase().padStart(4, '0'); }
+  function hex8(v) { return '0x' + (v >>> 0).toString(16).toUpperCase().padStart(8, '0'); }
+
+  function appendLog(msg) {
+    const el = $('logBox');
+    el.textContent += '\n' + msg;
+    if (logExpanded) el.scrollTop = el.scrollHeight;
+  }
+
+  function setHeaderStatus(text, mode) {
+    $('statusLabel').textContent = text;
+    $('statusWrap').className = 'status' + (mode ? ' ' + mode : '');
+    $('statusDot').className = 'dot' + (mode ? ' ' + mode : '');
+  }
+
+  function setUiState(next, headerText) {
+    uiState = next;
+    $('viewWaiting').classList.toggle('hidden', next !== 'waiting');
+    $('viewReady').classList.toggle('hidden', next !== 'ready');
+    $('viewArmed').classList.toggle('hidden', next !== 'armed');
+    $('logBar').classList.toggle('hidden', next === 'waiting');
+
+    if (next === 'armed') {
+      setHeaderStatus(headerText || 'Armed', 'armed');
+      $('logBarTitle').textContent = 'Session log \u00B7 19/19 verified';
+    } else if (next === 'ready') {
+      setHeaderStatus(headerText || 'Ready', 'ready');
+      $('logBarTitle').textContent = 'Session log';
+    } else {
+      setHeaderStatus(headerText || 'Waiting', '');
+    }
+    syncButtons();
+  }
+
+  function syncButtons() {
+    const connected = !!(dev && dev.opened);
+    $('btnConnect').disabled = busy;
+    $('btnUnlock').disabled = !connected || busy;
+    $('btnUnlock').textContent = busy ? 'Unlocking\u2026' : 'Unlock camera';
+    $('btnRestore').classList.toggle('hidden', !connected);
+    $('btnRestore').disabled = !connected || busy;
+    $('btnRestore').textContent = busy ? 'Restoring\u2026' : 'Restore stock';
+  }
+
+  function frameSum(arr, len = arr.length) {
+    let s = 0;
+    for (let i = 1; i + 2 < len; i++) s = (s + arr[i]) & 0xFF;
+    return s;
+  }
+
+  async function prepare(index) {
+    const res = await dev.controlTransferOut({
+      requestType: 'vendor',
+      recipient: 'device',
+      request: 0,
+      value: 0,
+      index
+    });
+    if (res.status !== 'ok') throw new Error(`prepare(${index}) failed: ${res.status}`);
+  }
+
+  async function readHalf(addr) {
+    const tx = new Uint8Array(16);
+    tx[0] = 8; tx[2] = 0xFF; tx[3] = 0x9B;
+    tx[4] = addr & 0xFF;
+    tx[5] = (addr >>> 8) & 0xFF;
+    tx[6] = (addr >>> 16) & 0xFF;
+    tx[7] = (addr >>> 24) & 0xFF;
+    tx[14] = frameSum(tx);
+
+    await prepare(0);
+    const out = await dev.transferOut(epOut, tx);
+    if (out.status !== 'ok') throw new Error('bulk OUT failed');
+
+    await prepare(1);
+    const tRes = await dev.transferIn(epIn, 64);
+    if (tRes.status !== 'ok' || tRes.data.byteLength !== 1 || tRes.data.getUint8(0) !== 8) {
+      throw new Error('unexpected type byte on read');
+    }
+
+    await prepare(1);
+    const rRes = await dev.transferIn(epIn, 64);
+    if (rRes.status !== 'ok' || rRes.data.byteLength !== 16) {
+      throw new Error(`unexpected reply len ${rRes.data.byteLength}`);
+    }
+    const rx = new Uint8Array(rRes.data.buffer, rRes.data.byteOffset, 16);
+    if (rx[3] !== 0x36 || rx[14] !== frameSum(rx) || rx[15] !== 0) {
+      throw new Error('bad read checksum/opcode');
+    }
+    return rx[4] | (rx[5] << 8);
+  }
+
+  async function writeHalf(addr, val) {
+    const tx = new Uint8Array(16);
+    tx[0] = 8; tx[2] = 0xFF; tx[3] = 0x9C;
+    tx[4] = addr & 0xFF;
+    tx[5] = (addr >>> 8) & 0xFF;
+    tx[6] = (addr >>> 16) & 0xFF;
+    tx[7] = (addr >>> 24) & 0xFF;
+    tx[8] = val & 0xFF;
+    tx[9] = (val >>> 8) & 0xFF;
+    tx[14] = frameSum(tx);
+
+    await prepare(0);
+    const out = await dev.transferOut(epOut, tx);
+    if (out.status !== 'ok') throw new Error('bulk OUT failed');
+
+    await prepare(1);
+    const tRes = await dev.transferIn(epIn, 64);
+    if (tRes.status !== 'ok' || tRes.data.byteLength !== 1) throw new Error('bad ack type len');
+    const tb = tRes.data.getUint8(0);
+    if (tb !== 8 && tb !== 1) throw new Error(`unexpected ack type ${tb}`);
+
+    await prepare(1);
+    const rRes = await dev.transferIn(epIn, 64);
+    if (rRes.status !== 'ok' || rRes.data.byteLength < 6) throw new Error('short write ack');
+    const rx = new Uint8Array(rRes.data.buffer, rRes.data.byteOffset, rRes.data.byteLength);
+    if (rx[0] !== 8 || rx[1] !== 0 || rx[2] !== 0xFF ||
+        rx[rx.length - 2] !== frameSum(rx) || rx[rx.length - 1] !== 0 ||
+        (rx[3] !== 0x00 && rx[3] !== 0x01)) {
+      throw new Error('write NACK or bad checksum');
+    }
+  }
+
+  async function verifySignatures() {
+    for (const [addr, allowed, name] of SIG_CHECKS) {
+      const v = await readHalf(addr);
+      if (!allowed.includes(v)) {
+        throw new Error(`signature mismatch ${name} (${hex8(addr)}=${hex4(v)})`);
+      }
+    }
+    appendLog('signatures verified (MC801 2.9 \u00B7 13 anchors)');
+  }
+
+  async function openDevice(d) {
+    if (busy) return;
+    busy = true;
+    syncButtons();
+    setHeaderStatus('Verifying', 'ready');
+    try {
+      dev = d;
+      if (!dev.opened) await dev.open();
+      if (!dev.configuration) await dev.selectConfiguration(1);
+      await dev.claimInterface(0);
+
+      const eps = dev.configuration.interfaces[0].alternate.endpoints;
+      for (const ep of eps) {
+        if (ep.type === 'bulk' && ep.direction === 'out') epOut = ep.endpointNumber;
+        if (ep.type === 'bulk' && ep.direction === 'in')  epIn  = ep.endpointNumber;
+      }
+      appendLog(`connected: DC-S5 (04DA:2370, epOut=${epOut}, epIn=${epIn})`);
+      await verifySignatures();
+      const capWord = await readHalf(0x868261B6);
+      isUnlocked = (capWord === 0x2000);
+      busy = false;
+      if (isUnlocked) {
+        $('armedHeadline').textContent = 'Safe to unplug USB-C';
+        setUiState('armed', 'Armed');
+      } else {
+        setUiState('ready', 'Ready');
+      }
+    } catch (e) {
+      busy = false;
+      appendLog('error: ' + e.message);
+      $('waitingHint').textContent = 'Error: ' + e.message;
+      setUiState('waiting', 'Failed');
+    }
+  }
+
+  async function applyAll(unlock) {
+    if (busy || !dev || !dev.opened) return;
+    busy = true;
+    syncButtons();
+    setHeaderStatus(unlock ? 'Writing' : 'Restoring', 'ready');
+    try {
+      await verifySignatures();
+      for (const [addr, uVal, sVal, name] of PATCHES) {
+        const target = unlock ? uVal : sVal;
+        await writeHalf(addr, target);
+        const rb = await readHalf(addr);
+        if (rb !== target) {
+          throw new Error(`verify mismatch ${name} (${hex8(addr)}: got ${hex4(rb)}, want ${hex4(target)})`);
+        }
+      }
+      isUnlocked = unlock;
+      busy = false;
+      if (unlock) {
+        appendLog('ok: 19/19 words verified (6K + 5.9K + unlimited + suspend-safe)');
+        $('armedHeadline').textContent = 'Safe to unplug USB-C';
+        setUiState('armed', 'Armed');
+      } else {
+        appendLog('ok: 19/19 words restored to stock');
+        setUiState('ready', 'Ready');
+      }
+    } catch (e) {
+      busy = false;
+      appendLog('error: ' + e.message);
+      $('readySubNote').textContent = 'Error: ' + e.message;
+      setHeaderStatus('Error', 'armed');
+      syncButtons();
+    }
+  }
+
+  $('btnConnect').addEventListener('click', async () => {
+    if (!navigator.usb) {
+      $('waitingHint').textContent = 'Use Google Chrome on Mac, Windows, or Android (Safari/iOS unsupported)';
+      return;
+    }
+    try {
+      const d = await navigator.usb.requestDevice({ filters: [{ vendorId: VID, productId: PID }] });
+      await openDevice(d);
+    } catch (e) {
+      if (e.name !== 'NotFoundError') {
+        $('waitingHint').textContent = e.message;
+        appendLog('connect error: ' + e.message);
+      }
+    }
+  });
+
+  $('btnUnlock').addEventListener('click', () => applyAll(true));
+  $('btnRestore').addEventListener('click', () => applyAll(false));
+
+  $('btnLogToggle').addEventListener('click', () => {
+    logExpanded = !logExpanded;
+    $('logBox').classList.toggle('hidden', !logExpanded);
+    $('logBarCaret').textContent = logExpanded ? 'Hide \u25B4' : 'Show \u25BE';
+    if (logExpanded) $('logBox').scrollTop = $('logBox').scrollHeight;
+  });
+
+  if (navigator.usb) {
+    navigator.usb.addEventListener('connect', async (ev) => {
+      if (ev.device.vendorId === VID && ev.device.productId === PID) {
+        await openDevice(ev.device);
+      }
+    });
+    navigator.usb.addEventListener('disconnect', (ev) => {
+      if (dev && ev.device === dev) {
+        dev = null;
+        appendLog('camera unplugged');
+        if (isUnlocked) {
+          $('armedHeadline').textContent = 'Camera unplugged \u00B7 armed';
+          syncButtons();
+        } else {
+          setUiState('waiting', 'Waiting');
+        }
+      }
+    });
+    navigator.usb.getDevices().then(async (devs) => {
+      const match = devs.find(d => d.vendorId === VID && d.productId === PID);
+      if (match) await openDevice(match);
+    });
+  } else {
+    $('waitingHint').textContent = 'Open in Google Chrome on Mac, Windows, or Android';
+  }
+})();
+</script>
+</body>
+</html>

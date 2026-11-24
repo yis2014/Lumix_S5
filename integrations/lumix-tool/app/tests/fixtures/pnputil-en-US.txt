@@ -1,0 +1,30 @@
+Microsoft PnP Utility
+
+Instance ID:                USB\VID_04DA&PID_2370\6&2c4321ab&0&2
+Device Description:         Unknown USB Device
+Class Name:                 Unknown
+Class GUID:                 Unknown
+Manufacturer Name:          Unknown
+Status:                     Problem
+Problem Code:               28 (0x1C) [CM_PROB_FAILED_INSTALL]
+Driver Name:                (null)
+Hardware IDs:
+    USB\VID_04DA&PID_2370&REV_0100
+    USB\VID_04DA&PID_2370
+Compatible IDs:
+    USB\Class_ff&SubClass_a0&Prot_b0
+
+Instance ID:                USB\VID_04DA&PID_2382\000000000001
+Device Description:         DC-S5
+Class Name:                 WPD
+Class GUID:                 {eec5ad98-8080-425f-922a-dabf3de3f69a}
+Manufacturer Name:          Panasonic
+Status:                     Started
+Driver Name:                wpdmtp.inf
+Hardware IDs:
+    USB\VID_04DA&PID_2382&REV_0100
+    USB\VID_04DA&PID_2382
+
+Instance ID:                USB\VID_1234&PID_2370\OTHER_CAMERA
+Device Description:         Unrelated camera
+Status:                     Started

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Centered inside Android's 66dp adaptive-icon safe zone (21..87) -->
+    <!-- Crisp 3:2 Open Gate sensor frame (48x32 -> x=30..78, y=38..70) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#C1C1C1"
+        android:strokeWidth="2.8"
+        android:pathData="M30,38 L78,38 L78,70 L30,70 Z" />
+    <!-- Subtle 16:9 crop ticks inside the 3:2 frame -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#525252"
+        android:strokeWidth="1.6"
+        android:pathData="M34,44 L40,44 M68,44 L74,44 M34,64 L40,64 M68,64 L74,64" />
+    <!-- Signal crimson (#B8212F) live REC dot -->
+    <path
+        android:fillColor="#B8212F"
+        android:pathData="M54,49.5 A4.5,4.5 0 1,0 54,58.5 A4.5,4.5 0 1,0 54,49.5 Z" />
+</vector>

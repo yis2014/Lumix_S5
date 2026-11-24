@@ -1,2 +1,6 @@
 __pycache__/
 *.pyc
+keys/local_keypair.json
+keyswap_backup.json
+S5___V29_selfsigned*.bin
+node_modules/

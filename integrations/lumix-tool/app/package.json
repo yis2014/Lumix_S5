@@ -1,0 +1,65 @@
+{
+  "name": "lumixtool",
+  "version": "0.3.1",
+  "description": "LumixTool — a local toolkit for Panasonic LUMIX cameras",
+  "main": "main.js",
+  "scripts": {
+    "build": "vite build",
+    "start": "npm run build && electron .",
+    "dev": "node scripts/dev.mjs",
+    "test": "node --test tests/*.test.js",
+    "dist:win": "node scripts/fetch-python.mjs && vite build && electron-builder --win zip --x64"
+  },
+  "devDependencies": {
+    "@ant-design/icons": "^6.3.4",
+    "@vitejs/plugin-react": "^6.3.0",
+    "antd": "^6.7.1",
+    "electron": "^45.4.1",
+    "electron-builder": "^26.18.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "vite": "^8.3.8"
+  },
+  "productName": "LumixTool",
+  "build": {
+    "appId": "io.github.user-hfc.lumixtool",
+    "productName": "LumixTool",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "runtime.js",
+      "memory.mjs",
+      "driver.js",
+      "mock-sound-table.json",
+      "package.json",
+      "renderer-dist/**",
+      "driver/**",
+      "python/**",
+      "!python/tests/**",
+      "!**/__pycache__/**"
+    ],
+    "asarUnpack": [
+      "python/**"
+    ],
+    "extraResources": [
+      {
+        "from": "vendor/python-win-amd64",
+        "to": "python"
+      }
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "zip",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "artifactName": "LumixTool-${version}-win-x64.${ext}"
+    }
+  }
+}

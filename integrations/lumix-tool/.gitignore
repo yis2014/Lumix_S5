@@ -1,0 +1,36 @@
+# dependencies / build output
+node_modules/
+app/node_modules/
+app/dist/
+app/renderer-dist/
+dist/
+
+# large artifacts (firmware dumps, RAM captures, screenshots, archives)
+out/
+archive/
+fw/
+pr/
+ref/
+pylibs/
+tmp/
+sd_test/
+**/*.bin
+**/*.pcm
+**/*.png
+**/*.zip
+**/*.log
+handoff-repo/
+__pycache__/
+*.pyc
+app/*_test*.bat
+app/vendor/
+app/release/
+.DS_Store
+et_acl2/
+et_acl_test/
+F:/et/
+
+tools/armgcc/
+.tmp/
+payloads/*.elf
+

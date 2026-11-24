@@ -1,0 +1,28 @@
+Microsoft PnP 工具
+
+实例 ID:                    USB\VID_04DA&PID_2370\6&2c4321ab&0&2
+设备描述:                   USB 复合设备
+类名:                       USB
+类 GUID:                    {36fc9e60-c465-11cf-8056-444553540000}
+制造商名称:                 (标准 USB 主控制器)
+状态:                       已启动
+驱动程序名称:               usb.inf
+硬件 ID:
+    USB\VID_04DA&PID_2370&REV_0100
+    USB\VID_04DA&PID_2370
+
+实例 ID:                    USB\VID_04DA&PID_2370&MI_00\7&21b4321a&0&0000
+设备描述:                   LumixTool LUMIX Service Interface (WinUSB)
+类名:                       USBDevice
+类 GUID:                    {88bae032-5a81-49f0-bc3d-a4ff138216d6}
+制造商名称:                 LumixTool
+状态:                       已启动
+驱动程序名称:               oem42.inf
+硬件 ID:
+    USB\VID_04DA&PID_2370&REV_0100&MI_00
+    USB\VID_04DA&PID_2370&MI_00
+
+实例 ID:                    USB\VID_04DA&PID_2370&MI_01\7&21b4321a&0&0001
+设备描述:                   非服务接口
+状态:                       已启动
+驱动程序名称:               oem99.inf
