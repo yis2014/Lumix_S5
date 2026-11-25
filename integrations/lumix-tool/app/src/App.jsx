@@ -55,7 +55,7 @@ export default function App() {
             <Flex justify="space-between" align="center" gap="middle" className="page-heading"><div><Title level={2}>{selectedTool.title}</Title><Text type="secondary">{selectedTool.description}</Text></div><Tag>{selectedTool.scope || 'LUMIX'}</Tag></Flex>
             {!ready && !checking && env && <Alert className="page-notice" showIcon type={camera.error && !missing ? 'warning' : 'info'}
               title={driverNeeded ? '服务模式设备已连接，请先安装驱动' : missing ? '先准备 Python 运行环境' : camera.error ? '相机连接需要检查' : '先连接你的相机'}
-              description={<span className="break-text">{driverNeeded ? '打开连接指南，使用「一键安装驱动」，完成后重新检测。' : camera.error || camera.platformNote || '进入服务模式并连接 USB，即可写入音效。你可以先选择音频并试听。'}</span>}
+              description={<span className="break-text">{driverNeeded ? '打开连接指南，使用「一键安装驱动」，完成后重新检测。' : camera.error || camera.platformNote || '请将右转轮调到 P 档、左转轮调到单拍，同时按住回放 + AF ON 键开机进入临时服务模式并连接 USB（否则会一直识别成其他模式）。你可以先选择音频并试听。'}</span>}
               action={<Button onClick={() => setPage(!driverNeeded && missing ? 'settings' : 'connection')}>{driverNeeded ? '安装驱动' : missing ? '打开设置' : '连接指南'}</Button>} />}
           </>}
           {tools.map(({ id, component: Tool }) => <section key={id} hidden={page !== id} data-tool-view={id}><Tool device={device} active={page === id} navigate={setPage} /></section>)}

@@ -148,7 +148,12 @@ def find_device_paths():
     base = "VID_%04X&PID_%04X" % (VID, PID)
     paths = list(_instance_paths(base)) + list(_instance_paths(base + "&MI_00"))
     if not paths:
-        raise SystemExit("no %04X:%04X instance in registry - camera never seen in service mode?" % (VID, PID))
+        raise SystemExit(
+            "no %04X:%04X instance in registry - camera never seen in service mode? "
+            "(Set right dial to P, left dial to Single, hold Playback + AF ON and power on / "
+            "右转轮调到P档、左转轮调到单拍，同时按住回放+AF ON键开机进入临时服务模式，否则会一直识别成其他模式)"
+            % (VID, PID)
+        )
     return paths
 
 
@@ -172,7 +177,8 @@ class Service:
             failures.append(err(path))
         if not self.file:
             raise SystemExit("CreateFile failed for every 04DA:2370 instance - camera unplugged, "
-                             "not in service mode, or WinUSB not bound: " + "; ".join(failures))
+                             "not in service mode (right dial P, left dial Single, hold Playback + AF ON and power on / "
+                             "右转轮P档+左转轮单拍，按住回放+AF ON开机进临时服务模式), or WinUSB not bound: " + "; ".join(failures))
         self.usb = ctypes.c_void_p()
         if not WinUsb_Initialize(self.file, ctypes.byref(self.usb)):
             raise SystemExit(err("WinUsb_Initialize failed - wrong driver on the interface?"))

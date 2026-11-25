@@ -129,9 +129,18 @@ class LumixSDToolApp(tk.Tk):
         usb_box = ttk.LabelFrame(self.tab_base, text="相机 Service USB 状态 (仅首次激活基座时使用，日常免插线)", padding=10)
         usb_box.pack(fill="x", pady=(0, 10))
 
+        usb_top = ttk.Frame(usb_box)
+        usb_top.pack(fill="x")
         self.usb_status_var = tk.StringVar(value="正在检测...")
-        ttk.Label(usb_box, textvariable=self.usb_status_var).pack(side="left", fill="x", expand=True)
-        ttk.Button(usb_box, text="刷新 USB 检测", command=self._refresh_usb_status).pack(side="right")
+        ttk.Label(usb_top, textvariable=self.usb_status_var).pack(side="left", fill="x", expand=True)
+        ttk.Button(usb_top, text="刷新 USB 检测", command=self._refresh_usb_status).pack(side="right")
+
+        ttk.Label(
+            usb_box,
+            text="进入临时服务模式提示：右转轮调到 P 档，左转轮调到单拍，关机后同时按住回放 + AF ON 键开机（否则会一直识别成其他模式）。",
+            foreground="#8a4b00",
+            wraplength=920,
+        ).pack(fill="x", pady=(6, 0))
 
         guide_box = ttk.LabelFrame(self.tab_base, text="一次性基座激活安全流程 (离线参考清单)", padding=10)
         guide_box.pack(fill="both", expand=True, pady=(0, 10))
@@ -347,7 +356,7 @@ class LumixSDToolApp(tk.Tk):
         if devs:
             self.usb_status_var.set(f"已检测到 Service Mode 相机 (04DA:2370): {len(devs)} 台")
         else:
-            self.usb_status_var.set("未检测到 Service Mode 相机（离线模式可正常管理 SD 卡功能）")
+            self.usb_status_var.set("未检测到临时服务模式相机（请确认右转轮 P 档 + 左转轮单拍，按住回放 + AF ON 开机；离线模式可正常管理 SD 卡）")
 
     def _choose_official_fw(self) -> None:
         chosen = filedialog.askopenfilename(title="选择官方固件 S5___V29.bin", filetypes=[("BIN files", "*.bin")])

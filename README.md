@@ -42,8 +42,11 @@
 
 ## 快速开始
 
+> [!IMPORTANT]
+> **进入临时服务模式（`04DA:2370`）正确操作**：先将相机**关机**，**右转轮调到 `P` 档**、**左转轮调到单拍**，再同时按住 **`回放 (PLAYBACK)` + `AF ON`** 键打开电源开机即可进入临时服务模式；**否则会一直被识别成其他模式**（如普通模式 `04DA:2382`）。
+
 ### 1. 零刷写即时解锁 6K Open Gate / 5.9K / 无限录制（RAM 级）
-- **浏览器（Chrome WebUSB）**：打开 `integrations/s5-unlocker/docs/index.html`，相机按住 `PLAYBACK + AF/AE LOCK` 开机进入服务模式（`04DA:2370`），连接 USB-C 一键解锁。
+- **浏览器（Chrome WebUSB）**：打开 `integrations/s5-unlocker/docs/index.html`，按上述方法（右转轮 `P` 档 + 左转轮单拍，同时按住 `回放 + AF ON` 键开机）进入临时服务模式（`04DA:2370`），连接 USB-C 一键解锁。
 - **Android 手机**：使用 `integrations/s5-unlocker/android/` 构建离线 APK，USB-C OTG 即插即解锁。
 - **Windows 驱动配置**：可使用桌面工具内置的一键 WinUSB 驱动安装向导，或参阅 `integrations/lumix-tool/docs/DRIVER_SETUP.md`。
 

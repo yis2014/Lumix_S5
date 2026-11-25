@@ -147,7 +147,8 @@ class Service:
                                 FILE_SHARE_READ | FILE_SHARE_WRITE, None,
                                 OPEN_EXISTING, FILE_FLAG_OVERLAPPED, None)
         if self.file == INVALID_HANDLE_VALUE or not self.file:
-            raise SystemExit(err("CreateFile failed - is WinUSB bound to 04DA:2370?"))
+            raise SystemExit(err("CreateFile failed - is WinUSB bound to 04DA:2370 and camera in temporary service mode "
+                                 "(right dial P, left dial Single, hold Playback + AF ON and power on)?"))
         self.usb = ctypes.c_void_p()
         if not WinUsb_Initialize(self.file, ctypes.byref(self.usb)):
             raise SystemExit(err("WinUsb_Initialize failed - wrong driver on the interface?"))

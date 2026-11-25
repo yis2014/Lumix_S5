@@ -18,14 +18,14 @@ Unlock **native-menu internal 6K 3:2 Open Gate (`5952×3968` 23.98p)**, **5.9K 1
 ### Option 1 — Offline Android App (`S5Unlocker.apk`, Recommended for Field Use)
 Works on any USB-C Android phone with USB OTG (**zero Wi-Fi, zero browser**, auto-launches on plug-in):
 1. Download `S5Unlocker.apk` from **Releases** (or build from [`android/`](android/)) and install it on your Android phone.
-2. On the DC-S5, hold **PLAYBACK + AF/AE LOCK** and flip Power **ON** (temporary service mode `04DA:2370`).
+2. On the DC-S5 (powered off), set the **right dial to P** and **left dial to Single (单拍)**, then hold **PLAYBACK + AF ON** and flip Power **ON** to enter temporary service mode (`04DA:2370`) — otherwise the camera will keep enumerating as another USB mode.
 3. Plug a USB-C cable between the phone and S5 — **S5 Unlocker** pops up automatically.
 4. Tap **Unlock camera**, wait ~1 second for **Armed**, and unplug the cable.
 5. Open **Menu → Video → Rec Quality (MOV)** and scroll to the bottom for **5.9K** and **6K Open Gate**!
 
 ### Option 2 — 1-Click Chrome WebUSB (Mac / Windows / Android)
 Open the live hosted page at **https://rileydeacon.github.io/s5-unlocker/** (from [`docs/index.html`](docs/index.html)) in **Google Chrome**:
-1. Boot the DC-S5 holding **PLAYBACK + AF/AE LOCK** + Power **ON**.
+1. Set the **right dial to P** and **left dial to Single (单拍)**, then boot the DC-S5 holding **PLAYBACK + AF ON** + Power **ON** (otherwise it will be recognized as another USB mode).
 2. Plug USB-C into your Mac, PC, or Android phone.
 3. Click **Connect DC-S5** → **Unlock Native Menu + Unlimited Rec** → unplug and shoot.
 *(Note: iOS / iPadOS Safari does not support WebUSB.)*

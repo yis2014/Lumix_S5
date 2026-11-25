@@ -29,6 +29,8 @@ def cmd_drives(_args: argparse.Namespace) -> int:
             print(f"  {d.display_name}")
     usb = detect_service_usb_devices()
     print(f"Service USB (04DA:2370): {'已连接 (' + str(len(usb)) + ')' if usb else '未连接'}")
+    if not usb:
+        print("  提示：进入临时服务模式请先关机，右转轮调到 P 档、左转轮调到单拍，同时按住回放 + AF ON 键开机（否则会一直识别成其他模式）。")
     return 0
 
 

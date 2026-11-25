@@ -6,7 +6,7 @@ import DriverSetup, { DriverResult, DriverStatus } from './DriverSetup';
 const { Paragraph, Text, Title } = Typography;
 const steps = [
   { title: '安装驱动', content: 'WinUSB' },
-  { title: '进入服务模式', content: 'PLAY + AF-ON' },
+  { title: '进入临时服务模式', content: 'P档·单拍·回放+AF ON' },
   { title: '连接并验证', content: 'USB · 04DA:2370' },
 ];
 
@@ -33,9 +33,10 @@ export default function ConnectionGuide({ device, navigate, active }) {
           <DriverSetup device={device} />
         </>}
         {step === 1 && <>
-          <Title level={4}>按住 PLAY + AF-ON，同时开机</Title>
-          <Paragraph>先将 DC-S5 关机，再按住以下两个按键，同时打开相机电源，进入服务模式。</Paragraph>
-          <Paragraph><Text keyboard>PLAY</Text> ＋ <Text keyboard>AF-ON</Text> → <Text strong>打开电源</Text></Paragraph>
+          <Title level={4}>右转轮调到 P 档，左转轮调到单拍，同时按住回放 + AF ON 开机</Title>
+          <Paragraph>先将 DC-S5 关机，把<strong>右转轮调到 P 档</strong>、<strong>左转轮调到单拍</strong>，再同时按住以下两个按键打开相机电源，进入临时服务模式。</Paragraph>
+          <Paragraph><Text keyboard>右转轮 P 档</Text> ＋ <Text keyboard>左转轮 单拍</Text> → 按住 <Text keyboard>回放 (PLAY)</Text> ＋ <Text keyboard>AF ON</Text> → <Text strong>打开电源</Text></Paragraph>
+          <Alert showIcon type="warning" style={{ marginBottom: 12 }} title="必须先调好左右转轮" description="若右转轮不在 P 档或左转轮不在单拍，开机后会一直被识别成其他模式（如普通模式 04DA:2382），无法进入临时服务模式。" />
           <Alert showIcon type="info" title="保留电池供电" description="写入完成后需要通过电源键关机再开机，让音效生效。不要拔电池。" />
         </>}
         {step === 2 && <>
@@ -52,7 +53,7 @@ export default function ConnectionGuide({ device, navigate, active }) {
               onClick={() => ready ? navigate('focus-sound') : device.refreshDevice()}>{ready ? '开始使用工具' : '检查连接'}</Button>}
         </Flex>
       </Card>
-      <Text type="secondary">未能识别？检查服务模式与 WinUSB 驱动，关闭其他相机软件，或更换 USB 端口。macOS / Linux 可使用模拟模式开发。</Text>
+      <Text type="secondary">未能识别？确认右转轮在 P 档、左转轮在单拍并按住回放 + AF ON 开机进入临时服务模式（否则会一直识别成其他模式），检查 WinUSB 驱动，关闭其他相机软件，或更换 USB 端口。macOS / Linux 可使用模拟模式开发。</Text>
     </Space>
   );
 }

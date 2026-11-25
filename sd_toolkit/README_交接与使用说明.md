@@ -56,6 +56,7 @@ LUMIX_S5_SD基座工具_v0.1.0/
   3. 点击「一键部署到 SD 卡」，自动写入 `SD:\LUMIX_ML\PATCHES.BIN` 与 `manifest.json`，旧文件自动备份至 `LUMIX_ML\backups\`。
   4. 点击「禁用/恢复原厂」会备份并删除 `PATCHES.BIN`，插回相机即恢复原厂。
 * **Tab 2 · 基座激活与官方恢复**：只读检测 Service USB（`VID_04DA&PID_2370`）状态、查看安全激活清单、一键复制官方 `S5___V29.bin` 到 SD 卡根目录。
+  > 提示：进入临时服务模式请先关机，将**右转轮调到 P 档、左转轮调到单拍**，再同时按住**回放 + AF ON** 键开机（否则会一直识别成其他模式）。
 * **Tab 3 · PATCHES.BIN 校验与日志**：反解析任意 `PATCHES.BIN` 文件并验证 CRC32。
 
 ### 2. 命令行（CLI）

@@ -185,7 +185,7 @@ int main(int argc, char **argv) {
     IOServiceGetMatchingServices(kIOMainPortDefault, match, &iter);
     io_service_t device = IOIteratorNext(iter);
     IOObjectRelease(iter);
-    if (!device) { fprintf(stderr, "no service device 04DA:2370\n"); return 2; }
+    if (!device) { fprintf(stderr, "no service device 04DA:2370 (right dial P, left dial Single, hold Playback + AF ON and power on)\n"); return 2; }
 
     IOCFPlugInInterface **plug = NULL; SInt32 score = 0;
     IOCreatePlugInInterfaceForService(device, kIOUSBDeviceUserClientTypeID,

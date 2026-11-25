@@ -152,7 +152,11 @@ class LumixServiceUSB:
     def __init__(self, path=None, timeout_ms=2000):
         candidates = [path] if path else find_dcs5_device_paths()
         if not candidates:
-            raise RuntimeError("No Panasonic DC-S5 (04DA:2370) found in DeviceClasses.")
+            raise RuntimeError(
+                "No Panasonic DC-S5 (04DA:2370) found in DeviceClasses. "
+                "Set right dial to P, left dial to Single, hold Playback + AF ON and power on "
+                "(右转轮调到P档、左转轮调到单拍，同时按住回放+AF ON键开机进入临时服务模式，否则会一直识别成其他模式)."
+            )
 
         last_err = None
         self.hfile = None

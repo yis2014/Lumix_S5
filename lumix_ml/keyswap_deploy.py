@@ -151,7 +151,11 @@ def _connect():
             return LumixServiceUSB(path=p)
         except Exception:
             continue
-    raise SystemExit("device not reachable (is DC-S5 in Service Mode 04DA:2370?)")
+    raise SystemExit(
+        "device not reachable (is DC-S5 in Service Mode 04DA:2370? "
+        "Right dial P, left dial Single, hold Playback + AF ON and power on / "
+        "右转轮调到P档、左转轮调到单拍，同时按住回放+AF ON键开机进入临时服务模式，否则会一直识别成其他模式)"
+    )
 
 
 def cmd_status(args: argparse.Namespace) -> None:

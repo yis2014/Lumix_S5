@@ -438,14 +438,14 @@ public class MainActivity extends Activity {
         center.addView(cap);
 
         TextView line1 = new TextView(this);
-        line1.setText("Hold Playback + AF/AE Lock and power on");
+        line1.setText("Right dial P, left dial Single \u00B7 hold Playback + AF ON and power on");
         line1.setTextColor(C_LIGHT);
         line1.setTextSize(13);
         line1.setGravity(Gravity.CENTER);
         center.addView(line1);
 
         waitingHint = new TextView(this);
-        waitingHint.setText("Plug in USB-C cable \u2014 app opens automatically");
+        waitingHint.setText("右转轮P档+左转轮单拍，按住回放+AF ON开机进临时服务模式（否则识别成其他模式），再插 USB-C");
         waitingHint.setTextColor(C_DIM);
         waitingHint.setTextSize(11);
         waitingHint.setGravity(Gravity.CENTER);
